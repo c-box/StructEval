@@ -32,7 +32,7 @@ This repo provides easy-to-use scripts for both [evaluating LLMs on existing Str
 
 ## 🚀 News
 
-* [2024.8.6] We released the first version of StructEval leaderboard, which includes 22 open-sourced language models, more datasets and models as comming soon🔥🔥🔥.
+* [2024.8.6] We released the first version of [StructEval leaderboard](https://huggingface.co/spaces/Bowieee/StructEval_leaderboard), which includes 22 open-sourced language models, more datasets and models as comming soon🔥🔥🔥.
 
 * [2024.7.31] We regenerated the StructEval Benchmark based on the latest [Wikipedia](https://www.wikipedia.org/) pages (20240601) using [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) model, which could minimize the impact of data contamination. Please refer to the [struct_benchmark](struct_benchmark) folder for our evaluation data and scripts 🔥🔥🔥.
 

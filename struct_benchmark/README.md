@@ -40,7 +40,7 @@ Then the evaluation results will be saved in `output/struct_openbookqa_v1_ppl`.
 
 #  Leaderboard
 
-
+Please refer to [StructEval leaderboard](https://huggingface.co/spaces/Bowieee/StructEval_leaderboard) for our current leaderboard, which will be regularly updated. We also welcome everyone to submit new evaluation results.
 
 # 📒 Notes
 * To enhance the quality and difficulty of instances, we establish a comprehensive pool of diverse LMs. Currently, this LLM pool consists of 18 LLMs including `llama-2-7B`, `llama-2-7B-chat`, `llama-3-8B`, `llama-3-8B-chat`, `mistral-7b-v0.3`, `mistral-7b-instruct-v0.3`, `qwen1.5-7b`, `qwen1.5-7b-chat`, `qwen2-7b`, `qwen2-7b-instruct`, `deepseek-v2-lite`, `deepseek-v2-lite-chat`, `yi-6b`, `yi-6b-chat`, `yi-1.5-9b`, `yi-1.5-9b-chat`, `baichuan2-7b-base`, `baichuan2-7b-chat`. *Questions that more than 12 models could answer correctly were eliminated*, thus ensuring the discriminative efficacy.
