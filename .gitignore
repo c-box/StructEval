@@ -7,3 +7,5 @@ struct_benchmark/.cache
 struct_benchmark/icl_inference_output
 struct_benchmark/.cache
 src
+struct_benchmark/model_configs
+

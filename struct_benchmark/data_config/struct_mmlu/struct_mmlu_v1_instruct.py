@@ -60,7 +60,7 @@ for _name in mmlu_all_sets:
         dict(
             abbr=f'struct_mmlu_{_name}',
             type=StructMMLU_V1,
-            path='./strcut_data/struct_mmlu',
+            path='./struct_data/struct_mmlu',
             name=_name,
             reader_cfg=mmlu_reader_cfg,
             infer_cfg=mmlu_infer_cfg,
