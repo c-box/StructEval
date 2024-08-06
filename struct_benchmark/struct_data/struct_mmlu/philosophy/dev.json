@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Psychological egoism is:",
+        "subject": "philosophy",
+        "choices": [
+            "an ethical theory about how we ought to behave.",
+            "a generalization concerning the way people tend to behave.",
+            "a claim about human nature and the ways people are capable of behaving.",
+            "none of the above."
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "According to Moore’s “ideal utilitarianism,” the right action is the one that brings about the greatest amount of:",
+        "subject": "philosophy",
+        "choices": [
+            "pleasure.",
+            "happiness.",
+            "good.",
+            "virtue."
+        ],
+        "answer": 2,
+        "idx": 1
+    },
+    {
+        "question": "According to d'Holbach, people always act according to _____.",
+        "subject": "philosophy",
+        "choices": [
+            "free choices",
+            "dictates of the soul",
+            "necessary natural laws",
+            "undetermined will"
+        ],
+        "answer": 2,
+        "idx": 2
+    },
+    {
+        "question": "Before Tolstoy's Christian conversion, what was his perspective on the meaning of life?",
+        "subject": "philosophy",
+        "choices": [
+            "optimist",
+            "satisfied",
+            "nominally religious",
+            "pessimist"
+        ],
+        "answer": 3,
+        "idx": 3
+    },
+    {
+        "question": "The study of reality in the broadest sense, an inquiry into the elemental nature of the universe and the things in it, is known as _____.",
+        "subject": "philosophy",
+        "choices": [
+            "metaphysics",
+            "epistemology",
+            "quantum physics",
+            "axiology"
+        ],
+        "answer": 0,
+        "idx": 4
+    }
+]

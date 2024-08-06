@@ -1,0 +1,461 @@
+[
+    {
+        "question": "Which of the following is true regarding reflexes?",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "An extensor plantar response indicates a lower motor neurone lesion",
+            "The root value of the ankle reflex is S1",
+            "The root value of the knee reflex is L1, L2"
+        ],
+        "answer": 2,
+        "idx": 0,
+        "topic": {
+            "name": "Reflexes",
+            "description": "Reflexes are involuntary and nearly instantaneous movements in response to stimuli, mediated by the nervous system. They are often assessed in clinical settings to evaluate the integrity of specific neural pathways, with distinct reflexes corresponding to specific spinal nerve roots."
+        },
+        "topic_wiki_info": {
+            "wiki_id": "381186",
+            "wiki_name": "Reflex",
+            "wiki_intro": "In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus.",
+            "wiki_page": "",
+            "related_content": "\"Reflex\" is an anatomical concept and it refers to a  loop consisting, in its simplest form, of a sensory nerve, the input, and a motor nerve, the output.  Autonomic does not mean automatic. The term \"autonomic\" is an anatomical term and it refers  to a type of nervous system in animals and humans  that is very primitive. \"Skeletal\" or \"somatic\" are,  similarly, anatomical terms that refer to a type of nervous system that is more recent in terms of  evolutionary development. There are autonomic  reflexes and skeletal, somatic reflexes. Myotatic reflexes. The myotatic or muscle stretch reflexes (sometimes known as \"deep tendon reflexes\") provide information on the integrity of the central nervous system and peripheral nervous system. This information can be detected using electromyography (EMG). Generally, decreased reflexes indicate a peripheral problem, and lively or exaggerated reflexes a central one. A stretch reflex is the contraction of a muscle in response to its lengthwise stretch.\nWhile the reflexes above are stimulated mechanically, the term H-reflex refers to the analogous reflex stimulated electrically, and tonic vibration reflex for those stimulated to vibration. Tendon reflex. A tendon reflex is the contraction of a muscle in response to striking its tendon. The Golgi tendon reflex is the inverse of a stretch reflex. Reflexes usually only observed in human infants. Newborn babies have a number of other reflexes which are not seen in adults, referred to as primitive reflexes. These automatic reactions to stimuli enable infants to respond to the environment before any learning has taken place. They include: Other kinds of reflexes. Other reflexes found in the central nervous system include: Many of these reflexes are quite complex, requiring a number of synapses in a number of different nuclei in the central nervous system (e.g., the escape reflex). Others of these involve just a couple of synapses to function (e.g., the withdrawal reflex). Processes such as breathing, digestion, and the maintenance of the heartbeat can also be regarded as reflex actions, according to some definitions of the term. Grading. In medicine, reflexes are often used to assess the health of the nervous system.\nAutomatic, involuntary response to a stimulus In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus. Reflexes are found with varying levels of complexity in organisms with a nervous system. A reflex occurs via neural pathways in the nervous system called reflex arcs. A stimulus initiates a neural signal, which is carried to a synapse. The signal is then transferred across the synapse to a motor neuron, which evokes a target response. These neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought. Many reflexes are fine-tuned to increase organism survival and self-defense. This is observed in reflexes such as the startle reflex, which provides an automatic response to an unexpected stimulus, and the feline righting reflex, which reorients a cat's body when falling to ensure safe landing. The simplest type of reflex, a short-latency reflex, has a single synapse, or junction, in the signaling pathway. Long-latency reflexes produce nerve signals that are transduced across multiple synapses before generating the reflex response. Types of human reflexes. Autonomic vs skeletal reflexes."
+        },
+        "topic_match": true,
+        "gpt_model": "gpt-4o-mini",
+        "bloom_questions": {
+            "understand": [
+                {
+                    "level": "understanding",
+                    "question": "What best describes the function of a reflex arc?",
+                    "A": "It involves multiple synapses for complex reflexes.",
+                    "B": "It allows conscious thought to direct responses.",
+                    "C": "It transmits signals directly to the brain for processing.",
+                    "D": "It initiates an automatic response to a stimulus without conscious thought.",
+                    "answer": "D",
+                    "explanation": "According to the document, a reflex arc initiates an automatic response to a stimulus that does not require conscious thought.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "understanding",
+                    "question": "Which type of reflex is characterized by a contraction in response to striking a tendon?",
+                    "A": "Myotatic reflex",
+                    "B": "Golgi tendon reflex",
+                    "C": "Withdrawal reflex",
+                    "D": "Tendon reflex",
+                    "answer": "D",
+                    "explanation": "According to the document, a tendon reflex is specifically described as the contraction of a muscle in response to striking its tendon.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "understanding",
+                    "question": "What is the primary characteristic of primitive reflexes in infants?",
+                    "A": "They are complex and learned behaviors.",
+                    "B": "They require conscious thought to activate.",
+                    "C": "They are reflexes observed only in adults.",
+                    "D": "They enable infants to respond to stimuli without prior learning.",
+                    "answer": "D",
+                    "explanation": "According to the document, primitive reflexes enable infants to respond to the environment before any learning has taken place.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "understanding",
+                    "question": "How do autonomic and skeletal reflexes differ?",
+                    "A": "Autonomic reflexes are more complex than skeletal reflexes.",
+                    "B": "Autonomic refers to a primitive nervous system, while skeletal is more recent.",
+                    "C": "Skeletal reflexes involve fewer synapses than autonomic reflexes.",
+                    "D": "Both autonomic and skeletal reflexes are equally complex.",
+                    "answer": "B",
+                    "explanation": "According to the document, autonomic refers to a type of nervous system that is very primitive, while skeletal or somatic refers to a more recent type.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "understanding",
+                    "question": "What role do reflexes play in organism survival?",
+                    "A": "They are solely responsible for conscious decision-making.",
+                    "B": "They inhibit rapid responses to stimuli.",
+                    "C": "They are not relevant to survival in complex organisms.",
+                    "D": "They can enhance survival and self-defense through automatic responses.",
+                    "answer": "D",
+                    "explanation": "According to the document, many reflexes are fine-tuned to increase organism survival and self-defense through automatic responses.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                }
+            ],
+            "remember": [
+                {
+                    "level": "remembering",
+                    "question": "What is the simplest form of a reflex loop composed of?",
+                    "A": "A motor nerve and a spinal cord",
+                    "B": "A sensory nerve and a muscle",
+                    "C": "A sensory nerve and a motor nerve",
+                    "D": "A brain and a sensory nerve",
+                    "answer": "C",
+                    "explanation": "According to the document, the simplest form of a reflex loop consists of a sensory nerve, the input, and a motor nerve, the output.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "remembering",
+                    "question": "What does the term 'autonomic' refer to in the context of reflexes?",
+                    "A": "A type of nervous system that is primitive",
+                    "B": "A type of muscle reflex",
+                    "C": "A type of voluntary movement",
+                    "D": "A type of cognitive function",
+                    "answer": "A",
+                    "explanation": "According to the document, 'autonomic' refers to a type of nervous system that is very primitive.",
+                    "RAG": {
+                        "response": "A  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "remembering",
+                    "question": "Which reflex is also known as the muscle stretch reflex?",
+                    "A": "Tendon reflex",
+                    "B": "Withdrawal reflex",
+                    "C": "H-reflex",
+                    "D": "Myotatic reflex",
+                    "answer": "D",
+                    "explanation": "According to the document, myotatic reflexes are sometimes known as 'deep tendon reflexes' and refer to the muscle stretch reflex.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "remembering",
+                    "question": "What is the response of a tendon reflex?",
+                    "A": "Contraction of a muscle in response to its lengthwise stretch",
+                    "B": "Relaxation of a muscle in response to a stimulus",
+                    "C": "Contraction of a muscle in response to striking its tendon",
+                    "D": "Stretching of a muscle in response to heat",
+                    "answer": "C",
+                    "explanation": "According to the document, a tendon reflex is defined as the contraction of a muscle in response to striking its tendon.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "remembering",
+                    "question": "What is the primary function of reflexes in organisms?",
+                    "A": "To enhance cognitive processing",
+                    "B": "To facilitate complex learning behaviors",
+                    "C": "To provide automatic responses to stimuli",
+                    "D": "To improve voluntary muscle control",
+                    "answer": "C",
+                    "explanation": "According to the document, reflexes are automatic, involuntary responses to stimuli, enabling organisms to respond rapidly.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                }
+            ],
+            "evaluation": [
+                {
+                    "level": "evaluating",
+                    "question": "Which type of reflex is characterized by a contraction of a muscle in response to striking its tendon?",
+                    "A": "Myotatic reflex",
+                    "B": "H-reflex",
+                    "C": "Tendon reflex",
+                    "D": "Withdrawal reflex",
+                    "answer": "C",
+                    "explanation": "According to the document, a tendon reflex is specifically defined as the contraction of a muscle in response to striking its tendon.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "evaluating",
+                    "question": "What is the primary indication of decreased reflexes in a medical assessment?",
+                    "A": "A central nervous system problem",
+                    "B": "A skeletal reflex issue",
+                    "C": "An automatic response",
+                    "D": "A peripheral problem",
+                    "answer": "D",
+                    "explanation": "According to the document, decreased reflexes indicate a peripheral problem, which is critical in assessing the health of the nervous system.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "evaluating",
+                    "question": "How do autonomic reflexes differ from skeletal reflexes in evolutionary terms?",
+                    "A": "Autonomic reflexes are more complex.",
+                    "B": "Skeletal reflexes are more primitive.",
+                    "C": "Skeletal reflexes involve fewer synapses.",
+                    "D": "Autonomic reflexes are more primitive.",
+                    "answer": "D",
+                    "explanation": "According to the document, autonomic reflexes are considered primitive compared to the more recent evolution of skeletal or somatic reflexes.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "evaluating",
+                    "question": "Which reflex is specifically defined as an involuntary reaction to an unexpected stimulus?",
+                    "A": "Golgi tendon reflex",
+                    "B": "Withdrawal reflex",
+                    "C": "Startle reflex",
+                    "D": "Stretch reflex",
+                    "answer": "C",
+                    "explanation": "According to the document, the startle reflex provides an automatic response to an unexpected stimulus, highlighting its involuntary nature.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "evaluating",
+                    "question": "What is the role of reflex arcs in the functioning of reflexes?",
+                    "A": "They create an automatic response to stimuli.",
+                    "B": "They are part of the brain's processing.",
+                    "C": "They facilitate conscious thought.",
+                    "D": "They are responsible for complex motor skills.",
+                    "answer": "A",
+                    "explanation": "According to the document, reflex arcs allow for an automatic response to stimuli without requiring conscious thought, which is fundamental to reflex actions.",
+                    "RAG": {
+                        "response": "A  ",
+                        "ans": true
+                    }
+                }
+            ],
+            "apply": [
+                {
+                    "level": "applying",
+                    "question": "In a situation where a patient exhibits decreased reflexes during a neurological exam, what might this indicate about their condition?",
+                    "A": "A potential problem in the central nervous system",
+                    "B": "Normal reflex response",
+                    "C": "A peripheral nervous system issue",
+                    "D": "Increased muscle tension",
+                    "answer": "C",
+                    "explanation": "According to the document, decreased reflexes indicate a peripheral problem.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "applying",
+                    "question": "If a newborn baby demonstrates a primitive reflex, what can be inferred about their neurological development?",
+                    "A": "Their autonomic nervous system is fully developed",
+                    "B": "They are capable of complex voluntary movements",
+                    "C": "They have a fully functional skeletal reflex system",
+                    "D": "They are responding involuntarily to stimuli",
+                    "answer": "D",
+                    "explanation": "According to the document, primitive reflexes are automatic reactions to stimuli that enable infants to respond to the environment before any learning has taken place.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "applying",
+                    "question": "During a medical examination, a doctor tests a patient's myotatic reflex. What is the primary purpose of this test?",
+                    "A": "To assess the function of the peripheral nervous system",
+                    "B": "To evaluate cognitive functions",
+                    "C": "To measure muscle strength",
+                    "D": "To check for emotional responses",
+                    "answer": "A",
+                    "explanation": "According to the document, myotatic reflexes provide information on the integrity of the central nervous system and peripheral nervous system.",
+                    "RAG": {
+                        "response": "A  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "applying",
+                    "question": "When evaluating a patient with exaggerated reflexes, what could be a likely interpretation of this observation?",
+                    "A": "A sign of peripheral nerve damage",
+                    "B": "A central nervous system issue",
+                    "C": "Normal reflex function",
+                    "D": "Improvement in muscle coordination",
+                    "answer": "B",
+                    "explanation": "According to the document, lively or exaggerated reflexes indicate a central problem.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "applying",
+                    "question": "In what scenario might a tonic vibration reflex be measured, and what does it reflect about the nervous system?",
+                    "A": "To assess muscle strength during voluntary movement",
+                    "B": "To test the response to electrical stimulation",
+                    "C": "To evaluate the autonomic nervous system's function",
+                    "D": "To gauge sensory perception levels",
+                    "answer": "B",
+                    "explanation": "According to the document, the tonic vibration reflex is stimulated electrically, reflecting the nervous system's response to this type of stimulus.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": true
+                    }
+                }
+            ],
+            "analyze": [
+                {
+                    "level": "analyzing",
+                    "question": "How do myotatic reflexes differ from tendon reflexes in terms of their function?",
+                    "A": "Myotatic reflexes are faster than tendon reflexes and involve more synapses.",
+                    "B": "Myotatic reflexes involve contraction due to muscle stretch, while tendon reflexes involve contraction due to tendon stimulation.",
+                    "C": "Myotatic reflexes are initiated by electrical stimulation, while tendon reflexes are purely mechanical.",
+                    "D": "Myotatic reflexes are primarily seen in adults, while tendon reflexes are only observed in infants.",
+                    "answer": "B",
+                    "explanation": "According to the document, myotatic reflexes involve the contraction of a muscle in response to its lengthwise stretch, whereas tendon reflexes involve the contraction of a muscle in response to striking its tendon.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "analyzing",
+                    "question": "What conclusion can be drawn about the relationship between reflexes and the nervous system's health?",
+                    "A": "Decreased reflexes indicate a peripheral problem, while exaggerated reflexes suggest a central issue.",
+                    "B": "All reflexes are indicative of healthy nervous system function.",
+                    "C": "Exaggerated reflexes suggest peripheral nervous system issues.",
+                    "D": "Decreased reflexes indicate a central nervous system problem.",
+                    "answer": "A",
+                    "explanation": "According to the document, decreased reflexes indicate a peripheral problem, whereas lively or exaggerated reflexes indicate a central nervous system issue.",
+                    "RAG": {
+                        "response": "A  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "analyzing",
+                    "question": "Which statement best explains the evolutionary significance of reflex arcs?",
+                    "A": "Reflex arcs have evolved to be less efficient than voluntary responses.",
+                    "B": "Reflex arcs are complex pathways that require conscious thought for activation.",
+                    "C": "Reflex arcs are primitive structures that respond automatically to stimuli, enhancing survival.",
+                    "D": "Reflex arcs are only found in vertebrates and not in simpler organisms.",
+                    "answer": "C",
+                    "explanation": "According to the document, reflex arcs serve as automatic responses that enhance organism survival and self-defense.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "analyzing",
+                    "question": "What differentiates primitive reflexes in infants from other reflexes in adults?",
+                    "A": "Primitive reflexes are complex and require multiple synapses.",
+                    "B": "Primitive reflexes are primarily voluntary actions learned over time.",
+                    "C": "Primitive reflexes are automatic reactions not seen in adults and enable early environmental responses.",
+                    "D": "Primitive reflexes are solely based on conscious thought rather than automatic responses.",
+                    "answer": "C",
+                    "explanation": "According to the document, primitive reflexes in infants are automatic reactions to stimuli that enable them to respond to their environment before any learning has taken place.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "analyzing",
+                    "question": "In what way do long-latency reflexes differ from short-latency reflexes?",
+                    "A": "Long-latency reflexes involve fewer synapses and are faster.",
+                    "B": "Short-latency reflexes are primarily found in infants, while long-latency reflexes are seen in adults.",
+                    "C": "Short-latency reflexes have a single synapse, while long-latency reflexes involve multiple synapses.",
+                    "D": "Long-latency reflexes are exclusively automatic responses without any sensory input.",
+                    "answer": "C",
+                    "explanation": "According to the document, the simplest type of reflex, a short-latency reflex, has a single synapse, whereas long-latency reflexes involve multiple synapses before generating the reflex response.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                }
+            ],
+            "create": [
+                {
+                    "level": "creating",
+                    "question": "What innovative method could you propose to assess the effectiveness of reflex arcs in infants compared to adults?",
+                    "A": "Measure heart rate variability in response to stimuli.",
+                    "B": "Analyze the speed of withdrawal reflexes using electromyography.",
+                    "C": "Evaluate the muscle contraction strength during tendon reflex tests.",
+                    "D": "Conduct observational studies of primitive reflexes in controlled environments.",
+                    "answer": "D",
+                    "explanation": "According to the document, primitive reflexes in infants can be observed and measured to assess their responses, making observational studies a suitable method.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": false
+                    }
+                },
+                {
+                    "level": "creating",
+                    "question": "How would you design an experiment to differentiate between autonomic and skeletal reflexes in response to a specific stimulus?",
+                    "A": "Use electrical stimulation to test both reflexes simultaneously.",
+                    "B": "Introduce a mechanical stimulus and measure muscle contraction times.",
+                    "C": "Apply heat to assess changes in heart rate and muscle tone.",
+                    "D": "Employ varying stimuli to observe behavioral responses in both reflex types.",
+                    "answer": "D",
+                    "explanation": "According to the document, employing different stimuli can help differentiate responses, as autonomic and skeletal reflexes exhibit distinct behavioral patterns.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": false
+                    }
+                },
+                {
+                    "level": "creating",
+                    "question": "What advanced technique could you implement to visualize the neural pathways involved in complex reflex actions?",
+                    "A": "Utilize MRI scans to monitor brain activity during reflex triggers.",
+                    "B": "Apply functional imaging to track blood flow in response to stimuli.",
+                    "C": "Use tracing methods to map synaptic connections in reflex arcs.",
+                    "D": "Conduct histological studies on spinal cord tissue.",
+                    "answer": "C",
+                    "explanation": "According to the document, mapping synaptic connections in reflex arcs would provide clarity on the neural pathways involved in complex reflex actions.",
+                    "RAG": {
+                        "response": "C  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "creating",
+                    "question": "What new approach could you suggest for enhancing the understanding of the startle reflex in humans?",
+                    "A": "Investigate the physiological responses using functional MRI.",
+                    "B": "Conduct longitudinal studies on the development of the reflex.",
+                    "C": "Explore genetic factors influencing the reflex response.",
+                    "D": "Examine the reflex under varying auditory stimuli to assess reaction times.",
+                    "answer": "D",
+                    "explanation": "According to the document, examining the startle reflex under different stimuli can help clarify its mechanisms and variations in response.",
+                    "RAG": {
+                        "response": "D  ",
+                        "ans": true
+                    }
+                },
+                {
+                    "level": "creating",
+                    "question": "How might you construct a training program to improve reflex responses in athletes?",
+                    "A": "Focus on strength training to enhance muscle performance.",
+                    "B": "Incorporate agility drills that challenge reflex reactions.",
+                    "C": "Implement endurance exercises to build overall fitness.",
+                    "D": "Use static stretching to increase flexibility and range of motion.",
+                    "answer": "B",
+                    "explanation": "According to the document, agility drills specifically designed to challenge reflex reactions would enhance the speed and efficiency of reflex responses in athletes.",
+                    "RAG": {
+                        "response": "B  ",
+                        "ans": true
+                    }
+                }
+            ]
+        }
+    }
+]

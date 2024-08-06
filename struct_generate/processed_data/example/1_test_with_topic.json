@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Which of the following is true regarding reflexes?",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "An extensor plantar response indicates a lower motor neurone lesion",
+            "The root value of the ankle reflex is S1",
+            "The root value of the knee reflex is L1, L2"
+        ],
+        "answer": 2,
+        "idx": 0,
+        "topic": {
+            "name": "Reflexes",
+            "description": "Reflexes are involuntary and nearly instantaneous movements in response to stimuli, mediated by the nervous system. They are often assessed in clinical settings to evaluate the integrity of specific neural pathways, with distinct reflexes corresponding to specific spinal nerve roots."
+        }
+    }
+]

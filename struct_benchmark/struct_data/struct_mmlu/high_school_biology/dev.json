@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Which of the following is not a way to form recombinant DNA?",
+        "subject": "high_school_biology",
+        "choices": [
+            "Translation",
+            "Conjugation",
+            "Specialized transduction",
+            "Transformation"
+        ],
+        "answer": 0,
+        "idx": 0
+    },
+    {
+        "question": "A mutation in a bacterial enzyme changed a previously polar amino acid into a nonpolar amino acid. This amino acid was located at a site distant from the enzyme’s active site. How might this mutation alter the enzyme’s substrate specificity?",
+        "subject": "high_school_biology",
+        "choices": [
+            "By changing the enzyme’s pH optimum",
+            "By changing the enzyme’s location in the cell",
+            "By changing the shape of the protein",
+            "An amino acid change away from the active site cannot alter the enzyme’s substrate specificity."
+        ],
+        "answer": 2,
+        "idx": 1
+    },
+    {
+        "question": "In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?",
+        "subject": "high_school_biology",
+        "choices": [
+            "Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER",
+            "Ribosome–Golgi apparatus–rough ER–secretory vesicle–plasma membrane",
+            "Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER",
+            "Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane"
+        ],
+        "answer": 3,
+        "idx": 2
+    },
+    {
+        "question": "Which of the following is not known to be involved in the control of cell division?",
+        "subject": "high_school_biology",
+        "choices": [
+            "Cyclins",
+            "Protein kinases",
+            "Checkpoints",
+            "Fibroblast cells"
+        ],
+        "answer": 3,
+        "idx": 3
+    },
+    {
+        "question": "Homologous structures are often cited as evidence for the process of natural selection. All of the following are examples of homologous structures EXCEPT",
+        "subject": "high_school_biology",
+        "choices": [
+            "the wings of a bird and the wings of a bat",
+            "the flippers of a whale and the arms of a man",
+            "the pectoral fins of a porpoise and the flippers of a seal",
+            "the forelegs of an insect and the forelimbs of a dog"
+        ],
+        "answer": 3,
+        "idx": 4
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the embryological origin of the hyoid bone?",
+        "subject": "anatomy",
+        "choices": [
+            "The first pharyngeal arch",
+            "The first and second pharyngeal arches",
+            "The second pharyngeal arch",
+            "The second and third pharyngeal arches"
+        ],
+        "answer": 3,
+        "idx": 0
+    },
+    {
+        "question": "Which of these branches of the trigeminal nerve contain somatic motor processes?",
+        "subject": "anatomy",
+        "choices": [
+            "The supraorbital nerve",
+            "The infraorbital nerve",
+            "The mental nerve",
+            "None of the above"
+        ],
+        "answer": 3,
+        "idx": 1
+    },
+    {
+        "question": "The pleura",
+        "subject": "anatomy",
+        "choices": [
+            "have no sensory innervation.",
+            "are separated by a 2 mm space.",
+            "extend into the neck.",
+            "are composed of respiratory epithelium."
+        ],
+        "answer": 2,
+        "idx": 2
+    },
+    {
+        "question": "In Angle's Class II Div 2 occlusion there is",
+        "subject": "anatomy",
+        "choices": [
+            "excess overbite of the upper lateral incisors.",
+            "negative overjet of the upper central incisors.",
+            "excess overjet of the upper lateral incisors.",
+            "excess overjet of the upper central incisors."
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": "Which of the following is the body cavity that contains the pituitary gland?",
+        "subject": "anatomy",
+        "choices": [
+            "Abdominal",
+            "Cranial",
+            "Pleural",
+            "Spinal"
+        ],
+        "answer": 1,
+        "idx": 4
+    }
+]

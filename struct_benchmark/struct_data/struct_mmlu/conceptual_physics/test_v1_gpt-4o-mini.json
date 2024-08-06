@@ -1,0 +1,534 @@
+[
+    {
+        "question": "The blueness of the daytime sky is due mostly to light",
+        "choices": [
+            "absorption",
+            "transmission",
+            "reflection",
+            "scattering"
+        ],
+        "answer": 3,
+        "subject": "conceptual_physics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What does the scattering of light in Rayleigh scattering inversely depend on?",
+                "A": "The square of the frequency",
+                "B": "The fourth power of the wavelength",
+                "C": "The square of the wavelength",
+                "D": "The amplitude of the light wave",
+                "answer": "B",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "understanding",
+                "question": "How does Rayleigh scattering relate to the size of the scattering particles?",
+                "A": "It applies to particles comparable to the wavelength of light.",
+                "B": "It applies to particles much smaller than the wavelength of light.",
+                "C": "It applies to very large particles that can scatter all wavelengths equally.",
+                "D": "It applies to particles with a refractive index greater than 1.",
+                "answer": "B",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which phenomenon can lead to a temporary increase in the blueness of the sky after a volcanic eruption?",
+                "A": "Increased atmospheric dust concentration",
+                "B": "Persistent sulfate load from stratospheric gases",
+                "C": "Absorption of red wavelengths by volcanic ash",
+                "D": "Reduction of sunlight reaching the ground",
+                "answer": "B",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which factor contributes to the blue color of the sky, aside from Rayleigh scattering?",
+                "A": "The angle of sunlight during twilight.",
+                "B": "The presence of atmospheric dust.",
+                "C": "Sulfate particles from volcanic eruptions.",
+                "D": "The constant motion of air molecules.",
+                "answer": "C",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "analyzing",
+                "question": "What historical observation led to the formulation of Rayleigh scattering theory?",
+                "A": "John Tyndall's experiments with colored glass.",
+                "B": "Lord Rayleigh's measurement of sunlight intensity.",
+                "C": "Lord Rayleigh's study of the color of ocean water.",
+                "D": "John Tyndall's blue-tinted scattering of light off nanoscopic particulates.",
+                "answer": "D",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "applying",
+                "question": "In an experiment where light passes through a clear liquid containing tiny particulates, what would you expect to observe based on Rayleigh scattering?",
+                "A": "A yellowish hue due to the scattering of longer wavelengths.",
+                "B": "No color change, as Rayleigh scattering does not occur in liquids.",
+                "C": "A pronounced blue color in the liquid due to scattering.",
+                "D": "A spectrum of colors due to multiple scattering effects.",
+                "answer": "C",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "creating",
+                "question": "How could you design an experiment to demonstrate the effects of wavelength on Rayleigh scattering using everyday materials?",
+                "A": "Shine a flashlight through a clear container of milk and record the apparent color of the light.",
+                "B": "Create a mixture of different colored dyes in water and observe their scattering.",
+                "C": "Fill a container with water and add a few drops of food coloring to observe how it scatters light.",
+                "D": "Use a prism to separate colors and measure their intensity in sunlight.",
+                "answer": "A",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            },
+            {
+                "level": "creating",
+                "question": "How might you modify a photography technique to capture the effects of Rayleigh scattering during sunset?",
+                "A": "Use a polarizing filter to enhance the contrast of colors in the sky.",
+                "B": "Adjust the camera settings to enhance red hues and reduce blue.",
+                "C": "Increase the exposure time to capture more light from the lower sun.",
+                "D": "Select a wide-angle lens to capture a broader view of the sky.",
+                "answer": "A",
+                "topic_wiki_name": "Rayleigh scattering",
+                "topic_wiki_id": "26176"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the relationship between the wavelength of light and the amount of Rayleigh scattering that occurs?",
+                "A": "Inversely proportional to the square of the wavelength",
+                "B": "Directly proportional to the wavelength",
+                "C": "Inversely proportional to the fourth power of the wavelength",
+                "D": "Independent of the wavelength",
+                "answer": "C",
+                "concept_wiki_name": "Rayleigh scattering",
+                "concept_wiki_id": "26176"
+            },
+            {
+                "question": "Which process occurs when light is not transmitted through an opaque object?",
+                "A": "Reflection",
+                "B": "Scattering",
+                "C": "Refraction",
+                "D": "Diffraction",
+                "answer": "A",
+                "concept_wiki_name": "Light",
+                "concept_wiki_id": "17939"
+            },
+            {
+                "question": "Which electromagnetic waves are produced by electrons moving between energy levels?",
+                "A": "Visible light",
+                "B": "Microwaves",
+                "C": "Radio waves",
+                "D": "Gamma rays",
+                "answer": "A",
+                "concept_wiki_name": "Electromagnetic spectrum",
+                "concept_wiki_id": "10134"
+            }
+        ]
+    },
+    {
+        "question": "Bow waves are produced by waves of water",
+        "choices": [
+            "overlapping one another",
+            "constructively interfering",
+            "moving slower than the source producing them",
+            "All of these"
+        ],
+        "answer": 3,
+        "subject": "conceptual_physics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What defines the outer limits of a ship's wake?",
+                "A": "The stern wave",
+                "B": "The wake turbulence",
+                "C": "The keel wave",
+                "D": "The bow wave",
+                "answer": "D",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            },
+            {
+                "level": "evaluating",
+                "question": "Why is the study of bow wave patterns important in naval architecture?",
+                "A": "To design faster ships.",
+                "B": "To reduce potential damage to shore facilities.",
+                "C": "To improve ship stability.",
+                "D": "To enhance the aesthetic design of ships.",
+                "answer": "B",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            },
+            {
+                "level": "understanding",
+                "question": "How does the bow wave affect a swimmer moving through water?",
+                "A": "It helps the swimmer to swim faster.",
+                "B": "It forms a trough near the swimmer's mouth, aiding breathing.",
+                "C": "It creates resistance that slows the swimmer down.",
+                "D": "It generates heat that warms the water around the swimmer.",
+                "answer": "B",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            },
+            {
+                "level": "applying",
+                "question": "When a swimmer moves through water, how does the bow wave benefit their breathing technique?",
+                "A": "It creates a current that pushes them forward",
+                "B": "It prevents water from entering their mouth",
+                "C": "It allows them to breathe by turning their head",
+                "D": "It increases their swimming speed",
+                "answer": "C",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            },
+            {
+                "level": "applying",
+                "question": "In a scenario where a small boat is navigating near a large ship, what effect might the bow wave have on the small boat?",
+                "A": "It may capsize the small boat",
+                "B": "It will speed up the small boat",
+                "C": "It will create a smooth sailing path",
+                "D": "It will enhance the boat's maneuverability",
+                "answer": "A",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            },
+            {
+                "level": "analyzing",
+                "question": "What role does the trough of a bow wave play for a swimmer?",
+                "A": "It helps the swimmer to dive deeper",
+                "B": "It allows the swimmer to exhale more efficiently",
+                "C": "It assists in inhaling air while swimming",
+                "D": "It stabilizes the swimmer's body position",
+                "answer": "C",
+                "topic_wiki_name": "Bow wave",
+                "topic_wiki_id": "1676668"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which factor does NOT affect wave speed in water waves?",
+                "A": "Water depth",
+                "B": "Wave frequency",
+                "C": "Wave amplitude",
+                "D": "Wind speed",
+                "answer": "C",
+                "concept_wiki_name": "Wave speed",
+                "concept_wiki_id": "21138255"
+            },
+            {
+                "question": "Which phenomenon is best exemplified by the double-slit experiment?",
+                "A": "Constructive interference of sound waves.",
+                "B": "Destructive interference of light waves.",
+                "C": "Superposition of mechanical waves.",
+                "D": "Constructive interference of electromagnetic waves.",
+                "answer": "D",
+                "concept_wiki_name": "Wave interference",
+                "concept_wiki_id": "15112"
+            }
+        ]
+    },
+    {
+        "question": "A capacitor can store",
+        "choices": [
+            "charge",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "answer": 2,
+        "subject": "conceptual_physics",
+        "bloom_questions": [
+            {
+                "level": "understanding",
+                "question": "Which of the following best describes how capacitors differ from batteries?",
+                "A": "Capacitors can hold a greater charge than batteries.",
+                "B": "Capacitors release stored energy more slowly than batteries.",
+                "C": "Capacitors require external resistors to operate effectively.",
+                "D": "Capacitors can release stored energy more quickly than batteries.",
+                "answer": "D",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "understanding",
+                "question": "Why might capacitors be used in car audio systems?",
+                "A": "To filter out unwanted noise from the audio signal.",
+                "B": "To store energy for the amplifier to use on demand.",
+                "C": "To convert audio signals into electrical energy.",
+                "D": "To amplify the sound produced by the speakers.",
+                "answer": "B",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "remembering",
+                "question": "What do capacitors facilitate the conversion of?",
+                "A": "Chemical energy to electrical energy",
+                "B": "Kinetic energy to electric energy",
+                "C": "Thermal energy to electrical energy",
+                "D": "Nuclear energy to electric energy",
+                "answer": "B",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "analyzing",
+                "question": "What primary factor differentiates a capacitor from a battery in terms of energy release?",
+                "A": "Capacitors release energy much faster than batteries.",
+                "B": "Capacitors store energy for longer durations than batteries.",
+                "C": "Capacitors can hold a larger charge than batteries.",
+                "D": "Capacitors use chemical reactions to store energy.",
+                "answer": "A",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "analyzing",
+                "question": "What aspect of capacitors allows them to be used effectively in digital memory applications?",
+                "A": "Their capacity to maintain power supply while batteries are changed.",
+                "B": "Their ability to store energy for long periods.",
+                "C": "Their smaller size compared to batteries.",
+                "D": "Their reliance on chemical processes for energy storage.",
+                "answer": "A",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "creating",
+                "question": "What modifications would you apply to a traditional capacitor design to enhance its performance in high-frequency applications?",
+                "A": "Increase the size of the dielectric layer significantly.",
+                "B": "Utilize materials with lower dielectric constants for better performance.",
+                "C": "Add more layers of dielectric material for increased capacitance.",
+                "D": "Use thinner conductive plates to reduce resistance.",
+                "answer": "D",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "creating",
+                "question": "What innovative method could you implement to improve the charge capacity of a thin film capacitor?",
+                "A": "Reduce the thickness of the conductive plates to allow more charge flow.",
+                "B": "Incorporate multiple layers of conductive materials to increase surface area.",
+                "C": "Utilize a larger dielectric layer to store more charge.",
+                "D": "Use thicker dielectric materials for better insulation.",
+                "answer": "C",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which characteristic distinguishes capacitors from batteries in terms of energy release?",
+                "A": "Capacitors can store more energy per size than batteries.",
+                "B": "Capacitors are heavier than batteries for the same charge.",
+                "C": "Capacitors release energy in a very short time compared to batteries.",
+                "D": "Capacitors can hold a greater charge over longer periods than batteries.",
+                "answer": "C",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a primary reason for using capacitors in car audio systems?",
+                "A": "To enhance sound quality by filtering noise.",
+                "B": "To store energy for the amplifier to use on demand.",
+                "C": "To convert electrical energy into kinetic energy.",
+                "D": "To increase the overall weight of the audio system.",
+                "answer": "B",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which aspect of capacitors makes them suitable for applications requiring rapid energy release?",
+                "A": "Their capability to release energy quickly without external components.",
+                "B": "Their construction using heavy metals.",
+                "C": "Their ability to accumulate large amounts of charge.",
+                "D": "Their high energy density compared to batteries.",
+                "answer": "A",
+                "topic_wiki_name": "Capacitor",
+                "topic_wiki_id": "4932111"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What does the capacitance of a capacitor depend on?",
+                "A": "The physical form and construction of the capacitor",
+                "B": "The distance between its conductors",
+                "C": "The voltage applied across its terminals",
+                "D": "The frequency of the electrical signal passing through it",
+                "answer": "A",
+                "concept_wiki_name": "Capacitor",
+                "concept_wiki_id": "4932111"
+            },
+            {
+                "question": "What is the primary function of a capacitor in energy storage?",
+                "A": "To convert energy from one form to another",
+                "B": "To maintain power supply in electronic devices",
+                "C": "To permanently store energy like a battery",
+                "D": "To generate energy from electrical potential",
+                "answer": "B",
+                "concept_wiki_name": "Energy storage",
+                "concept_wiki_id": "24130"
+            },
+            {
+                "question": "Which factor increases the capacitance of a capacitor?",
+                "A": "Wider separation between conductors",
+                "B": "Narrower separation between conductors",
+                "C": "Smaller surface area of conductors",
+                "D": "Higher voltage across the conductors",
+                "answer": "B",
+                "concept_wiki_name": "Energy storage",
+                "concept_wiki_id": "24130"
+            },
+            {
+                "question": "What is the relationship between electric potential and electric field strength?",
+                "A": "Electric potential difference is analogous to voltage.",
+                "B": "Electric potential is directly proportional to electric field strength.",
+                "C": "Electric potential describes the force felt by a charge.",
+                "D": "Electric potential can exist without an electric field.",
+                "answer": "A",
+                "concept_wiki_name": "Electric field",
+                "concept_wiki_id": "41092"
+            }
+        ]
+    },
+    {
+        "question": "Black is the combination of",
+        "choices": [
+            "all the colors together",
+            "two or more appropriate colors",
+            "light when a prism is held upside down",
+            "None of these"
+        ],
+        "answer": 3,
+        "subject": "conceptual_physics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What colors are described as 'cool' colors?",
+                "A": "Colors associated with daylight",
+                "B": "Colors associated with sunset",
+                "C": "Colors that are highly saturated",
+                "D": "Colors associated with a gray or overcast day",
+                "answer": "D",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "remembering",
+                "question": "Which philosopher's treatise is mentioned as dating back to the origins of color theory?",
+                "A": "Plato",
+                "B": "Kant",
+                "C": "Descartes",
+                "D": "Aristotle",
+                "answer": "D",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "analyzing",
+                "question": "How do warm and cool colors relate to landscape lighting according to historical distinctions?",
+                "A": "Warm colors are associated with cloudy days.",
+                "B": "Cool colors are linked to daylight and sunset.",
+                "C": "Cool colors represent vibrant daylight experiences.",
+                "D": "Warm colors correspond to daylight, while cool colors relate to overcast conditions.",
+                "answer": "D",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which concept did Chevreul introduce regarding how colors interact visually?",
+                "A": "The law of color mixing.",
+                "B": "The law of color harmony.",
+                "C": "The law of color contrast.",
+                "D": "The law of primary colors.",
+                "answer": "C",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a key assumption of Newton's hue circle regarding color saturation?",
+                "A": "All colors can be produced using three primary colors.",
+                "B": "The most saturated hues are located at the center of the circle.",
+                "C": "Colors opposite each other cancel out to produce white light.",
+                "D": "Achromatic colors are found on the outer circumference.",
+                "answer": "C",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement best reflects the relationship between traditional color theory and color science?",
+                "A": "Traditional color theory is entirely objective, while color science is subjective.",
+                "B": "Color science originated from the subjective interpretations of color found in traditional color theory.",
+                "C": "Both traditional color theory and color science have the same practical applications in design.",
+                "D": "Traditional color theory applies primarily to artistic contexts, whereas color science focuses on functional applications.",
+                "answer": "D",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following accurately describes the implications of primary colors in modern color science?",
+                "A": "Modern color science recognizes a finite number of primary colors that can produce all other colors.",
+                "B": "No finite combination of colors can produce all other colors, defining a limited gamut.",
+                "C": "Primary colors in modern color science can mix to create every color in the visible spectrum.",
+                "D": "Primary colors are universally acknowledged and do not vary across different color spaces.",
+                "answer": "B",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            },
+            {
+                "level": "applying",
+                "question": "In a situation where a piece of yellow fabric is placed on a blue background, what color will the yellow appear to be?",
+                "A": "Yellow",
+                "B": "Green",
+                "C": "Orange",
+                "D": "Purple",
+                "answer": "C",
+                "topic_wiki_name": "Color theory",
+                "topic_wiki_id": "455672"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is a common effect of black when combined with other colors?",
+                "A": "It enhances the brightness of colors.",
+                "B": "It neutralizes all colors to gray.",
+                "C": "It creates a vibrant contrast with all hues.",
+                "D": "It decreases the apparent saturation of paired colors.",
+                "answer": "D",
+                "concept_wiki_name": "Color theory",
+                "concept_wiki_id": "455672"
+            },
+            {
+                "question": "What is the outcome when white light is mixed with black in the additive color mixing model?",
+                "A": "Gray",
+                "B": "Different shades of colors",
+                "C": "Black",
+                "D": "White",
+                "answer": "D",
+                "concept_wiki_name": "Color mixing",
+                "concept_wiki_id": "19110121"
+            },
+            {
+                "question": "How do different wavelengths of light behave when passing through a prism?",
+                "A": "All wavelengths are deflected equally regardless of color.",
+                "B": "Longer wavelengths, like red, undergo a smaller deviation than shorter wavelengths, like blue.",
+                "C": "Longer wavelengths undergo greater deviation than shorter wavelengths.",
+                "D": "Shorter wavelengths are not affected by the prism's dispersion.",
+                "answer": "B",
+                "concept_wiki_name": "Dispersive prism",
+                "concept_wiki_id": "8178295"
+            }
+        ]
+    }
+]

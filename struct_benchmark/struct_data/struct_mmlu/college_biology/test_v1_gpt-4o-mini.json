@@ -1,0 +1,1142 @@
+[
+    {
+        "question": "A recent theory concerning an unusual rise in asthma attacks following a thunderstorm proposes that while pollen grains at 5 microns are too large to enter the airways, their exposure to water precipitates the release of starch granules as a result of osmotic shock. The starch granules are small enough to enter the lower airways and trigger an asthmatic attack. If this theory is true, which of the following is a correct statement?",
+        "choices": [
+            "The interior of the pollen grains was hypotonic compared to the surrounding environment.",
+            "The interior of the pollen grains had a higher osmotic pressure than did the surrounding environment.",
+            "The pollen grains underwent plasmolysis prior to releasing their contents.",
+            "The pollen grains underwent shrinking before they ruptured and released their contents."
+        ],
+        "answer": 1,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is turgor pressure?",
+                "A": "The force that prevents cell walls from collapsing",
+                "B": "The pressure exerted by water in the extracellular space",
+                "C": "The force within the cell that pushes the plasma membrane against the cell wall",
+                "D": "The pressure that regulates nutrient transport in animal cells",
+                "answer": "C",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "remembering",
+                "question": "In which fungus has a turgor pressure of up to 8 MPa been observed?",
+                "A": "Aspergillus oryzae",
+                "B": "Saprolegnia ferax",
+                "C": "Rhizopus stolonifer",
+                "D": "Magnaporthe grisea",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "remembering",
+                "question": "Which plant structures are influenced by turgor pressure for apical growth?",
+                "A": "Leaf blades and stems",
+                "B": "Root tips and pollen tubes",
+                "C": "Flower petals and sepals",
+                "D": "Seed pods and fruits",
+                "answer": "B",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "analyzing",
+                "question": "What role does turgor pressure play in the growth of fungal hyphae?",
+                "A": "It facilitates the penetration of substrates.",
+                "B": "It reduces the amount of nutrients absorbed.",
+                "C": "It limits the expansion of the plasma membrane.",
+                "D": "It increases the rigidity of the cell wall.",
+                "answer": "A",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does turgor pressure influence nutrient transport in plants?",
+                "A": "By decreasing osmotic pressure in cells.",
+                "B": "By increasing cell wall rigidity to retain nutrients.",
+                "C": "By allowing for the regulation of transport proteins.",
+                "D": "By facilitating gas exchange through stomata.",
+                "answer": "C",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "analyzing",
+                "question": "In what way does turgor pressure affect flowering in certain plants?",
+                "A": "It prevents water loss from the petals.",
+                "B": "It stabilizes the plant's overall structure.",
+                "C": "It enhances photosynthesis in flowering cells.",
+                "D": "It causes outward bending forces in drying cells.",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "evaluating",
+                "question": "What conclusion can be drawn about animal cells in relation to turgor pressure?",
+                "A": "Animal cells utilize turgor pressure for nutrient transport.",
+                "B": "Animal cells maintain turgor pressure through their cell walls.",
+                "C": "Animal cells manage turgor pressure through vacuoles.",
+                "D": "Animal cells do not experience turgor pressure due to the absence of cell walls.",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "evaluating",
+                "question": "In which scenario is turgor pressure vital for flower blooming, as indicated?",
+                "A": "Turgor pressure aids in nutrient absorption during flowering.",
+                "B": "Turgor pressure prevents wilting of flower petals.",
+                "C": "Turgor pressure causes petals to bloom through volatile mechanisms.",
+                "D": "Turgor pressure is necessary for photosynthesis in flowering plants.",
+                "answer": "C",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a significant implication of measuring turgor pressure using a pressure probe?",
+                "A": "It allows for the assessment of turgor pressure in animal cells.",
+                "B": "It requires the use of complex mathematical equations for measurement.",
+                "C": "It measures how much pressure is needed to maintain cell wall integrity.",
+                "D": "It provides insights into the turgor pressure of individual algal cells.",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "understanding",
+                "question": "What primarily causes invasive hyphal growth in fungi?",
+                "A": "Nutrient absorption from the environment",
+                "B": "Turgor pressure within the hyphae",
+                "C": "Temperature fluctuations in the substrate",
+                "D": "Chemical signals from neighboring cells",
+                "answer": "B",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "understanding",
+                "question": "How do protists without cell walls manage osmotic pressure?",
+                "A": "By using contractile vacuoles to expel water",
+                "B": "By absorbing excess water through their membranes",
+                "C": "By forming a rigid outer layer to maintain pressure",
+                "D": "By increasing their internal solute concentration",
+                "answer": "A",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following roles does turgor pressure NOT play in plant cells?",
+                "A": "Nutrient transport throughout the plant",
+                "B": "Apical growth of roots and pollen tubes",
+                "C": "Maintaining osmotic equilibrium under drought conditions",
+                "D": "Regulating photosynthesis rates",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "applying",
+                "question": "In an experiment using a pressure probe to measure turgor pressure, what would be the expected outcome if the cell exudes fluid into the capillary tube?",
+                "A": "The turgor pressure is low, allowing easy fluid exit.",
+                "B": "The turgor pressure is high, indicating robust cell integrity.",
+                "C": "The cell is experiencing osmotic equilibrium.",
+                "D": "The turgor pressure is unstable, leading to inconsistent measurements.",
+                "answer": "B",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "applying",
+                "question": "How might the regulation of cell turgor pressure affect the transport of solutes during drought conditions?",
+                "A": "Increased turgor pressure promotes solute transport.",
+                "B": "Lower turgor pressure increases solute pumping.",
+                "C": "Turgor pressure has no effect on solute transport.",
+                "D": "High turgor pressure decreases solute accumulation.",
+                "answer": "B",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "creating",
+                "question": "How would you modify a pressure probe experiment to measure turgor pressure in larger plant tissues?",
+                "A": "Use a smaller micro-capillary to improve accuracy.",
+                "B": "Incorporate a method for continuous nutrient supply.",
+                "C": "Adjust the probe's sensitivity to account for cell size.",
+                "D": "Utilize a pressure probe specifically designed for larger cells.",
+                "answer": "D",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            },
+            {
+                "level": "creating",
+                "question": "What innovative approach could be used to quantify turgor pressure in protists lacking cell walls?",
+                "A": "Measure osmotic equilibrium without a cell wall.",
+                "B": "Utilize a pressure probe similar to that used in plant cells.",
+                "C": "Apply a series of contractile vacuole measurements.",
+                "D": "Use fluorescence microscopy to visualize water movement.",
+                "answer": "C",
+                "topic_wiki_name": "Turgor pressure",
+                "topic_wiki_id": "4414104"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the term used for the process that allows pollen grains to respond to changes in moisture content?",
+                "A": "Plasmolysis",
+                "B": "Germination",
+                "C": "Harmomegathy",
+                "D": "Osmosis",
+                "answer": "C",
+                "concept_wiki_name": "Pollen",
+                "concept_wiki_id": "46980"
+            },
+            {
+                "question": "What is the primary role of osmotic pressure in biological cells?",
+                "A": "To facilitate the inward flow of water into the cell",
+                "B": "To prevent the outward flow of solutes from the cell",
+                "C": "To increase the temperature of the cell interior",
+                "D": "To regulate the movement of ions across the membrane",
+                "answer": "A",
+                "concept_wiki_name": "Osmotic pressure",
+                "concept_wiki_id": "31383"
+            },
+            {
+                "question": "What condition does excessive osmotic pressure cause in animal cells?",
+                "A": "Turgor pressure",
+                "B": "Plasmolysis",
+                "C": "Cytolysis",
+                "D": "Osmoregulation",
+                "answer": "C",
+                "concept_wiki_name": "Osmotic pressure",
+                "concept_wiki_id": "31383"
+            },
+            {
+                "question": "Which substance plays a primary role in regulating osmotic stress in eukaryotic cells?",
+                "A": "Potassium",
+                "B": "Sodium",
+                "C": "Magnesium",
+                "D": "Calcium",
+                "answer": "D",
+                "concept_wiki_name": "Osmotic shock",
+                "concept_wiki_id": "5386941"
+            },
+            {
+                "question": "Which type of linkage is primarily found in amylose, a component of starch granules?",
+                "A": "β-1,4-glycosidic linkage",
+                "B": "α-1,6-glycosidic linkage",
+                "C": "α-1,4-glycosidic linkage",
+                "D": "β-1,6-glycosidic linkage",
+                "answer": "C",
+                "concept_wiki_name": "Starch",
+                "concept_wiki_id": "27711"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following statements about excretory organs is true?",
+        "choices": [
+            "The kidneys of saltwater fishes produce urine hyperosmotic to their tissues.",
+            "The kidneys of desert mammals produce urine that is hypoosmotic to the urine of freshwater fishes.",
+            "Malpighian tubules allow insects to excrete waste through the exoskeleton.",
+            "Juxtamedullary nephrons in the mammalian kidney allow the organism to produce hyperosmotic urine."
+        ],
+        "answer": 3,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "How many nephrons are typically found in each kidney?",
+                "A": "Over 1 million",
+                "B": "About 500,000",
+                "C": "Around 2 million",
+                "D": "Exactly 1 million",
+                "answer": "A",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "remembering",
+                "question": "What carries the filtrated blood away from the kidneys?",
+                "A": "Renal artery",
+                "B": "Urethra",
+                "C": "Ureter",
+                "D": "Renal vein",
+                "answer": "D",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "remembering",
+                "question": "What role does sweat play in the excretory system?",
+                "A": "It is the primary means of waste elimination.",
+                "B": "It helps maintain the level of salt in the body.",
+                "C": "It removes nitrogenous wastes from the blood.",
+                "D": "It is the main method of temperature regulation.",
+                "answer": "B",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "understanding",
+                "question": "What role does sweating play in the excretory system?",
+                "A": "It primarily eliminates nitrogenous wastes.",
+                "B": "It serves as the main excretory organ for ammonia.",
+                "C": "It filters blood to remove excess salts.",
+                "D": "It helps maintain body temperature and releases pheromones.",
+                "answer": "D",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens to excess wastes in the kidneys?",
+                "A": "They are reabsorbed into the bloodstream.",
+                "B": "They are expelled through the lungs.",
+                "C": "They are converted into energy.",
+                "D": "They crystallize and form kidney stones.",
+                "answer": "D",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "understanding",
+                "question": "How do marine invertebrates handle waste removal compared to terrestrial invertebrates?",
+                "A": "Marine invertebrates expel ammonia directly through the skin.",
+                "B": "Terrestrial invertebrates rely solely on skin for waste removal.",
+                "C": "Marine invertebrates use a liver to convert ammonia.",
+                "D": "Both groups use kidneys for waste excretion.",
+                "answer": "A",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "analyzing",
+                "question": "Why is sweating considered to have a minimal role in the excretory system?",
+                "A": "It primarily regulates body temperature and pheromone release.",
+                "B": "It removes excess water only.",
+                "C": "It expels only solid waste.",
+                "D": "It acts as the main organ for urine production.",
+                "answer": "A",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            },
+            {
+                "level": "creating",
+                "question": "Design a method to enhance the efficiency of the human excretory system based on its function of waste removal.",
+                "A": "Introduce a regimen of regular exercise to improve kidney blood flow.",
+                "B": "Implement a diet high in protein to promote more urea production.",
+                "C": "Increase fluid intake to dilute urine concentration.",
+                "D": "Reduce intake of dietary fiber to minimize waste production.",
+                "answer": "A",
+                "topic_wiki_name": "Excretory system",
+                "topic_wiki_id": "149769"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which part of the nephron is primarily involved in the concentration of urine?",
+                "A": "Renal corpuscle",
+                "B": "Proximal convoluted tubule",
+                "C": "Juxtamedullary nephrons",
+                "D": "Bowman's capsule",
+                "answer": "C",
+                "concept_wiki_name": "Nephron",
+                "concept_wiki_id": "215248"
+            },
+            {
+                "question": "Which factor is NOT mentioned as a component of a marine life habitat for saltwater fish?",
+                "A": "Temperature of the water",
+                "B": "Salt level",
+                "C": "pH level",
+                "D": "Type of food available",
+                "answer": "D",
+                "concept_wiki_name": "Saltwater fish",
+                "concept_wiki_id": "37205436"
+            },
+            {
+                "question": "What is the primary function of Malpighian tubules in insects?",
+                "A": "To absorb water and nutrients from the environment",
+                "B": "To excrete solid nitrogenous waste and calcium oxalate",
+                "C": "To facilitate gas exchange through the exoskeleton",
+                "D": "To filter hemolymph and produce hyperosmotic urine",
+                "answer": "B",
+                "concept_wiki_name": "Malpighian tubule system",
+                "concept_wiki_id": "1630330"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of introns?",
+        "choices": [
+            "They occur only in eukaryotes.",
+            "They represent noncoding regions.",
+            "They are found interspersed with exons on a region of DNA that codes for a polypeptide chain.",
+            "They are excised from the primary transcript before it gains a 5' cap and a 3' poly(A)tail."
+        ],
+        "answer": 3,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What are the sequences called that become joined to form the mature RNA?",
+                "A": "Exons",
+                "B": "Intron sequences",
+                "C": "Cistrons",
+                "D": "R-loops",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "remembering",
+                "question": "What term was introduced by Walter Gilbert to refer to non-expressed regions within genes?",
+                "A": "Intron",
+                "B": "Exon",
+                "C": "Cistron",
+                "D": "Intervening sequence",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "understanding",
+                "question": "What are exons in relation to introns?",
+                "A": "Sequences that are removed from the RNA transcript.",
+                "B": "Parts of the intron that are essential for splicing.",
+                "C": "Regions that enhance the expression of genes.",
+                "D": "Sequences that are retained in the mature RNA product.",
+                "answer": "D",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "understanding",
+                "question": "What role do introns play in relation to DNA damage in highly expressed genes?",
+                "A": "They inhibit R-loop formation and DNA damage.",
+                "B": "They increase the likelihood of DNA damage.",
+                "C": "They have no effect on DNA stability.",
+                "D": "They promote the formation of R-loops.",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "understanding",
+                "question": "How did the term 'intron' originate according to Walter Gilbert?",
+                "A": "It was derived from the term 'exon'.",
+                "B": "It refers to regions lost from the mature messenger.",
+                "C": "It indicates sequences that are always expressed.",
+                "D": "It describes segments located outside of genes.",
+                "answer": "B",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which role do introns play in gene expression?",
+                "A": "They can enhance gene expression through intron-mediated enhancement.",
+                "B": "They exclusively code for proteins.",
+                "C": "They serve as a template for RNA replication.",
+                "D": "They are always removed before RNA processing.",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the relationship between introns and ribosomal protein genes as described?",
+                "A": "Introns have no effect on ribosomal protein genes.",
+                "B": "They solely function as spacers between exons in these genes.",
+                "C": "Introns enhance the translation of ribosomal protein genes.",
+                "D": "They promote cellular resistance to starvation by repressing these genes.",
+                "answer": "D",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "applying",
+                "question": "If a gene is found to have reduced R-loop levels and decreased DNA damage compared to intronless genes, what might be concluded about the presence of introns in that gene?",
+                "A": "Introns increase the likelihood of DNA damage.",
+                "B": "Introns have no effect on R-loop formation.",
+                "C": "Introns enhance the gene's expression and stability.",
+                "D": "Introns decrease the gene's expression.",
+                "answer": "C",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement best evaluates the role of introns in gene expression?",
+                "A": "Introns can enhance gene expression through intron-mediated enhancement.",
+                "B": "Introns are non-coding sequences that always reduce gene expression.",
+                "C": "Introns only serve as spacers between exons without any functional role.",
+                "D": "Introns are exclusively found in prokaryotic genes and have no role in eukaryotes.",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following reflects the potential impact of introns on DNA damage during transcription?",
+                "A": "Introns inhibit R-loop formation and decrease DNA damage in actively transcribed genes.",
+                "B": "Introns increase the levels of R-loops leading to more DNA damage.",
+                "C": "Introns have no effect on R-loop formation or DNA damage.",
+                "D": "Introns are responsible for increasing the occurrence of DNA repair mechanisms.",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "creating",
+                "question": "Which strategy would effectively illustrate the relationship between intron-mediated enhancement and R-loop formation in a research study?",
+                "A": "Create a control group with only exons and measure their susceptibility to DNA damage.",
+                "B": "Analyze the splicing efficiency of genes lacking introns to determine their R-loop levels.",
+                "C": "Introduce a known R-loop forming sequence into intronless genes and compare expression levels.",
+                "D": "Measure R-loop levels in genes with varying numbers of introns and analyze their expression profiles.",
+                "answer": "D",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "creating",
+                "question": "What experimental approach would best demonstrate the evolutionary significance of introns in maintaining genetic stability?",
+                "A": "Create synthetic genes that lack all introns and assess their stability under stress conditions.",
+                "B": "Analyze the effect of introns on ribosomal protein gene expression in yeast.",
+                "C": "Conduct a comparative study of intron presence in orthologous genes across various species.",
+                "D": "Observe the mutation rates in intron-rich versus intron-less genes in a single species.",
+                "answer": "C",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "creating",
+                "question": "How could you modify a gene's intron structure to test its effect on cellular resistance to starvation?",
+                "A": "Increase the number of introns in ribosomal protein genes and measure their expression during nutrient deprivation.",
+                "B": "Insert a promoter sequence upstream of the gene to enhance its expression during starvation.",
+                "C": "Remove all introns from the gene and monitor cellular responses to nutrient stress.",
+                "D": "Alter the exon sequences to create a hybrid gene with enhanced starvation resistance.",
+                "answer": "A",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            },
+            {
+                "level": "creating",
+                "question": "What method would best showcase the differences in splicing mechanisms among various intron types?",
+                "A": "Create a gene construct with only group III introns and analyze its splicing efficiency.",
+                "B": "Perform a biochemical analysis of spliceosomal introns and compare them to group II introns.",
+                "C": "Investigate the expression levels of genes with varying intron types under identical conditions.",
+                "D": "Design an experiment to measure the length of introns in different gene families.",
+                "answer": "B",
+                "topic_wiki_name": "Intron",
+                "topic_wiki_id": "15343"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In what year was the term 'exon' first coined by Walter Gilbert?",
+                "A": "1972",
+                "B": "1980",
+                "C": "1978",
+                "D": "1975",
+                "answer": "C",
+                "concept_wiki_name": "Exon",
+                "concept_wiki_id": "10238"
+            },
+            {
+                "question": "Which of the following groups has evolved complex multicellularity within eukaryotes?",
+                "A": "Red algae",
+                "B": "Bacteria",
+                "C": "Archaea",
+                "D": "Viruses",
+                "answer": "A",
+                "concept_wiki_name": "Eukaryote",
+                "concept_wiki_id": "24536543"
+            },
+            {
+                "question": "Which type of RNA typically lacks a poly(A) tail?",
+                "A": "mRNA involved in protein coding.",
+                "B": "Long noncoding RNA.",
+                "C": "Histone mRNA.",
+                "D": "MicroRNA.",
+                "answer": "C",
+                "concept_wiki_name": "Polyadenylation",
+                "concept_wiki_id": "616901"
+            }
+        ]
+    },
+    {
+        "question": "In the presence of alcohol dehydrogenase, the rate of reduction of acetaldehyde to ethanol increases as the concentration of acetaldehyde is increased. Eventually, the rate of the reaction reaches a maximum, after which point further increases in the concentration of acetaldehyde have no effect. Which of the following is true at the maximal rate of reaction?",
+        "choices": [
+            "Nearly all of the enzyme molecules are interacting with acetaldehyde molecules.",
+            "The activation energy of the reaction decreases.",
+            "The change in free energy of the reaction decreases.",
+            "The enzyme is no longer specific for acetaldehyde."
+        ],
+        "answer": 0,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "What condition simplifies the analysis of multi-substrate reactions in enzyme kinetics?",
+                "A": "Keeping substrate A constant while varying B",
+                "B": "Keeping substrate B constant while varying A",
+                "C": "Varying both substrates simultaneously",
+                "D": "Increasing the temperature of the reaction",
+                "answer": "A",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "understanding",
+                "question": "In multi-substrate reactions, what happens when the concentration of substrate A is kept constant while varying substrate B?",
+                "A": "The reaction becomes dependent only on substrate A.",
+                "B": "The enzyme behaves like a single-substrate enzyme.",
+                "C": "The reaction rate decreases significantly.",
+                "D": "The binding sequence of substrates is irrelevant.",
+                "answer": "B",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "understanding",
+                "question": "What characterizes a ternary complex mechanism in enzyme kinetics?",
+                "A": "Both substrates bind to the enzyme at the same time.",
+                "B": "One substrate binds before the other and is released first.",
+                "C": "Only one substrate binds and the product is released immediately.",
+                "D": "Substrates bind in a fixed ratio to produce a single product.",
+                "answer": "A",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "evaluating",
+                "question": "In multi-substrate reactions, what is the effect of keeping one substrate's concentration constant while varying the other?",
+                "A": "It simplifies the analysis as it mimics a single-substrate reaction",
+                "B": "It complicates the analysis of reaction mechanisms",
+                "C": "It has no effect on the enzyme's behavior",
+                "D": "It reduces the overall reaction rate",
+                "answer": "A",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a characteristic of enzymes that catalyze two-substrate two-product reactions?",
+                "A": "They are less common than one-substrate reactions",
+                "B": "They always exhibit a ping-pong mechanism",
+                "C": "They can only produce one product regardless of substrates",
+                "D": "They are heavily outnumbered by one-substrate enzymes",
+                "answer": "D",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "creating",
+                "question": "What approach could be taken to differentiate between a ternary complex and a ping-pong mechanism in enzyme kinetics?",
+                "A": "Measure the rate of reaction as substrate concentrations are varied while keeping enzyme concentration constant.",
+                "B": "Analyze the sequence of substrate binding and product release through kinetic assays.",
+                "C": "Use a substrate analog to inhibit one substrate's binding and observe the effect on product formation.",
+                "D": "Examine the effect of varying the temperature on the reaction rate.",
+                "answer": "B",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "creating",
+                "question": "If you wanted to model a reaction involving three substrates and two products, which method would best help you understand the kinetics?",
+                "A": "Assume a simple Michaelis-Menten model for all substrates.",
+                "B": "Conduct experiments varying one substrate at a time while holding the others constant.",
+                "C": "Use differential equations to establish a direct relationship between substrate concentration and product formation.",
+                "D": "Perform a time-course study to measure the accumulation of products over time.",
+                "answer": "B",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "creating",
+                "question": "In designing a study to investigate the effect of a drug on enzyme activity, which experimental condition is crucial to establish?",
+                "A": "Keeping the substrate concentration excessive to avoid reaching Vmax.",
+                "B": "Varying the enzyme concentration while measuring reaction rates.",
+                "C": "Maintaining constant pH levels throughout the experiment.",
+                "D": "Determining the presence of any allosteric effects on enzyme activity.",
+                "answer": "C",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            },
+            {
+                "level": "creating",
+                "question": "How would you approach the characterization of an enzyme that shows both unimolecular and bimolecular kinetics?",
+                "A": "Evaluate the reaction under conditions where only one substrate is present at a time.",
+                "B": "Use a single substrate to measure the rate and ignore the presence of multiple substrates.",
+                "C": "Assume that all substrates will follow first-order kinetics regardless of conditions.",
+                "D": "Analyze the effect of varying enzyme concentration while keeping substrate concentrations constant.",
+                "answer": "A",
+                "topic_wiki_name": "Enzyme kinetics",
+                "topic_wiki_id": "3043886"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What role does alcohol dehydrogenase play in the metabolism of acetaldehyde?",
+                "A": "It reduces acetaldehyde to acetic acid.",
+                "B": "It oxidizes ethanol to acetaldehyde.",
+                "C": "It synthesizes acetaldehyde from glucose.",
+                "D": "It inhibits the production of acetaldehyde.",
+                "answer": "B",
+                "concept_wiki_name": "Acetaldehyde",
+                "concept_wiki_id": "89195"
+            },
+            {
+                "question": "What remains unchanged when a catalyst lowers the activation energy of a reaction?",
+                "A": "The activation energy of subsequent reactions.",
+                "B": "The concentration of the reactants involved.",
+                "C": "The energies of the original reactants and products.",
+                "D": "The rate of the reaction overall.",
+                "answer": "C",
+                "concept_wiki_name": "Activation energy",
+                "concept_wiki_id": "38413"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following would be the most dependable environmental signal that a plant in a temperate ecosystem could use to initiate flowering at the correct time of the year?",
+        "choices": [
+            "Circadian rhythm",
+            "Photoperiod",
+            "Changing air temperature",
+            "Fluctuations in abscisic acid levels"
+        ],
+        "answer": 1,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What are the two forms of phytochrome?",
+                "A": "Pfr and Pg",
+                "B": "Pr and Pfr",
+                "C": "Pr and Pp",
+                "D": "Pfr and Pa",
+                "answer": "B",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the effect of red light on phytochrome?",
+                "A": "It stabilizes Pr",
+                "B": "It converts Pfr to Pr",
+                "C": "It converts Pr to Pfr",
+                "D": "It activates Pfr only at night",
+                "answer": "C",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does the photoperiod affect the singing frequency of male canaries?",
+                "A": "Singing frequency decreases in spring with increased daylight.",
+                "B": "The singing frequency is unrelated to changes in photoperiod.",
+                "C": "Canaries only sing during winter when days are shorter.",
+                "D": "Increased light during spring promotes testicular growth, which raises singing frequency.",
+                "answer": "D",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "understanding",
+                "question": "How does photoperiod influence the behavior of insects like water striders?",
+                "A": "It determines their reproductive cycles independent of temperature.",
+                "B": "It affects their feeding patterns based on day length.",
+                "C": "It triggers seasonal changes during nymphal development and induces diapause.",
+                "D": "It causes them to migrate to warmer areas during winter.",
+                "answer": "C",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "evaluating",
+                "question": "What physiological change in male canaries is triggered by increasing photoperiods?",
+                "A": "Increased singing frequency due to decreased androgen levels",
+                "B": "Recession of testes and decreased singing frequency",
+                "C": "Growth of testes and increased androgen secretion",
+                "D": "Decrease in body size and feather color change",
+                "answer": "C",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following accurately describes the effect of short-day conditions on certain plants?",
+                "A": "They flower as days grow longer",
+                "B": "They flower after 21 June in the northern hemisphere",
+                "C": "They require shorter nights to flower",
+                "D": "They do not respond to changes in light duration",
+                "answer": "B",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a key difference between facultative photoperiodic plants and day-neutral plants?",
+                "A": "Facultative plants require specific light durations to flower",
+                "B": "Facultative plants cannot flower without photoperiod cues",
+                "C": "Day-neutral plants initiate flowering based on developmental stage",
+                "D": "Day-neutral plants require longer nights to initiate flowering",
+                "answer": "C",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "applying",
+                "question": "If a researcher is studying a short-day plant, what environmental change would they manipulate to encourage flowering?",
+                "A": "Increase the length of daylight",
+                "B": "Increase the length of the dark period",
+                "C": "Decrease the length of the dark period",
+                "D": "Maintain a constant photoperiod",
+                "answer": "B",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "applying",
+                "question": "What could a farmer do to manipulate the flowering of facultative photoperiodic plants like cucumbers?",
+                "A": "Introduce a period of low temperature",
+                "B": "Change the light conditions to a longer photoperiod",
+                "C": "Alter the temperature to a warmer climate",
+                "D": "Provide consistent watering",
+                "answer": "A",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "applying",
+                "question": "How might the singing frequency of canaries change with seasonal changes in photoperiod?",
+                "A": "Increase with longer nights",
+                "B": "Decrease with longer days",
+                "C": "Remain constant regardless of photoperiod",
+                "D": "Increase with longer days",
+                "answer": "D",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            },
+            {
+                "level": "applying",
+                "question": "If a plant species is classified as obligate photoperiodic, what would be the expected requirement for it to flower?",
+                "A": "It requires a consistent photoperiod year-round",
+                "B": "It requires a specific length of night before flowering",
+                "C": "It needs a short night period to induce flowering",
+                "D": "It can flower at any photoperiod condition",
+                "answer": "B",
+                "topic_wiki_name": "Photoperiodism",
+                "topic_wiki_id": "1964701"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which type of plants require a specific night length to flower, as defined by their photoperiodic response?",
+                "A": "Obligate photoperiodic plants",
+                "B": "Facultative photoperiodic plants",
+                "C": "Day-neutral plants",
+                "D": "Short-day plants",
+                "answer": "A",
+                "concept_wiki_name": "Photoperiodism",
+                "concept_wiki_id": "1964701"
+            },
+            {
+                "question": "Which environmental stress is primarily managed by abscisic acid in plants?",
+                "A": "Nutrient deficiency",
+                "B": "Heat stress",
+                "C": "Excessive rainfall",
+                "D": "Soil compaction",
+                "answer": "B",
+                "concept_wiki_name": "Abscisic acid",
+                "concept_wiki_id": "670856"
+            },
+            {
+                "question": "What is the first committed precursor in the biosynthesis pathway of abscisic acid?",
+                "A": "Xanthoxin",
+                "B": "Violaxanthin",
+                "C": "Carotenoids",
+                "D": "Zeaxanthin",
+                "answer": "D",
+                "concept_wiki_name": "Abscisic acid",
+                "concept_wiki_id": "670856"
+            }
+        ]
+    },
+    {
+        "question": "The cell type comprising the pith tissue centered within a dicot stem is the",
+        "choices": [
+            "parenchyma",
+            "sclerenchyma",
+            "vascular cambium",
+            "vascular bundle"
+        ],
+        "answer": 0,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "How does the structure of xylem differ from that of phloem?",
+                "A": "Xylem has end openings; phloem does not.",
+                "B": "Xylem conducts water vertically; phloem has porous connections.",
+                "C": "Xylem consists of living cells; phloem consists of dead cells.",
+                "D": "Xylem is responsible for food transport; phloem is not.",
+                "answer": "B",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "analyzing",
+                "question": "What role do rays play in xylem function?",
+                "A": "Facilitating vertical conduction of water",
+                "B": "Supporting the structure of the xylem",
+                "C": "Enabling lateral conduction along the stem",
+                "D": "Transporting dissolved nutrients",
+                "answer": "C",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a key difference between parenchyma and collenchyma tissues?",
+                "A": "Parenchyma supports the plant; collenchyma stores food.",
+                "B": "Parenchyma cells have thick walls; collenchyma cells have thin walls.",
+                "C": "Parenchyma contains chlorophyll; collenchyma provides support.",
+                "D": "Parenchyma is primarily involved in photosynthesis; collenchyma is not.",
+                "answer": "C",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "applying",
+                "question": "If a plant is experiencing water scarcity, which type of tissue would likely be most beneficial for its survival?",
+                "A": "Collenchyma",
+                "B": "Aerenchyma",
+                "C": "Meristematic",
+                "D": "Parenchyma",
+                "answer": "D",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "applying",
+                "question": "In a genetic study focusing on plant tissue differentiation, which type of tissue would indicate that cells have lost their ability to divide?",
+                "A": "Meristematic tissue",
+                "B": "Simple permanent tissue",
+                "C": "Collenchyma",
+                "D": "Xylem",
+                "answer": "B",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the role of aerenchyma in aquatic plants?",
+                "A": "To store nutrients and sugars",
+                "B": "To transport water through the plant",
+                "C": "To aid in photosynthesis",
+                "D": "To provide support for buoyancy in water",
+                "answer": "D",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "understanding",
+                "question": "Which statement accurately describes parenchyma cells?",
+                "A": "They are elongated cells that provide structural support.",
+                "B": "They are densely packed with large vacuoles for storage.",
+                "C": "They are specialized for photosynthesis and contain chlorophyll.",
+                "D": "They are found only in the roots of plants.",
+                "answer": "C",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the primary function of parenchyma tissue in plants?",
+                "A": "Providing structural support",
+                "B": "Storing food and providing support",
+                "C": "Conducting water",
+                "D": "Transporting nutrients",
+                "answer": "B",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            },
+            {
+                "level": "remembering",
+                "question": "Which type of tissue is described as having intercellular spaces and thin cell walls?",
+                "A": "Collenchyma",
+                "B": "Phloem",
+                "C": "Aerenchyma",
+                "D": "Parenchyma",
+                "answer": "D",
+                "topic_wiki_name": "Tissue (biology)",
+                "topic_wiki_id": "103915"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In which type of plants is pith typically found at the center of the stem?",
+                "A": "monocotyledons",
+                "B": "ferns",
+                "C": "eudicotyledons",
+                "D": "gymnosperms",
+                "answer": "C",
+                "concept_wiki_name": "Pith",
+                "concept_wiki_id": "415691"
+            },
+            {
+                "question": "What is a primary function of parenchyma cells in various tissues?",
+                "A": "Nutritional support and waste removal",
+                "B": "Structural rigidity and support",
+                "C": "Transport of water and nutrients",
+                "D": "Photosynthesis and gas exchange",
+                "answer": "A",
+                "concept_wiki_name": "Parenchyma",
+                "concept_wiki_id": "633899"
+            },
+            {
+                "question": "In which type of organism is parenchyma used to describe tissue filling the interior?",
+                "A": "Mollusks",
+                "B": "Flatworms",
+                "C": "Cnidarians",
+                "D": "Arthropods",
+                "answer": "B",
+                "concept_wiki_name": "Parenchyma",
+                "concept_wiki_id": "633899"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following statements about mitochondria and chloroplasts is generally true?",
+        "choices": [
+            "Plants have chloroplasts but no mitochondria; animals have mitochondria but no chloroplasts.",
+            "Plants have chloroplasts but no mitochondria; fungi have mitochondria but no chloroplasts.",
+            "Plants and fungi have chloroplasts but no mitochondria; animals have only mitochondria.",
+            "Plants have both chloroplasts and mitochondria; animals and fungi have only mitochondria."
+        ],
+        "answer": 3,
+        "subject": "college_biology",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "What role do chromatophores play in purple bacteria?",
+                "A": "Reaction centers in cell membranes",
+                "B": "Photosynthetic antenna complexes",
+                "C": "Membrane-bounded organelles",
+                "D": "Storage of genetic information",
+                "answer": "A",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the name of the structure in Planctomycetota that separates the cytoplasm into different compartments?",
+                "A": "Chlorosome",
+                "B": "Anammoxosome",
+                "C": "Pirellulosome",
+                "D": "Thylakoid",
+                "answer": "C",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "remembering",
+                "question": "Which organelle is credited as the first to be discovered after the invention of the microscope?",
+                "A": "Vacuoles",
+                "B": "Chloroplasts",
+                "C": "Nucleus",
+                "D": "Mitochondria",
+                "answer": "C",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "remembering",
+                "question": "Which type of bacteria contain structures called chromatophores for photosynthesis?",
+                "A": "Green sulfur bacteria",
+                "B": "Cyanobacteria",
+                "C": "Planctomycetota",
+                "D": "Purple bacteria",
+                "answer": "D",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "applying",
+                "question": "In a cell type that lacks mitochondria, which of the following organelles might compensate for energy production?",
+                "A": "Ribosomes",
+                "B": "Chloroplasts",
+                "C": "Golgi apparatus",
+                "D": "Endoplasmic reticulum",
+                "answer": "B",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "applying",
+                "question": "If an organism's cells are found to lack a nucleus, which type of organelle would you expect to find instead for genetic material processing?",
+                "A": "Plastids",
+                "B": "Vacuoles",
+                "C": "Cilia",
+                "D": "Ribosomes",
+                "answer": "D",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "understanding",
+                "question": "Which structure is included in the endomembrane system of a eukaryotic cell?",
+                "A": "Chloroplasts",
+                "B": "Cell membrane",
+                "C": "Nuclear envelope",
+                "D": "Ribosomes",
+                "answer": "C",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            },
+            {
+                "level": "analyzing",
+                "question": "What can be inferred about the evolution of organelles in prokaryotic cells?",
+                "A": "Prokaryotic organelles are exclusively membrane-bounded",
+                "B": "All prokaryotic cells possess identical organelles",
+                "C": "Prokaryotic cells may have developed primitive organelles independently",
+                "D": "Eukaryotic organelles evolved from prokaryotic organelles",
+                "answer": "C",
+                "topic_wiki_name": "Organelle",
+                "topic_wiki_id": "22393"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements about the discovery of mitochondria is correct?",
+                "A": "Mitochondria were named by Leonor Michaelis in 1890.",
+                "B": "Mitochondria were discovered by Carl Benda in 1898.",
+                "C": "Mitochondria were first identified as organelles by Richard Altmann in 1900.",
+                "D": "Mitochondria were first observed by Albert von Kölliker in 1857.",
+                "answer": "D",
+                "concept_wiki_name": "Mitochondrion",
+                "concept_wiki_id": "19588"
+            },
+            {
+                "question": "What is the main end product of glycolysis in the presence of oxygen?",
+                "A": "Lactic acid",
+                "B": "Glucose",
+                "C": "Carbon dioxide",
+                "D": "Pyruvate",
+                "answer": "D",
+                "concept_wiki_name": "Cellular respiration",
+                "concept_wiki_id": "102871"
+            }
+        ]
+    }
+]

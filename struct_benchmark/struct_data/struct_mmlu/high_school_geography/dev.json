@@ -1,0 +1,62 @@
+[
+    {
+        "question": "The rate of natural increase of a population is found by subtracting the",
+        "subject": "high_school_geography",
+        "choices": [
+            "crude death rate from the crude birth date.",
+            "crude birth rate from the crude death rate.",
+            "doubling time from the crude birth rate.",
+            "fertility rate from the crude death rate."
+        ],
+        "answer": 0,
+        "idx": 0
+    },
+    {
+        "question": "During the third stage of the demographic transition model, which of the following is true?",
+        "subject": "high_school_geography",
+        "choices": [
+            "Birth rates increase and population growth rate is less rapid.",
+            "Birth rates decline and population growth rate is less rapid.",
+            "Birth rates increase and population growth rate increases.",
+            "Birth rates decrease and population growth rate increases."
+        ],
+        "answer": 1,
+        "idx": 1
+    },
+    {
+        "question": "Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?",
+        "subject": "high_school_geography",
+        "choices": [
+            "Duplication of efforts occurs often.",
+            "Social problems of the central city spill over into the surrounding residential suburbs.",
+            "Inefficiency in providing services occurs often.",
+            "One neighborhood's efforts to reduce pollution are always supported by neighboring communities."
+        ],
+        "answer": 3,
+        "idx": 2
+    },
+    {
+        "question": "The practice of hiring a foreign third-party service provider to run an operation is called",
+        "subject": "high_school_geography",
+        "choices": [
+            "outsourcing.",
+            "offshoring.",
+            "maquiladoras.",
+            "locational interdependence."
+        ],
+        "answer": 1,
+        "idx": 3
+    },
+    {
+        "question": "Which one of the following items is an example of nonmaterial culture?",
+        "subject": "high_school_geography",
+        "choices": [
+            "Dove soap",
+            "Dove candy bar",
+            "Dove symbol",
+            "A dove (bird)"
+        ],
+        "answer": 2,
+        "idx": 4
+    }
+]

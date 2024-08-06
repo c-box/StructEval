@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Which of the following persons is more likely to remain at home alone, as of 2019?",
+        "subject": "human_aging",
+        "choices": [
+            "An Asian man or woman",
+            "A Hispanic man",
+            "An African American woman",
+            "A white man or woman"
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the",
+        "subject": "human_aging",
+        "choices": [
+            "Adolescence advantage",
+            "Reminiscence bump",
+            "Memorial memorial",
+            "Quadratic retrieval spike"
+        ],
+        "answer": 1,
+        "idx": 1
+    },
+    {
+        "question": "When older adults move to a new state after retirement, which of the following is the more likely destination?",
+        "subject": "human_aging",
+        "choices": [
+            "Texas",
+            "California",
+            "Hawaii",
+            "Vermont"
+        ],
+        "answer": 0,
+        "idx": 2
+    },
+    {
+        "question": "Which element in tobacco smoke is responsible for cancers?",
+        "subject": "human_aging",
+        "choices": [
+            "Nicotine",
+            "Tar",
+            "Carbon monoxide",
+            "Smoke particles"
+        ],
+        "answer": 1,
+        "idx": 3
+    },
+    {
+        "question": "All other things being equal, which of the following persons is more likely to show osteoporosis?",
+        "subject": "human_aging",
+        "choices": [
+            "An older Hispanic American woman",
+            "An older African American woman",
+            "An older Asian American woman",
+            "An older Native American woman"
+        ],
+        "answer": 2,
+        "idx": 4
+    }
+]

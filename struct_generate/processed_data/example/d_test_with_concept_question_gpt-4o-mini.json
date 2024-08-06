@@ -1,0 +1,181 @@
+[
+    {
+        "question": "Which of the following is true regarding reflexes?",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "An extensor plantar response indicates a lower motor neurone lesion",
+            "The root value of the ankle reflex is S1",
+            "The root value of the knee reflex is L1, L2"
+        ],
+        "answer": 2,
+        "idx": 0,
+        "entities": [
+            {
+                "name": "reflexes",
+                "description": "Reflexes are involuntary and nearly instantaneous movements in response to a stimulus, often mediated by neural pathways known as reflex arcs.",
+                "wiki_info": {
+                    "wiki_id": "381186",
+                    "wiki_name": "Reflex",
+                    "wiki_intro": "In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus.",
+                    "wiki_page": "",
+                    "related_content": "In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus.\n\"Reflex\" is an anatomical concept and it refers to a  loop consisting, in its simplest form, of a sensory nerve, the input, and a motor nerve, the output.  Autonomic does not mean automatic. The term \"autonomic\" is an anatomical term and it refers  to a type of nervous system in animals and humans  that is very primitive. \"Skeletal\" or \"somatic\" are,  similarly, anatomical terms that refer to a type of nervous system that is more recent in terms of  evolutionary development. There are autonomic  reflexes and skeletal, somatic reflexes. Myotatic reflexes. The myotatic or muscle stretch reflexes (sometimes known as \"deep tendon reflexes\") provide information on the integrity of the central nervous system and peripheral nervous system. This information can be detected using electromyography (EMG). Generally, decreased reflexes indicate a peripheral problem, and lively or exaggerated reflexes a central one. A stretch reflex is the contraction of a muscle in response to its lengthwise stretch."
+                },
+                "concept_match": true,
+                "concept_questions": [
+                    {
+                        "question": "Which type of reflex is characterized by a contraction of a muscle in response to its lengthwise stretch?",
+                        "A": "Myotatic reflex",
+                        "B": "Autonomic reflex",
+                        "C": "Skeletal reflex",
+                        "D": "Flexor reflex",
+                        "answer": "A",
+                        "explanation": "According to the document, a stretch reflex is the contraction of a muscle in response to its lengthwise stretch, which is described as a myotatic reflex."
+                    },
+                    {
+                        "question": "What does a lively or exaggerated reflex typically indicate about the nervous system?",
+                        "A": "A peripheral problem",
+                        "B": "A central problem",
+                        "C": "No issues with the nervous system",
+                        "D": "A normal reflex response",
+                        "answer": "B",
+                        "explanation": "According to the document, lively or exaggerated reflexes indicate a central problem in the nervous system."
+                    },
+                    {
+                        "question": "What type of reflex is primarily involved in providing information on the integrity of the central and peripheral nervous systems?",
+                        "A": "Autonomic reflex",
+                        "B": "Myotatic reflex",
+                        "C": "Skeletal reflex",
+                        "D": "Stretch reflex",
+                        "answer": "B",
+                        "explanation": "According to the document, myotatic reflexes provide information on the integrity of the central nervous system and peripheral nervous system."
+                    }
+                ]
+            },
+            {
+                "name": "ankle reflex",
+                "description": "The ankle reflex, also known as the Achilles reflex, is a deep tendon reflex that tests the S1 nerve root and involves the contraction of the gastrocnemius muscle.",
+                "wiki_info": {
+                    "wiki_id": "380299",
+                    "wiki_name": "Ankle jerk reflex",
+                    "wiki_intro": "The ankle jerk reflex, also known as the Achilles reflex, occurs when the Achilles tendon is tapped while the foot is dorsiflexed. ",
+                    "wiki_page": "",
+                    "related_content": "Stretch reflex that occurs when the Achilles tendon is tapped The ankle jerk reflex, also known as the Achilles reflex, occurs when the Achilles tendon is tapped while the foot is dorsiflexed.  It is a type of stretch reflex that tests the function of the gastrocnemius muscle and the nerve that supplies it. A positive result would be the jerking of the foot towards its plantar surface. Being a deep tendon reflex, it is monosynaptic. It is also a stretch reflex.  These are monosynaptic spinal segmental reflexes. When they are intact, integrity of the following is confirmed: cutaneous innervation, motor supply, and cortical input to the corresponding spinal segment. Root value. This reflex is mediated by the S1 spinal segment of the spinal cord. Procedure and components. Ankle of the patient is relaxed. It is helpful to support the ball of the foot at least somewhat to put some tension in the Achilles tendon, but don’t completely dorsiflex the ankle. A small strike is given on the Achilles tendon using a rubber hammer to elicit the response."
+                },
+                "concept_match": true,
+                "concept_questions": [
+                    {
+                        "question": "What type of reflex is the ankle jerk reflex classified as?",
+                        "A": "Deep tendon reflex",
+                        "B": "Withdrawal reflex",
+                        "C": "Superficial reflex",
+                        "D": "Crossed extensor reflex",
+                        "answer": "A",
+                        "explanation": "According to the document, the ankle jerk reflex is classified as a deep tendon reflex."
+                    },
+                    {
+                        "question": "Which muscle is primarily tested by the ankle reflex?",
+                        "A": "Soleus",
+                        "B": "Gastrocnemius",
+                        "C": "Tibialis anterior",
+                        "D": "Quadriceps femoris",
+                        "answer": "B",
+                        "explanation": "According to the document, the ankle reflex tests the function of the gastrocnemius muscle."
+                    },
+                    {
+                        "question": "What spinal segment mediates the ankle jerk reflex?",
+                        "A": "L5",
+                        "B": "S1",
+                        "C": "S2",
+                        "D": "L4",
+                        "answer": "B",
+                        "explanation": "According to the document, the ankle jerk reflex is mediated by the S1 spinal segment."
+                    }
+                ]
+            },
+            {
+                "name": "knee reflex",
+                "description": "The knee reflex, or patellar reflex, is a deep tendon reflex that tests the L2 and L3 nerve roots, causing an involuntary contraction of the quadriceps muscle.",
+                "wiki_info": {
+                    "wiki_id": "1047057",
+                    "wiki_name": "Patellar reflex",
+                    "wiki_intro": "The patellar reflex, also called the knee reflex or knee-jerk, is a stretch reflex which tests the L2, L3, and L4 segments of the spinal cord. Many animals, most significantly humans, have been seen to have the patellar reflex, including dogs, cats, horses, and other mammalian species. ",
+                    "wiki_page": "",
+                    "related_content": "Monosynaptic reflex The patellar reflex, also called the knee reflex or knee-jerk, is a stretch reflex which tests the L2, L3, and L4 segments of the spinal cord. Many animals, most significantly humans, have been seen to have the patellar reflex, including dogs, cats, horses, and other mammalian species.  Mechanism. Striking of the patellar tendon with a reflex hammer just below the patella stretches the muscle spindle in the quadriceps muscle. This produces a signal which travels back to the spinal cord and synapses (without interneurons) at the level of L3 or L4 in the spinal cord, completely independent of higher centres. From there, an alpha motor neuron conducts an efferent impulse back to the quadriceps femoris muscle, triggering contraction. This contraction, coordinated with the relaxation of the antagonistic flexor hamstring muscle causes the leg to kick. There is a latency of around 18 ms between stretch of the patellar tendon and the beginning of contraction of the quadriceps femoris muscle. This is a reflex of proprioception which helps maintain posture and balance, allowing to keep one's balance with little effort or conscious thought."
+                },
+                "concept_match": true,
+                "concept_questions": [
+                    {
+                        "question": "Which spinal cord segments are primarily involved in the patellar reflex?",
+                        "A": "L1 and L2",
+                        "B": "L2, L3, and L4",
+                        "C": "S1 and S2",
+                        "D": "L4 and L5",
+                        "answer": "B",
+                        "explanation": "According to the document, the patellar reflex tests the L2, L3, and L4 segments of the spinal cord."
+                    },
+                    {
+                        "question": "What initiates the patellar reflex when the patellar tendon is struck?",
+                        "A": "Stretching of the hamstring muscle",
+                        "B": "Stretching of the muscle spindle in the quadriceps muscle",
+                        "C": "Activation of higher brain centers",
+                        "D": "Contraction of the gastrocnemius muscle",
+                        "answer": "B",
+                        "explanation": "According to the document, striking the patellar tendon stretches the muscle spindle in the quadriceps muscle."
+                    },
+                    {
+                        "question": "What is the primary purpose of the patellar reflex?",
+                        "A": "To enhance muscle strength",
+                        "B": "To aid in voluntary movement control",
+                        "C": "To maintain posture and balance",
+                        "D": "To stimulate the flexor muscles",
+                        "answer": "C",
+                        "explanation": "According to the document, the patellar reflex helps maintain posture and balance."
+                    }
+                ]
+            },
+            {
+                "name": "Babinski reflex",
+                "description": "The Babinski reflex is a neurological test where a stimulus is applied to the sole of the foot, with a positive response indicating an abnormal reflex in adults, typically associated with upper motor neuron lesions.",
+                "wiki_info": {
+                    "wiki_id": "562978",
+                    "wiki_name": "Plantar reflex",
+                    "wiki_intro": "The plantar reflex is a reflex elicited when the sole of the foot is stimulated with a blunt instrument. The reflex can take one of two forms. In healthy adults, the plantar reflex causes a downward response of the hallux (flexion). An upward response (extension) of the hallux is known as the Babinski response or Babinski sign, named after the neurologist Joseph Babinski. The presence of the Babinski sign can identify disease of the spinal cord and brain in adults, and also exists as a primitive reflex in infants.",
+                    "wiki_page": "",
+                    "related_content": "Reflex elicited when the sole of the foot is stimulated with a blunt instrument The plantar reflex is a reflex elicited when the sole of the foot is stimulated with a blunt instrument. The reflex can take one of two forms. In healthy adults, the plantar reflex causes a downward response of the hallux (flexion). An upward response (extension) of the hallux is known as the Babinski response or Babinski sign, named after the neurologist Joseph Babinski. The presence of the Babinski sign can identify disease of the spinal cord and brain in adults, and also exists as a primitive reflex in infants. While first described in the medical literature by Babinski in 1896, the reflex has been identified in art at least as early as Botticelli's \"Virgin and Child with an Angel\", painted in the mid-15th century. Methods. The lateral side of the sole of the foot is rubbed with a blunt instrument or device so as not to cause pain, discomfort, or injury to the skin; the instrument is run from the heel along a curve to the toes (metatarsal pads)."
+                },
+                "concept_match": true,
+                "concept_questions": [
+                    {
+                        "question": "What is the typical response of the hallux in a healthy adult during the plantar reflex?",
+                        "A": "Extension of the hallux",
+                        "B": "Flexion of the hallux",
+                        "C": "No movement of the hallux",
+                        "D": "Inward curl of the hallux",
+                        "answer": "B",
+                        "explanation": "According to the document, the plantar reflex causes a downward response of the hallux (flexion) in healthy adults."
+                    },
+                    {
+                        "question": "What does the presence of the Babinski sign indicate in adults?",
+                        "A": "Normal neurological function",
+                        "B": "Lower motor neurone lesion",
+                        "C": "Disease of the spinal cord and brain",
+                        "D": "Upper motor neurone lesion",
+                        "answer": "C",
+                        "explanation": "According to the document, the presence of the Babinski sign can identify disease of the spinal cord and brain in adults."
+                    },
+                    {
+                        "question": "Which of the following best describes the Babinski reflex in infants?",
+                        "A": "It is a sign of neurological disorder",
+                        "B": "It is a normal primitive reflex",
+                        "C": "It causes flexion of the toes",
+                        "D": "It indicates lower motor neurone lesions",
+                        "answer": "B",
+                        "explanation": "According to the document, the Babinski reflex also exists as a primitive reflex in infants."
+                    }
+                ]
+            }
+        ],
+        "gpt_model": "gpt-4o-mini"
+    }
+]

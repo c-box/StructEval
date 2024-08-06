@@ -1,0 +1,109 @@
+[
+  {
+    "question": "During the third stage of the demographic transition model, which of the following is true?",
+    "subject": "high_school_geography",
+    "choices": [
+      "Birth rates increase and population growth rate is less rapid.",
+      "Birth rates decline and population growth rate is less rapid.",
+      "Birth rates increase and population growth rate increases.",
+      "Birth rates decrease and population growth rate increases."
+    ],
+    "topic": {
+      "name": "demographic transition",
+      "description": "In demography, demographic transition is a phenomenon and theory which refers to the historical shift from high birth rates and high death rates in societies with minimal technology, education (especially of women) and economic development, to low birth rates and low death rates in societies with advanced technology, education and economic development, as well as the stages between these two scenarios."
+    },
+    "entities": [
+      {
+        "name": "demographic transition",
+        "description": "In demography, demographic transition is a phenomenon and theory which refers to the historical shift from high birth rates and high death rates in societies with minimal technology, education (especially of women) and economic development, to low birth rates and low death rates in societies with advanced technology, education and economic development, as well as the stages between these two scenarios."
+      },
+      {
+        "name": "third stage of demographic transition",
+        "description": "In stage three of demographic transition, birth rates fall due to various fertility factors such as access to contraception, increases in wages, urbanization, a reduction in subsistence agriculture, an increase in the status and education of women, a reduction in the value of children's work, an increase in parental investment in the education of children and other social changes."
+      },
+      {
+        "name": "birth rates",
+        "description": "Birth rate, also known as natality, is the total number of live human births per 1,000 population for a given period divided by the length of the period in years."
+      },
+      {
+        "name": "population growth rate",
+        "description": "Population growth is the increase in the number of people in a population or dispersed group. Actual global human population growth amounts to around 83 million annually, or 1.1% per year."
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is expected to be a polar molecule?",
+    "subject": "high_school_chemistry",
+    "choices": [
+      "PCl4F",
+      "BF3",
+      "CO2",
+      "Si(CH3)4"
+    ],
+    "topic": {
+      "name": "molecular polarity",
+      "description": "In chemistry, polarity is a separation of electric charge leading to a molecule or its chemical groups having an electric dipole moment, with a negatively charged end and a positively charged end."
+    },
+    "entities": [
+      {
+        "name": "molecular polarity",
+        "description": "In chemistry, polarity is a separation of electric charge leading to a molecule or its chemical groups having an electric dipole moment, with a negatively charged end and a positively charged end."
+      },
+      {
+        "name": "PCl4F",
+        "description": "This is a molecule composed of phosphorus, chlorine, and fluorine."
+      },
+      {
+        "name": "BF3",
+        "description": "This is a molecule made up of boron and fluorine."
+      },
+      {
+        "name": "CO2",
+        "description": "This is carbon dioxide, composed of carbon and oxygen."
+      },
+      {
+        "name": "Si(CH3)4",
+        "description": "This is tetramethylsilane, consisting of silicon and methyl groups (CH3)."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In which of the following country did the largest number of children die under the age of five years in 2017?",
+    "subject": "global_facts",
+    "choices": [
+      "China",
+      "United States",
+      "Indonesia",
+      "Pakistan"
+    ],
+    "topic": {
+        "name": "Child Mortality",
+        "description": "Child mortality is the mortality of children under the age of five"
+    },
+    "entities": [
+        {
+            "name": "Child Mortality",
+            "description": "Child mortality is the mortality of children under the age of five"
+        },
+        {
+            "name": "China",
+            "description": "cultural region, ancient civilization, and nation in East Asia, mostly refer to the People's Republic of China in political situation and rarely refer to the Republic of China"
+        },
+        {
+            "name": "United States",
+            "description": "The United States of America (USA), commonly known as the United States (U.S.) or America, is a country primarily located in North America."
+        },
+        {
+            "name": "Indonesia",
+            "description": "Indonesia,officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. "
+        },
+        {
+            "name": "Pakistan",
+            "description": "Pakistan,[e] officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million, having the largest Muslim population as of 2023."
+        }
+    ],
+    "answer": 3
+  }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "question": "SHA-1 has a message digest of",
+        "subject": "computer_security",
+        "choices": [
+            "160 bits",
+            "512 bits",
+            "628 bits",
+            "820 bits"
+        ],
+        "answer": 0,
+        "idx": 0
+    },
+    {
+        "question": "_____________ can modify data on your system – so that your system doesn’t run correctly or you can no longer access specific data, or it may even ask for ransom in order to give your access.",
+        "subject": "computer_security",
+        "choices": [
+            "IM – Trojans",
+            "Backdoor Trojans",
+            "Trojan-Downloader",
+            "Ransom Trojan"
+        ],
+        "answer": 3,
+        "idx": 1
+    },
+    {
+        "question": "What is ethical hacking?",
+        "subject": "computer_security",
+        "choices": [
+            "\"Hacking\" ethics so they justify unintended selfish behavior",
+            "Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited",
+            "Hacking into systems run by those whose ethics you disagree with",
+            "A slang term for rapid software development, e.g., as part of hackathons"
+        ],
+        "answer": 1,
+        "idx": 2
+    },
+    {
+        "question": "Exploitation of the Heartbleed bug permits",
+        "subject": "computer_security",
+        "choices": [
+            "overwriting cryptographic keys in memory",
+            "a kind of code injection",
+            "a read outside bounds of a buffer",
+            "a format string attack"
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": "The ____________ is anything which your search engine cannot search.",
+        "subject": "computer_security",
+        "choices": [
+            "Haunted web",
+            "World Wide Web",
+            "Surface web",
+            "Deep Web"
+        ],
+        "answer": 3,
+        "idx": 4
+    }
+]

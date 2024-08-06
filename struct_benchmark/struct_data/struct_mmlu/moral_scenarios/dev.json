@@ -1,0 +1,62 @@
+[
+    {
+        "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I really loved my newborn baby boy. Scenario 2 | The new girl is embarrassed to live in a trailer park, so I invite the class to her house.",
+        "subject": "moral_scenarios",
+        "choices": [
+            "Wrong, Wrong",
+            "Wrong, Not wrong",
+            "Not wrong, Wrong",
+            "Not wrong, Not wrong"
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I asked for a cigarette from the guy outside the store. Scenario 2 | When the security guard left his post, I pocketed a rare coin.",
+        "subject": "moral_scenarios",
+        "choices": [
+            "Wrong, Wrong",
+            "Wrong, Not wrong",
+            "Not wrong, Wrong",
+            "Not wrong, Not wrong"
+        ],
+        "answer": 2,
+        "idx": 1
+    },
+    {
+        "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I bought an old pick-up truck for work. Scenario 2 | I looked up at the gorgeous waterfall and threw a rock at it.",
+        "subject": "moral_scenarios",
+        "choices": [
+            "Wrong, Wrong",
+            "Wrong, Not wrong",
+            "Not wrong, Wrong",
+            "Not wrong, Not wrong"
+        ],
+        "answer": 3,
+        "idx": 2
+    },
+    {
+        "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | During the house's demolition, I pushed him into a wall. Scenario 2 | When I choose a babysitter for my twin nieces, I don't care about her racial background.",
+        "subject": "moral_scenarios",
+        "choices": [
+            "Wrong, Wrong",
+            "Wrong, Not wrong",
+            "Not wrong, Wrong",
+            "Not wrong, Not wrong"
+        ],
+        "answer": 1,
+        "idx": 3
+    },
+    {
+        "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I took his wallet after he harassed me at the bar. Scenario 2 | I made love to my newborn baby boy.",
+        "subject": "moral_scenarios",
+        "choices": [
+            "Wrong, Wrong",
+            "Wrong, Not wrong",
+            "Not wrong, Wrong",
+            "Not wrong, Not wrong"
+        ],
+        "answer": 0,
+        "idx": 4
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "question": " Select the best translation into predicate logic: No people drive on Mars.",
+        "subject": "formal_logic",
+        "choices": [
+            "~Pd",
+            "(∀x)(Px ∨ ~Dx)",
+            "(∀x)(Px ⊃ ~Dx)",
+            "~Dp"
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)",
+        "subject": "formal_logic",
+        "choices": [
+            "Blgh",
+            "Bhlg",
+            "Bglh",
+            "Bghl"
+        ],
+        "answer": 2,
+        "idx": 1
+    },
+    {
+        "question": " Select the best English interpretation of the given arguments in predicate logic.\nDm\n(∀x)(Wx ⊃ ~Dx)\n(∀x)Wx ∨ Ag\t/ (∃x)Ax",
+        "subject": "formal_logic",
+        "choices": [
+            "Marina is a dancer. Some weaklings are not dancers. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.",
+            "Marina is a dancer. No weakling is a dancer. Everything is either a weakling or plays volleyball. So something plays volleyball.",
+            "Marina is a dancer. Some weaklings are not dancers. Everything is either a weakling or plays volleyball. So something plays volleyball.",
+            "Marina is a dancer. No weakling is a dancer. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball."
+        ],
+        "answer": 3,
+        "idx": 2
+    },
+    {
+        "question": " Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\nE ⊃ (F · E) and ~E · F",
+        "subject": "formal_logic",
+        "choices": [
+            "Logically equivalent",
+            "Contradictory",
+            "Neither logically equivalent nor contradictory, but consistent",
+            "Inconsistent"
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": " Which of the given formulas of PL is the best symbolization of the following sentence?\nTurtles live long lives and are happy creatures, unless they are injured.",
+        "subject": "formal_logic",
+        "choices": [
+            "(L • H) ≡ I",
+            "(L • H) ∨ I",
+            "L • (H ∨ I)",
+            "L • (H ⊃ R)"
+        ],
+        "answer": 1,
+        "idx": 4
+    }
+]

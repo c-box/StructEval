@@ -1,0 +1,62 @@
+[
+    {
+        "question": " What is the sign of the covenant for Jewish males?",
+        "subject": "world_religions",
+        "choices": [
+            "The rainbow",
+            "Circumcision",
+            "A son",
+            "Bar mitzvah"
+        ],
+        "answer": 1,
+        "idx": 0
+    },
+    {
+        "question": "What is the Second Gem in Buddhism?",
+        "subject": "world_religions",
+        "choices": [
+            "The Dharma",
+            "The Sangha",
+            "The Buddha",
+            "The Bodhisattva"
+        ],
+        "answer": 0,
+        "idx": 1
+    },
+    {
+        "question": " In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?",
+        "subject": "world_religions",
+        "choices": [
+            "Shang",
+            "Zhou",
+            "Han",
+            "Xia"
+        ],
+        "answer": 1,
+        "idx": 2
+    },
+    {
+        "question": " Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?",
+        "subject": "world_religions",
+        "choices": [
+            "Honen",
+            "Tanaka",
+            "Tokugawa",
+            "Meiji"
+        ],
+        "answer": 3,
+        "idx": 3
+    },
+    {
+        "question": "How can the Upanishads be characterized?",
+        "subject": "world_religions",
+        "choices": [
+            "Ritual texts",
+            "Philosophical texts",
+            "Hymns",
+            "Origin stories"
+        ],
+        "answer": 1,
+        "idx": 4
+    }
+]

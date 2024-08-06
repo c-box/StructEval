@@ -1,0 +1,2260 @@
+[
+    {
+        "question": "A coach rounded the number of runners at a track meet to the nearest 10. The rounded number of runners is 400. Which number could be the actual number of runners at the track meet?",
+        "choices": [
+            "382",
+            "397",
+            "406",
+            "447"
+        ],
+        "answer": 1,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is stochastic rounding used for?",
+                "A": "To achieve 2-dimensional dithering",
+                "B": "To round to significant digits",
+                "C": "To round to the nearest integer",
+                "D": "To achieve 1-dimensional dithering",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "remembering",
+                "question": "What is another name for the round-to-nearest method?",
+                "A": "Gaussian rounding",
+                "B": "Directed rounding",
+                "C": "Stochastic rounding",
+                "D": "Convergent rounding",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "remembering",
+                "question": "What rounding method is used in IEEE 754 operations?",
+                "A": "Directed rounding",
+                "B": "Round half to odd",
+                "C": "Bankers' rounding",
+                "D": "Convergent rounding",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which rounding method is designed to eliminate bias in calculations?",
+                "A": "Directed rounding",
+                "B": "Convergent rounding",
+                "C": "Stochastic rounding",
+                "D": "Round half to even",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "evaluating",
+                "question": "What rounding method would be most appropriate for financial calculations requiring consistency?",
+                "A": "Round half to odd",
+                "B": "Stochastic rounding",
+                "C": "Directed rounding",
+                "D": "Gaussian rounding",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "creating",
+                "question": "How would you design a rounding method to minimize bias in financial calculations?",
+                "A": "Round all numbers up to the nearest integer.",
+                "B": "Use directed rounding toward zero regardless of sign.",
+                "C": "Always round down for positive numbers and up for negatives.",
+                "D": "Implement convergent rounding for all decimal values.",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "creating",
+                "question": "What approach would you take to define a new rounding function that maintains the probability distribution of a dataset?",
+                "A": "Use traditional rounding methods for all values.",
+                "B": "Round all numbers to the nearest integer without any conditions.",
+                "C": "Apply round half to even to all fractional values.",
+                "D": "Use random rounding to avoid any bias.",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the most common type of rounding described?",
+                "A": "Rounding to an integer.",
+                "B": "Rounding to a specified fraction.",
+                "C": "Rounding to a decimal point.",
+                "D": "Rounding to a whole percentage.",
+                "answer": "A",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens when using the round half to odd method?",
+                "A": "All numbers ending in .5 round up.",
+                "B": "Numbers with a fractional part of .5 round to the nearest even integer.",
+                "C": "Numbers with a fractional part of .5 round to the nearest odd integer.",
+                "D": "Numbers are rounded down if they are negative.",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "applying",
+                "question": "When rounding the number 12.5 using the round half to odd method, what is the expected result?",
+                "A": "12",
+                "B": "11",
+                "C": "12.5",
+                "D": "13",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "applying",
+                "question": "If you have a measurement of 3.14159 inches and need to round it to the nearest eighth of an inch, what would be the correct value?",
+                "A": "3.14",
+                "B": "3.125",
+                "C": "3.25",
+                "D": "3.5",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "applying",
+                "question": "In financial calculations, if you round the amount $2.999 to the nearest cent, what should it be?",
+                "A": "$2.95",
+                "B": "$2.99",
+                "C": "$3.00",
+                "D": "$2.98",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which rounding method aims to eliminate bias in repeated calculations?",
+                "A": "Statistical rounding",
+                "B": "Convergent rounding",
+                "C": "Directed rounding",
+                "D": "Random rounding",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following describes stochastic rounding?",
+                "A": "Rounding based on a random selection of values",
+                "B": "Rounding to the nearest integer without bias",
+                "C": "Rounding to the nearest multiple of ten",
+                "D": "Rounding that always results in a higher value",
+                "answer": "A",
+                "concept_wiki_name": "Rounding",
+                "concept_wiki_id": "169945"
+            }
+        ]
+    },
+    {
+        "question": "Jimmy and Kima are going on a trip. They will drive for three days. The first day they will drive 182 miles. The second day they will drive 439 miles. The third day they will drive 217 miles. Which expression is the closest estimate of how many miles Jimmy and Kima will drive on their trip?",
+        "choices": [
+            "150 + 400 + 200",
+            "200 + 400 + 200",
+            "200 + 450 + 200",
+            "200 + 500 + 200"
+        ],
+        "answer": 2,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "creating",
+                "question": "What innovative approach could you apply to reduce overconfidence in estimations made by human estimators?",
+                "A": "Implement a peer-review system for all estimates.",
+                "B": "Require estimators to explain their reasoning behind estimates.",
+                "C": "Introduce a standard estimate that everyone must follow.",
+                "D": "Establish a mandatory training program on estimation techniques.",
+                "answer": "A",
+                "topic_wiki_name": "Estimation",
+                "topic_wiki_id": "36687154"
+            },
+            {
+                "level": "remembering",
+                "question": "What systematic issue do human estimators often face?",
+                "A": "Underestimating the number of necessary resources",
+                "B": "Overestimating the time required for completion",
+                "C": "Failing to consider all variables in a project",
+                "D": "Believing their estimates are more accurate than they are",
+                "answer": "D",
+                "topic_wiki_name": "Estimation",
+                "topic_wiki_id": "36687154"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following best describes the process of addition in modern computer designs?",
+                "A": "Both addends are preserved and the sum is displayed",
+                "B": "Only the smaller addend is used for further calculations",
+                "C": "Only the larger addend is kept in memory",
+                "D": "Only the sum is retained, and the addends are destroyed",
+                "answer": "D",
+                "concept_wiki_name": "Addition",
+                "concept_wiki_id": "61338"
+            },
+            {
+                "question": "Which technique is mentioned as a method for rounding in Monte Carlo arithmetic?",
+                "A": "Stochastic rounding",
+                "B": "Randomized estimation",
+                "C": "Exact computation",
+                "D": "Probabilistic rounding",
+                "answer": "A",
+                "concept_wiki_name": "Rounding",
+                "concept_wiki_id": "169945"
+            },
+            {
+                "question": "In the context of rounding, what can be said about the computation of square roots of perfect squares?",
+                "A": "They are computed by converting to floating-point and rounding to the nearest integer.",
+                "B": "They can be approximated by rounding any decimal result.",
+                "C": "They yield less accurate results than integer square roots.",
+                "D": "They require complex algorithms for accurate representation.",
+                "answer": "A",
+                "concept_wiki_name": "Rounding",
+                "concept_wiki_id": "169945"
+            }
+        ]
+    },
+    {
+        "question": "What is the greatest common factor of 36 and 90?",
+        "choices": [
+            "6",
+            "18",
+            "36",
+            "180"
+        ],
+        "answer": 1,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "What term is used to refer to two numbers whose greatest common divisor equals 1?",
+                "A": "Divisors",
+                "B": "Relatively prime numbers",
+                "C": "Common multiples",
+                "D": "Coprime numbers",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the significance of the greatest common divisor (GCD) in mathematics?",
+                "A": "It is the smallest integer that divides two numbers.",
+                "B": "It is the total number of divisors of two numbers.",
+                "C": "It is the largest positive integer that divides each of the integers.",
+                "D": "It is the average of the two numbers.",
+                "answer": "C",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "understanding",
+                "question": "Which pairs of numbers are described as coprime?",
+                "A": "9 and 28",
+                "B": "12 and 18",
+                "C": "54 and 24",
+                "D": "8 and 12",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "understanding",
+                "question": "What does the binary GCD algorithm primarily optimize for?",
+                "A": "Binary representation of numbers",
+                "B": "Addition of two numbers",
+                "C": "Finding the product of two numbers",
+                "D": "Calculating the average of two numbers",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the significance of the number 6 in relation to the greatest common divisor of 54 and 24?",
+                "A": "It is the greatest common divisor of both numbers.",
+                "B": "It is the smallest common divisor of both numbers.",
+                "C": "It is a prime factor of both numbers.",
+                "D": "It is the least common multiple of both numbers.",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "analyzing",
+                "question": "What mathematical property do the numbers 9 and 28 share?",
+                "A": "They have a greatest common divisor of 2.",
+                "B": "They are both prime numbers.",
+                "C": "They share multiple common divisors.",
+                "D": "They are coprime.",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "creating",
+                "question": "In designing a project that involves calculating the GCD for various pairs of integers, which approach would you recommend to ensure students grasp the concept effectively?",
+                "A": "Use the binary GCD algorithm focusing on its binary representation.",
+                "B": "Encourage students to memorize the GCD values for common number pairs.",
+                "C": "Have students manually compute GCD using prime factorization.",
+                "D": "Instruct students to list all divisors for each number pair.",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "applying",
+                "question": "If two numbers, 36 and 48, were analyzed for their greatest common divisor, which method would be most efficient?",
+                "A": "Listing all divisors of both numbers",
+                "B": "Calculating the product of the two numbers",
+                "C": "Finding their prime factors",
+                "D": "Using the Euclidean algorithm",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "applying",
+                "question": "Given two numbers, 15 and 28, what conclusion can be drawn about their relationship in terms of common divisors?",
+                "A": "They share multiple common divisors.",
+                "B": "They have one common factor.",
+                "C": "Their greatest common divisor is 7.",
+                "D": "They are coprime.",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "applying",
+                "question": "When trying to compute the GCD of 30 and 45, which of the following could potentially mislead your calculation?",
+                "A": "Finding the least common multiple first.",
+                "B": "Using the formula for calculating the GCD.",
+                "C": "Applying the Euclidean algorithm correctly.",
+                "D": "Assuming the GCD is the smallest number of the two.",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is preferable when there are several common factors in factorization?",
+                "A": "To factor out the smallest common factor",
+                "B": "To list all common factors",
+                "C": "To ignore the common factors",
+                "D": "To divide out the greatest common factor",
+                "answer": "D",
+                "concept_wiki_name": "Factorization",
+                "concept_wiki_id": "82341"
+            },
+            {
+                "question": "In the example given, what is the common factor used to factor the terms 6, 8, and 10?",
+                "A": "4",
+                "B": "6",
+                "C": "2",
+                "D": "10",
+                "answer": "C",
+                "concept_wiki_name": "Factorization",
+                "concept_wiki_id": "82341"
+            },
+            {
+                "question": "Which of the following statements correctly describes a divisor?",
+                "A": "A divisor is an integer that leaves a remainder when dividing another integer.",
+                "B": "A divisor is an integer that is less than the integer it divides.",
+                "C": "A divisor must always be a positive integer.",
+                "D": "A divisor is an integer that can multiply with another integer to produce a specific integer.",
+                "answer": "D",
+                "concept_wiki_name": "Divisor",
+                "concept_wiki_id": "49492"
+            },
+            {
+                "question": "Which of the following is NOT a characteristic of divisibility?",
+                "A": "Divisibility can apply to negative integers.",
+                "B": "Divisibility implies no remainder is left after division.",
+                "C": "Divisibility can be expressed with the notation indicating one integer divides another.",
+                "D": "Divisibility is restricted to positive integers only.",
+                "answer": "D",
+                "concept_wiki_name": "Divisor",
+                "concept_wiki_id": "49492"
+            }
+        ]
+    },
+    {
+        "question": "Altogether, Sonia and Negin have $27.00. Sonia buys a shirt for $12.35 and Negin buys a pair of sandals for $10.11. How much money remains?",
+        "choices": [
+            "$4.46 ",
+            "$4.54 ",
+            "$5.36 ",
+            "$5.76 "
+        ],
+        "answer": 1,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is the result of truncating the number π to 4 decimal places?",
+                "A": "3.1415",
+                "B": "3.142",
+                "C": "3.140",
+                "D": "3.141",
+                "answer": "D",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "remembering",
+                "question": "What operation is often treated as a special case of addition?",
+                "A": "Subtraction",
+                "B": "Multiplication",
+                "C": "Division",
+                "D": "Exponentiation",
+                "answer": "A",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement best reflects the nature of numeral systems?",
+                "A": "All numeral systems are positional.",
+                "B": "Non-positional systems rely on the value of a digit based on its position.",
+                "C": "Non-positional systems use additional symbols for larger numbers only.",
+                "D": "Positional systems allow for more complex representations than non-positional systems.",
+                "answer": "D",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "applying",
+                "question": "When rounding the number 3.146 to two decimal places, what would be the result?",
+                "A": "3.14",
+                "B": "3.15",
+                "C": "3.13",
+                "D": "3.146",
+                "answer": "B",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "applying",
+                "question": "If a computer needs to perform approximate calculations on the number π, which method would be appropriate?",
+                "A": "Truncation to 3.14",
+                "B": "Rounding to 3.142",
+                "C": "Rounding to 3.141",
+                "D": "Truncation to 3.141",
+                "answer": "B",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "applying",
+                "question": "In a situation where a number needs to be divided into three equal parts, what term describes this operation?",
+                "A": "Quotient",
+                "B": "Product",
+                "C": "Dividend",
+                "D": "Multiplicand",
+                "answer": "A",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "understanding",
+                "question": "How is rounding defined in the context of the document?",
+                "A": "It discards digits to keep only the most significant ones.",
+                "B": "It increases the last preserved digit based on the next digit's value.",
+                "C": "It converts numbers into their nearest whole values.",
+                "D": "It simplifies numbers by removing decimal points.",
+                "answer": "B",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            },
+            {
+                "level": "understanding",
+                "question": "In what way is subtraction treated?",
+                "A": "As a separate operation with unique properties.",
+                "B": "As adding a negative number instead of subtracting.",
+                "C": "As a special case of multiplication.",
+                "D": "As a complex operation requiring additional steps.",
+                "answer": "B",
+                "topic_wiki_name": "Arithmetic",
+                "topic_wiki_id": "3118"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What type of change does percentage point change represent in subtraction?",
+                "A": "Absolute change between two quantities",
+                "B": "Relative change between two quantities",
+                "C": "Change in total quantity",
+                "D": "Incremental change over time",
+                "answer": "A",
+                "concept_wiki_name": "Subtraction",
+                "concept_wiki_id": "74141"
+            }
+        ]
+    },
+    {
+        "question": "Stephanie flew 2,448 miles from Los Angeles to New York City. What is the number of miles Stephanie flew rounded to the nearest thousand?",
+        "choices": [
+            "2,000",
+            "2,400",
+            "2,500",
+            "3,000"
+        ],
+        "answer": 0,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "Who introduced the sign for approximately equal to (≈)?",
+                "A": "Isaac Newton",
+                "B": "Carl Friedrich Gauss",
+                "C": "Alfred George Greenhill",
+                "D": "Leonhard Euler",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the smallest integer that is not less than a number called?",
+                "A": "Floor",
+                "B": "Rounding down",
+                "C": "Ceiling",
+                "D": "Rounding toward zero",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the problem called when rounding transcendental mathematical functions accurately?",
+                "A": "The table-maker's dilemma",
+                "B": "The approximation dilemma",
+                "C": "The rounding paradox",
+                "D": "The rounding error problem",
+                "answer": "A",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which characteristic of rounding methods ensures that rounding does not change the order of values?",
+                "A": "Idempotent property",
+                "B": "Monotonic property",
+                "C": "Piecewise constant function",
+                "D": "Bias-free nature",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does the rounding method of 'round-half-to-even' help in avoiding bias?",
+                "A": "It always rounds up when the number is exactly halfway.",
+                "B": "It alternates rounding directions based on previous values.",
+                "C": "It ensures all values are rounded down.",
+                "D": "It applies the same rounding rule to all numbers consistently.",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which rounding method is characterized by giving an unbiased result on average?",
+                "A": "Round-half-to-even",
+                "B": "Truncation",
+                "C": "Round-half-to-odd",
+                "D": "Stochastic rounding",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "evaluating",
+                "question": "How does rounding affect the order of numbers?",
+                "A": "Rounding does not affect the order when maintaining the same precision.",
+                "B": "Rounding can change the order of numbers.",
+                "C": "Rounding always results in the same value for all numbers.",
+                "D": "Rounding is irrelevant in determining the order of numbers.",
+                "answer": "A",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "creating",
+                "question": "How would you design a method to minimize rounding errors in stock market index calculations?",
+                "A": "Round all values to the nearest whole number before averaging.",
+                "B": "Recalculate values using rounding to the nearest thousandth instead of truncation.",
+                "C": "Only round values when they exceed a certain threshold.",
+                "D": "Use stochastic rounding for all calculations.",
+                "answer": "B",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "applying",
+                "question": "If an index value calculated with truncation shows a discrepancy, what rounding method could be employed to potentially correct the value?",
+                "A": "Rounding toward zero.",
+                "B": "Rounding up to the nearest integer.",
+                "C": "Rounding to the nearest thousandth.",
+                "D": "Rounding down to the nearest integer.",
+                "answer": "C",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "applying",
+                "question": "If a student decides to round the number 1.6 using stochastic rounding, what is the most likely outcome based on the probabilities given?",
+                "A": "It will be rounded to 2 with a probability of 0.6.",
+                "B": "It will be rounded to 1 with a probability of 0.6.",
+                "C": "It will always be rounded to 2.",
+                "D": "It will always be rounded to 1.",
+                "answer": "A",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            },
+            {
+                "level": "understanding",
+                "question": "Which characteristic is true of rounding methods?",
+                "A": "They are always biased towards higher values.",
+                "B": "They can satisfy all ideal characteristics perfectly.",
+                "C": "They are always monotonic regardless of the input values.",
+                "D": "They are idempotent, meaning repeated rounding does not change the value.",
+                "answer": "D",
+                "topic_wiki_name": "Rounding",
+                "topic_wiki_id": "169945"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the approximate population of Los Angeles as of 2020?",
+                "A": "2.8 million",
+                "B": "4.5 million",
+                "C": "5.1 million",
+                "D": "3.9 million",
+                "answer": "D",
+                "concept_wiki_name": "Los Angeles",
+                "concept_wiki_id": "18110"
+            },
+            {
+                "question": "What is the gross metropolitan product of the Los Angeles metropolitan area in 2018?",
+                "A": "$1.5 trillion",
+                "B": "$750 billion",
+                "C": "$1.0 trillion",
+                "D": "$2.0 trillion",
+                "answer": "C",
+                "concept_wiki_name": "Los Angeles",
+                "concept_wiki_id": "18110"
+            },
+            {
+                "question": "What is the estimated population of New York City in 2023?",
+                "A": "9,000,000",
+                "B": "7,500,000",
+                "C": "8,258,035",
+                "D": "10,500,000",
+                "answer": "C",
+                "concept_wiki_name": "New York City",
+                "concept_wiki_id": "645042"
+            }
+        ]
+    },
+    {
+        "question": "A shelf has four books on it. The weight, in pounds, of each of the four books on the shelf is 2.5, 3.2, 2.7, 2.3 Which inequality represents the weight, w, of any book chosen from the shelf?",
+        "choices": [
+            "w > 2.3",
+            "w < 2.4",
+            "w > 3.2",
+            "w < 3.3"
+        ],
+        "answer": 3,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "Which of the following statements about multiplication and division of inequalities is true?",
+                "A": "The inequality relation is preserved when multiplying by a negative constant",
+                "B": "The inequality relation is preserved under multiplication by a positive constant",
+                "C": "The inequality relation is reversed when multiplying by a positive constant",
+                "D": "The inequality relation is reversed when dividing by a positive constant",
+                "answer": "B",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "understanding",
+                "question": "Which statement accurately reflects the property of the additive inverse?",
+                "A": "If a ≤ b, then -a ≥ -b.",
+                "B": "If a ≤ b, then -a ≤ -b.",
+                "C": "If a < b, then -a < -b.",
+                "D": "If a < b, then -a > -b.",
+                "answer": "A",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following is true regarding the additive inverse property?",
+                "A": "If a ≤ b, then -a ≥ -b.",
+                "B": "If a ≤ b, then -a ≤ -b.",
+                "C": "If a < b, then -a < -b.",
+                "D": "If a = b, then -a = -b.",
+                "answer": "A",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "applying",
+                "question": "If you multiply both sides of the inequality 3 < 5 by a negative constant, what is the correct new inequality?",
+                "A": "−9 < −15",
+                "B": "−9 > −15",
+                "C": "−9 ≤ −15",
+                "D": "−9 ≥ −15",
+                "answer": "B",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "applying",
+                "question": "In a situation where both a and b are negative, if a ≤ b, what is the relationship between the multiplicative inverses of a and b?",
+                "A": "1/a ≤ 1/b",
+                "B": "1/a > 1/b",
+                "C": "1/a = 1/b",
+                "D": "1/a ≥ 1/b",
+                "answer": "B",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does the property of the additive inverse affect the comparison of two numbers?",
+                "A": "If a ≤ b, then -a ≤ -b",
+                "B": "If a ≤ b, then -a ≥ -b",
+                "C": "If a < b, then -a < -b",
+                "D": "If a < b, then -a > -b",
+                "answer": "B",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "creating",
+                "question": "How would you construct a new inequality involving three variables 'x', 'y', and 'z' that maintains the properties of inequalities when subjected to addition?",
+                "A": "If x < y, then x + z < y + z.",
+                "B": "If x ≤ y, then x + z ≤ y + z.",
+                "C": "If x ≤ y, then x + z ≥ y + z.",
+                "D": "If x < y, then x + z ≤ y + z.",
+                "answer": "B",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "creating",
+                "question": "What would be a valid approach to modify the inequality 'a < b + e < c' in order to isolate 'b' without changing the inequality relationships?",
+                "A": "Multiply all terms by a negative number to get '−a > −b > −c'.",
+                "B": "Add e to all terms to get 'a + e < b + e < c + e'.",
+                "C": "Subtract e from all terms to get 'a - e < b < c - e'.",
+                "D": "Divide all terms by 'b' to get 'a/b < 1 < c/b'.",
+                "answer": "C",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "creating",
+                "question": "Which process would be appropriate for solving the inequality 4x < 2x + 1 ≤ 3x + 2 while evaluating the terms independently?",
+                "A": "Add 1 to both sides of the first part of the inequality only.",
+                "B": "Combine the terms to create a single inequality before isolating x.",
+                "C": "Subtract 2x from both sides to simplify directly to x < 1.",
+                "D": "Isolate x by first solving 4x < 2x + 1 and 2x + 1 ≤ 3x + 2 separately.",
+                "answer": "D",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            },
+            {
+                "level": "creating",
+                "question": "What would be a logical way to express the relationship between a positive constant 'c' and the terms 'a' and 'b' in an inequality?",
+                "A": "If a ≤ b, then ac ≥ bc.",
+                "B": "If a < b, then ac < bc.",
+                "C": "If a ≤ b, then ac ≤ bc.",
+                "D": "If a < b, then ac ≤ bc.",
+                "answer": "C",
+                "topic_wiki_name": "Inequality (mathematics)",
+                "topic_wiki_id": "89489"
+            }
+        ],
+        "concept_questions": []
+    },
+    {
+        "question": "Emil wants to find out the most popular football team at a game between the home team and the visiting team. Which of the following methods will give him the most accurate results?",
+        "choices": [
+            "surveying the cheerleaders for the home team",
+            "surveying people wearing hats for the visiting team",
+            "surveying a group of people standing in line for tickets",
+            "surveying people who do not live in the home team’s city"
+        ],
+        "answer": 2,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What should be placed at the beginning of a self-administered questionnaire?",
+                "A": "Demographic questions",
+                "B": "Most interesting questions",
+                "C": "Least interesting questions",
+                "D": "Open-ended questions",
+                "answer": "B",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which aspect of survey methodology is essential for minimizing survey errors?",
+                "A": "Statistical adjustment of data",
+                "B": "Questionnaire length",
+                "C": "Respondent demographics",
+                "D": "Survey timing",
+                "answer": "A",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "analyzing",
+                "question": "In survey methodology, what is a primary consideration when constructing a questionnaire?",
+                "A": "The use of open-ended questions only",
+                "B": "The format of the survey (online vs. paper)",
+                "C": "Including as many demographic questions as possible",
+                "D": "The interest level of the first questions",
+                "answer": "D",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which feature distinguishes surveys from censuses?",
+                "A": "Use of demographic questions",
+                "B": "Method of data collection",
+                "C": "Types of data collected",
+                "D": "Inclusion of a sample",
+                "answer": "D",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "evaluating",
+                "question": "In survey methodology, which element is emphasized for improving accuracy of responses?",
+                "A": "Sample size",
+                "B": "Respondent demographics",
+                "C": "Questionnaire translation",
+                "D": "Data processing techniques",
+                "answer": "C",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "creating",
+                "question": "How might you design a questionnaire to ensure that it captures the attention of respondents effectively?",
+                "A": "Place demographic questions at the beginning to engage respondents.",
+                "B": "Use complex language to challenge respondents.",
+                "C": "Start with the most interesting questions to grab attention.",
+                "D": "Include multiple-choice questions exclusively throughout the survey.",
+                "answer": "C",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "creating",
+                "question": "In planning a survey, how would you structure the order of questions to minimize the risk of bias?",
+                "A": "Place all sensitive questions at the end to avoid discomfort.",
+                "B": "Randomize the order of all questions to eliminate bias.",
+                "C": "Start with demographic questions to build rapport.",
+                "D": "Group all demographic questions together at the end.",
+                "answer": "C",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "creating",
+                "question": "How would you approach the design of a survey to minimize systematic errors?",
+                "A": "Focus solely on closed-ended questions for simplicity.",
+                "B": "Use a fixed question format to standardize responses.",
+                "C": "Avoid pretesting the survey to save resources.",
+                "D": "Implement statistical adjustments based on preliminary data analysis.",
+                "answer": "D",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            },
+            {
+                "level": "applying",
+                "question": "When creating a questionnaire, what should be prioritized in terms of question order to maintain respondent engagement?",
+                "A": "Demographic questions at the beginning",
+                "B": "Open-ended questions throughout",
+                "C": "Sensitive questions at the end",
+                "D": "Most interesting questions at the beginning",
+                "answer": "D",
+                "topic_wiki_name": "Survey methodology",
+                "topic_wiki_id": "272134"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which term is sometimes used interchangeably with sampling bias in medical contexts?",
+                "A": "Selection bias",
+                "B": "Response bias",
+                "C": "Ascertainment bias",
+                "D": "Attrition bias",
+                "answer": "C",
+                "concept_wiki_name": "Sampling bias",
+                "concept_wiki_id": "17692"
+            },
+            {
+                "question": "How does sampling bias differ from selection bias in terms of validity?",
+                "A": "Sampling bias affects internal validity, while selection bias affects external validity.",
+                "B": "Sampling bias mainly addresses the representativeness of the sample, while selection bias concerns external validity.",
+                "C": "Sampling bias is always a subtype of selection bias without exceptions.",
+                "D": "Sampling bias undermines external validity, while selection bias affects internal validity.",
+                "answer": "D",
+                "concept_wiki_name": "Sampling bias",
+                "concept_wiki_id": "17692"
+            }
+        ]
+    },
+    {
+        "question": "What is the value of the expression 2(3(4^2 + 1)) - 2^3?",
+        "choices": [
+            "156",
+            "110",
+            "94",
+            "48"
+        ],
+        "answer": 2,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What type of variable can be classified as free or bound?",
+                "A": "Constant variable",
+                "B": "Integer variable",
+                "C": "Any variable",
+                "D": "Mathematical variable",
+                "answer": "C",
+                "topic_wiki_name": "Expression (mathematics)",
+                "topic_wiki_id": "609125"
+            },
+            {
+                "level": "understanding",
+                "question": "What does it mean for an expression to have an undefined value?",
+                "A": "The expression includes division by zero or similar issues.",
+                "B": "The expression is malformed and cannot be used.",
+                "C": "The expression cannot be evaluated under any circumstances.",
+                "D": "The expression has multiple interpretations based on context.",
+                "answer": "A",
+                "topic_wiki_name": "Expression (mathematics)",
+                "topic_wiki_id": "609125"
+            },
+            {
+                "level": "understanding",
+                "question": "How are equivalent expressions defined in mathematics?",
+                "A": "Two expressions are equivalent if they have similar syntax.",
+                "B": "Two expressions are equivalent if they involve the same operations.",
+                "C": "Two expressions are equivalent if they can be transformed into each other through simplification.",
+                "D": "Two expressions are equivalent if they yield the same output for every combination of free variable values.",
+                "answer": "D",
+                "topic_wiki_name": "Expression (mathematics)",
+                "topic_wiki_id": "609125"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which operation should be performed first according to the order of operations?",
+                "A": "Addition",
+                "B": "Multiplication",
+                "C": "Exponentiation",
+                "D": "Subtraction",
+                "answer": "C",
+                "concept_wiki_name": "Order of operations",
+                "concept_wiki_id": "212980"
+            },
+            {
+                "question": "What is the purpose of grouping symbols in mathematical expressions?",
+                "A": "To simplify calculations",
+                "B": "To specify function inputs",
+                "C": "To change the order of operations",
+                "D": "To indicate multiplication",
+                "answer": "C",
+                "concept_wiki_name": "Order of operations",
+                "concept_wiki_id": "212980"
+            },
+            {
+                "question": "Which of the following statements about exponentiation and logarithms is correct?",
+                "A": "They are neither commutative nor associative.",
+                "B": "They are associative operations.",
+                "C": "They are commutative operations.",
+                "D": "They only apply to whole numbers.",
+                "answer": "A",
+                "concept_wiki_name": "Arithmetic",
+                "concept_wiki_id": "3118"
+            }
+        ]
+    },
+    {
+        "question": "Theresa had a bag of 72 marbles. She put the marbles into 9 equal groups. Which number sentence shows how to find the number of marbles Theresa put into each group?",
+        "choices": [
+            "72 ÷ 9 = 8",
+            "72 – 9 = 63",
+            "9 + 72 = 81",
+            "9 ÷ 72 = 0.125"
+        ],
+        "answer": 0,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What does the term 'division' primarily refer to?",
+                "A": "A process of separating or categorizing",
+                "B": "A mathematical operation for addition",
+                "C": "A method of combining elements",
+                "D": "A technique for multiplication",
+                "answer": "A",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "remembering",
+                "question": "In the context of terminology, what does 'division' imply?",
+                "A": "Combining elements into a whole",
+                "B": "The arrangement of components",
+                "C": "The process of enhancing unity",
+                "D": "The act of categorizing different topics",
+                "answer": "D",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "remembering",
+                "question": "Which title is associated with the term 'division'?",
+                "A": "Subcategories",
+                "B": "Mathematical Operations",
+                "C": "Associated Topics",
+                "D": "Combining Methods",
+                "answer": "C",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the primary purpose of the term 'division' as indicated?",
+                "A": "To list various topics associated with the same title",
+                "B": "To refer to a specific topic in mathematics",
+                "C": "To categorize different mathematical operations",
+                "D": "To define a concept in geometry",
+                "answer": "A",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following best represents what division may refer to?",
+                "A": "A mathematical concept",
+                "B": "A collection of associated topics",
+                "C": "A specific division in a company",
+                "D": "A type of literary division",
+                "answer": "B",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "understanding",
+                "question": "Which statement accurately reflects the content regarding division?",
+                "A": "Division is primarily used in the context of social sciences",
+                "B": "Division involves a singular definition that is universally accepted",
+                "C": "Division indicates a grouping of related subjects",
+                "D": "Division exclusively pertains to mathematical functions",
+                "answer": "C",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following best captures the essence of the document's treatment of division?",
+                "A": "It serves as a reference for different associated topics",
+                "B": "It is a mathematical operation with strict rules",
+                "C": "It outlines the history of mathematical division",
+                "D": "It is a term used exclusively in biology",
+                "answer": "A",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "applying",
+                "question": "If a recipe requires 12 eggs and you want to divide the ingredients equally among 3 dishes, how many eggs will each dish require?",
+                "A": "3 eggs",
+                "B": "4 eggs",
+                "C": "6 eggs",
+                "D": "2 eggs",
+                "answer": "B",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "applying",
+                "question": "In a sports league, if there are 30 teams and each team plays against every other team once, how would you calculate the number of games played?",
+                "A": "30 divided by 2",
+                "B": "30 choose 2",
+                "C": "30 divided by 15",
+                "D": "30 times 29",
+                "answer": "B",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the primary implication of the term 'division' as it relates to categorization?",
+                "A": "It signifies a split into equal parts only.",
+                "B": "It refers to the process of organizing related topics under a common title.",
+                "C": "It denotes a mathematical operation with specific numerical outcomes.",
+                "D": "It indicates a random selection of unrelated items.",
+                "answer": "B",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which aspect of 'division' is most relevant to understanding its varied meanings?",
+                "A": "The emphasis on numerical calculations.",
+                "B": "The historical significance of mathematical division.",
+                "C": "The cultural interpretations of the word.",
+                "D": "The context in which it is used to group topics.",
+                "answer": "D",
+                "topic_wiki_name": "Division",
+                "topic_wiki_id": "62159"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the term for the operation that involves splitting a quantity into equal parts?",
+                "A": "Division",
+                "B": "Addition",
+                "C": "Multiplication",
+                "D": "Subtraction",
+                "answer": "A",
+                "concept_wiki_name": "Division",
+                "concept_wiki_id": "62159"
+            },
+            {
+                "question": "In what year did the town council of Nuremberg limit marble games to a specific area?",
+                "A": "1600",
+                "B": "1503",
+                "C": "1450",
+                "D": "1520",
+                "answer": "B",
+                "concept_wiki_name": "Marble (toy)",
+                "concept_wiki_id": "672179"
+            },
+            {
+                "question": "What device for making marbles was invented by a German glassblower?",
+                "A": "Spherical press",
+                "B": "Marble mold",
+                "C": "Glass cutter",
+                "D": "Marble scissors",
+                "answer": "D",
+                "concept_wiki_name": "Marble (toy)",
+                "concept_wiki_id": "672179"
+            },
+            {
+                "question": "What is the primary characteristic of a number sentence in mathematics education?",
+                "A": "It is an equation or inequality expressed using numbers and mathematical symbols.",
+                "B": "It always includes unknown variables.",
+                "C": "It can only involve addition and subtraction.",
+                "D": "It is a statement that can be true or false without calculation.",
+                "answer": "A",
+                "concept_wiki_name": "Number sentence",
+                "concept_wiki_id": "11877586"
+            }
+        ]
+    },
+    {
+        "question": "Yesterday, Micah ate an even number of strawberries. He also ate an odd number of apples. Which group could represent the strawberries, S, and apples, A, Micah ate yesterday?",
+        "choices": [
+            "SSSSS; AAA",
+            "SSSSS; AAAA",
+            "SSSSSSSS; AAAA",
+            "SSSSSSSS; A"
+        ],
+        "answer": 3,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "Which of the following integers is considered even?",
+                "A": "0",
+                "B": "5",
+                "C": "-3",
+                "D": "7",
+                "answer": "A",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "remembering",
+                "question": "Which of the following statements is true about consecutive integers?",
+                "A": "They have the same parity.",
+                "B": "They are all odd.",
+                "C": "They are all even.",
+                "D": "They have opposite parity.",
+                "answer": "D",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "understanding",
+                "question": "How can you determine if a number is odd in the binary numeral system?",
+                "A": "If its last digit is 0.",
+                "B": "If its last digit is 1.",
+                "C": "If the sum of its digits is odd.",
+                "D": "If it has an even number of digits.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "understanding",
+                "question": "In the context of permutations, what does 'parity' refer to?",
+                "A": "The total number of elements in the set.",
+                "B": "The order of the permutation.",
+                "C": "The types of numbers used in the permutation.",
+                "D": "The number of transpositions required to achieve a permutation.",
+                "answer": "D",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "analyzing",
+                "question": "What relationship exists between two consecutive integers regarding their parity?",
+                "A": "They have the same parity.",
+                "B": "They have opposite parity.",
+                "C": "One is always even and the other is always odd.",
+                "D": "Their parities can vary based on the context.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which statement best describes the parity of zero?",
+                "A": "Zero is even.",
+                "B": "Zero has no defined parity.",
+                "C": "Zero is odd.",
+                "D": "Zero is both even and odd.",
+                "answer": "A",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the significance of odd numbers in the context of the Feit–Thompson theorem?",
+                "A": "They indicate that all groups are solvable.",
+                "B": "They are essential for proving group solvability.",
+                "C": "They demonstrate the unique properties of even numbers.",
+                "D": "They suggest that finite groups of odd order are unsolvable.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with creating a visual representation of parity in integers, what method would best illustrate even and odd numbers?",
+                "A": "A scatter plot marking even numbers with blue and odd numbers with red.",
+                "B": "A bar chart showing counts of even numbers only.",
+                "C": "A pie chart dividing numbers into even and odd segments.",
+                "D": "A line graph connecting all integers regardless of parity.",
+                "answer": "C",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "creating",
+                "question": "How would you propose a new theorem regarding the parity of sums involving odd and even integers?",
+                "A": "The sum of two odd integers is even, and the sum of two even integers is odd.",
+                "B": "The sum of an odd and an even integer is always odd.",
+                "C": "The sum of two even integers is always even, and the sum of an odd and an even integer is always odd.",
+                "D": "The sum of three odd integers is always even.",
+                "answer": "C",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "creating",
+                "question": "In developing a curriculum on parity, which project would best demonstrate the concept of permutations and their parity?",
+                "A": "Create a game that only allows odd permutations in solving a puzzle.",
+                "B": "Develop a simulation showing how to decompose permutations into transpositions.",
+                "C": "Design a workshop where students sort integers based on their last digit.",
+                "D": "Organize a quiz on identifying even numbers in various numeral systems.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to write a research paper on the application of parity in advanced mathematics, what angle would best highlight its significance?",
+                "A": "Focus on the relationship between odd integers and their importance in prime number theory.",
+                "B": "Analyze the role of even integers in the context of algebraic structures.",
+                "C": "Explore the implications of odd order in finite groups for solvability.",
+                "D": "Discuss the application of parity in the performance of algorithms for sorting integers.",
+                "answer": "C",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which conclusion can be drawn about the parity of zero?",
+                "A": "Zero is classified as an odd number.",
+                "B": "Zero is considered an even number.",
+                "C": "Zero does not have a defined parity.",
+                "D": "Zero is a prime number and thus cannot be even.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "evaluating",
+                "question": "How are even numbers defined mathematically?",
+                "A": "An integer that is divisible by 3.",
+                "B": "An integer of the form 2k where k is a real number.",
+                "C": "An integer that has a last digit of 1 or 3.",
+                "D": "An integer of the form 2k where k is an integer.",
+                "answer": "D",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "applying",
+                "question": "In a group of ten consecutive integers, what can be inferred about the parity of the first and last integers?",
+                "A": "They will always have the same parity.",
+                "B": "The first integer will determine the parity of the last.",
+                "C": "They can have any combination of parity.",
+                "D": "They will always have opposite parity.",
+                "answer": "D",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "applying",
+                "question": "A permutation of the numbers 1 to 5 is defined as even. What can be concluded about the number of transpositions used to achieve this permutation?",
+                "A": "It must be an odd number of transpositions.",
+                "B": "It can be either even or odd, depending on the permutation.",
+                "C": "It cannot be determined without additional information.",
+                "D": "It must be an even number of transpositions.",
+                "answer": "D",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            },
+            {
+                "level": "applying",
+                "question": "If a number is expressed in binary and its last digit is 0, what can be concluded about its parity?",
+                "A": "It is odd.",
+                "B": "It is even.",
+                "C": "It is neither even nor odd.",
+                "D": "It could be either even or odd.",
+                "answer": "B",
+                "topic_wiki_name": "Parity (mathematics)",
+                "topic_wiki_id": "143135"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the parity of the number zero?",
+                "A": "Odd",
+                "B": "Neither even nor odd",
+                "C": "Even",
+                "D": "Both even and odd",
+                "answer": "C",
+                "concept_wiki_name": "Parity (mathematics)",
+                "concept_wiki_id": "143135"
+            },
+            {
+                "question": "What is a common use for strawberries in beverages?",
+                "A": "As a sweetener in coffee",
+                "B": "As a primary ingredient in beer",
+                "C": "As a cocktail garnish",
+                "D": "As a base for smoothies",
+                "answer": "C",
+                "concept_wiki_name": "Strawberry",
+                "concept_wiki_id": "2455842"
+            }
+        ]
+    },
+    {
+        "question": "Abe found the mean and median of this list of numbers. 1, 3, 3 If the number 6 were added to the list, then",
+        "choices": [
+            "the mean would increase.",
+            "the mean would decrease.",
+            "the median would increase.",
+            "the median would decrease."
+        ],
+        "answer": 0,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is a characteristic of the median compared to the mean?",
+                "A": "It is more sensitive to extreme values",
+                "B": "It is skewed by small proportions of large or small values",
+                "C": "It is always equal to the mean",
+                "D": "It provides a better representation of the center in skewed distributions",
+                "answer": "D",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "remembering",
+                "question": "Which of the following represents the median in statistical notation?",
+                "A": "μ",
+                "B": "x̄",
+                "C": "med(x)",
+                "D": "σ",
+                "answer": "C",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the median of the following list of numbers: 1, 3, 3, 6, 7, 8, 9?",
+                "A": "6",
+                "B": "3",
+                "C": "7",
+                "D": "8",
+                "answer": "A",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "analyzing",
+                "question": "In which situation is the sample mean preferred over the median for efficiency?",
+                "A": "When the data set contains extreme values.",
+                "B": "When the data is normally distributed without contamination.",
+                "C": "When the data set is small and simple.",
+                "D": "When the median is not calculable.",
+                "answer": "B",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "analyzing",
+                "question": "What can be inferred about the median's efficiency compared to the mean in large normal samples?",
+                "A": "The median's variance is about 50% greater than that of the mean.",
+                "B": "The median has 100% efficiency compared to the mean.",
+                "C": "The median is always more efficient than the mean.",
+                "D": "The median is less reliable than the mean for large samples.",
+                "answer": "A",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "evaluating",
+                "question": "In what scenario is the sample mean preferred over the median for data analysis?",
+                "A": "When data includes many outliers.",
+                "B": "When the data is categorical rather than numerical.",
+                "C": "When there is an even number of observations.",
+                "D": "When the data is uncontaminated by heavy-tailed distributions.",
+                "answer": "D",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which scenario illustrates a limitation of the median?",
+                "A": "It can be used to summarize categorical data.",
+                "B": "It cannot be accurately calculated with an even number of classes.",
+                "C": "It is not applicable for ordered one-dimensional data.",
+                "D": "It can result in a value that does not correspond to any data point.",
+                "answer": "D",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "applying",
+                "question": "If a data set has the following numbers: 2, 4, 4, 6, 8, 10, 10, 12, what would be the median?",
+                "A": "6",
+                "B": "10",
+                "C": "8",
+                "D": "4",
+                "answer": "C",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            },
+            {
+                "level": "creating",
+                "question": "How would you design a study to compare the effectiveness of median versus mean in representing income distributions in a highly skewed dataset?",
+                "A": "Include all incomes and calculate the median and mean for comparison.",
+                "B": "Use only the top 10% of incomes to calculate the mean.",
+                "C": "Calculate the mean only and compare it to the median of a different dataset.",
+                "D": "Exclude the lowest 10% of incomes and calculate only the median.",
+                "answer": "A",
+                "topic_wiki_name": "Median",
+                "topic_wiki_id": "18837"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What does the arithmetic mean represent in a dataset?",
+                "A": "The sum of all numbers divided by the number of numbers",
+                "B": "The maximum value in the dataset",
+                "C": "The middle value when all numbers are arranged in order",
+                "D": "The difference between the highest and lowest values",
+                "answer": "A",
+                "concept_wiki_name": "Mean",
+                "concept_wiki_id": "19192"
+            },
+            {
+                "question": "In what context is the harmonic mean most useful?",
+                "A": "For analyzing average values in a dataset",
+                "B": "For finding the central value of a skewed dataset",
+                "C": "For summarizing data with extreme outliers",
+                "D": "For sets of numbers defined in relation to a unit, like speed",
+                "answer": "D",
+                "concept_wiki_name": "Mean",
+                "concept_wiki_id": "19192"
+            },
+            {
+                "question": "What is the main focus of applied statistics?",
+                "A": "Designing experiments",
+                "B": "Collection and presentation of data",
+                "C": "Statistical modeling of populations",
+                "D": "Descriptive and inferential statistics",
+                "answer": "D",
+                "concept_wiki_name": "Statistics",
+                "concept_wiki_id": "26685"
+            }
+        ]
+    },
+    {
+        "question": "When n = 11, what is the value of 10 – (n + 6)?",
+        "choices": [
+            "–7",
+            "5",
+            "7",
+            "27"
+        ],
+        "answer": 0,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is typically used to represent constants in algebraic expressions?",
+                "A": "Letters at the end of the alphabet",
+                "B": "Letters at the beginning of the alphabet",
+                "C": "Numerical values only",
+                "D": "Special symbols",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the result when the exponent is zero in an algebraic expression?",
+                "A": "The result is always 0",
+                "B": "The result is undefined",
+                "C": "The result is always 1",
+                "D": "The result is always the base number",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "understanding",
+                "question": "What is typically represented by letters at the beginning of the alphabet in algebraic expressions?",
+                "A": "Variables",
+                "B": "Operators",
+                "C": "Constants",
+                "D": "Coefficients",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "understanding",
+                "question": "Which mathematical operation is NOT included in the formation of an algebraic expression?",
+                "A": "Addition",
+                "B": "Exponentiation",
+                "C": "Square root",
+                "D": "Multiplication",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "understanding",
+                "question": "What are the roots of polynomial expressions of degree n?",
+                "A": "They can only be expressed as rational numbers.",
+                "B": "They can be written as algebraic expressions if n < 5.",
+                "C": "They are always irrational for n < 5.",
+                "D": "They do not exist for any polynomial equations.",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "evaluating",
+                "question": "In which case would an algebraic solution not exist?",
+                "A": "For polynomial equations of degree less than 5.",
+                "B": "For all polynomial equations.",
+                "C": "For quadratic equations only.",
+                "D": "For polynomial equations of degree 5 or higher.",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to construct an algebraic expression that is not rational, which of the following would you create?",
+                "A": "2x + 3",
+                "B": "3/x",
+                "C": "√(x + 1)",
+                "D": "x^2 - 4",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "creating",
+                "question": "Which expression could you formulate to demonstrate the concept of an algebraic equation involving only algebraic expressions?",
+                "A": "2x^2 + 3x - 5 = 0",
+                "B": "πx = 3",
+                "C": "x + 5 = 10",
+                "D": "e^x = 5",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "analyzing",
+                "question": "What role do coefficients play in the construction of algebraic expressions?",
+                "A": "They are optional and can be omitted unless they are negative",
+                "B": "They must always be included for the expression to be valid",
+                "C": "They are only necessary in rational expressions",
+                "D": "They can be omitted when they are one, simplifying the expression",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "applying",
+                "question": "When solving the rational equation 3/(x-1) = 2, what is the first step to eliminate the fraction?",
+                "A": "Multiply both sides by x.",
+                "B": "Divide both sides by 3.",
+                "C": "Add 1 to both sides.",
+                "D": "Cross-multiply to get 3 = 2(x - 1).",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            }
+        ],
+        "concept_questions": []
+    },
+    {
+        "question": "There are 20 students in Mr. Clark's fourth-grade class. There are 5 times as many students in the entire fourth grade as there are in Mr. Clark's class. Which equation can be used to determine the number of students, n, in the entire fourth grade?",
+        "choices": [
+            "5xn= 20",
+            "5+20=n",
+            "20x5=n",
+            "20/n=5"
+        ],
+        "answer": 2,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "In what case can a quartic equation be directly reduced to a quadratic equation?",
+                "A": "If it is biquadratic or quasi-palindromic",
+                "B": "When it has real coefficients only",
+                "C": "When it has integer coefficients",
+                "D": "If it has a rational solution",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "applying",
+                "question": "What conclusion can be drawn about the solutions of polynomial equations with complex coefficients?",
+                "A": "They only have real solutions",
+                "B": "They may not have any solutions",
+                "C": "They always have at least one solution",
+                "D": "They can have multiple solutions depending on the coefficients",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "analyzing",
+                "question": "What role does the discriminant play in solving quadratic equations?",
+                "A": "It determines the degree of the polynomial.",
+                "B": "It indicates whether the equation has complex solutions.",
+                "C": "It confirms that the equation is solvable by radicals.",
+                "D": "It helps to find the roots of the equation.",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does the field extension of K relate to the solutions of the equation (E)?",
+                "A": "It guarantees that all solutions in K are also in K'.",
+                "B": "It ensures that (E) has at least one solution in K'.",
+                "C": "It indicates that (E) can have more solutions in K than in K'.",
+                "D": "It shows that solutions in K' are always real numbers.",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "remembering",
+                "question": "What type of equations does the term 'algebraic equation' typically refer to?",
+                "A": "Only multivariate equations",
+                "B": "Only univariate polynomial equations",
+                "C": "All types of equations including transcendental ones",
+                "D": "Only linear equations",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "remembering",
+                "question": "Who developed the technique for solving cubic equations?",
+                "A": "Évariste Galois",
+                "B": "Niels Henrik Abel",
+                "C": "Isaac Newton",
+                "D": "Leonhard Euler",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement best summarizes the relationship between polynomial equations with real coefficients and their solutions?",
+                "A": "All polynomial equations with real coefficients have real solutions only.",
+                "B": "All polynomial equations of degree one or more with real coefficients have a complex solution.",
+                "C": "All polynomial equations with real coefficients have at least one complex solution.",
+                "D": "Polynomial equations with real coefficients do not have any complex solutions.",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which conclusion can be drawn about the solvability of polynomial equations of degree five or higher?",
+                "A": "Certain polynomial equations of degree five or higher may be solvable using radicals.",
+                "B": "All polynomial equations of degree five or higher can be solved using radicals.",
+                "C": "Polynomial equations of degree five or higher have no solutions.",
+                "D": "Polynomial equations of degree five or higher are always solvable algebraically.",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What mathematical concepts are typically taught in fourth grade?",
+                "A": "Geometry, linear equations, and graphing",
+                "B": "Algebra, calculus, and trigonometry",
+                "C": "Basic arithmetic, statistics, and probability",
+                "D": "Place value, long division, and fractions",
+                "answer": "D",
+                "concept_wiki_name": "Fourth grade",
+                "concept_wiki_id": "1065939"
+            },
+            {
+                "question": "What age range do children typically fall into when they are in fourth grade?",
+                "A": "8–9 years old",
+                "B": "9–10 years old",
+                "C": "10–11 years old",
+                "D": "11–12 years old",
+                "answer": "B",
+                "concept_wiki_name": "Fourth grade",
+                "concept_wiki_id": "1065939"
+            }
+        ]
+    },
+    {
+        "question": "Which expression is equivalent to 5(4x + 3) — 2x?",
+        "choices": [
+            "18x+15",
+            "18x+3",
+            "7x+8",
+            "2x+8"
+        ],
+        "answer": 0,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What happens when the exponent of a term is zero in an algebraic expression?",
+                "A": "The term is omitted",
+                "B": "The term equals one",
+                "C": "The term equals zero",
+                "D": "The term doubles in value",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "evaluating",
+                "question": "When is a coefficient typically omitted in algebraic expressions?",
+                "A": "When the coefficient is zero",
+                "B": "When the coefficient is one",
+                "C": "When the coefficient is negative",
+                "D": "When the coefficient is a fraction",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "applying",
+                "question": "What would be the result of simplifying the expression (x^2 - 1)/(x - 1)?",
+                "A": "x + 1",
+                "B": "x - 1",
+                "C": "x^2 + 1",
+                "D": "1",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "applying",
+                "question": "If you wanted to express the operation of dividing 2x^3 by x, how would you represent this using algebraic expression rules?",
+                "A": "2x^2",
+                "B": "2x^4",
+                "C": "2x^3/x",
+                "D": "2x",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to design a rational algebraic expression involving the variables 'a' and 'b', which of the following would be appropriate?",
+                "A": "a + b",
+                "B": "(a + b)/(a - b)",
+                "C": "ab",
+                "D": "a^2 + b^2",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "analyzing",
+                "question": "How are the variables and constants typically denoted in algebraic expressions?",
+                "A": "Constants are represented by letters at the beginning of the alphabet",
+                "B": "Variables are denoted by numbers only",
+                "C": "Constants are usually italicized",
+                "D": "Constants are denoted by the last letters of the alphabet",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which property is essential for rewriting an expression as a rational fraction?",
+                "A": "The expression must contain only exponents",
+                "B": "The expression must consist solely of algebraic operations",
+                "C": "The expression must utilize the distributive property",
+                "D": "The expression must involve at least one polynomial",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "analyzing",
+                "question": "In an algebraic expression, which term arrangement is standard for clarity?",
+                "A": "Terms with the lowest power first",
+                "B": "Terms ordered randomly for flexibility",
+                "C": "Terms must be in alphabetical order",
+                "D": "Terms with the highest power on the left",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            },
+            {
+                "level": "understanding",
+                "question": "How are variables typically represented in algebraic expressions according to common conventions?",
+                "A": "Variables are represented by letters at the beginning of the alphabet.",
+                "B": "Variables are always written in uppercase letters.",
+                "C": "Variables are represented by letters toward the end of the alphabet.",
+                "D": "Variables must be represented by numerical values.",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic expression",
+                "topic_wiki_id": "4283745"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In what scenario might the distributive property fail to yield accurate results in calculations?",
+                "A": "When using floating-point arithmetic with limited precision.",
+                "B": "When multiplying two negative numbers.",
+                "C": "When adding two fractions with different denominators.",
+                "D": "When applying it to integer values only.",
+                "answer": "A",
+                "concept_wiki_name": "Distributive property",
+                "concept_wiki_id": "103118"
+            },
+            {
+                "question": "What defines like terms in an expression?",
+                "A": "Terms that have the same numerical coefficient",
+                "B": "Terms that are all constants",
+                "C": "Terms that differ only by a numerical factor",
+                "D": "Terms that share the same variable but not the exponent",
+                "answer": "C",
+                "concept_wiki_name": "Like terms",
+                "concept_wiki_id": "19222837"
+            },
+            {
+                "question": "What does the term 'simplified expression' refer to in mathematics?",
+                "A": "An expression with no like terms remaining",
+                "B": "An expression that is factored completely",
+                "C": "An expression with all coefficients set to one",
+                "D": "An expression that includes all possible like terms",
+                "answer": "A",
+                "concept_wiki_name": "Like terms",
+                "concept_wiki_id": "19222837"
+            }
+        ]
+    },
+    {
+        "question": "What is the value of y in the equation y/4 = 8?",
+        "choices": [
+            "2",
+            "4",
+            "12",
+            "32"
+        ],
+        "answer": 3,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "If a mathematician is solving a univariate polynomial equation of degree four, what method might they use to find an exact solution?",
+                "A": "Galois theory",
+                "B": "Transcendental number theory",
+                "C": "Differential equations",
+                "D": "Root-finding algorithms",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "analyzing",
+                "question": "In the context of algebraic equations, what role does algebraic number theory play?",
+                "A": "It focuses exclusively on multivariate equations.",
+                "B": "It seeks integer solutions to polynomial equations.",
+                "C": "It analyzes the history of algebraic equations in detail.",
+                "D": "It studies univariate equations with rational coefficients.",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "remembering",
+                "question": "Which degree of polynomial equations can generally be solved algebraically?",
+                "A": "Degree one and two only",
+                "B": "All degrees",
+                "C": "Degree three and four only",
+                "D": "Degree one through four",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "remembering",
+                "question": "Which term is generally preferred when discussing equations involving multiple variables?",
+                "A": "Algebraic equation",
+                "B": "Linear equation",
+                "C": "Quadratic equation",
+                "D": "Polynomial equation",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "understanding",
+                "question": "Why is the term 'polynomial equation' preferred over 'algebraic equation' in some contexts?",
+                "A": "Because 'polynomial equation' specifically refers to equations with integer coefficients.",
+                "B": "Because 'polynomial equation' is a newer term that reflects modern mathematical practices.",
+                "C": "Because 'algebraic equation' can refer to a broader class of equations that includes nth roots.",
+                "D": "Because 'algebraic equation' only applies to equations with rational solutions.",
+                "answer": "C",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "evaluating",
+                "question": "How does the term 'polynomial equation' differ from 'algebraic equation' in modern mathematics?",
+                "A": "Polynomial equations are preferred when ambiguity in terms arises.",
+                "B": "Algebraic equations do not include multivariate cases.",
+                "C": "Polynomial equations can only involve one variable.",
+                "D": "Algebraic equations always have solutions in radicals.",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with creating a new curriculum on algebraic equations, which aspect should be prioritized based on historical developments?",
+                "A": "The historical evolution of solving univariate polynomial equations.",
+                "B": "The study of transcendental numbers and their properties.",
+                "C": "The application of algebraic equations in modern computational algorithms.",
+                "D": "The techniques used by ancient Greeks to solve quadratic equations.",
+                "answer": "A",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "creating",
+                "question": "What innovative approach could you propose to enhance the understanding of algebraic geometry in relation to multivariate polynomial equations?",
+                "A": "Focus solely on the historical context of algebraic equations.",
+                "B": "Investigate the intersection of algebraic geometry with number theory.",
+                "C": "Integrate numerical methods for approximating solutions.",
+                "D": "Emphasize the study of polynomial equations with rational coefficients only.",
+                "answer": "B",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to create a software tool for solving algebraic equations, which feature would be essential based on current mathematical understanding?",
+                "A": "A focus on solving only univariate polynomial equations.",
+                "B": "A graphical interface to visualize the roots of polynomial equations.",
+                "C": "Functionality to analyze the historical significance of each equation solved.",
+                "D": "The ability to compute solutions for both rational and integer coefficients.",
+                "answer": "D",
+                "topic_wiki_name": "Algebraic equation",
+                "topic_wiki_id": "404001"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In the equation 3y = 24, what is the value of y?",
+                "A": "6",
+                "B": "12",
+                "C": "8",
+                "D": "16",
+                "answer": "C",
+                "concept_wiki_name": "Equation solving",
+                "concept_wiki_id": "537048"
+            },
+            {
+                "question": "If y - 5 = 10, what is the value of y?",
+                "A": "20",
+                "B": "5",
+                "C": "10",
+                "D": "15",
+                "answer": "D",
+                "concept_wiki_name": "Equation solving",
+                "concept_wiki_id": "537048"
+            }
+        ]
+    },
+    {
+        "question": "Find the LCM of 24 and 36.",
+        "choices": [
+            "96",
+            "144",
+            "72",
+            "120"
+        ],
+        "answer": 2,
+        "subject": "elementary_mathematics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "In the context of fractions, what is the least common multiple of their denominators referred to as?",
+                "A": "Highest common factor",
+                "B": "Lowest common denominator",
+                "C": "Smallest common multiple",
+                "D": "Greatest common multiple",
+                "answer": "B",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the method used to find the least common multiple of two numbers illustrated with?",
+                "A": "Graphical representation",
+                "B": "Flowchart",
+                "C": "Venn diagram",
+                "D": "Bar chart",
+                "answer": "C",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens when one of the integers in the LCM definition is zero?",
+                "A": "The LCM is undefined.",
+                "B": "The LCM is defined as zero.",
+                "C": "The LCM is equal to the other integer.",
+                "D": "The LCM is the sum of the two integers.",
+                "answer": "B",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the relationship between the least common multiple and the greatest common divisor?",
+                "A": "They are the same value for any two integers.",
+                "B": "The LCM is always larger than the GCD.",
+                "C": "The GCD is the product of the LCM and the two integers.",
+                "D": "The LCM can be found by multiplying the GCD by the integers divided by their GCD.",
+                "answer": "D",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "applying",
+                "question": "If tasked with calculating the least common multiple of 6, 8, and 15, what method should be employed?",
+                "A": "Add the three numbers together and divide by three",
+                "B": "Use the highest powers of all prime factors from each number",
+                "C": "Multiply 6 by 8 and then add 15 to the product",
+                "D": "Find the greatest common divisor and use it to find the lcm",
+                "answer": "B",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which statement correctly describes the function of a Venn diagram in finding the least common multiple?",
+                "A": "It identifies the sum of all prime factors across both integers.",
+                "B": "It illustrates the shared prime factors and the total number of unique factors.",
+                "C": "It helps in visualizing the multiplication of all prime factors involved.",
+                "D": "It shows the intersection of common multiples only.",
+                "answer": "C",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is the significance of prime factorization in finding the least common multiple?",
+                "A": "It provides the sum of the prime numbers.",
+                "B": "It allows the identification of common factors only.",
+                "C": "It simplifies the numbers to their smallest forms.",
+                "D": "It enables the multiplication of the highest powers of each prime number.",
+                "answer": "D",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "evaluating",
+                "question": "In the context of the provided document, what is a potential outcome of defining lcm(a, 0) as 0?",
+                "A": "It complicates the understanding of multiples.",
+                "B": "It resolves the ambiguity about common multiples.",
+                "C": "It emphasizes the importance of the greatest common divisor.",
+                "D": "It eliminates the concept of divisibility.",
+                "answer": "B",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which method is indicated as less efficient for finding the least common multiple?",
+                "A": "Using the prime factorization.",
+                "B": "Utilizing the greatest common divisor.",
+                "C": "Employing the Venn diagram approach.",
+                "D": "Applying integer factorization algorithms.",
+                "answer": "A",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to design a lesson plan for teaching the least common multiple (LCM) using prime factorization, which strategy would best illustrate the concept?",
+                "A": "Use a number line to illustrate multiples of each number.",
+                "B": "Demonstrate LCM through a series of division problems.",
+                "C": "Create a Venn diagram to show shared and unique prime factors.",
+                "D": "Employ a chart listing multiples of each number up to 100.",
+                "answer": "C",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "creating",
+                "question": "How would you modify a traditional exercise on finding the least common multiple to challenge advanced students?",
+                "A": "Introduce fractions and require finding the lowest common denominator.",
+                "B": "Ask students to derive the LCM of three or more numbers instead of two.",
+                "C": "Limit the numbers to only prime numbers for LCM calculations.",
+                "D": "Include negative integers in the LCM calculations.",
+                "answer": "B",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with creating a visual aid to explain the concept of LCM, which approach would be most illustrative?",
+                "A": "A bar graph showing multiples of each number.",
+                "B": "A pie chart representing the distribution of prime factors.",
+                "C": "A flowchart detailing the steps of finding the LCM.",
+                "D": "A Venn diagram showing the intersection of prime factors of two integers.",
+                "answer": "D",
+                "topic_wiki_name": "Least common multiple",
+                "topic_wiki_id": "17961"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "If one of the integers is zero, what is the least common multiple according to some definitions?",
+                "A": "The least common multiple is undefined",
+                "B": "The least common multiple is equal to the other integer",
+                "C": "The least common multiple is zero",
+                "D": "The least common multiple is one",
+                "answer": "C",
+                "concept_wiki_name": "Least common multiple",
+                "concept_wiki_id": "17961"
+            },
+            {
+                "question": "What is the result of continuing the prime factorization process indefinitely?",
+                "A": "It produces a composite number.",
+                "B": "It can yield a non-integer result.",
+                "C": "It results in an infinite series of factors.",
+                "D": "It eventually leads to a unique set of prime factors.",
+                "answer": "D",
+                "concept_wiki_name": "Integer factorization",
+                "concept_wiki_id": "15491"
+            },
+            {
+                "question": "Which rule determines if a number is divisible by 6?",
+                "A": "It must be divisible by 2 and 4.",
+                "B": "It must be even and divisible by 3.",
+                "C": "It must end in 0 or 5.",
+                "D": "It must be divisible by 5 and 3.",
+                "answer": "B",
+                "concept_wiki_name": "Divisibility rule",
+                "concept_wiki_id": "991210"
+            },
+            {
+                "question": "What is a necessary condition for a number to be divisible by 10?",
+                "A": "It must end with a 5.",
+                "B": "It must be an even number.",
+                "C": "It must be divisible by 5 and 2.",
+                "D": "It must end with a 0.",
+                "answer": "D",
+                "concept_wiki_name": "Divisibility rule",
+                "concept_wiki_id": "991210"
+            }
+        ]
+    }
+]

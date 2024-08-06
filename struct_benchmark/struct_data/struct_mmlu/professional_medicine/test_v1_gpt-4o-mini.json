@@ -1,0 +1,1193 @@
+[
+    {
+        "question": "A randomized controlled trial is conducted to assess the effectiveness of a new combination-drug antihypertensive therapy (Drug X) compared with a standard antihypertensive single-drug therapy. Study participants include 140 women (70%) and 60 men (30%) ages 30 to 60 years, with baseline blood pressure measurements of 150/95 mm Hg or higher. The investigators defined antihypertensive therapy as effective if the treatment resulted in a blood pressure measurement below 140/90 mm Hg. When designing the study, the investigators set the probability of wrongly finding that Drug X is more effective than the standard therapy as 1%; they set the probability of wrongly finding that the effectiveness of the two drugs is the same as 10%. Which of the following is the most accurate estimate of the statistical power in this study?",
+        "choices": [
+            "1%",
+            "10%",
+            "40%",
+            "90%"
+        ],
+        "answer": 3,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What does statistical power range from?",
+                "A": "1 to 100",
+                "B": "0 to 10",
+                "C": "0 to 1",
+                "D": "1 to 10",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "evaluating",
+                "question": "What happens to the probability of making a type II error as the power of a test increases?",
+                "A": "It increases.",
+                "B": "It decreases.",
+                "C": "It remains the same.",
+                "D": "It becomes uncertain.",
+                "answer": "B",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which significance level would likely increase the power of a test?",
+                "A": "0.01",
+                "B": "0.05",
+                "C": "0.10",
+                "D": "0.001",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "evaluating",
+                "question": "How does the presence of a large true effect between populations affect the power of a test?",
+                "A": "It increases the power.",
+                "B": "It has no effect on power.",
+                "C": "It decreases the power.",
+                "D": "It makes the power unpredictable.",
+                "answer": "A",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the relationship between the significance criterion and the power of a hypothesis test?",
+                "A": "Increasing the significance criterion generally decreases the power of the test.",
+                "B": "The significance criterion has no effect on the power of the test.",
+                "C": "A higher significance criterion can increase the power of the test.",
+                "D": "Lowering the significance criterion always increases test power.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "applying",
+                "question": "If a researcher wants to increase the likelihood of detecting a true effect in their experiment, what adjustment could they make to enhance the test's power?",
+                "A": "Reduce the sample size",
+                "B": "Use a larger significance criterion",
+                "C": "Increase the type I error rate",
+                "D": "Implement a more conservative test",
+                "answer": "B",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "applying",
+                "question": "When conducting a two-sample comparison, if the true difference in means between two groups increases, what effect does this have on the power of the test?",
+                "A": "The power of the test decreases.",
+                "B": "The power of the test remains unchanged.",
+                "C": "The power of the test increases.",
+                "D": "The power may become negative.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "applying",
+                "question": "If a researcher is testing the hypothesis that the average height of two populations is the same, which of the following actions would likely lead to an increased chance of making a type II error?",
+                "A": "Using a significance level of 0.10 instead of 0.05.",
+                "B": "Increasing the sample size.",
+                "C": "Choosing a more conservative significance level.",
+                "D": "Lowering the type I error rate.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the power of a binary hypothesis test primarily concerned with?",
+                "A": "The probability of correctly rejecting the null hypothesis when an effect exists.",
+                "B": "The likelihood of incorrectly accepting the null hypothesis when it is false.",
+                "C": "The accuracy of the sample size used in the test.",
+                "D": "The chance of detecting any possible effect in the population.",
+                "answer": "A",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "understanding",
+                "question": "What does the significance criterion of 0.05 indicate in hypothesis testing?",
+                "A": "There is a 5% chance of accepting the null hypothesis when it is false.",
+                "B": "It guarantees a statistically significant result if the effect is present.",
+                "C": "The null hypothesis will be rejected if the observed effect is unlikely under its assumption.",
+                "D": "The likelihood of making a type I error is 5%.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "creating",
+                "question": "What changes would you implement in a study design to enhance the power of a binary hypothesis test?",
+                "A": "Decrease the sample size to save resources.",
+                "B": "Limit the tests to only one subgroup of the population.",
+                "C": "Utilize a significance criterion of 0.10 instead of 0.05.",
+                "D": "Reduce the number of measurements taken from each subject.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with designing a study to compare the means of two populations, what approach would maximize the statistical power?",
+                "A": "Use a paired t-test with a very small sample size.",
+                "B": "Ensure the samples are drawn from populations with identical variances.",
+                "C": "Adopt a one-sided t-test to focus on detecting an increase in means.",
+                "D": "Implement a two-tailed test with a significance level of 0.001.",
+                "answer": "C",
+                "topic_wiki_name": "Power of a test",
+                "topic_wiki_id": "238695"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which class of antihypertensive medication is recommended as the first-line treatment for high blood pressure when drugs are necessary?",
+                "A": "Thiazide diuretics",
+                "B": "Calcium channel blockers",
+                "C": "ACE inhibitors",
+                "D": "Beta blockers",
+                "answer": "A",
+                "concept_wiki_name": "Antihypertensive drug",
+                "concept_wiki_id": "633467"
+            },
+            {
+                "question": "What is the range of statistical power in hypothesis testing?",
+                "A": "0 to 1",
+                "B": "0 to 0.5",
+                "C": "0.5 to 1",
+                "D": "1 to 2",
+                "answer": "A",
+                "concept_wiki_name": "Power of a test",
+                "concept_wiki_id": "238695"
+            },
+            {
+                "question": "What does a Type I error represent in hypothesis testing?",
+                "A": "Rejecting the alternative hypothesis when it is true",
+                "B": "Failing to reject the null hypothesis when it is true",
+                "C": "Accepting the alternative hypothesis when it is false",
+                "D": "Rejecting the null hypothesis when it is true",
+                "answer": "D",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "In the context of a clinical trial, which scenario exemplifies a Type I error?",
+                "A": "An effective drug is incorrectly deemed ineffective",
+                "B": "A drug is concluded to be effective when it is not",
+                "C": "A placebo is found to be more effective than the drug",
+                "D": "No significant difference is found between two effective treatments",
+                "answer": "B",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "Which of the following best describes the relationship between Type I and Type II errors?",
+                "A": "Type I error involves rejecting the null hypothesis when it is true",
+                "B": "Type I error is the failure to reject a false null hypothesis",
+                "C": "Type II error occurs when the null hypothesis is incorrectly rejected",
+                "D": "Type I error is more serious than Type II error in all cases",
+                "answer": "A",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            }
+        ]
+    },
+    {
+        "question": "A 47-year-old man is admitted to the hospital through the emergency department because of the sudden onset of palpitations, left-sided chest pain, light-headedness, and shortness of breath that began while he was watching television 2 hours ago. Medical history is remarkable for paroxysmal atrial fibrillation. The patient is 180 cm (5 ft 11 in) tall and weighs 82 kg (180 lb); BMI is 25 kg/m2 . ECG obtained in the emergency department showed atrial fibrillation with narrow QRS complex. Pulse was 146/min. Physical examination was remarkable for rapid heart rate. The patient was given oxygen via nasal cannula and intravenous metoprolol 5 mg every 5 minutes for a total of 15 mg. His pulse slowed to 90/min. Two hours after admission, he is pain free but his pulse is now 160/min. Blood pressure is 122/78 mm Hg. In order to decrease the patient's pulse, which of the following should be administered intravenously?",
+        "choices": [
+            "Digoxin",
+            "Enalapril",
+            "Lidocaine",
+            "Metoprolol"
+        ],
+        "answer": 3,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "At what heart rate is atrial fibrillation defined?",
+                "A": "Less than 60 beats per minute",
+                "B": "Greater than 100 beats per minute",
+                "C": "Between 60 and 100 beats per minute",
+                "D": "Exactly 100 beats per minute",
+                "answer": "B",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "remembering",
+                "question": "Which condition is identified as a strong risk factor for developing atrial fibrillation?",
+                "A": "Congenital heart disease",
+                "B": "Hypertension",
+                "C": "Diabetes",
+                "D": "Asthma",
+                "answer": "A",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "analyzing",
+                "question": "What underlying condition is most likely to contribute to the development of atrial fibrillation in younger individuals?",
+                "A": "Coronary artery disease",
+                "B": "Congenital heart disease",
+                "C": "Hypertrophic cardiomyopathy",
+                "D": "Mitral valve stenosis",
+                "answer": "B",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which symptom indicates a potential progression to congestive heart failure in patients with atrial fibrillation?",
+                "A": "Dizziness",
+                "B": "Swelling of the lower extremities",
+                "C": "Chest discomfort",
+                "D": "Shortness of breath when lying flat",
+                "answer": "B",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "analyzing",
+                "question": "In diagnosing atrial fibrillation, what method is recommended to accurately determine heart rate?",
+                "A": "Digital blood pressure monitors",
+                "B": "Direct cardiac auscultation",
+                "C": "Heart rate monitors",
+                "D": "Pulse oximetry",
+                "answer": "B",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "applying",
+                "question": "In assessing a patient with atrial fibrillation, what symptom would most likely indicate inadequate oxygen delivery to tissues?",
+                "A": "Dizziness",
+                "B": "Chest discomfort",
+                "C": "Lightheadedness",
+                "D": "Palpitations",
+                "answer": "C",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which condition is most strongly associated with the development of atrial fibrillation in younger individuals?",
+                "A": "Obstructive sleep apnea (OSA)",
+                "B": "Hypertrophic cardiomyopathy",
+                "C": "Congenital heart disease",
+                "D": "Mitral valve prolapse",
+                "answer": "C",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which factor would suggest a higher risk of complications in a patient with atrial fibrillation?",
+                "A": "Presence of chest pain or angina",
+                "B": "Previous history of asthma",
+                "C": "Age below 30",
+                "D": "Regular exercise habits",
+                "answer": "A",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is the significance of a rapid heart rate in a patient with atrial fibrillation?",
+                "A": "It is a sign of inadequate cardiac output requiring immediate treatment.",
+                "B": "It indicates a normal physiological response to exercise.",
+                "C": "It suggests the absence of other cardiovascular conditions.",
+                "D": "It is generally not concerning in the context of AF.",
+                "answer": "A",
+                "topic_wiki_name": "Atrial fibrillation",
+                "topic_wiki_id": "20869694"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following is a common use for metoprolol?",
+                "A": "Treatment of hyperthyroidism",
+                "B": "Management of diabetes",
+                "C": "Prevention of migraines",
+                "D": "Treatment of bacterial infections",
+                "answer": "C",
+                "concept_wiki_name": "Metoprolol",
+                "concept_wiki_id": "841077"
+            },
+            {
+                "question": "What is one method to measure pulse?",
+                "A": "Using a digital monitor at the ankle.",
+                "B": "Listening to the heart beat with a stethoscope and counting for a minute.",
+                "C": "Palpating the carotid artery with two fingers.",
+                "D": "Measuring the pulse pressure in the femoral artery.",
+                "answer": "B",
+                "concept_wiki_name": "Pulse",
+                "concept_wiki_id": "41600"
+            },
+            {
+                "question": "Which condition is associated with a low tension pulse?",
+                "A": "Aortic stenosis.",
+                "B": "Arterial compression.",
+                "C": "Fever or anemia.",
+                "D": "Aortic regurgitation.",
+                "answer": "C",
+                "concept_wiki_name": "Pulse",
+                "concept_wiki_id": "41600"
+            },
+            {
+                "question": "What is a common reason for using a central line for intravenous therapy?",
+                "A": "To minimize the risk of infection",
+                "B": "To provide a temporary solution for hydration",
+                "C": "To reduce the costs associated with IV therapy",
+                "D": "To allow for easy administration of multiple therapies",
+                "answer": "D",
+                "concept_wiki_name": "Intravenous therapy",
+                "concept_wiki_id": "178769"
+            }
+        ]
+    },
+    {
+        "question": "A 52-year-old man comes to the physician with his wife because of a 1-year history of excessive daytime sleepiness. He does not think the symptoms are problematic, but his wife is concerned because he sometimes falls asleep on the sofa early in the evening when guests are present. He also once fell asleep while driving at night and drove off the road, narrowly avoiding injury. His wife says that he has always snored loudly, and over the past year, he has had episodes of choking or gasping for breath while sleeping. He is 178 cm (5 ft 10 in) tall and weighs 105 kg (231 lb); BMI is 33 kg/m2 . His pulse is 76/min, respirations are 14/min, and blood pressure is 150/76 mm Hg. Physical and neurologic examinations show no other abnormalities. Which of the following is most likely to confirm the diagnosis?",
+        "choices": [
+            "24-Hour ambulatory ECG monitoring",
+            "Multiple sleep latency test",
+            "Polysomnography",
+            "CT scan of the head"
+        ],
+        "answer": 2,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What ratio indicates the prevalence of sleep apnea between men and women?",
+                "A": "1:1",
+                "B": "3:1",
+                "C": "2:1",
+                "D": "5:1",
+                "answer": "C",
+                "topic_wiki_name": "Sleep apnea",
+                "topic_wiki_id": "28445"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the typical duration of pauses in breathing during sleep for someone with sleep apnea?",
+                "A": "1-2 seconds",
+                "B": "30 seconds to a minute",
+                "C": "5-10 seconds",
+                "D": "A few seconds to a few minutes",
+                "answer": "D",
+                "topic_wiki_name": "Sleep apnea",
+                "topic_wiki_id": "28445"
+            },
+            {
+                "level": "applying",
+                "question": "In managing a patient with excessive daytime sleepiness due to sleep apnea, which assessment tool would be most appropriate to determine the severity of their condition?",
+                "A": "Berlin questionnaire",
+                "B": "STOP-BANG questionnaire",
+                "C": "Epworth Sleepiness Scale (ESS)",
+                "D": "Polysomnography",
+                "answer": "C",
+                "topic_wiki_name": "Sleep apnea",
+                "topic_wiki_id": "28445"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What condition may be a long-term risk associated with untreated sleep apnea?",
+                "A": "Heart attack",
+                "B": "Chronic fatigue syndrome",
+                "C": "Asthma",
+                "D": "Alzheimer's disease",
+                "answer": "A",
+                "concept_wiki_name": "Sleep apnea",
+                "concept_wiki_id": "28445"
+            },
+            {
+                "question": "What key physiological measurement is primarily monitored during polysomnography?",
+                "A": "Heart rate variability",
+                "B": "Body temperature",
+                "C": "Respiratory rate",
+                "D": "Oxygen saturation",
+                "answer": "D",
+                "concept_wiki_name": "Polysomnography",
+                "concept_wiki_id": "1446859"
+            },
+            {
+                "question": "What does the WHO recommend for the BMI threshold for southeast Asian body types?",
+                "A": "BMI 23",
+                "B": "BMI 30",
+                "C": "BMI 25",
+                "D": "BMI 27",
+                "answer": "A",
+                "concept_wiki_name": "Body mass index",
+                "concept_wiki_id": "4788"
+            },
+            {
+                "question": "What is considered objective evidence of excessive sleepiness in the MSLT?",
+                "A": "Sleep latency of less than 8 minutes",
+                "B": "Sleep latency of less than 10 minutes",
+                "C": "Multiple awakenings during the night",
+                "D": "Presence of sleep-onset REM periods within 20 minutes",
+                "answer": "A",
+                "concept_wiki_name": "Multiple Sleep Latency Test",
+                "concept_wiki_id": "3641274"
+            }
+        ]
+    },
+    {
+        "question": "A 35-year-old man comes to the office because of 1-week history of mid low back pain that radiates down his right leg. The pain began after the patient lifted a heavy box onto his truck. He rates his current pain as an 8 on a 10-point scale. He has been unable to find a comfortable position and has been sleeping in a recliner. Medical history is unremarkable and he takes no medications. He has smoked one pack of cigarettes daily for the past 25 years, and he drinks a six-pack of beer on Friday and Saturday nights. BMI is 27 kg/m2 . He appears uncomfortable and stands during the physical examination. Vital signs are normal. Straight-leg raise test is positive on the right, with loss of right ankle reflex. The remainder of the physical examination discloses no abnormalities. Which of the following is the most likely explanation for this patient’s symptoms?",
+        "choices": [
+            "Displacement of the nucleus pulposus",
+            "Hypertrophy of the facet joints",
+            "Osteophyte formation",
+            "Spondylolisthesis"
+        ],
+        "answer": 0,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What inflammatory molecule is associated with back pain in cases of disc herniation?",
+                "A": "Interleukin-6",
+                "B": "Prostaglandin E2",
+                "C": "C-reactive protein",
+                "D": "Tumor necrosis factor alpha",
+                "answer": "D",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "understanding",
+                "question": "Which inflammatory molecule is associated with back pain from a herniated disc?",
+                "A": "Cytokine beta",
+                "B": "Interleukin-6",
+                "C": "Tumor necrosis factor alpha (TNF)",
+                "D": "Prostaglandin E2",
+                "answer": "C",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "applying",
+                "question": "If a patient is diagnosed with a herniated disc in the lumbar region, which exercise would most likely assist in stabilizing their condition?",
+                "A": "Standing bicep curls",
+                "B": "Prone push-ups",
+                "C": "Seated leg extension",
+                "D": "Lateral raises",
+                "answer": "B",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "applying",
+                "question": "If a patient experiences numbness and tingling in the legs due to a herniated disc, what should be the immediate focus of their rehabilitation?",
+                "A": "Increasing cardiovascular exercises",
+                "B": "Focusing on balance training",
+                "C": "Improving flexibility in the arms",
+                "D": "Strengthening trunk musculature",
+                "answer": "D",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "applying",
+                "question": "Which inflammatory mediator is specifically associated with back pain in cases of spinal disc herniation?",
+                "A": "Interleukin-6",
+                "B": "C-reactive protein",
+                "C": "Tumor necrosis factor alpha (TNF)",
+                "D": "Prostaglandin E2",
+                "answer": "C",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement best captures a common misconception about spinal disc herniation?",
+                "A": "It can occur without noticeable symptoms.",
+                "B": "All herniated discs result in severe pain.",
+                "C": "It is solely caused by aging-related degeneration.",
+                "D": "The term 'slipped disc' accurately describes the condition.",
+                "answer": "D",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is the primary cause of spinal disc herniation as described?",
+                "A": "Genetic predisposition to weakness",
+                "B": "Excessive strain or trauma to the spine",
+                "C": "Poor nutrition and lack of exercise",
+                "D": "Age-related degeneration of spinal discs",
+                "answer": "B",
+                "topic_wiki_name": "Spinal disc herniation",
+                "topic_wiki_id": "6737633"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What event is most commonly associated with a herniation of the nucleus pulposus?",
+                "A": "Formation of osteophytes",
+                "B": "Chronic deterioration due to poor posture",
+                "C": "Hypertrophy of the facet joints",
+                "D": "Normal aging process without trauma",
+                "answer": "B",
+                "concept_wiki_name": "Intervertebral disc",
+                "concept_wiki_id": "210269"
+            },
+            {
+                "question": "Which of the following best describes the physical state of a herniated disc?",
+                "A": "The disc slips completely out of place",
+                "B": "The disc bulges in just one direction",
+                "C": "The anulus fibrosus ruptures completely",
+                "D": "The nucleus pulposus is completely dried out",
+                "answer": "B",
+                "concept_wiki_name": "Intervertebral disc",
+                "concept_wiki_id": "210269"
+            },
+            {
+                "question": "At what angle of leg elevation is the straight-leg raise test considered positive for sciatic pain?",
+                "A": "10 to 30 degrees",
+                "B": "30 to 70 degrees",
+                "C": "70 to 90 degrees",
+                "D": "0 to 10 degrees",
+                "answer": "B",
+                "concept_wiki_name": "Straight leg raise",
+                "concept_wiki_id": "12713635"
+            },
+            {
+                "question": "Which inflammatory molecule is associated with pain in cases of disc herniation?",
+                "A": "Interleukin-6",
+                "B": "C-reactive protein",
+                "C": "Tumor necrosis factor alpha (TNF)",
+                "D": "Prostaglandin E2",
+                "answer": "C",
+                "concept_wiki_name": "Spinal disc herniation",
+                "concept_wiki_id": "6737633"
+            },
+            {
+                "question": "Which of the following terms is a misnomer regarding intervertebral discs?",
+                "A": "Slipped disc",
+                "B": "Prolapsed disc",
+                "C": "Herniated disc",
+                "D": "Ruptured disc",
+                "answer": "A",
+                "concept_wiki_name": "Spinal disc herniation",
+                "concept_wiki_id": "6737633"
+            }
+        ]
+    },
+    {
+        "question": "A 77-year-old female presents to the office for evaluation of a syncopal event that occurred while she was walking. Cardiac examination reveals a grade 3/6 systolic murmur, heard best at the right upper sternal border. There is radiation of the murmur into the neck. The valvular abnormality that most likely caused this episode is",
+        "choices": [
+            "aortic insufficiency",
+            "aortic stenosis",
+            "mitral regurgitation",
+            "mitral stenosis"
+        ],
+        "answer": 1,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "At what age does calcific aortic valve disease typically present?",
+                "A": "40 to 50 years",
+                "B": "50 to 65 years",
+                "C": "Over 75 years",
+                "D": "65 to 70 years",
+                "answer": "D",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "remembering",
+                "question": "Which symptom is commonly associated with aortic stenosis?",
+                "A": "Chest pain while resting",
+                "B": "Shortness of breath when lying down",
+                "C": "Increased ability to exercise",
+                "D": "Rapid heart rate during sleep",
+                "answer": "B",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "remembering",
+                "question": "What percentage of people over the age of 85 have aortic valve stenosis?",
+                "A": "2%",
+                "B": "4%",
+                "C": "3%",
+                "D": "5%",
+                "answer": "B",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which symptom is most indicative of heart failure associated with aortic stenosis?",
+                "A": "Loss of consciousness when lying down",
+                "B": "Increased exercise tolerance",
+                "C": "Swelling of the legs",
+                "D": "Shortness of breath during rest",
+                "answer": "C",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "analyzing",
+                "question": "What might be a common finding during a physical exam for a patient with both aortic stenosis and insufficiency?",
+                "A": "Pulsus bisferiens",
+                "B": "A rapid carotid pulse",
+                "C": "A loud systolic murmur",
+                "D": "Normal ventricular sounds",
+                "answer": "A",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "applying",
+                "question": "If a patient shows a slow rate of rise in the carotid pulse, what condition might this indicate in relation to their heart health?",
+                "A": "Aortic insufficiency",
+                "B": "Mitral valve prolapse",
+                "C": "Aortic stenosis",
+                "D": "Hypertrophic cardiomyopathy",
+                "answer": "C",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "understanding",
+                "question": "Which symptom is typically associated with the progression of aortic stenosis?",
+                "A": "Increased ability to exercise",
+                "B": "Rapid heartbeat at rest",
+                "C": "Shortness of breath when lying down",
+                "D": "Chest pain only during sleep",
+                "answer": "C",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "understanding",
+                "question": "What does the term 'aortic sclerosis' refer to?",
+                "A": "Thickening of the valve without causing obstruction",
+                "B": "Narrowing of the aorta due to congenital defects",
+                "C": "Hardening of the aorta due to age",
+                "D": "Calcification of the aortic valve leading to symptoms",
+                "answer": "A",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "understanding",
+                "question": "Which finding is considered useful for diagnosing aortic stenosis?",
+                "A": "Rapid rate of rise of the carotid pulse",
+                "B": "Slow rate of rise of the carotid pulse",
+                "C": "Increased heart sound intensity",
+                "D": "Presence of a third heart sound",
+                "answer": "B",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with developing a public health initiative to address rising aortic stenosis prevalence, what would be your primary focus?",
+                "A": "Encourage routine screenings for all individuals over 50.",
+                "B": "Promote awareness of the link between smoking and aortic stenosis.",
+                "C": "Advocate for lifestyle changes to prevent coronary artery disease.",
+                "D": "Increase funding for research on congenital heart defects.",
+                "answer": "A",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which symptom is most commonly associated with aortic stenosis as it progresses?",
+                "A": "Increased heart rate during rest",
+                "B": "Frequent headaches",
+                "C": "Decreased ability to exercise",
+                "D": "Chest pain at rest",
+                "answer": "C",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            },
+            {
+                "level": "evaluating",
+                "question": "How does the prognosis for individuals younger than 65 after aortic valve replacement compare to that of the general population?",
+                "A": "It is significantly better",
+                "B": "It is about five years worse",
+                "C": "It is the same as their age group",
+                "D": "It varies widely with individual health",
+                "answer": "B",
+                "topic_wiki_name": "Aortic stenosis",
+                "topic_wiki_id": "194278"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "At what age range do patients with congenital bicuspid aortic valves typically present symptoms of aortic stenosis?",
+                "A": "65 to 70 years",
+                "B": "50 to 60 years",
+                "C": "Under 20 years",
+                "D": "40 to 50 years",
+                "answer": "D",
+                "concept_wiki_name": "Aortic stenosis",
+                "concept_wiki_id": "194278"
+            },
+            {
+                "question": "Which of the following symptoms is most commonly associated with the progression of aortic stenosis?",
+                "A": "Decreased ability to exercise",
+                "B": "Swelling of the legs",
+                "C": "Loss of consciousness while resting",
+                "D": "Chest pain at rest",
+                "answer": "A",
+                "concept_wiki_name": "Aortic stenosis",
+                "concept_wiki_id": "194278"
+            },
+            {
+                "question": "Which heart valves are primarily associated with systolic murmurs?",
+                "A": "Semilunar valves",
+                "B": "Atrioventricular valves",
+                "C": "Pulmonary veins",
+                "D": "Coronary arteries",
+                "answer": "A",
+                "concept_wiki_name": "Systolic heart murmur",
+                "concept_wiki_id": "20909723"
+            },
+            {
+                "question": "What is the timing of a systolic murmur in relation to the heart sounds?",
+                "A": "Begins and ends between S1 and S2",
+                "B": "Begins after S2 and ends before S1",
+                "C": "Starts with S1 and continues until S2",
+                "D": "Heard only during diastole",
+                "answer": "A",
+                "concept_wiki_name": "Systolic heart murmur",
+                "concept_wiki_id": "20909723"
+            },
+            {
+                "question": "Which type of valvular dysfunction is least likely to cause a systolic murmur?",
+                "A": "Aortic regurgitation",
+                "B": "Mitral regurgitation",
+                "C": "Aortic stenosis",
+                "D": "Pulmonic stenosis",
+                "answer": "A",
+                "concept_wiki_name": "Systolic heart murmur",
+                "concept_wiki_id": "20909723"
+            },
+            {
+                "question": "Which condition is characterized by an inability of valve leaflets to close properly at the end of systole, leading to backward blood flow into the left ventricle?",
+                "A": "Aortic stenosis",
+                "B": "Aortic insufficiency",
+                "C": "Mitral stenosis",
+                "D": "Mitral regurgitation",
+                "answer": "B",
+                "concept_wiki_name": "Valvular heart disease",
+                "concept_wiki_id": "2532889"
+            },
+            {
+                "question": "Which characteristic of aortic stenosis is typically noted during auscultation?",
+                "A": "A continuous murmur heard throughout the heartbeat",
+                "B": "A harsh, holosystolic murmur best heard over the apex",
+                "C": "A high-pitched diastolic murmur heard at the left lower sternal border",
+                "D": "A crescendo/decrescendo systolic murmur best heard at the right upper sternal border",
+                "answer": "D",
+                "concept_wiki_name": "Heart murmur",
+                "concept_wiki_id": "237419"
+            },
+            {
+                "question": "What is a common feature of murmurs associated with aortic stenosis?",
+                "A": "They are typically caused by mitral valve defects",
+                "B": "They often radiate to the carotid arteries",
+                "C": "They are classified as continuous murmurs",
+                "D": "They are usually low-pitched and soft",
+                "answer": "B",
+                "concept_wiki_name": "Heart murmur",
+                "concept_wiki_id": "237419"
+            }
+        ]
+    },
+    {
+        "question": "A 19-year-old Asian female college student comes to the university health center because of a 1-week history of nasal stuffiness, occasional clear rhinorrhea, and a mild sore throat. Two days ago, she began to feel hot, but she has not taken her temperature. Medical history is unremarkable and her only medication is an oral contraceptive. She has no history of allergies. She does not smoke cigarettes. BMI is 22 kg/m2 . Vital signs are temperature 38.1°C (100.6°F), pulse 88/min, respirations 16/min, and blood pressure 116/74 mm Hg. Physical examination discloses tenderness over the left maxillary sinus without purulent drainage. There is clear fluid behind the left tympanic membrane, enlarged tonsils bilaterally, and pain with tapping of the left upper incisors. Left frontal sinus does not transilluminate. Cardiopulmonary examination discloses no abnormalities. Which of the following is the most likely underlying mechanism of this patient's sinusitis?",
+        "choices": [
+            "Eustachian tube dysfunction",
+            "Mucosal edema",
+            "Nasal polyps",
+            "Oral contraceptive use"
+        ],
+        "answer": 1,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "understanding",
+                "question": "What is the primary cause of most cases of sinusitis?",
+                "A": "Bacterial infections",
+                "B": "Viral infections",
+                "C": "Allergic reactions",
+                "D": "Fungal infections",
+                "answer": "B",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "understanding",
+                "question": "Which treatment is explicitly mentioned as not being recommended for most cases of sinusitis?",
+                "A": "Nasal irrigation",
+                "B": "Rest and hydration",
+                "C": "Decongestant nasal sprays",
+                "D": "Antibiotics",
+                "answer": "D",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following is the most common bacterial agent causing sinus infections?",
+                "A": "Streptococcus pneumoniae",
+                "B": "Haemophilus influenzae",
+                "C": "Moraxella catarrhalis",
+                "D": "Streptococcus pyogenes",
+                "answer": "A",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "understanding",
+                "question": "What is recommended as the initial treatment approach for acute sinusitis?",
+                "A": "Immediate antibiotic treatment",
+                "B": "Surgical intervention",
+                "C": "Watchful waiting",
+                "D": "Nasal endoscopy",
+                "answer": "C",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "remembering",
+                "question": "Which antibiotic is mentioned as slightly superior for treating sinusitis?",
+                "A": "Ciprofloxacin",
+                "B": "Amoxicillin/clavulanate",
+                "C": "Azithromycin",
+                "D": "Doxycycline",
+                "answer": "B",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "remembering",
+                "question": "What is a recommended initial treatment for acute sinusitis?",
+                "A": "Watchful waiting",
+                "B": "Antibiotics",
+                "C": "Immediate surgery",
+                "D": "Nasal steroids",
+                "answer": "A",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the primary cause of most sinusitis cases?",
+                "A": "Bacterial infections",
+                "B": "Allergies",
+                "C": "Viral infections",
+                "D": "Structural problems in the nose",
+                "answer": "C",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is the primary reason antibiotics are generally not recommended for most cases of sinusitis?",
+                "A": "They are ineffective against viral infections",
+                "B": "Most cases resolve without treatment",
+                "C": "They often cause severe side effects",
+                "D": "They are only effective in chronic cases",
+                "answer": "A",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a common underlying condition that increases the likelihood of recurrent sinusitis episodes?",
+                "A": "Diabetes",
+                "B": "Chronic fatigue syndrome",
+                "C": "Hypertension",
+                "D": "Cystic fibrosis",
+                "answer": "D",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which treatment is suggested to relieve symptoms of sinusitis, despite its uncertain effectiveness in children?",
+                "A": "Nasal irrigation",
+                "B": "Antihistamines",
+                "C": "Decongestant nasal sprays",
+                "D": "Breathing low-temperature steam",
+                "answer": "A",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which bacterial agent has seen a notable decline in infections due to vaccination efforts?",
+                "A": "Moraxella catarrhalis",
+                "B": "Haemophilus influenzae",
+                "C": "Streptococcus pneumoniae",
+                "D": "Streptococcus pyogenes",
+                "answer": "B",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "analyzing",
+                "question": "What underlying condition is most likely to lead to recurrent episodes of sinusitis?",
+                "A": "Diabetes",
+                "B": "Asthma",
+                "C": "Hypertension",
+                "D": "Obesity",
+                "answer": "B",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "applying",
+                "question": "If a patient with acute sinusitis sees no improvement after 8 days, what is the recommended course of action?",
+                "A": "Continue with home remedies for another week",
+                "B": "Start antibiotics immediately",
+                "C": "Consider changing to a different antibiotic",
+                "D": "Consult a specialist for surgery",
+                "answer": "C",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "applying",
+                "question": "For a patient experiencing recurrent sinusitis episodes, which underlying condition might increase their likelihood of these occurrences?",
+                "A": "High blood pressure",
+                "B": "Diabetes",
+                "C": "Chronic asthma",
+                "D": "Gastroesophageal reflux disease",
+                "answer": "C",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to create a research proposal on the effects of nasal irrigation for sinusitis, what aspect would be crucial to include?",
+                "A": "The uncertain evidence surrounding nasal irrigation's effectiveness in various age groups.",
+                "B": "The potential long-term benefits of nasal irrigation in all patients.",
+                "C": "The effectiveness of nasal irrigation compared to immediate antibiotic treatment.",
+                "D": "The comparison of nasal irrigation to surgical interventions.",
+                "answer": "A",
+                "topic_wiki_name": "Sinusitis",
+                "topic_wiki_id": "28598"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the primary cause of mucosal edema in sinusitis?",
+                "A": "Viral infection leading to inflammation",
+                "B": "Bacterial infection requiring immediate antibiotic treatment",
+                "C": "Allergic reaction causing swelling",
+                "D": "Environmental pollutants causing irritation",
+                "answer": "A",
+                "concept_wiki_name": "Sinusitis",
+                "concept_wiki_id": "28598"
+            },
+            {
+                "question": "Which of the following is a common symptom of sinusitis related to mucosal edema?",
+                "A": "Severe facial swelling",
+                "B": "Thick nasal mucus",
+                "C": "Persistent cough with phlegm",
+                "D": "Difficulty swallowing",
+                "answer": "B",
+                "concept_wiki_name": "Sinusitis",
+                "concept_wiki_id": "28598"
+            },
+            {
+                "question": "What is the most common condition associated with nasal polyps in children?",
+                "A": "Allergic rhinitis",
+                "B": "Chronic rhinosinusitis",
+                "C": "Eustachian tube dysfunction",
+                "D": "Cystic fibrosis",
+                "answer": "D",
+                "concept_wiki_name": "Nasal polyp",
+                "concept_wiki_id": "707785"
+            },
+            {
+                "question": "What is a likely underlying mechanism for polyp formation in nasal mucosa?",
+                "A": "Viral infection",
+                "B": "Allergic response",
+                "C": "Bacterial overgrowth",
+                "D": "Mucosal edema due to extracellular fluid",
+                "answer": "D",
+                "concept_wiki_name": "Nasal polyp",
+                "concept_wiki_id": "707785"
+            }
+        ]
+    },
+    {
+        "question": "A previously healthy 37-year-old woman comes to the physician because of a 3-month history of episodes of severe anxiety, shortness of breath, palpitations, and numbness in her hands and feet. Her vital signs are within normal limits. Physical examination shows no abnormalities. Thyroid function studies and an ECG show no abnormalities. Which of the following is the most appropriate pharmacotherapy?",
+        "choices": [
+            "Lithium carbonate",
+            "Methylphenidate",
+            "Olanzapine",
+            "Paroxetine"
+        ],
+        "answer": 3,
+        "subject": "professional_medicine",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "What underlying condition must be ruled out before diagnosing an anxiety disorder?",
+                "A": "All of the above",
+                "B": "Hypothyroidism",
+                "C": "Vitamin D deficiency",
+                "D": "Diabetes",
+                "answer": "A",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which lifestyle change is indicated to have anxiety reduction benefits comparable to medications?",
+                "A": "Smoking cessation",
+                "B": "Caffeine reduction",
+                "C": "Regular exercise",
+                "D": "Sleep pattern regulation",
+                "answer": "A",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a common challenge faced by older adults when adhering to anxiety medication regimens?",
+                "A": "Lack of anxiety symptoms",
+                "B": "Higher metabolic rates",
+                "C": "Greater awareness of side effects",
+                "D": "Complex medication instructions",
+                "answer": "D",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "remembering",
+                "question": "What common symptom is associated with anxiety disorders?",
+                "A": "Increased appetite",
+                "B": "Frequent urination",
+                "C": "Chest pain",
+                "D": "Excessive sleepiness",
+                "answer": "C",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "remembering",
+                "question": "Which medication is noted as effective for treating a range of anxiety disorders in children and adolescents?",
+                "A": "Sertraline",
+                "B": "Paroxetine",
+                "C": "Fluvoxamine",
+                "D": "Fluoxetine",
+                "answer": "C",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following treatments has moderate evidence for improving anxiety symptoms?",
+                "A": "Cognitive behavioral therapy",
+                "B": "Increased caffeine intake",
+                "C": "High-dose vitamin B supplements",
+                "D": "Regular exercise",
+                "answer": "D",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following statements accurately reflects the document's view on medications for specific phobias?",
+                "A": "Benzodiazepines are always recommended.",
+                "B": "Medications are generally helpful.",
+                "C": "SSRIs are the best choice for specific phobias.",
+                "D": "Medications are not seen as helpful.",
+                "answer": "D",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which lifestyle change is noted to have anxiety-reducing benefits comparable to medications?",
+                "A": "Regular exercise",
+                "B": "Stopping smoking",
+                "C": "Reducing caffeine intake",
+                "D": "Mindfulness therapy",
+                "answer": "B",
+                "topic_wiki_name": "Anxiety disorder",
+                "topic_wiki_id": "57688"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "How do patients with comorbid disorders differ from those with only generalized anxiety disorder?",
+                "A": "They show greater improvement than patients with simple GAD",
+                "B": "They exhibit milder symptoms when starting therapy",
+                "C": "They do not benefit from cognitive behavioral therapy",
+                "D": "They have a lower risk of substance use disorders",
+                "answer": "A",
+                "concept_wiki_name": "Generalized anxiety disorder",
+                "concept_wiki_id": "641696"
+            },
+            {
+                "question": "In which year was Paroxetine the 95th most commonly prescribed medication in the United States?",
+                "A": "2020",
+                "B": "2021",
+                "C": "2019",
+                "D": "2022",
+                "answer": "B",
+                "concept_wiki_name": "Paroxetine",
+                "concept_wiki_id": "124118"
+            },
+            {
+                "question": "Why is there an ongoing call for appreciation of physical examination skills in medical education?",
+                "A": "To reduce the need for technology in diagnostics",
+                "B": "To replace outdated diagnostic tools",
+                "C": "To maintain the historical importance of tactile skills",
+                "D": "To increase reliance on psychological assessments",
+                "answer": "C",
+                "concept_wiki_name": "Physical examination",
+                "concept_wiki_id": "602919"
+            },
+            {
+                "question": "In many Western societies, what is one requirement related to physical examinations?",
+                "A": "Participation in academic assessments",
+                "B": "Enrollment in medical school",
+                "C": "Participation in extracurricular sporting activities",
+                "D": "Completion of a health insurance application",
+                "answer": "C",
+                "concept_wiki_name": "Physical examination",
+                "concept_wiki_id": "602919"
+            },
+            {
+                "question": "What is a significant factor that affects the variation of TSH and thyroid hormone levels in individuals?",
+                "A": "Inter-individual variation is considerably smaller than intra-individual variation",
+                "B": "Intra-individual variation is considerably smaller than inter-individual variation",
+                "C": "The presence of thyroid disease always amplifies variation",
+                "D": "Thyroid hormone levels are constant across all individuals",
+                "answer": "B",
+                "concept_wiki_name": "Thyroid function tests",
+                "concept_wiki_id": "4466508"
+            },
+            {
+                "question": "What is the purpose of the thyroid-spot algorithm?",
+                "A": "To diagnose thyroid cancer with high precision",
+                "B": "To measure the effectiveness of thyroid medication",
+                "C": "To reconstruct the personal set point of thyroid homeostasis",
+                "D": "To analyze the genetic factors affecting thyroid function",
+                "answer": "C",
+                "concept_wiki_name": "Thyroid function tests",
+                "concept_wiki_id": "4466508"
+            }
+        ]
+    }
+]

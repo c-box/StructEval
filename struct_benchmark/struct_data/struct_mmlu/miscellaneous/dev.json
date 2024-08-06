@@ -1,0 +1,62 @@
+[
+    {
+        "question": "How many axles does a standard automobile have?",
+        "subject": "miscellaneous",
+        "choices": [
+            "one",
+            "two",
+            "four",
+            "eight"
+        ],
+        "answer": 1,
+        "idx": 0
+    },
+    {
+        "question": "What place is named in the title of the 1979 live album by rock legends Cheap Trick?",
+        "subject": "miscellaneous",
+        "choices": [
+            "Budapest",
+            "Budokan",
+            "Bhutan",
+            "Britain"
+        ],
+        "answer": 1,
+        "idx": 1
+    },
+    {
+        "question": "Who is the shortest man to ever win an NBA slam dunk competition?",
+        "subject": "miscellaneous",
+        "choices": [
+            "Anthony 'Spud' Webb",
+            "Michael 'Air' Jordan",
+            "Tyrone 'Muggsy' Bogues",
+            "Julius 'Dr J' Erving"
+        ],
+        "answer": 0,
+        "idx": 2
+    },
+    {
+        "question": "What is produced during photosynthesis?",
+        "subject": "miscellaneous",
+        "choices": [
+            "hydrogen",
+            "nylon",
+            "oxygen",
+            "light"
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": "Which of these songs was a Top 10 hit for the rock band The Police?",
+        "subject": "miscellaneous",
+        "choices": [
+            "'Radio Ga-Ga'",
+            "'Ob-la-di Ob-la-da'",
+            "'De Do Do Do De Da Da Da'",
+            "'In-a-Gadda-Da-Vida'"
+        ],
+        "answer": 2,
+        "idx": 4
+    }
+]

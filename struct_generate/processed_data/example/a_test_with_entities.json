@@ -1,0 +1,36 @@
+[
+    {
+        "question": "Which of the following is true regarding reflexes?",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "An extensor plantar response indicates a lower motor neurone lesion",
+            "The root value of the ankle reflex is S1",
+            "The root value of the knee reflex is L1, L2"
+        ],
+        "answer": 2,
+        "idx": 0,
+        "entities": [
+            {
+                "name": "reflexes",
+                "description": "Reflexes are involuntary and nearly instantaneous movements in response to a stimulus, often mediated by neural pathways known as reflex arcs."
+            },
+            {
+                "name": "ankle reflex",
+                "description": "The ankle reflex, also known as the Achilles reflex, is a deep tendon reflex that tests the S1 nerve root and involves the contraction of the gastrocnemius muscle."
+            },
+            {
+                "name": "S1 nerve root",
+                "description": "The S1 nerve root is part of the sacral plexus and is primarily responsible for the motor and sensory functions of the lower leg and foot."
+            },
+            {
+                "name": "knee reflex",
+                "description": "The knee reflex, or patellar reflex, is a deep tendon reflex that tests the L2 and L3 nerve roots, causing an involuntary contraction of the quadriceps muscle."
+            },
+            {
+                "name": "Babinski reflex",
+                "description": "The Babinski reflex is a neurological test where a stimulus is applied to the sole of the foot, with a positive response indicating an abnormal reflex in adults, typically associated with upper motor neuron lesions."
+            }
+        ]
+    }
+]

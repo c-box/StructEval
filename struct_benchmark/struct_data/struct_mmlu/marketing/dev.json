@@ -1,0 +1,62 @@
+[
+    {
+        "question": " _____________ is a natural outcome when combining demographic and geographic variables.",
+        "subject": "marketing",
+        "choices": [
+            "Geodemographics",
+            "Product differentiation.",
+            "ANSOFF matrix.",
+            "Brand management."
+        ],
+        "answer": 0,
+        "idx": 0
+    },
+    {
+        "question": "In an organization, the group of people tasked with buying decisions is referred to as the _______________.",
+        "subject": "marketing",
+        "choices": [
+            "Outsourcing unit.",
+            "Procurement centre.",
+            "Chief executive unit.",
+            "Decision-making unit."
+        ],
+        "answer": 3,
+        "idx": 1
+    },
+    {
+        "question": " Which of the following is an assumption in Maslow's hierarchy of needs?",
+        "subject": "marketing",
+        "choices": [
+            "Needs are dependent on culture and also on social class.",
+            "Lower-level needs must be at least partially satisfied before higher needs can affect behaviour.",
+            "Needs are not prioritized or arranged in any particular order.",
+            "Satisfied needs are motivators, and new needs emerge when current needs remain unmet."
+        ],
+        "answer": 1,
+        "idx": 2
+    },
+    {
+        "question": "The single group within society that is most vulnerable to reference group influence is:",
+        "subject": "marketing",
+        "choices": [
+            "The older consumer who feels somewhat left out of things.",
+            "The married women, many of whom feel a need for stability in their lives.",
+            "New immigrants who really want to assimilate into their new culture.",
+            "Children, who base most of their buying decisions on outside influences."
+        ],
+        "answer": 3,
+        "idx": 3
+    },
+    {
+        "question": "Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:",
+        "subject": "marketing",
+        "choices": [
+            "Care lines.",
+            "Direct mail.",
+            "Inserts.",
+            "Door to door."
+        ],
+        "answer": 3,
+        "idx": 4
+    }
+]

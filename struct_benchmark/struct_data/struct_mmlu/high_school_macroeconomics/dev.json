@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Which of the following is not included in the U.S. GDP?",
+        "subject": "high_school_macroeconomics",
+        "choices": [
+            "The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.",
+            "Japanese consumers buy thousands of CDs produced in the United States.",
+            "An American pop singer performs a sold-out concert in Paris.",
+            "A French theatrical production tours dozens of American cities."
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "The short-run Phillips curve indicates a",
+        "subject": "high_school_macroeconomics",
+        "choices": [
+            "direct relation between unemployment and inflation",
+            "direct relation between price and quantity demanded",
+            "inverse relation between price and quantity demanded",
+            "inverse relation between unemployment and inflation"
+        ],
+        "answer": 3,
+        "idx": 1
+    },
+    {
+        "question": "A federal deficit occurs when",
+        "subject": "high_school_macroeconomics",
+        "choices": [
+            "exports exceed imports.",
+            "imports exceed exports.",
+            "federal tax collections exceed spending.",
+            "federal spending exceeds federal tax revenues."
+        ],
+        "answer": 3,
+        "idx": 2
+    },
+    {
+        "question": "Holding all else equal which of the following monetary policies would be used to boost U.S. exports?",
+        "subject": "high_school_macroeconomics",
+        "choices": [
+            "Increasing the discount rate",
+            "Increasing the reserve ratio",
+            "Buying government securities",
+            "Lowering tariffs"
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": "Which of the following policies best describes supply-side fiscal policy?",
+        "subject": "high_school_macroeconomics",
+        "choices": [
+            "An increase in the money supply",
+            "Increased government spending",
+            "Lower taxes on research and development of new technology",
+            "Higher taxes on household income"
+        ],
+        "answer": 2,
+        "idx": 4
+    }
+]

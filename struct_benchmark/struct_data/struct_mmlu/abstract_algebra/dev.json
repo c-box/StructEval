@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.",
+        "subject": "abstract_algebra",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": 1,
+        "idx": 0
+    },
+    {
+        "question": "Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.",
+        "subject": "abstract_algebra",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "idx": 1
+    },
+    {
+        "question": "Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.",
+        "subject": "abstract_algebra",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 2,
+        "idx": 2
+    },
+    {
+        "question": "Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.",
+        "subject": "abstract_algebra",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "idx": 3
+    },
+    {
+        "question": "Find the characteristic of the ring 2Z.",
+        "subject": "abstract_algebra",
+        "choices": [
+            "0",
+            "3",
+            "12",
+            "30"
+        ],
+        "answer": 0,
+        "idx": 4
+    }
+]

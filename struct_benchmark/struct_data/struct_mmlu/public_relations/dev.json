@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What should a public relations media practitioner do if she does not know the answer to a reporter's question?",
+        "subject": "public_relations",
+        "choices": [
+            "Give the reporter other information she is certain is correct.",
+            "Say that the information is 'off the record' and will be disseminated later.",
+            "Say 'I don't know' and promise to provide the information later.",
+            "Say 'no comment,' rather than appear uninformed."
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "In issues management, what is the most proactive approach to addressing negative or misleading information posted online about your organization?",
+        "subject": "public_relations",
+        "choices": [
+            "Buy domain names that could be used by opposition groups.",
+            "Post anonymous comments on blogs to combat this information.",
+            "Prepare a news release that discredits the inaccurate information.",
+            "Make policy changes to address complaints highlighted on these sites."
+        ],
+        "answer": 3,
+        "idx": 1
+    },
+    {
+        "question": "Which of these statements is true of the Vatican in 2010 at the time of the accusations of child abuse cover-ups?",
+        "subject": "public_relations",
+        "choices": [
+            "There was a coordinated media response.",
+            "Consistent messages were communicated.",
+            "Criticisms were taken as attacks on the Catholic Church.",
+            "The credibility of the Vatican was upheld."
+        ],
+        "answer": 2,
+        "idx": 2
+    },
+    {
+        "question": "At which stage in the planning process would a situation analysis be carried out?",
+        "subject": "public_relations",
+        "choices": [
+            "Defining the program",
+            "Planning the program",
+            "Taking action and implementing ideas",
+            "Evaluation of the program"
+        ],
+        "answer": 0,
+        "idx": 3
+    },
+    {
+        "question": "Earth Hour was a campaign launched by which organization?",
+        "subject": "public_relations",
+        "choices": [
+            "Greenpeace",
+            "The UN",
+            "Oxfam",
+            "World Wildlife Fund"
+        ],
+        "answer": 3,
+        "idx": 4
+    }
+]

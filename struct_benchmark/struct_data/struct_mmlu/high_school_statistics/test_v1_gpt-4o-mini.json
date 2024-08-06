@@ -1,0 +1,2821 @@
+[
+    {
+        "question": "The mean Law School Aptitude Test (LSAT) score for applicants to a particular law school is 650 with a standard deviation of 45. Suppose that only applicants with scores above 700 are considered. What percentage of the applicants considered have scores below 740? (Assume the scores are normally distributed.)",
+        "choices": [
+            "13.3%",
+            "17.1%",
+            "82.9%",
+            "86.7%"
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "When was the LSAT first created?",
+                "A": "1965",
+                "B": "1991",
+                "C": "1985",
+                "D": "1948",
+                "answer": "D",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "remembering",
+                "question": "How many sections does the LSAT have?",
+                "A": "Five total sections",
+                "B": "Four total sections",
+                "C": "Three total sections",
+                "D": "Six total sections",
+                "answer": "A",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "remembering",
+                "question": "What method is used to report LSAT scores to law schools?",
+                "A": "Only the most recent score is reported",
+                "B": "The average score is reported",
+                "C": "All scores from the past five years are reported",
+                "D": "The highest score from the last two years is reported",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following statements about the LSAT scoring system is true?",
+                "A": "Scores are reported as raw scores without conversion.",
+                "B": "All LSAT scores from the past ten years are considered.",
+                "C": "The LSAT uses an ordinal grading system.",
+                "D": "The median score is typically around 160.",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "understanding",
+                "question": "How has the administration method of the LSAT changed since 2019?",
+                "A": "It is now administered only in paper format.",
+                "B": "It is administered in both online and in-person formats.",
+                "C": "It now includes an additional scored section.",
+                "D": "It has shifted to being exclusively administered electronically.",
+                "answer": "D",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens if a test taker cancels their LSAT score?",
+                "A": "The test taker must retake the exam within six months.",
+                "B": "The test taker receives a refund for the exam fee.",
+                "C": "The score is still reported to law schools.",
+                "D": "The cancellation is not noted on their record.",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the typical median score for the LSAT?",
+                "A": "Around 145.",
+                "B": "Approximately 150.",
+                "C": "About 155.",
+                "D": "Near 160.",
+                "answer": "B",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is the typical range for the median LSAT score?",
+                "A": "Around 160.",
+                "B": "Around 150.",
+                "C": "Around 175.",
+                "D": "Around 145.",
+                "answer": "B",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "creating",
+                "question": "How would you propose modifying the LSAT to improve its predictive validity for law school success?",
+                "A": "Add a mathematics section to gauge quantitative reasoning",
+                "B": "Introduce a section on legal knowledge and ethics",
+                "C": "Incorporate a practical writing sample within the scoring",
+                "D": "Include a section dedicated to logical fallacies",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "creating",
+                "question": "In designing an alternative assessment tool for law school admissions, which aspect of the LSAT's structure would you retain to ensure consistency in evaluating candidates?",
+                "A": "The use of a raw score conversion to a scaled score",
+                "B": "The inclusion of a mandatory experimental section",
+                "C": "The option to cancel scores within six days",
+                "D": "The five total sections format",
+                "answer": "A",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with presenting the LSAT's scoring system to prospective law students, which key feature would you highlight to emphasize the importance of test preparation?",
+                "A": "The ability to choose which scores to report",
+                "B": "The unscored experimental section's role",
+                "C": "The bell curve distribution of scores",
+                "D": "The median score being around 150",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            },
+            {
+                "level": "applying",
+                "question": "What strategy might a law school applicant use if they want to ensure their highest LSAT score is considered?",
+                "A": "Only apply to schools that do not require LSAT scores",
+                "B": "Cancel all LSAT scores before applying",
+                "C": "Focus on one high LSAT score and report only that score",
+                "D": "Take the LSAT multiple times within five years and report all scores",
+                "answer": "C",
+                "topic_wiki_name": "Law School Admission Test",
+                "topic_wiki_id": "386327"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the median LSAT score reported as per the standardized scoring system?",
+                "A": "150",
+                "B": "160",
+                "C": "170",
+                "D": "140",
+                "answer": "A",
+                "concept_wiki_name": "Law School Admission Test",
+                "concept_wiki_id": "386327"
+            },
+            {
+                "question": "What format was the LSAT administered in before July 2019?",
+                "A": "Online and paper-based",
+                "B": "Only electronically",
+                "C": "Only paper-and-pencil",
+                "D": "Only oral examination",
+                "answer": "C",
+                "concept_wiki_name": "Law School Admission Test",
+                "concept_wiki_id": "386327"
+            }
+        ]
+    },
+    {
+        "question": "An experiment is conducted in which the response variable is the average gain in participants' performance in the long jump. A two-sample t-test with a 5% level of significance will be used to analyze the results. If all else is kept the same, which of the following descriptions of a possible change in procedure is true?",
+        "choices": [
+            "Change from equal size treatment groups to very different size treatment groups would increase the power of the test.",
+            "Change from a 5% significance level to a 1% significance level would increase the power of the test.",
+            "Taking more careful measurements to reduce variability in the response would increase the power of the test.",
+            "Increasing the sample size would reduce the probability of a Type I error."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "What does the Neyman–Pearson theory allow in hypothesis testing that Fisher's tests do not?",
+                "A": "Only the consideration of prior probabilities",
+                "B": "Accurate estimation of Type II error rates",
+                "C": "Rejection of the null hypothesis without evidence",
+                "D": "Incorporation of prior probabilities and costs of actions",
+                "answer": "D",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "applying",
+                "question": "In the context of the 'lady tasting tea' example, what must be demonstrated to justify the conclusion that the lady’s results were not due to chance?",
+                "A": "The lady must categorize all of the cups of tea correctly.",
+                "B": "The lady must categorize at least half of the cups correctly.",
+                "C": "The test must show a significant p-value.",
+                "D": "The lady must have prior experience with tea.",
+                "answer": "A",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which factor is crucial for the reliability of a hypothesis test?",
+                "A": "The number of hypotheses tested",
+                "B": "The type of statistical software used",
+                "C": "The size of the sample",
+                "D": "The design of the experiment",
+                "answer": "D",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "evaluating",
+                "question": "What should be considered when making decisions based on hypothesis test results?",
+                "A": "Only the conclusion of the test",
+                "B": "The details behind the conclusion",
+                "C": "The number of tests conducted",
+                "D": "The p-value obtained",
+                "answer": "B",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which term is often used interchangeably with 'response variable' in the context of experiments?",
+                "A": "Independent variable",
+                "B": "Criterion variable",
+                "C": "Explanatory variable",
+                "D": "Predictor variable",
+                "answer": "B",
+                "concept_wiki_name": "Dependent and independent variables",
+                "concept_wiki_id": "437701"
+            },
+            {
+                "question": "In econometrics, which term is typically used instead of 'covariate'?",
+                "A": "Control variable",
+                "B": "Response variable",
+                "C": "Explanatory variable",
+                "D": "Output variable",
+                "answer": "A",
+                "concept_wiki_name": "Dependent and independent variables",
+                "concept_wiki_id": "437701"
+            },
+            {
+                "question": "What condition allows a two-sample t-test to yield similar results to a Z-test?",
+                "A": "When the variances of the two populations are equal",
+                "B": "When the sample size increases",
+                "C": "When the scaling term is unknown",
+                "D": "When the sample size is small",
+                "answer": "B",
+                "concept_wiki_name": "Student's t-test",
+                "concept_wiki_id": "536080"
+            },
+            {
+                "question": "What defines a Type I error in hypothesis testing?",
+                "A": "Failing to reject the null hypothesis when it is false.",
+                "B": "Accepting the alternative hypothesis when it is false.",
+                "C": "Rejecting the null hypothesis when it is true.",
+                "D": "Failing to detect an effect when one exists.",
+                "answer": "C",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "Which of the following changes would most likely impact the probability of making a Type I error?",
+                "A": "Increasing sample size.",
+                "B": "Decreasing the significance level from 0.05 to 0.01.",
+                "C": "Reducing variability in measurements.",
+                "D": "Using a one-tailed test instead of a two-tailed test.",
+                "answer": "B",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            }
+        ]
+    },
+    {
+        "question": "A company has a choice of three investment schemes. Option I gives a sure $25,000 return on investment. Option II gives a 50% chance of returning $50,000 and a 50% chance of returning $10,000. Option III gives a 5% chance of returning $100,000 and a 95% chance of returning nothing. Which option should the company choose?",
+        "choices": [
+            "Option II if it wants to maximize expected return",
+            "Option I if it needs at least $20,000 to pay off an overdue loan",
+            "Option III if it needs at least $80,000 to pay off an overdue loan",
+            "All of the above answers are correct."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "Which of the following is NOT mentioned as a tool for investment analysis?",
+                "A": "Market predictions",
+                "B": "Gut feel",
+                "C": "Technical analysis",
+                "D": "Fundamental analysis",
+                "answer": "A",
+                "topic_wiki_name": "Investment decisions",
+                "topic_wiki_id": "4011930"
+            },
+            {
+                "level": "remembering",
+                "question": "What are common methods used for investment analysis?",
+                "A": "Technical analysis, historical data, and intuition",
+                "B": "Market trends, fundamental analysis, and speculation",
+                "C": "Fundamental analysis, technical analysis, and instinct",
+                "D": "Fundamental analysis, market timing, and gut feel",
+                "answer": "C",
+                "topic_wiki_name": "Investment decisions",
+                "topic_wiki_id": "4011930"
+            },
+            {
+                "level": "remembering",
+                "question": "What theory is often applied to help investors with their returns?",
+                "A": "Risk management theory",
+                "B": "Behavioral finance theory",
+                "C": "Capital asset pricing model",
+                "D": "Portfolio theory",
+                "answer": "D",
+                "topic_wiki_name": "Investment decisions",
+                "topic_wiki_id": "4011930"
+            },
+            {
+                "level": "evaluating",
+                "question": "What psychological effect might influence investors after making poor investment choices?",
+                "A": "Confirmation bias",
+                "B": "Loss aversion",
+                "C": "Investor's remorse",
+                "D": "Overconfidence",
+                "answer": "C",
+                "topic_wiki_name": "Investment decisions",
+                "topic_wiki_id": "4011930"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following is NOT mentioned as a tool for supporting investment decisions?",
+                "A": "Decision tools",
+                "B": "Technical analysis",
+                "C": "Portfolio theory",
+                "D": "Risk assessment models",
+                "answer": "D",
+                "topic_wiki_name": "Investment decisions",
+                "topic_wiki_id": "4011930"
+            }
+        ],
+        "concept_questions": []
+    },
+    {
+        "question": "A researcher plans a study to examine long-term confidence in the U.S. economy among the adult population. She obtains a simple random sample of 30 adults as they leave a Wall Street office building one weekday afternoon. All but two of the adults agree to participate in the survey. Which of the following conclusions is correct?",
+        "choices": [
+            "Proper use of chance as evidenced by the simple random sample makes this a well-designed survey.",
+            "The high response rate makes this a well-designed survey.",
+            "Selection bias makes this a poorly designed survey.",
+            "A voluntary response study like this gives too much emphasis to persons with strong opinions."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "When designing a study, what method can be employed to mitigate the effects of volunteer bias?",
+                "A": "Increase the sample size",
+                "B": "Reduce the sample size",
+                "C": "Limit participant demographics",
+                "D": "Use only random samples",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "applying",
+                "question": "If a study excludes participants who moved into the area recently, what type of bias are they likely introducing?",
+                "A": "Attrition bias",
+                "B": "Sampling bias",
+                "C": "Selection bias",
+                "D": "Survivorship bias",
+                "answer": "B",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "remembering",
+                "question": "Which type of bias is specifically classified as a subtype of selection bias?",
+                "A": "Attrition bias",
+                "B": "Survivorship bias",
+                "C": "Sampling bias",
+                "D": "Lead time bias",
+                "answer": "C",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the main focus of selection bias in a study?",
+                "A": "Internal validity of sample differences",
+                "B": "External validity of test results",
+                "C": "Generalization of findings to different populations",
+                "D": "Randomization of sample selection",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "understanding",
+                "question": "What is a common method to mitigate selection bias?",
+                "A": "Increasing the complexity of the analysis.",
+                "B": "Using a larger sample size.",
+                "C": "Applying random sampling techniques.",
+                "D": "Eliminating outliers from the data.",
+                "answer": "B",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which type of bias is specifically considered a subtype of selection bias?",
+                "A": "Sampling bias",
+                "B": "Attrition bias",
+                "C": "Survivorship bias",
+                "D": "Response bias",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "analyzing",
+                "question": "What distinguishes sampling bias from selection bias?",
+                "A": "Sampling bias arises from gathering the sample, while selection bias arises from subsequent analysis.",
+                "B": "Sampling bias is always related to external validity.",
+                "C": "Sampling bias ensures random selection of participants.",
+                "D": "Sampling bias affects the data collection process only.",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "creating",
+                "question": "What method would you propose to enhance the representation of a sample in a study suffering from selection bias?",
+                "A": "Increase the sample size without changing selection criteria.",
+                "B": "Implement stratified sampling to ensure diverse representation.",
+                "C": "Randomly assign participants after selection to correct imbalances.",
+                "D": "Use only self-reported data to gather participant information.",
+                "answer": "B",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which type of bias primarily affects the external validity of a study?",
+                "A": "Selection bias",
+                "B": "Attrition bias",
+                "C": "Survivorship bias",
+                "D": "Sampling bias",
+                "answer": "D",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a common method to mitigate selection bias in studies?",
+                "A": "Increasing sample size",
+                "B": "Using random sampling",
+                "C": "Applying Heckman correction",
+                "D": "Excluding outliers",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            },
+            {
+                "level": "evaluating",
+                "question": "What main issue does selection bias address that differs from sampling bias?",
+                "A": "Internal validity",
+                "B": "External validity",
+                "C": "Data collection methods",
+                "D": "Statistical analysis techniques",
+                "answer": "A",
+                "topic_wiki_name": "Selection bias",
+                "topic_wiki_id": "394392"
+            }
+        ],
+        "concept_questions": []
+    },
+    {
+        "question": "In general, how does tripling the sample size change the confidence interval size?",
+        "choices": [
+            "It triples the interval size.",
+            "It divides the interval size by 3.",
+            "It multiples the interval size by 1.732.",
+            "It divides the interval size by 1.732."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "Which statement best describes the relationship between confidence level and confidence interval width?",
+                "A": "Higher confidence levels result in narrower confidence intervals.",
+                "B": "Lower confidence levels result in wider confidence intervals.",
+                "C": "Confidence levels do not affect confidence interval width.",
+                "D": "Higher confidence levels result in wider confidence intervals.",
+                "answer": "D",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which factor is NOT mentioned as affecting the width of a confidence interval?",
+                "A": "Sample size.",
+                "B": "Variability in the sample.",
+                "C": "Confidence level.",
+                "D": "Measurement error.",
+                "answer": "D",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following best describes the relationship between confidence level and interval width?",
+                "A": "Higher confidence levels result in narrower intervals.",
+                "B": "The confidence level is irrelevant to the interval's construction.",
+                "C": "Confidence levels do not affect interval width.",
+                "D": "Higher confidence levels result in wider intervals.",
+                "answer": "D",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with improving the methodology for constructing approximate confidence intervals, what innovation might you propose?",
+                "A": "Use a larger sample size to always achieve the desired confidence level.",
+                "B": "Implement a new rule for constructing intervals based on recent empirical data.",
+                "C": "Adopt a method that relies solely on subjective interpretation of results.",
+                "D": "Focus on keeping the variability of the sample constant across different studies.",
+                "answer": "B",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            },
+            {
+                "level": "understanding",
+                "question": "Which interpretation of a confidence interval is commonly misunderstood?",
+                "A": "It indicates the probability that the parameter lies within the interval for any specific sample.",
+                "B": "It represents the proportion of the population that falls within the interval.",
+                "C": "It shows the range of values that will include all possible parameters.",
+                "D": "It reflects the accuracy of the sample mean compared to the population mean.",
+                "answer": "A",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            },
+            {
+                "level": "remembering",
+                "question": "What is a common misunderstanding regarding confidence intervals?",
+                "A": "They are the same as prediction intervals",
+                "B": "They always contain the true parameter",
+                "C": "They are easy to calculate",
+                "D": "They are based on qualitative data",
+                "answer": "B",
+                "topic_wiki_name": "Confidence interval",
+                "topic_wiki_id": "280911"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following describes the relationship between margin of error and confidence level?",
+                "A": "A higher confidence level results in a smaller margin of error.",
+                "B": "A higher confidence level results in a larger margin of error.",
+                "C": "Margin of error is independent of the confidence level.",
+                "D": "Margin of error must always equal the confidence level.",
+                "answer": "B",
+                "concept_wiki_name": "Margin of error",
+                "concept_wiki_id": "277379"
+            },
+            {
+                "question": "What is the significance of the number 1.732 in relation to the square root of 3?",
+                "A": "It is the square root of 4.",
+                "B": "It is the approximate value of the square root of 2.",
+                "C": "It represents the ratio of the sides of a 30-60-90 triangle.",
+                "D": "It is the square root of 3.",
+                "answer": "D",
+                "concept_wiki_name": "Square root of 3",
+                "concept_wiki_id": "9126665"
+            },
+            {
+                "question": "How can the square root of 3 be expressed mathematically?",
+                "A": "As a continued fraction.",
+                "B": "As a simple fraction.",
+                "C": "As the square root of 2 times the square root of 2.",
+                "D": "As a rational number.",
+                "answer": "A",
+                "concept_wiki_name": "Square root of 3",
+                "concept_wiki_id": "9126665"
+            },
+            {
+                "question": "In which geometrical figure can the square root of 3 be determined as a side length?",
+                "A": "In a square with a diagonal of length 1.",
+                "B": "In a circle with a radius of 1.",
+                "C": "In a right triangle with legs of length 1.",
+                "D": "In an equilateral triangle that encompasses a circle with a diameter of 1.",
+                "answer": "D",
+                "concept_wiki_name": "Square root of 3",
+                "concept_wiki_id": "9126665"
+            }
+        ]
+    },
+    {
+        "question": "Random variable X is normally distributed, with a mean of 25 and a standard deviation of 4. Which of the following is the approximate interquartile range for this distribution?",
+        "choices": [
+            "25.00 – 22.30 = 2.70",
+            "27.70 – 22.30 = 5.40",
+            "27.70 ÷ 22.30 = 1.24",
+            "2.00(4.00) = 8.00"
+        ],
+        "answer": 1,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "In a study involving measurement errors that are expected to be normally distributed, which statistical method would be most appropriate for estimating parameters?",
+                "A": "Least squares parameter fitting",
+                "B": "Chi-squared fitting",
+                "C": "Maximum likelihood estimation",
+                "D": "Bayesian inference",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "A health scientist is examining the distribution of patients' blood pressure readings. What assumption can be made if the readings are assumed to follow a normal distribution?",
+                "A": "The readings will have a positive skew",
+                "B": "The average reading converges to a normal distribution as sample size increases",
+                "C": "The median will be lower than the mean",
+                "D": "All readings have equal variance",
+                "answer": "B",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the variance of a standard normal distribution?",
+                "A": "0",
+                "B": "0.5",
+                "C": "The mean",
+                "D": "1",
+                "answer": "D",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "creating",
+                "question": "What approach would you take to modify a normally distributed dataset to achieve a uniform distribution?",
+                "A": "Combine the dataset with another normally distributed dataset with a different mean.",
+                "B": "Introduce random outliers to skew the dataset toward the ends.",
+                "C": "Utilize a logarithmic transformation to compress the data.",
+                "D": "Apply a linear transformation that shifts and scales the data to a new range.",
+                "answer": "D",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the relationship between the mean, median, and mode in a normal distribution?",
+                "A": "They are all equal.",
+                "B": "Mean is less than median.",
+                "C": "Mean is greater than mode.",
+                "D": "Median is greater than mode.",
+                "answer": "A",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "What does the generalized mean encompass in terms of types of means?",
+                "A": "Only the arithmetic and geometric means.",
+                "B": "Only the harmonic mean and median.",
+                "C": "The mean of all random variables in a distribution.",
+                "D": "Quadratic, arithmetic, geometric, and harmonic means.",
+                "answer": "D",
+                "concept_wiki_name": "Mean",
+                "concept_wiki_id": "19192"
+            }
+        ]
+    },
+    {
+        "question": "Suppose you wish to compare the AP Statistics exam results for the male and female students taking AP Statistics at your high school. Which is the most appropriate technique for gathering the needed data?",
+        "choices": [
+            "Census",
+            "Sample survey",
+            "Experiment",
+            "Observational study"
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "Which approach primarily focuses on preventing errors in data collection?",
+                "A": "Data validation",
+                "B": "Quality control (QC)",
+                "C": "Data management platforms (DMP)",
+                "D": "Quality assurance (QA)",
+                "answer": "D",
+                "topic_wiki_name": "Data collection",
+                "topic_wiki_id": "11501746"
+            }
+        ],
+        "concept_questions": []
+    },
+    {
+        "question": "A study looked at medical records of about 23,000 patients, mostly in Asia. They found that patients who drank at least three cups of green tea per day had a much lower incidence of depression. In an American newspaper article about this study, which of the following statements should not be made?",
+        "choices": [
+            "It is possible that people who drink green tea also tend to have healthier lifestyles than those who don't.",
+            "It is possible that people who drink green tea also tend to have a more positive outlook on life than those who don't.",
+            "Because this is observational data, the association between drinking green tea and a lower incidence of depression is not an indication of a causal relationship.",
+            "People who want to avoid depression should consider drinking green tea on a daily basis."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "How can observational studies be compared to randomized controlled trials according to a Cochrane review?",
+                "A": "They produce more reliable results",
+                "B": "They show significant differences in effects",
+                "C": "They require fewer subjects",
+                "D": "They yield similar results",
+                "answer": "D",
+                "topic_wiki_name": "Observational study",
+                "topic_wiki_id": "6326483"
+            },
+            {
+                "level": "creating",
+                "question": "In developing an observational study on the effects of a new teaching method, which strategy would minimize the influence of hidden biases?",
+                "A": "Include a control group that receives traditional teaching methods.",
+                "B": "Use multivariate statistical techniques to control for observed factors.",
+                "C": "Implement qualitative interviews with students about their experiences.",
+                "D": "Conduct a meta-analysis of existing studies on teaching methods.",
+                "answer": "B",
+                "topic_wiki_name": "Observational study",
+                "topic_wiki_id": "6326483"
+            },
+            {
+                "level": "creating",
+                "question": "How would you structure an observational study to effectively compare the effects of two dietary interventions without introducing bias?",
+                "A": "Randomly assign participants to one of the dietary interventions.",
+                "B": "Use matching techniques to balance characteristics between intervention groups.",
+                "C": "Select participants based on their existing dietary preferences.",
+                "D": "Limit the study to participants who are already familiar with both diets.",
+                "answer": "B",
+                "topic_wiki_name": "Observational study",
+                "topic_wiki_id": "6326483"
+            },
+            {
+                "level": "applying",
+                "question": "In an observational study examining the effects of a new treatment, what could a researcher do to minimize selection bias?",
+                "A": "Use matching techniques to control for observed factors",
+                "B": "Ensure random assignment of subjects to treatment groups",
+                "C": "Conduct the study in a controlled environment",
+                "D": "Only include subjects who respond positively to the treatment",
+                "answer": "A",
+                "topic_wiki_name": "Observational study",
+                "topic_wiki_id": "6326483"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the proven effect of flavonoids and catechins found in green tea on human health?",
+                "A": "They have been shown to lower blood pressure.",
+                "B": "They are effective antioxidants in human studies.",
+                "C": "They significantly improve cognitive function.",
+                "D": "They have no proven biological effect in humans.",
+                "answer": "D",
+                "concept_wiki_name": "Green tea",
+                "concept_wiki_id": "262676"
+            },
+            {
+                "question": "Which component of green tea is mentioned as being sold in various forms like liquid and powder?",
+                "A": "Extracts",
+                "B": "Caffeine",
+                "C": "Polyphenols",
+                "D": "Catechins",
+                "answer": "A",
+                "concept_wiki_name": "Green tea",
+                "concept_wiki_id": "262676"
+            },
+            {
+                "question": "Which statement best describes the relationship between cause and effect in a causal relationship?",
+                "A": "An effect can also serve as a cause for other effects.",
+                "B": "The effect can exist independently of the cause.",
+                "C": "Causal relationships require only correlation to establish influence.",
+                "D": "The cause must always precede the effect in time.",
+                "answer": "A",
+                "concept_wiki_name": "Causality",
+                "concept_wiki_id": "37196"
+            },
+            {
+                "question": "Which of the following best describes the concept of lifestyle as introduced by Alfred Adler?",
+                "A": "A person's basic character as established early in childhood.",
+                "B": "A combination of genetic predispositions and environmental influences.",
+                "C": "The direct outcomes of physical health and wellness practices.",
+                "D": "A reflection of social media influences on behavior.",
+                "answer": "A",
+                "concept_wiki_name": "Lifestyle (social sciences)",
+                "concept_wiki_id": "190041"
+            },
+            {
+                "question": "What role do tangible factors play in determining lifestyle?",
+                "A": "They relate specifically to demographic variables of an individual.",
+                "B": "They specifically relate to psychological preferences and values.",
+                "C": "They focus primarily on the individual's social interactions.",
+                "D": "They involve the cultural trends affecting lifestyle choices.",
+                "answer": "A",
+                "concept_wiki_name": "Lifestyle (social sciences)",
+                "concept_wiki_id": "190041"
+            },
+            {
+                "question": "How can lifestyle be transmitted across generations?",
+                "A": "Because children adopt the health practices of their parents.",
+                "B": "By the direct influence of socioeconomic status on lifestyle practices.",
+                "C": "Through the imitation of lifestyle choices made by peers.",
+                "D": "Through cultural narratives passed down in families.",
+                "answer": "A",
+                "concept_wiki_name": "Lifestyle (social sciences)",
+                "concept_wiki_id": "190041"
+            }
+        ]
+    },
+    {
+        "question": "Estrella wants to become a paramedic and takes a screening exam. Scores on the exam have been approximately normally distributed over the years it has been given. The exam is normed with a mean of 80 and a standard deviation of 9. Only those who score in the top 15% on the test are invited back for further evaluation. Estrella received a 90 on the test. What was her percentile rank on the test, and did she qualify for further evaluation?",
+        "choices": [
+            "13.35; she didn't qualify.",
+            "54.38; she didn't qualify.",
+            "86.65; she qualified.",
+            "84.38; she didn't qualify."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What theorem states that the sum of two independent normal variables is also normal?",
+                "A": "Cramér's decomposition theorem",
+                "B": "Bernstein's theorem",
+                "C": "Central Limit Theorem",
+                "D": "Law of Large Numbers",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the function that describes the quantile function of a standard normal distribution?",
+                "A": "Probit function",
+                "B": "Logarithmic function",
+                "C": "Cumulative distribution function",
+                "D": "Heaviside step function",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "If a dataset follows a normal distribution with a mean of 100 and a standard deviation of 15, what percentage of values would you expect to lie between 85 and 115?",
+                "A": "50%",
+                "B": "95%",
+                "C": "99.7%",
+                "D": "68%",
+                "answer": "D",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "In a study involving many independent random variables that are normally distributed, if the mean is known to be 50, what will be the mean of their sum?",
+                "A": "Sum of individual means",
+                "B": "Depends on their variance",
+                "C": "50",
+                "D": "Zero",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "A researcher observes that the sum of two independent random variables has a normal distribution. What can be inferred about the individual variables?",
+                "A": "They cannot be normally distributed",
+                "B": "At least one must be normally distributed",
+                "C": "They must both be normally distributed",
+                "D": "They follow a uniform distribution",
+                "answer": "C",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "If a continuous random variable has a probability density that is not properly normalized, what can be said about its normal distribution?",
+                "A": "It will have a finite variance",
+                "B": "It can still be defined as a generalized function",
+                "C": "It cannot exist",
+                "D": "It will always converge to a mean",
+                "answer": "B",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "applying",
+                "question": "If a researcher wants to maximize the entropy of a probability distribution with a specified mean and variance, which distribution should they use?",
+                "A": "Uniform distribution",
+                "B": "Normal distribution",
+                "C": "Exponential distribution",
+                "D": "Binomial distribution",
+                "answer": "B",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "analyzing",
+                "question": "What characteristic of the normal distribution allows it to be represented as a Dirac delta function?",
+                "A": "It has a zero mean",
+                "B": "It can be generalized as a function",
+                "C": "It has a finite mean and variance",
+                "D": "It has a zero variance",
+                "answer": "D",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which theorem implies that the sum of two independent normal variables is also normally distributed?",
+                "A": "Cramér's decomposition theorem",
+                "B": "Bernstein's theorem",
+                "C": "Central limit theorem",
+                "D": "Maximum entropy theorem",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "understanding",
+                "question": "What is Cramér's decomposition theorem concerned with?",
+                "A": "It describes the relationship between normal distribution and independent random variables.",
+                "B": "It states that normal distributions can always be approximated by non-normal distributions.",
+                "C": "It implies that all independent variables must be normally distributed.",
+                "D": "It establishes that the sum of any two distributions is always normal.",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "understanding",
+                "question": "How does the normal distribution relate to the concept of infinite divisibility?",
+                "A": "It indicates that normal distributions cannot be subdivided.",
+                "B": "It means that any distribution can be approximated by a normal distribution through division.",
+                "C": "It states that normal distributions can be divided into any number of parts without altering their properties.",
+                "D": "It implies that only normal distributions can be expressed as sums of independent variables.",
+                "answer": "C",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "creating",
+                "question": "How would you design an experiment to demonstrate the concept of maximum entropy in relation to the normal distribution?",
+                "A": "Vary the mean while keeping the variance constant and measure the changes in distribution shape.",
+                "B": "Use multiple random variables with fixed means and variances to compare their entropy.",
+                "C": "Create a dataset with a specified mean and variance, then calculate the entropy to verify it matches the normal distribution.",
+                "D": "Sum independent random variables to observe the emergence of normal distribution characteristics.",
+                "answer": "C",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "creating",
+                "question": "What innovative method could you propose to illustrate Cramér's decomposition theorem in a classroom setting?",
+                "A": "Demonstrate the addition of two independent normal variables and show their resultant distribution.",
+                "B": "Conduct a simulation using a single normal variable and observe its distribution over time.",
+                "C": "Compare the distribution of two independent non-Gaussian variables and analyze their sum.",
+                "D": "Visualize the convolution of two different distributions to see how it approaches normality.",
+                "answer": "A",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which theorem relates to the convolution of two distributions resulting in a normal distribution?",
+                "A": "Bernstein's theorem states that only non-Gaussian variables can result in a normal distribution.",
+                "B": "The convolution of any two distributions will always yield a normal distribution.",
+                "C": "Cramér's decomposition theorem states that both summands must be normal for their sum to be normal.",
+                "D": "Cramér's theorem indicates that normal distributions cannot be formed from independent variables.",
+                "answer": "C",
+                "topic_wiki_name": "Normal distribution",
+                "topic_wiki_id": "21462"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What defines the cumulative distribution function of a normal distribution?",
+                "A": "It is a Heaviside step function translated by the mean.",
+                "B": "It is a linear function with a slope equal to the standard deviation.",
+                "C": "It is a polynomial function of degree two.",
+                "D": "It is an exponential decay function centered at the mean.",
+                "answer": "A",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "In the context of the normal distribution, what happens to the probability density as the variance approaches zero?",
+                "A": "It grows without limit at any point.",
+                "B": "It tends to zero at any point.",
+                "C": "It remains constant at any point.",
+                "D": "It oscillates between maximum and minimum values.",
+                "answer": "A",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "Which type of mean is particularly useful for sets of positive numbers interpreted according to their product?",
+                "A": "Geometric mean",
+                "B": "Harmonic mean",
+                "C": "Arithmetic mean",
+                "D": "Quadratic mean",
+                "answer": "A",
+                "concept_wiki_name": "Mean",
+                "concept_wiki_id": "19192"
+            },
+            {
+                "question": "Who first used the term 'standard deviation' in writing?",
+                "A": "Karl Pearson",
+                "B": "Francis Galton",
+                "C": "Carl Friedrich Gauss",
+                "D": "John von Neumann",
+                "answer": "A",
+                "concept_wiki_name": "Standard deviation",
+                "concept_wiki_id": "27590"
+            },
+            {
+                "question": "What does a percentile rank of 86.65 indicate about Estrella's score relative to her peers?",
+                "A": "She scored lower than 86.65% of the test-takers.",
+                "B": "She scored higher than 86.65% of the test-takers.",
+                "C": "She scored exactly at the 86.65th percentile.",
+                "D": "She scored in the top 15% of the test-takers.",
+                "answer": "B",
+                "concept_wiki_name": "Percentile rank",
+                "concept_wiki_id": "225965"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is least likely to reduce bias in a sample survey?",
+        "choices": [
+            "Following up with those who did not respond to the survey the first time",
+            "Asking questions in a neutral manner to avoid influencing the responses",
+            "Using stratified random sampling rather than simple random sampling",
+            "Selecting samples randomly"
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "understanding",
+                "question": "How is sampling bias distinguished from selection bias?",
+                "A": "Sampling bias focuses on data collection methods, while selection bias deals with sample representation.",
+                "B": "Sampling bias undermines external validity, while selection bias mainly addresses the selection process post-sampling.",
+                "C": "Sampling bias is concerned with internal validity, whereas selection bias affects external validity.",
+                "D": "Sampling bias can only occur in medical studies, while selection bias can occur in any research.",
+                "answer": "B",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            },
+            {
+                "level": "understanding",
+                "question": "Which term is sometimes used interchangeably with sampling bias?",
+                "A": "Data collection bias.",
+                "B": "Systematic bias.",
+                "C": "Survey bias.",
+                "D": "Ascertainment bias.",
+                "answer": "D",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            },
+            {
+                "level": "remembering",
+                "question": "What term is sometimes used interchangeably with sampling bias?",
+                "A": "Selection bias",
+                "B": "Response bias",
+                "C": "Survivorship bias",
+                "D": "Ascertainment bias",
+                "answer": "D",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            },
+            {
+                "level": "remembering",
+                "question": "What does sampling bias primarily undermine?",
+                "A": "Internal validity of a study",
+                "B": "External validity of a test",
+                "C": "Data collection methods",
+                "D": "Statistical significance",
+                "answer": "B",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            },
+            {
+                "level": "applying",
+                "question": "If a researcher finds that their sample disproportionately includes women, what adjustment could be made to ensure the sample reflects the actual population distribution?",
+                "A": "Increase the number of women in the sample",
+                "B": "Focus only on women's responses for analysis",
+                "C": "Assign higher weights to men in the analysis",
+                "D": "Ignore the gender distribution in the sample",
+                "answer": "C",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            },
+            {
+                "level": "applying",
+                "question": "If a study relies solely on anecdotal reports for diagnosis, what type of bias might arise in the results?",
+                "A": "Sampling bias due to limited participant diversity",
+                "B": "Selection bias from random sampling",
+                "C": "Confirmation bias from pre-existing theories",
+                "D": "Measurement bias from inaccurate data collection",
+                "answer": "A",
+                "topic_wiki_name": "Sampling bias",
+                "topic_wiki_id": "17692"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "How does sampling bias differ from selection bias?",
+                "A": "Sampling bias undermines external validity, while selection bias addresses internal validity.",
+                "B": "Sampling bias primarily affects internal validity, while selection bias affects external validity.",
+                "C": "Sampling bias occurs only in medical surveys, while selection bias occurs in all surveys.",
+                "D": "Sampling bias is generally less significant than selection bias in research.",
+                "answer": "A",
+                "concept_wiki_name": "Sampling bias",
+                "concept_wiki_id": "17692"
+            },
+            {
+                "question": "What is a primary advantage of using stratified random sampling over simple random sampling?",
+                "A": "It simplifies the sampling process by reducing the number of required samples.",
+                "B": "It reduces the total sample size needed for accurate results.",
+                "C": "It guarantees that all subgroups will be equally represented.",
+                "D": "It ensures equal accuracy in estimates across different parts of a region.",
+                "answer": "D",
+                "concept_wiki_name": "Stratified sampling",
+                "concept_wiki_id": "27596"
+            },
+            {
+                "question": "In which scenario is stratified sampling not applicable?",
+                "A": "When the population can be divided into distinct subgroups.",
+                "B": "When the total population is very small.",
+                "C": "When there is significant variation in subgroup sizes.",
+                "D": "When the population cannot be exhaustively partitioned into disjoint subgroups.",
+                "answer": "D",
+                "concept_wiki_name": "Stratified sampling",
+                "concept_wiki_id": "27596"
+            },
+            {
+                "question": "What is a common misapplication of stratified sampling?",
+                "A": "Making subgroup sample sizes proportional to the amount of data from the subgroups.",
+                "B": "Using stratified sampling to collect data from a homogenous population.",
+                "C": "Selecting subgroups based solely on convenience rather than characteristics.",
+                "D": "Adjusting sample sizes based on the population density of the subgroups.",
+                "answer": "A",
+                "concept_wiki_name": "Stratified sampling",
+                "concept_wiki_id": "27596"
+            },
+            {
+                "question": "What is a limitation of simple random sampling?",
+                "A": "It can be used for large populations without a complete frame",
+                "B": "It may not reduce bias as effectively as stratified sampling",
+                "C": "It requires complex sampling techniques for accuracy",
+                "D": "It is prone to significant classification errors",
+                "answer": "B",
+                "concept_wiki_name": "Simple random sample",
+                "concept_wiki_id": "23809392"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a true statement about hypothesis testing?",
+        "choices": [
+            "If there is sufficient evidence to reject a null hypothesis at the 10% level, then there is sufficient evidence to reject it at the 5% level.",
+            "Whether to use a one- or a two-sided test is typically decided after the data are gathered.",
+            "If a hypothesis test is conducted at the 1% level, there is a 1% chance of rejecting the null hypothesis.",
+            "The power of a test concerns its ability to detect an alternative hypothesis."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [
+            {
+                "level": "analyzing",
+                "question": "What underlying issue can lead to misleading conclusions in statistical hypothesis testing?",
+                "A": "Insufficient sample size",
+                "B": "Lack of a hypothesis",
+                "C": "Improper calculation of a test statistic",
+                "D": "Misleading data quality",
+                "answer": "D",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "analyzing",
+                "question": "What common issue arises when multiple hypothesis tests are conducted simultaneously?",
+                "A": "Reduced statistical power",
+                "B": "Increased likelihood of Type I error",
+                "C": "Higher p-values for each test",
+                "D": "Improved confidence in results",
+                "answer": "B",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "analyzing",
+                "question": "What philosophical concept is intertwined with hypothesis testing?",
+                "A": "Determinism in experimental design",
+                "B": "Subjectivity of probability",
+                "C": "Theories of causation",
+                "D": "Absolute certainty in results",
+                "answer": "B",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens if the p-value is greater than the chosen significance threshold?",
+                "A": "The null hypothesis is considered true.",
+                "B": "The null hypothesis is rejected at the chosen level of significance.",
+                "C": "The test results are inconclusive.",
+                "D": "The null hypothesis is not rejected at the chosen level of significance.",
+                "answer": "D",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "creating",
+                "question": "In developing a new statistical test, how would you address the problem of misleading data impacting conclusions?",
+                "A": "Employ a more complex statistical model that requires fewer assumptions.",
+                "B": "Increase the number of tests performed without statistical adjustment.",
+                "C": "Ignore outliers to focus on the general trend of the data.",
+                "D": "Utilize only data from sources that have been previously validated.",
+                "answer": "D",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            },
+            {
+                "level": "applying",
+                "question": "If a hypothesis test results in a statistically nonsignificant finding, what might be a potential bias affecting the interpretation of this result?",
+                "A": "Sample size bias",
+                "B": "Publication bias",
+                "C": "Data collection bias",
+                "D": "Analysis bias",
+                "answer": "B",
+                "topic_wiki_name": "Statistical hypothesis test",
+                "topic_wiki_id": "30284"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What can lead to misleading conclusions in hypothesis testing?",
+                "A": "Using a sufficiently large sample size",
+                "B": "Conducting a statistical analysis of misleading data",
+                "C": "Employing a one-sided test for a directional hypothesis",
+                "D": "Setting a strict alpha level for significance",
+                "answer": "B",
+                "concept_wiki_name": "Statistical hypothesis test",
+                "concept_wiki_id": "30284"
+            },
+            {
+                "question": "What is the primary goal of hypothesis testing concerning the alternative hypothesis?",
+                "A": "To provide evidence supporting the credibility of the alternative hypothesis.",
+                "B": "To demonstrate that the null hypothesis is true.",
+                "C": "To confirm that there is no difference between two groups.",
+                "D": "To determine the statistical significance of the null hypothesis.",
+                "answer": "A",
+                "concept_wiki_name": "Alternative hypothesis",
+                "concept_wiki_id": "645892"
+            },
+            {
+                "question": "What analogy is used to explain the presumption of the null hypothesis in hypothesis testing?",
+                "A": "The null hypothesis is like a defendant presumed guilty.",
+                "B": "The alternative hypothesis is like a prosecutor's claim.",
+                "C": "The null hypothesis is like a witness under scrutiny.",
+                "D": "The alternative hypothesis is like a jury's final decision.",
+                "answer": "B",
+                "concept_wiki_name": "Alternative hypothesis",
+                "concept_wiki_id": "645892"
+            }
+        ]
+    },
+    {
+        "question": "The observed times (in minutes) it takes a runner to complete a marathon are normally distributed. The z-score for his running time this week is –2. Which one of the following statements is a correct interpretation of his z-score?",
+        "choices": [
+            "This week his time was two minutes lower than his time last week.",
+            "This week his time was two minutes lower than his best time ever.",
+            "This week his time was two minutes lower than his average time.",
+            "This week his time was two standard deviations lower than his average time."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In what scenario is the normal approximation not valid?",
+                "A": "When there is a single external influence of significant magnitude.",
+                "B": "When effects act additively and independently.",
+                "C": "When the data set has a large number of observations.",
+                "D": "When the mean and median are equal.",
+                "answer": "A",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            }
+        ]
+    },
+    {
+        "question": "Researchers are conducting an experiment using a significance level of 0.05. The null hypothesis is, in fact, false. If they modify their experiment to use twice as many experimental units for each treatment, which of the following would be true?",
+        "choices": [
+            "The probability of a Type I error and the probability of a Type II error would both decrease.",
+            "The probability of a Type I error and the power would both increase.",
+            "The probability of a Type II error and the power would both increase.",
+            "The probability of a Type I error would stay the same and the power would increase."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following best describes a Type II error?",
+                "A": "Rejecting a true null hypothesis",
+                "B": "Failing to reject a true null hypothesis",
+                "C": "Failing to reject a false null hypothesis",
+                "D": "Accepting a false alternative hypothesis",
+                "answer": "C",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "If researchers increase the number of experimental units, what happens to the power of the test?",
+                "A": "It decreases, leading to a higher risk of Type I error.",
+                "B": "It remains the same, but the Type I error increases.",
+                "C": "It decreases, with no effect on Type II error.",
+                "D": "It increases, reducing the chance of Type II error.",
+                "answer": "D",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            }
+        ]
+    },
+    {
+        "question": "To study the effect of alcohol on reaction time, subjects were randomly selected and given three beers to consume. Their reaction time to a simple stimulus was measured before and after drinking the alcohol. Which of the following is a correct statement?",
+        "choices": [
+            "This study was an observational study.",
+            "Lack of blocking makes this a poorly designed study.",
+            "The placebo effect is irrelevant in this type of study.",
+            "This study was an experiment in which the subjects were used as their own controls."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What did Kiesow's 1903 study reveal about human sensitivity to taste in relation to reaction time?",
+                "A": "Humans respond equally to all taste stimuli.",
+                "B": "Humans are faster to respond to salt than to sugar.",
+                "C": "Sugar elicits a quicker reaction time than salt.",
+                "D": "Sensory response times are unaffected by taste.",
+                "answer": "B",
+                "concept_wiki_name": "Mental chronometry",
+                "concept_wiki_id": "4778196"
+            },
+            {
+                "question": "What was one of the methods used to administer alcohol to pregnant women in the 1960s to 1980s?",
+                "A": "Orally in large quantities",
+                "B": "Intravenously in small amounts",
+                "C": "Intravenously in large amounts",
+                "D": "Topically applied to the skin",
+                "answer": "C",
+                "concept_wiki_name": "Fetal alcohol spectrum disorder",
+                "concept_wiki_id": "1248929"
+            }
+        ]
+    },
+    {
+        "question": "If all the other variables remain constant, which of the following will increase the power of a hypothesis test? I.Increasing the sample size. II.Increasing the significance level. III.Increasing the probability of a Type II error.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following factors directly affects the power of a hypothesis test by altering the likelihood of detecting a true effect?",
+                "A": "Increasing the significance level",
+                "B": "Decreasing the sample size",
+                "C": "Increasing the probability of a Type II error",
+                "D": "Using a one-tailed test instead of a two-tailed test",
+                "answer": "A",
+                "concept_wiki_name": "Power of a test",
+                "concept_wiki_id": "238695"
+            },
+            {
+                "question": "Which of the following factors is essential for determining an adequate sample size in hypothesis testing?",
+                "A": "The expected outcome of the study",
+                "B": "The number of hypotheses being tested",
+                "C": "Cost and convenience of data collection",
+                "D": "The preference of the researcher",
+                "answer": "C",
+                "concept_wiki_name": "Sample size determination",
+                "concept_wiki_id": "1776839"
+            },
+            {
+                "question": "In the context of sample size estimation, what is Mead's resource equation primarily used for?",
+                "A": "Estimating sample sizes of laboratory animals",
+                "B": "Estimating sample sizes for survey populations",
+                "C": "Calculating the total population size",
+                "D": "Determining the significance level for tests",
+                "answer": "A",
+                "concept_wiki_name": "Sample size determination",
+                "concept_wiki_id": "1776839"
+            },
+            {
+                "question": "If a researcher wants to reduce the probability of a Type II error, which of the following actions would be most effective?",
+                "A": "Increase the sample size.",
+                "B": "Decrease the significance level (alpha).",
+                "C": "Increase the probability of a Type I error.",
+                "D": "Relax the test's criteria for success.",
+                "answer": "A",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            }
+        ]
+    },
+    {
+        "question": "A researcher planning a survey of school principals in a particular state has lists of the school principals employed in each of the 125 school districts. The procedure is to obtain a random sample of principals from each of the districts rather than grouping all the lists together and obtaining a sample from the entire group. Which of the following is a correct conclusion?",
+        "choices": [
+            "This is a simple random sample obtained in an easier and less costly manner than procedures involving sampling from the entire population of principals.",
+            "This is a cluster sample in which the population was divided into heterogeneous groups called clusters.",
+            "This is an example of systematic sampling, which gives a reasonable sample as long as the original order of the list is not related to the variables under consideration.",
+            "This is a stratified sample, which may give comparative information that a simple random sample wouldn't give."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In a stratified sampling approach, what is the potential problem if the subpopulations are not properly defined?",
+                "A": "It may lead to a sample that is overly simplistic and non-representative.",
+                "B": "It could cause a significant error in estimation due to bias across the subpopulations.",
+                "C": "It ensures the sample size remains consistent across all subpopulations.",
+                "D": "It allows for faster data collection without sacrificing accuracy.",
+                "answer": "B",
+                "concept_wiki_name": "Stratified sampling",
+                "concept_wiki_id": "27596"
+            },
+            {
+                "question": "In the context of sampling, what does PPS-sequential sampling refer to?",
+                "A": "Choosing every nth individual from a single list.",
+                "B": "Selecting samples based on the size of the population in each group.",
+                "C": "Randomly sampling from distinct, unrelated populations.",
+                "D": "Using a fixed interval to select individuals from a combined list.",
+                "answer": "B",
+                "concept_wiki_name": "Sampling (statistics)",
+                "concept_wiki_id": "160361"
+            },
+            {
+                "question": "What is the primary advantage of systematic sampling over simple random sampling?",
+                "A": "It can provide a more representative sample when the population is heterogeneous.",
+                "B": "It ensures that every element in the population has an equal chance of being selected.",
+                "C": "It allows researchers to identify patterns within the population when the sampling interval is chosen correctly.",
+                "D": "It guarantees that the sample will be large enough to draw accurate conclusions.",
+                "answer": "C",
+                "concept_wiki_name": "Systematic sampling",
+                "concept_wiki_id": "267801"
+            }
+        ]
+    },
+    {
+        "question": "A study is made to determine whether more hours of academic studying leads to higher point scoring by basketball players. In surveying 50 basketball players, it is noted that the 25 who claim to study the most hours have a higher point average than the 25 who study less. Based on this study, the coach begins requiring the players to spend more time studying. Which of the following is a correct statement?",
+        "choices": [
+            "While this study may have its faults, it still does prove causation.",
+            "There could well be a confounding variable responsible for the seeming relationship.",
+            "While this is a controlled experiment, the conclusion of the coach is not justified.",
+            "To get the athletes to study more, it would be more meaningful to have them put in more practice time on the court to boost their point averages, as higher point averages seem to be associated with more study time."
+        ],
+        "answer": 1,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What fallacy is described as taking two events occurring together to imply a cause-and-effect relationship?",
+                "A": "Post hoc ergo propter hoc",
+                "B": "Conflation",
+                "C": "Cum hoc ergo propter hoc",
+                "D": "Causation fallacy",
+                "answer": "C",
+                "concept_wiki_name": "Correlation does not imply causation",
+                "concept_wiki_id": "39834"
+            },
+            {
+                "question": "Who popularized the term 'confounding' specifically in the context of causal inference and statistics?",
+                "A": "John Stuart Mill in his work on observational studies",
+                "B": "Fisher in his book 'The Design of Experiments'",
+                "C": "Kish, through his work on incomparability of groups",
+                "D": "Morabia, with his contributions to causal inference",
+                "answer": "B",
+                "concept_wiki_name": "Confounding",
+                "concept_wiki_id": "3105999"
+            },
+            {
+                "question": "In the context of a controlled experiment, what might necessitate the use of a tractor?",
+                "A": "To ensure accurate measurement of fertilizer effects",
+                "B": "To control for the effects of tractor traffic on fertilizer application",
+                "C": "To manipulate the independent variable effectively",
+                "D": "To eliminate all external variables in the experiment",
+                "answer": "B",
+                "concept_wiki_name": "Scientific control",
+                "concept_wiki_id": "1640288"
+            }
+        ]
+    },
+    {
+        "question": "To test whether extensive exercise lowers the resting heart rate, a study is performed by randomly selecting half of a group of volunteers to exercise 1 hour each morning, while the rest are instructed to perform no exercise. Is this study an experiment or an observational study?",
+        "choices": [
+            "An experiment with a control group and blinding",
+            "An experiment with blocking",
+            "An observational study with comparison and randomization",
+            "None of the above"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What distinguishes observational studies from experiments?",
+                "A": "Observational studies lack a control group.",
+                "B": "Experiments cannot include ethical considerations.",
+                "C": "Observational studies can definitively determine cause and effect.",
+                "D": "Experiments allow researchers to manipulate the independent variable.",
+                "answer": "D",
+                "concept_wiki_name": "Observational study",
+                "concept_wiki_id": "6326483"
+            }
+        ]
+    },
+    {
+        "question": "The waiting times for a new roller coaster ride are normally distributed with a mean of 35 minutes and a standard deviation of 10 minutes. If there are 150,000 riders the first summer, which of the following is the shortest time interval associated with 100,000 riders?",
+        "choices": [
+            "0 to 31.7 minutes",
+            "31.7 to 39.3 minutes",
+            "25.3 to 44.7 minutes",
+            "25.3 to 35 minutes"
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary use of standard deviation in statistics?",
+                "A": "To determine the mean of a data set",
+                "B": "To compare different data distributions",
+                "C": "To calculate the total variance of a sample",
+                "D": "To establish what constitutes an outlier",
+                "answer": "D",
+                "concept_wiki_name": "Standard deviation",
+                "concept_wiki_id": "27590"
+            },
+            {
+                "question": "Which percentile corresponds to one standard deviation below the mean in a normal distribution?",
+                "A": "34.13th percentile",
+                "B": "15.87th percentile",
+                "C": "2.28th percentile",
+                "D": "50th percentile",
+                "answer": "B",
+                "concept_wiki_name": "Percentile",
+                "concept_wiki_id": "354907"
+            }
+        ]
+    },
+    {
+        "question": "There are two games involving flipping a fair coin. In the first game you win a prize if you can throw between 45% and 55% heads. In the second game you win if you can throw more than 80% heads. For each game would you rather flip the coin 30 times or 300 times?",
+        "choices": [
+            "30 times for each game",
+            "300 times for each game",
+            "30 times for the first game and 300 times for the second",
+            "300 times for the first game and 30 times for the second"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the expected result when flipping a fair coin 300 times in terms of heads?",
+                "A": "200 heads",
+                "B": "300 heads",
+                "C": "75 heads",
+                "D": "150 heads",
+                "answer": "D",
+                "concept_wiki_name": "Fair coin",
+                "concept_wiki_id": "9597100"
+            },
+            {
+                "question": "In a binomial distribution, what does 'n' represent?",
+                "A": "The expected value",
+                "B": "The probability of success",
+                "C": "The number of successes",
+                "D": "The number of trials",
+                "answer": "D",
+                "concept_wiki_name": "Binomial distribution",
+                "concept_wiki_id": "3876"
+            },
+            {
+                "question": "In the context of confidence intervals, what does the confidence level represent?",
+                "A": "The average distance between sample means and the population mean.",
+                "B": "The actual range of values that the parameter can take.",
+                "C": "The likelihood that any single interval contains the true parameter value.",
+                "D": "The proportion of intervals that will contain the true value in repeated experiments.",
+                "answer": "D",
+                "concept_wiki_name": "Confidence interval",
+                "concept_wiki_id": "280911"
+            }
+        ]
+    },
+    {
+        "question": "Biologists around the world have increased efforts at conservation. Monitoring wildlife populations is important so that appropriate management efforts can be implemented, but such monitoring is often difficult. One study found a cheap and easy way to estimate the number of nesting sites of terns (a type of seabird) by monitoring the number of calls heard per minute. More calls happen when there are more birds, as one would expect. In fact, it turned out that the number of calls explained 71% of the variation in the abundance of nests between breeding sites. Which of the following statements is correct about the correlation between the number of calls and the abundance of nests?",
+        "choices": [
+            "The correlation coefficient is -0.71.",
+            "The correlation coefficient is 0.71.",
+            "The correlation coefficient is -0.84.",
+            "The correlation coefficient is 0.84."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "If the standard deviations of two variables are equal, how can the Pearson correlation coefficient be expressed?",
+                "A": "As sec φ - tan φ.",
+                "B": "As the sum of their variances.",
+                "C": "As the product of their means.",
+                "D": "As the difference between their ranges.",
+                "answer": "A",
+                "concept_wiki_name": "Pearson correlation coefficient",
+                "concept_wiki_id": "221708"
+            },
+            {
+                "question": "Which animal is known for its complex nest-building involving plant matter and special enzymes?",
+                "A": "Male stickleback",
+                "B": "American alligator",
+                "C": "Sea turtle",
+                "D": "Cobra",
+                "answer": "A",
+                "concept_wiki_name": "Nest",
+                "concept_wiki_id": "88873"
+            },
+            {
+                "question": "Which of the following threats to wildlife is mentioned as a major concern in conservation efforts?",
+                "A": "Urbanization",
+                "B": "Invasive species",
+                "C": "Natural disasters",
+                "D": "Climate change",
+                "answer": "D",
+                "concept_wiki_name": "Wildlife conservation",
+                "concept_wiki_id": "1765998"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a correct statement?",
+        "choices": [
+            "The probability of a Type II error does not depend on the probability of a Type I error.",
+            "In conducting a hypothesis test, it is possible to simultaneously make both a Type I and a Type II error.",
+            "A Type II error will result if one incorrectly assumes the data are normally distributed.",
+            "When you choose a significance level α, you're setting the probability of a Type I error to exactly α."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How does the choice of significance level α affect the probability of a Type I error?",
+                "A": "It sets the probability of a Type I error to exactly α",
+                "B": "It decreases the probability of a Type I error when α is increased",
+                "C": "It has no effect on the probability of a Type I error",
+                "D": "It increases the probability of a Type I error when α is decreased",
+                "answer": "A",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "What is the consequence of a Type II error in hypothesis testing?",
+                "A": "Rejecting a false null hypothesis",
+                "B": "Failing to reject a true null hypothesis",
+                "C": "Failing to reject a false null hypothesis",
+                "D": "Rejecting a true null hypothesis",
+                "answer": "C",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "Which factor primarily influences the probability of committing a Type II error?",
+                "A": "The significance level (alpha) chosen",
+                "B": "The sample size of the test",
+                "C": "The power of the test",
+                "D": "The variability of the data",
+                "answer": "B",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "What happens when you attempt to reduce the probability of a Type I error?",
+                "A": "The significance level becomes less stringent",
+                "B": "The probability of a Type II error generally decreases",
+                "C": "The probability of both errors remains unchanged",
+                "D": "The probability of a Type II error generally increases",
+                "answer": "D",
+                "concept_wiki_name": "Type I and type II errors",
+                "concept_wiki_id": "5657877"
+            },
+            {
+                "question": "Which of the following statements accurately describes the relationship between Type I and Type II errors?",
+                "A": "The probability of a Type II error is inversely related to the significance level α.",
+                "B": "Increasing the significance level α always decreases the probability of a Type II error.",
+                "C": "Both Type I and Type II errors cannot occur simultaneously.",
+                "D": "The probability of a Type II error does not depend on the probability of a Type I error.",
+                "answer": "A",
+                "concept_wiki_name": "Statistical hypothesis test",
+                "concept_wiki_id": "30284"
+            },
+            {
+                "question": "What is the primary purpose of setting a significance level (α) in hypothesis testing?",
+                "A": "To determine the probability of a Type II error occurring",
+                "B": "To quantify the practical significance of research findings",
+                "C": "To establish the probability of rejecting the null hypothesis when it is true",
+                "D": "To provide a threshold for the p-value to indicate statistical significance",
+                "answer": "C",
+                "concept_wiki_name": "Statistical significance",
+                "concept_wiki_id": "160995"
+            },
+            {
+                "question": "In normality tests, what is typically the null hypothesis H0?",
+                "A": "The observations come from a known normal distribution with specified parameters",
+                "B": "The observations are distributed uniformly across the sample",
+                "C": "The observations are distributed normally with unspecified mean and variance",
+                "D": "The observations exhibit a significant deviation from normality",
+                "answer": "C",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            }
+        ]
+    },
+    {
+        "question": "The president of an online music streaming service whose customers pay a fee wants to gather additional information about customers who have joined in the past 12 months. The company plans to send out an e-mail survey to a sample of current customers with a link that gives participants a month of streaming service for free once the survey has been completed. They know that musical tastes vary by geographical region. Which of the following sample plans would produce the most representative sample of its customers?",
+        "choices": [
+            "Choose all of the customers who joined in the last month.",
+            "Make a list of all the customers who joined in the last 12 months and choose a random sample of customers on this list.",
+            "From the list of all customers who joined in the last 12 months, classify customers by the state in which they live, then choose 10 customers from each state.",
+            "From the list of all customers who joined in the last 12 months, classify customers by the state in which they live, then choose 3% of the customers from each state."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which sampling method aims to ensure that all geographical regions are proportionally represented in the sample?",
+                "A": "Select all customers who joined in the last month regardless of location",
+                "B": "Choose a random sample from all customers who joined in the last 12 months",
+                "C": "Classify customers by state and select a percentage from each state",
+                "D": "Classify customers by state and select equal numbers from each",
+                "answer": "C",
+                "concept_wiki_name": "Sampling (statistics)",
+                "concept_wiki_id": "160361"
+            }
+        ]
+    },
+    {
+        "question": "A study was conducted to test a new style of keyboard in preventing repetitive stress disorders. Volunteers who have had problems with such injuries were randomly assigned to use either a traditional keyboard or the new design. A significance test was conducted with the alternative hypothesis that a smaller proportion of those using the new keyboard will suffer injuries than those using the traditional keyboard. The resulting P-value was 0.07. Which is a correct interpretation of this P-value?",
+        "choices": [
+            "The null hypothesis should be rejected.",
+            "The null hypothesis should be accepted.",
+            "There is a 7% chance that the null hypothesis is correct.",
+            "There is a 7% chance of getting a difference between the two groups at least as large as the observed difference if the new keyboard is really no better at preventing injuries."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What misconception about P-values has been highlighted by the American Statistical Association?",
+                "A": "P-values can measure the size of an effect.",
+                "B": "P-values indicate the probability that the data were produced by random chance alone.",
+                "C": "P-values do not represent the probability that the studied hypothesis is true.",
+                "D": "P-values will always be less than 0.05 for statistically significant results.",
+                "answer": "C",
+                "concept_wiki_name": "P-value",
+                "concept_wiki_id": "554994"
+            },
+            {
+                "question": "Who devised the concept of the alternative hypothesis in statistical testing?",
+                "A": "Ronald Fisher and Egon Pearson.",
+                "B": "Jerzy Neyman and Egon Pearson.",
+                "C": "Ronald Fisher and Jerzy Neyman.",
+                "D": "Egon Pearson and Karl Pearson.",
+                "answer": "B",
+                "concept_wiki_name": "Alternative hypothesis",
+                "concept_wiki_id": "645892"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following describe/s the central limit theorem? I. The mean of the sampling distribution of x-is the same as the mean of the population. II. The standard deviation of the sampling distribution of x-is the same as the standard deviation of x- divided by the square root of the sample size. III. If the sample size is large, the shape of the sampling distribution of x- is approximately normal.",
+        "choices": [
+            "I only",
+            "I & II only",
+            "II only",
+            "III only"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What condition is necessary for the central limit theorem to hold?",
+                "A": "The sample size must be at least 10.",
+                "B": "The sample size should be large enough, typically greater than 30.",
+                "C": "The population must be normally distributed.",
+                "D": "All samples must be independent and identically distributed.",
+                "answer": "B",
+                "concept_wiki_name": "Central limit theorem",
+                "concept_wiki_id": "39406"
+            },
+            {
+                "question": "How does the standard deviation of the sampling distribution relate to sample size?",
+                "A": "It increases as the sample size increases.",
+                "B": "It decreases as the sample size increases.",
+                "C": "It is equal to the standard deviation of the population.",
+                "D": "It remains constant regardless of sample size.",
+                "answer": "B",
+                "concept_wiki_name": "Sampling distribution",
+                "concept_wiki_id": "520670"
+            },
+            {
+                "question": "Which of the following statements accurately describes the characteristics of a mean in statistics?",
+                "A": "The mean is always a finite number.",
+                "B": "The mean can be infinite for certain distributions.",
+                "C": "The mean is the most reliable measure of central tendency in all cases.",
+                "D": "The mean cannot exist for any set of numbers.",
+                "answer": "B",
+                "concept_wiki_name": "Mean",
+                "concept_wiki_id": "19192"
+            },
+            {
+                "question": "How is the standard deviation used in the context of Chebyshev's inequality?",
+                "A": "To determine the expected value of a dataset",
+                "B": "To normalize the data before analysis",
+                "C": "To define outliers in any distribution",
+                "D": "To assess the normality of a distribution",
+                "answer": "C",
+                "concept_wiki_name": "Standard deviation",
+                "concept_wiki_id": "27590"
+            }
+        ]
+    },
+    {
+        "question": "The binomial distribution is an appropriate model for which of the following?",
+        "choices": [
+            "The number of minutes in an hour for which the Dow-Jones average is above its beginning average for the day.",
+            "The number of cities among the 10 largest in New York State for which the weather is cloudy for most of a given day.",
+            "The number of drivers wearing seat belts if 10 consecutive drivers are stopped at a police roadblock.",
+            "None of the above."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which distribution might result from multiple Bernoulli trials?",
+                "A": "Normal distribution",
+                "B": "Negative binomial distribution",
+                "C": "Geometric distribution",
+                "D": "Uniform distribution",
+                "answer": "B",
+                "concept_wiki_name": "Bernoulli trial",
+                "concept_wiki_id": "102653"
+            },
+            {
+                "question": "What condition must be met for a set of random variables to be considered mutually independent?",
+                "A": "Any pair of random variables must be independent.",
+                "B": "The probability distribution must factorize for all possible subsets.",
+                "C": "Every random variable must have the same probability distribution.",
+                "D": "The joint cumulative distribution function must be uniform across all variables.",
+                "answer": "A",
+                "concept_wiki_name": "Independence (probability theory)",
+                "concept_wiki_id": "27593"
+            },
+            {
+                "question": "In the design of a trial using probability of success (PPOS), what should the PPOS credible interval ideally be?",
+                "A": "Tight to ensure that the PPOS calculation is supported by sufficient information.",
+                "B": "Wide to allow for variability in results.",
+                "C": "Equal to the Type I error rate.",
+                "D": "Indeterminate to accommodate unexpected outcomes.",
+                "answer": "A",
+                "concept_wiki_name": "Probability of success",
+                "concept_wiki_id": "50802539"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is the primary difference between an experiment and an observational study?",
+        "choices": [
+            "Experiments are only conducted on human subjects; observational studies can be conducted on nonhuman subjects.",
+            "In an experiment, the researcher manipulates some variable to observe its effect on a response variable; in an observational study, he or she simply observes and records the observations.",
+            "Experiments must use randomized treatment and control groups; observational studies also use treatment and control groups, but they do not need to be randomized.",
+            "Experiments must be double-blind; observational studies do not need to be."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How do observational studies compare to randomized controlled trials according to recent findings?",
+                "A": "Observational studies always show greater effect sizes than randomized trials.",
+                "B": "They yield similar results with little evidence of significant effect differences.",
+                "C": "They produce significantly different results in most cases.",
+                "D": "They are less reliable due to the absence of control groups.",
+                "answer": "B",
+                "concept_wiki_name": "Observational study",
+                "concept_wiki_id": "6326483"
+            },
+            {
+                "question": "What is a common purpose of including independent variables in a study?",
+                "A": "To predict the values of independent variables.",
+                "B": "To determine their confounding effect on dependent variables.",
+                "C": "To observe their direct influence on dependent variables.",
+                "D": "To establish the variation of dependent variables alone.",
+                "answer": "B",
+                "concept_wiki_name": "Dependent and independent variables",
+                "concept_wiki_id": "437701"
+            }
+        ]
+    },
+    {
+        "question": "A telephone executive instructs an associate to contact 104 customers using their service to obtain their opinions in regard to an idea for a new pricing package. The associate notes the number of customers whose names begin with A and uses a random number table to pick four of these names. She then proceeds to use the same procedure for each letter of the alphabet and combines the 4 × 26 = 104 results into a group to be contacted. Which of the following is a correct conclusion?",
+        "choices": [
+            "Her procedure makes use of chance.",
+            "Her procedure results in a simple random sample.",
+            "Each customer has an equal probability of being included in the survey.",
+            "Her procedure introduces bias through sampling error."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In the context of the sampling scheme described, what is a characteristic of the selected sample?",
+                "A": "It provides equal probabilities for all elements.",
+                "B": "It can only include names from specific sections of the population.",
+                "C": "It is guaranteed to reflect the whole population accurately.",
+                "D": "It is derived from random selection of the entire population.",
+                "answer": "B",
+                "concept_wiki_name": "Sampling (statistics)",
+                "concept_wiki_id": "160361"
+            },
+            {
+                "question": "Which statement about the use of random number tables is true?",
+                "A": "They can be used to generate predictable results.",
+                "B": "They provide genuinely random numbers for secure encryption.",
+                "C": "They have been entirely replaced by manual methods.",
+                "D": "They allow selection from any chosen pattern without bias.",
+                "answer": "D",
+                "concept_wiki_name": "Random number table",
+                "concept_wiki_id": "2714849"
+            }
+        ]
+    },
+    {
+        "question": "The weight of an aspirin tablet is 300 milligrams according to the bottle label. An FDA investigator weighs a simple random sample of seven tablets, obtains weights of 299, 300, 305, 302, 299, 301, and 303, and runs a hypothesis test of the manufacturer's claim. Which of the following gives the P-value of this test?",
+        "choices": [
+            "P(t > 1.54) with df = 6",
+            "2P(t > 1.54) with df = 6",
+            "P(t > 1.54) with df = 7",
+            "2P(t > 1.54) with df = 7"
+        ],
+        "answer": 1,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "When is the sample mean considered to have a normal distribution?",
+                "A": "If the population is normally distributed",
+                "B": "When the sample size is greater than 30",
+                "C": "Only if the data is continuous",
+                "D": "When the samples are correlated",
+                "answer": "A",
+                "concept_wiki_name": "Sample mean and covariance",
+                "concept_wiki_id": "10005756"
+            }
+        ]
+    },
+    {
+        "question": "An experiment was designed to test the effects of three different types of paint on the durability of wooden toys. Because boys and girls tend to play differently with toys, a randomly selected group of children was divided into two groups by sex. Which of the following statements about this experiment is true?",
+        "choices": [
+            "There are three types of paint and two sex groups, giving a total of six treatment combinations in this experiment.",
+            "Type of paint is a blocking factor.",
+            "Sex is a blocking factor.",
+            "This is a completely randomized design."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In an experimental design, what does proper blocking aim to achieve?",
+                "A": "To enhance the effects of the treatment variables",
+                "B": "To eliminate the effects of spurious variables",
+                "C": "To increase the sample size of each treatment group",
+                "D": "To control for nuisance variables",
+                "answer": "D",
+                "concept_wiki_name": "Design of experiments",
+                "concept_wiki_id": "9541"
+            },
+            {
+                "question": "Which factor is essential for strengthening support that the chief variables are operating as planned?",
+                "A": "Manipulation checks",
+                "B": "Replication of the experiment across multiple trials",
+                "C": "Randomization of control groups",
+                "D": "Increasing the complexity of the experimental design",
+                "answer": "A",
+                "concept_wiki_name": "Design of experiments",
+                "concept_wiki_id": "9541"
+            },
+            {
+                "question": "Which type of paint is primarily characterized by its ability to create a film-like layer after application?",
+                "A": "Oil-based paint",
+                "B": "Water-based paint",
+                "C": "Both oil-based and water-based paint",
+                "D": "Dyes",
+                "answer": "C",
+                "concept_wiki_name": "Paint",
+                "concept_wiki_id": "23776"
+            },
+            {
+                "question": "In which area did randomized experiments first notably appear?",
+                "A": "Clinical medicine",
+                "B": "Agriculture",
+                "C": "Psychology",
+                "D": "Social sciences",
+                "answer": "C",
+                "concept_wiki_name": "Randomized controlled trial",
+                "concept_wiki_id": "163180"
+            }
+        ]
+    },
+    {
+        "question": "Fifty oranges of one variety were selected at random and weighed. A 95 percent confidence interval computed from the sample weights to estimate the mean weight of oranges of this variety is (7.58, 8.72) ounces. Which of the following statements is true with respect to the confidence level used?",
+        "choices": [
+            "In repeated samplings of the same size, 95 percent of the intervals constructed will contain the true mean weight of the oranges of this variety.",
+            "In repeated samplings of the same size, 95 percent of the intervals constructed will contain the sampled mean weight of the oranges.",
+            "Ninety-five percent of the oranges in this sample weigh between 7.58 and 8.72 ounces.",
+            "Ninety-five percent of the oranges of this variety weigh between 7.58 and 8.72 ounces."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What can affect the accuracy of variance estimation in weighted means?",
+                "A": "The method used for calculating the mean.",
+                "B": "The complexity of the statistic and sample size.",
+                "C": "The number of data points in the sample.",
+                "D": "The range of the weights used.",
+                "answer": "B",
+                "concept_wiki_name": "Weighted arithmetic mean",
+                "concept_wiki_id": "33274"
+            },
+            {
+                "question": "What is a primary advantage of using random sampling in statistical studies?",
+                "A": "It ensures that every individual in the population is included in the sample.",
+                "B": "It minimizes the risk of sampling error by selecting individuals based on specific criteria.",
+                "C": "It guarantees that the sample will perfectly reflect the entire population.",
+                "D": "It allows for faster data collection and lower costs compared to surveying the entire population.",
+                "answer": "D",
+                "concept_wiki_name": "Sampling (statistics)",
+                "concept_wiki_id": "160361"
+            },
+            {
+                "question": "Which of the following best describes the concept of minimax sampling?",
+                "A": "It involves selecting a sample based solely on the highest prior probabilities.",
+                "B": "It is a method to sample individuals based on their convenience and availability.",
+                "C": "It guarantees that the sample will have the same distribution as the entire population.",
+                "D": "It aims to equally balance the sampling ratio across all classes in a binary classification.",
+                "answer": "D",
+                "concept_wiki_name": "Sampling (statistics)",
+                "concept_wiki_id": "160361"
+            }
+        ]
+    },
+    {
+        "question": "A college admissions officer is interested in comparing the SAT math scores of high school applicants who have and have not taken AP Statistics. She randomly pulls the files of five applicants who took AP Statistics and five applicants who did not, and proceeds to run a t-test to compare the mean SAT math scores of the two groups. Which of the following is a necessary assumption?",
+        "choices": [
+            "The population variances from each group are known.",
+            "The population variances from each group are unknown.",
+            "The population variances from the two groups are equal.",
+            "The population of SAT scores from each group is normally distributed."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is one key characteristic of the SAT that distinguishes it from other standardized tests?",
+                "A": "It is primarily designed to assess specific high school curricula.",
+                "B": "It has a fixed score range between 200 and 800 for each section.",
+                "C": "It combines verbal and mathematical components in a single score.",
+                "D": "It is owned and developed by a government agency.",
+                "answer": "B",
+                "concept_wiki_name": "SAT",
+                "concept_wiki_id": "144716"
+            },
+            {
+                "question": "Which assumption is critical when performing a t-test on SAT scores of two independent groups?",
+                "A": "The population of SAT scores from each group is normally distributed.",
+                "B": "The population variances from the two groups are unequal.",
+                "C": "The scores from both groups have equal means.",
+                "D": "The sample sizes for both groups are the same.",
+                "answer": "A",
+                "concept_wiki_name": "AP Statistics",
+                "concept_wiki_id": "4973089"
+            },
+            {
+                "question": "What condition can lead to the t-test yielding results similar to a Z-test?",
+                "A": "When the sample sizes are very small.",
+                "B": "When the population variances are significantly different.",
+                "C": "When the dataset is large enough.",
+                "D": "When the response variable is ordinal.",
+                "answer": "C",
+                "concept_wiki_name": "Student's t-test",
+                "concept_wiki_id": "536080"
+            },
+            {
+                "question": "How is the cumulative distribution function of the normal distribution defined?",
+                "A": "As a constant function across all values.",
+                "B": "As the area under the probability density function.",
+                "C": "As a linear function based on the variance.",
+                "D": "As the Heaviside step function translated by the mean.",
+                "answer": "D",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "What is a necessary condition for applying the Mood, Klotz, and Capon tests for two variances?",
+                "A": "Both medians must be known and equal to zero.",
+                "B": "Both medians must be known and equal to one.",
+                "C": "The variances must be equal to each other.",
+                "D": "Both samples must be independent of each other.",
+                "answer": "A",
+                "concept_wiki_name": "Variance",
+                "concept_wiki_id": "32344"
+            }
+        ]
+    },
+    {
+        "question": "Which of these explains why t should be used instead of z for inference procedures for means.",
+        "choices": [
+            "The Central Limit Theorem applies to proportions but not means.",
+            "We use z for proportions because proportions are approximately normal. Means are not.",
+            "We use z for proportions because the sampling distribution of sample proportions is approximately normal, but that is not the case for the sampling distribution of sample means.",
+            "When using the sample standard deviation to estimate the population standard deviation, more variability is introduced into the sampling distribution of the statistic."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the relationship between sample size and measurement error in sampling distributions?",
+                "A": "Doubling the sample size halves the measurement error.",
+                "B": "Quadrupling the sample size halves the measurement error.",
+                "C": "Increasing the sample size has no effect on measurement error.",
+                "D": "Tripling the sample size doubles the measurement error.",
+                "answer": "B",
+                "concept_wiki_name": "Sampling distribution",
+                "concept_wiki_id": "520670"
+            }
+        ]
+    },
+    {
+        "question": "A department store at a large mall claims that over 60 percent of the mall’s visitors shop at that store. Let p = the proportion of the mall’s visitors who shop at the store. Which of the following pairs of hypotheses should be used to support this claim?",
+        "choices": [
+            "H0: p ≤ 0.60 and Ha: p > 0.60",
+            "H0: p = 0.60 and Ha: p 0.60",
+            "H0: p = 0.60 and Ha: p < 0.60",
+            "H0: p > 0.60 and Ha: p 0.60"
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a critical aspect of the choice of null hypothesis in hypothesis testing?",
+                "A": "It should always be the opposite of the alternative hypothesis",
+                "B": "It must be predicted by theory for a more precise experiment",
+                "C": "It should be flexible to allow for multiple interpretations",
+                "D": "It can be ignored if the alternative hypothesis seems strong enough",
+                "answer": "B",
+                "concept_wiki_name": "Statistical hypothesis test",
+                "concept_wiki_id": "30284"
+            },
+            {
+                "question": "Which condition is NOT mentioned as necessary for justifying the estimation of a population parameter?",
+                "A": "Conditions for simple random sampling (SRS)",
+                "B": "Statistical significance testing",
+                "C": "Independence of observations",
+                "D": "Normality of the sampling distribution",
+                "answer": "B",
+                "concept_wiki_name": "Population proportion",
+                "concept_wiki_id": "49489200"
+            },
+            {
+                "question": "What is a common method to determine the actual value of a population parameter?",
+                "A": "Performing a hypothesis test",
+                "B": "Using confidence intervals",
+                "C": "Applying regression analysis",
+                "D": "Conducting a census",
+                "answer": "D",
+                "concept_wiki_name": "Population proportion",
+                "concept_wiki_id": "49489200"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is not true with regard to contingency tables for chi-square tests for independence?",
+        "choices": [
+            "The categories are not numerical for either variable.",
+            "Observed frequencies should be whole numbers.",
+            "Expected frequencies should be whole numbers.",
+            "Expected frequencies in each cell should be at least 5, and to achieve this, one sometimes combines categories for one or the other or both of the variables."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a primary purpose of a contingency table in statistics?",
+                "A": "To display multivariate frequency distributions of variables",
+                "B": "To calculate the mean of numerical data",
+                "C": "To provide a graphical representation of data",
+                "D": "To summarize large datasets with numerical summaries",
+                "answer": "A",
+                "concept_wiki_name": "Contingency table",
+                "concept_wiki_id": "935515"
+            },
+            {
+                "question": "Who first used the term 'contingency table'?",
+                "A": "Ronald A. Fisher",
+                "B": "John Tukey",
+                "C": "Karl Pearson",
+                "D": "William Sealy Gosset",
+                "answer": "C",
+                "concept_wiki_name": "Contingency table",
+                "concept_wiki_id": "935515"
+            },
+            {
+                "question": "What condition must be met regarding expected frequencies when using a chi-square test?",
+                "A": "Expected frequencies must be at least 10 in each cell.",
+                "B": "Expected frequencies should be whole numbers.",
+                "C": "Expected frequencies should be less than observed frequencies.",
+                "D": "Expected frequencies in each cell should be at least 5.",
+                "answer": "D",
+                "concept_wiki_name": "Chi-squared test",
+                "concept_wiki_id": "226680"
+            },
+            {
+                "question": "In what scenario is a Fisher's exact test preferred over a chi-squared test?",
+                "A": "When the expected frequencies are all greater than 5",
+                "B": "When sample sizes are small",
+                "C": "When both variables are numerical",
+                "D": "When the categories are not mutually exclusive",
+                "answer": "B",
+                "concept_wiki_name": "Chi-squared test",
+                "concept_wiki_id": "226680"
+            },
+            {
+                "question": "Which of the following statements about design-based inference is correct?",
+                "A": "It relies on selecting an appropriate model for inference.",
+                "B": "It is mainly used with survey sampling.",
+                "C": "It assumes that the model is initially unknown.",
+                "D": "It does not require random selection of sample data.",
+                "answer": "B",
+                "concept_wiki_name": "Statistical assumption",
+                "concept_wiki_id": "27592"
+            }
+        ]
+    },
+    {
+        "question": "The longevity of people living in a certain locality has a standard deviation of 14 years. What is the mean longevity if 30% of the people live longer than 75 years? Assume a normal distribution for life spans.",
+        "choices": [
+            "75 - 0.30(14)",
+            "75 + 0.30(14)",
+            "75 - 0.4756(14)",
+            "75 - 0.5244(14)"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In which context is the standard deviation index (SDI) commonly used?",
+                "A": "Financial market analysis.",
+                "B": "Population demographics studies.",
+                "C": "Environmental impact studies.",
+                "D": "External quality assessments in medical laboratories.",
+                "answer": "D",
+                "concept_wiki_name": "Standard deviation",
+                "concept_wiki_id": "27590"
+            },
+            {
+                "question": "What percentile corresponds to a value at -2 standard deviations in a normal distribution?",
+                "A": "0.13th percentile",
+                "B": "50th percentile",
+                "C": "15.87th percentile",
+                "D": "2.28th percentile",
+                "answer": "D",
+                "concept_wiki_name": "Percentile",
+                "concept_wiki_id": "354907"
+            },
+            {
+                "question": "In the context of billing for internet bandwidth, which percentile is typically used to exclude the top usage peaks?",
+                "A": "95th percentile",
+                "B": "90th percentile",
+                "C": "98th percentile",
+                "D": "99th percentile",
+                "answer": "A",
+                "concept_wiki_name": "Percentile",
+                "concept_wiki_id": "354907"
+            },
+            {
+                "question": "Which of the following statements is true regarding the calculation of a z-score?",
+                "A": "It requires knowledge of the population mean and population standard deviation.",
+                "B": "It uses the sample mean and sample standard deviation.",
+                "C": "It can be calculated without knowing the mean.",
+                "D": "It only applies to non-normally distributed data.",
+                "answer": "A",
+                "concept_wiki_name": "Standard score",
+                "concept_wiki_id": "221722"
+            }
+        ]
+    },
+    {
+        "question": "Both over-the-counter niacin and the prescription drug Lipitor are known to lower blood cholesterol levels. In one double-blind study Lipitor outperformed niacin. The 95% confidence interval estimate of the difference in mean cholesterol level lowering was (18, 41). Which of the following is a reasonable conclusion?",
+        "choices": [
+            "Niacin lowers cholesterol an average of 18 points, while Lipitor lowers cholesterol an average of 41 points.",
+            "There is a 0.95 probability that Lipitor will outperform niacin in lowering the cholesterol level of any given individual.",
+            "There is a 0.95 probability that Lipitor will outperform niacin by at least 23 points in lowering the cholesterol level of any given individual.",
+            "None of the above."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which food sources are highest in niacin content?",
+                "A": "Processed foods and legumes.",
+                "B": "Fortified packaged foods and red fish.",
+                "C": "Fruits and vegetables.",
+                "D": "Whole grains and dairy products.",
+                "answer": "B",
+                "concept_wiki_name": "Niacin",
+                "concept_wiki_id": "37996"
+            },
+            {
+                "question": "In what year was atorvastatin approved for medical use in the United States?",
+                "A": "1986",
+                "B": "1996",
+                "C": "2001",
+                "D": "2005",
+                "answer": "B",
+                "concept_wiki_name": "Atorvastatin",
+                "concept_wiki_id": "634622"
+            },
+            {
+                "question": "What is a common issue identified in blinded pharmacological trials?",
+                "A": "High levels of blinding effectiveness.",
+                "B": "All trials reporting successful blinding.",
+                "C": "Participants consistently unaware of their treatment.",
+                "D": "High levels of unblinding affecting trial results.",
+                "answer": "D",
+                "concept_wiki_name": "Blinded experiment",
+                "concept_wiki_id": "277248"
+            },
+            {
+                "question": "In which context is blinding particularly difficult to implement ethically?",
+                "A": "In trials of new medications for chronic pain.",
+                "B": "In surgical procedures.",
+                "C": "In studies of lifestyle changes for weight loss.",
+                "D": "In physical therapy interventions.",
+                "answer": "D",
+                "concept_wiki_name": "Blinded experiment",
+                "concept_wiki_id": "277248"
+            },
+            {
+                "question": "What does a 95% confidence interval indicate about the parameter being estimated?",
+                "A": "95% of the intervals constructed from different samples will contain the true parameter value.",
+                "B": "There is a 0.95 probability that the parameter lies within the interval for any given sample.",
+                "C": "The parameter will definitely lie within the confidence interval for this specific sample.",
+                "D": "The mean of the parameter is expected to be exactly at the midpoint of the interval.",
+                "answer": "A",
+                "concept_wiki_name": "Confidence interval",
+                "concept_wiki_id": "280911"
+            },
+            {
+                "question": "In a study, if the 95% confidence interval is calculated for a mean, what does this imply about the values outside this interval?",
+                "A": "There is a 5% probability that the true mean lies within the interval.",
+                "B": "There is a 2.5% chance that the true parameter is below the lower limit and a 2.5% chance that it is above the upper limit.",
+                "C": "Values outside the interval are impossible for the true parameter.",
+                "D": "The true mean is equally likely to be within or outside the interval.",
+                "answer": "B",
+                "concept_wiki_name": "Confidence interval",
+                "concept_wiki_id": "280911"
+            }
+        ]
+    },
+    {
+        "question": "You need to construct a 94% confidence interval for a population proportion. What is the upper critical value of z to be used in constructing this interval?",
+        "choices": [
+            "0.9699",
+            "1.96",
+            "1.555",
+            "1.88"
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In what situation is it realistic to know the true mean and standard deviation of a population?",
+                "A": "When conducting surveys with random samples.",
+                "B": "When using large datasets from observational studies.",
+                "C": "During exploratory data analysis with limited data.",
+                "D": "In cases of standardized testing where the entire population is measured.",
+                "answer": "D",
+                "concept_wiki_name": "Standard score",
+                "concept_wiki_id": "221722"
+            }
+        ]
+    },
+    {
+        "question": "An insurance company wishes to study the number of years drivers in a large city go between automobile accidents. They plan to obtain and analyze the data from a sample of drivers. Which of the following is a true statement?",
+        "choices": [
+            "A reasonable time-and-cost-saving procedure would be to use systematic sampling on an available list of all AAA (Automobile Association of America) members in the city.",
+            "A reasonable time-and-cost-saving procedure would be to randomly choose families and include all drivers in each of these families in the sample.",
+            "To determine the mean number of years between accidents, randomness in choosing a sample of drivers is not important as long as the sample size is very large.",
+            "None of the above are true statements."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key requirement for applying systematic sampling to a population?",
+                "A": "The sample size must be small to avoid bias.",
+                "B": "The population must be logically homogeneous.",
+                "C": "The sampling interval should be random and varied.",
+                "D": "The sample must include every element in the population.",
+                "answer": "B",
+                "concept_wiki_name": "Systematic sampling",
+                "concept_wiki_id": "267801"
+            },
+            {
+                "question": "In systematic sampling, how is the first element selected from the sampling frame?",
+                "A": "It is selected randomly from the first few elements.",
+                "B": "It is chosen based on the largest element in the frame.",
+                "C": "It follows a predetermined sequence based on the frame order.",
+                "D": "It is determined by the average of the first five elements.",
+                "answer": "A",
+                "concept_wiki_name": "Systematic sampling",
+                "concept_wiki_id": "267801"
+            },
+            {
+                "question": "How does the intended sample size in a census compare to that in empirical studies?",
+                "A": "It is typically smaller than in empirical studies",
+                "B": "It varies based on the treatment groups involved",
+                "C": "It is equal to the entire population size",
+                "D": "It is usually larger than needed for empirical studies",
+                "answer": "C",
+                "concept_wiki_name": "Sample size determination",
+                "concept_wiki_id": "1776839"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following can affect the value of the correlation r?",
+        "choices": [
+            "A change in measurement units",
+            "A change in which variable is called x and which is called y",
+            "Adding the same constant to all values of the x-variable",
+            "None of the above can affect the r value."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements accurately describes the role of the International Bureau of Weights and Measures (BIPM)?",
+                "A": "It defines all units of measurement globally without exception.",
+                "B": "It regulates trade weights and measures to ensure fairness.",
+                "C": "It was established to manage the SI units exclusively in Europe.",
+                "D": "It primarily focuses on historical measurement systems.",
+                "answer": "B",
+                "concept_wiki_name": "Unit of measurement",
+                "concept_wiki_id": "21347678"
+            }
+        ]
+    },
+    {
+        "question": "A psychologist believes that positive rewards for proper behavior are more effective than punishment for bad behavior in promoting good behavior in children. A scale of \"proper behavior\" is developed. μ1= the \"proper behavior\" rating for children receiving positive rewards, and μ2= the \"proper behavior\" rating for children receiving punishment. If H0: μ1− μ2= 0, which of the following is the proper statement of HA?",
+        "choices": [
+            "HA: μ1− μ2> 0",
+            "HA: μ1− μ2< 0",
+            "HA: μ1− μ2≠ 0",
+            "Any of the above is an acceptable alternative to the given null."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary purpose of punishment as described?",
+                "A": "To increase public anger against offenders",
+                "B": "To provide positive reinforcement for good behavior",
+                "C": "To promote social bonding among offenders",
+                "D": "To educate individuals about acceptable behavior",
+                "answer": "D",
+                "concept_wiki_name": "Punishment",
+                "concept_wiki_id": "146764"
+            },
+            {
+                "question": "Which of the following statements correctly describes the alternative hypothesis?",
+                "A": "It claims that no relationship exists between the variables being studied",
+                "B": "It posits that there is a relationship between two variables",
+                "C": "It is formulated to support the null hypothesis",
+                "D": "It is always the opposite of the null hypothesis",
+                "answer": "B",
+                "concept_wiki_name": "Null hypothesis",
+                "concept_wiki_id": "226673"
+            }
+        ]
+    },
+    {
+        "question": "Sampling error occurs",
+        "choices": [
+            "when interviewers make mistakes resulting in bias.",
+            "because a sample statistic is used to estimate a population parameter.",
+            "when interviewers use judgment instead of random choice in picking the sample.",
+            "when samples are too small."
+        ],
+        "answer": 1,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What defines a sampling error in statistics?",
+                "A": "The difference between a sample statistic used to estimate a population parameter and the actual population parameter.",
+                "B": "The difference between a sample statistic and the actual value of the sample.",
+                "C": "The discrepancy caused by random selection of a sample.",
+                "D": "The error that results when a sample includes all members of a population.",
+                "answer": "A",
+                "concept_wiki_name": "Sampling error",
+                "concept_wiki_id": "1955561"
+            },
+            {
+                "question": "Why is it impossible to measure sampling errors exactly?",
+                "A": "Because the population parameters are always unknown.",
+                "B": "Because samples are always too small to represent the population accurately.",
+                "C": "Because sampling methods are inherently biased.",
+                "D": "Because sampling errors are only theoretical concepts.",
+                "answer": "A",
+                "concept_wiki_name": "Sampling error",
+                "concept_wiki_id": "1955561"
+            },
+            {
+                "question": "What distinguishes sampling bias from selection bias?",
+                "A": "Sampling bias affects internal validity while selection bias affects external validity.",
+                "B": "Selection bias occurs only before the sample is collected.",
+                "C": "Sampling bias is classified as a subtype of selection bias.",
+                "D": "Sampling bias only arises in observational studies.",
+                "answer": "C",
+                "concept_wiki_name": "Sampling bias",
+                "concept_wiki_id": "17692"
+            },
+            {
+                "question": "What might affect the evaluation of sample sizes in a study?",
+                "A": "The method of random selection used for the sample",
+                "B": "The average age of participants in the study",
+                "C": "The time of day when data collection occurs",
+                "D": "The presence of systematic errors in the data",
+                "answer": "D",
+                "concept_wiki_name": "Sample size determination",
+                "concept_wiki_id": "1776839"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a false statement about simple random samples?",
+        "choices": [
+            "A sample must be reasonably large to be properly considered a simple random sample.",
+            "Inspection of a sample will give no indication of whether or not it is a simple random sample.",
+            "Attributes of a simple random sample may be very different from attributes of the population.",
+            "Every element of the population has an equal chance of being picked."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a characteristic of equal probability sampling (epsem) in relation to simple random samples?",
+                "A": "All epsem samples are guaranteed to be simple random samples.",
+                "B": "Epsem is a more complex method than simple random sampling.",
+                "C": "Epsem allows for unequal chances of selection among individuals.",
+                "D": "Simple random samples always lead to equal probability sampling.",
+                "answer": "D",
+                "concept_wiki_name": "Simple random sample",
+                "concept_wiki_id": "23809392"
+            },
+            {
+                "question": "What is implied about the use of parametric models in human population sampling?",
+                "A": "They are widely accepted and commonly used.",
+                "B": "They are the only method for accurate statistical inference.",
+                "C": "They provide definitive conclusions without uncertainty.",
+                "D": "They are viewed skeptically by most experts.",
+                "answer": "D",
+                "concept_wiki_name": "Statistical inference",
+                "concept_wiki_id": "27577"
+            }
+        ]
+    },
+    {
+        "question": "\"A hypothesis test yields a P-value of 0.20.\" Which of the following best describes what is meant by this statement?",
+        "choices": [
+            "The probability of getting a finding at least as extreme as that obtained by chance alone if the null hypothesis is true is 0.20.",
+            "The probability of getting a finding as extreme as that obtained by chance alone from repeated random sampling is 0.20.",
+            "The probability is 0.20 that our finding is significant.",
+            "The probability of getting this finding is 0.20."
+        ],
+        "answer": 0,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which statement accurately reflects the relationship between p-values and hypothesis testing?",
+                "A": "P-values indicate the probability that the null hypothesis is true",
+                "B": "P-values are used to test against the Neyman–Pearson significance level",
+                "C": "P-values are solely determined by the test statistic value",
+                "D": "P-values reflect the likelihood of data supporting the null hypothesis",
+                "answer": "B",
+                "concept_wiki_name": "Statistical hypothesis test",
+                "concept_wiki_id": "30284"
+            },
+            {
+                "question": "Which statement correctly describes the significance level in statistical hypothesis testing?",
+                "A": "It is the probability of obtaining a result as extreme as observed if the null hypothesis is true.",
+                "B": "It is the probability that the null hypothesis is false given the observed data.",
+                "C": "It is the threshold set before a study to determine statistical significance.",
+                "D": "It is the likelihood of repeating the same study with the same results.",
+                "answer": "C",
+                "concept_wiki_name": "Statistical significance",
+                "concept_wiki_id": "160995"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is not important in the design of experiments?",
+        "choices": [
+            "Control of confounding variables",
+            "Randomization in assigning subjects to different treatments",
+            "Use of a confounding variable to control the placebo effect",
+            "Replication of the experiment using sufficient numbers of subjects"
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following is essential for preventing external factors from affecting the results of an experiment?",
+                "A": "Randomization of subjects",
+                "B": "Increasing the number of treatments",
+                "C": "Establishing control variables",
+                "D": "Using a wide range of independent variables",
+                "answer": "C",
+                "concept_wiki_name": "Design of experiments",
+                "concept_wiki_id": "9541"
+            },
+            {
+                "question": "Which of the following is a method to control confounding variables in study designs?",
+                "A": "Using a single treatment group for comparison",
+                "B": "Characterizing the environment at study sites to ensure ecological similarity",
+                "C": "Eliminating all variables except the independent variable",
+                "D": "Random assignment of subjects to one treatment only",
+                "answer": "B",
+                "concept_wiki_name": "Confounding",
+                "concept_wiki_id": "3105999"
+            },
+            {
+                "question": "In which context is randomization particularly emphasized to maintain fairness?",
+                "A": "Statistical analysis for hypothesis testing",
+                "B": "Survey sampling methods",
+                "C": "Resource allocation in project management",
+                "D": "Gambling to ensure unpredictable outcomes",
+                "answer": "D",
+                "concept_wiki_name": "Randomization",
+                "concept_wiki_id": "65462"
+            },
+            {
+                "question": "What statistical principle does randomization underpin among groups in an experiment?",
+                "A": "Statistical independence",
+                "B": "Probabilistic equivalence",
+                "C": "Parametric testing",
+                "D": "Descriptive statistics",
+                "answer": "B",
+                "concept_wiki_name": "Randomization",
+                "concept_wiki_id": "65462"
+            },
+            {
+                "question": "What is referred to as the placebo response in clinical trials?",
+                "A": "The change in the treatment group due to the experimental treatment",
+                "B": "Any change in the control group receiving the placebo",
+                "C": "The psychological impact of knowing one is receiving treatment",
+                "D": "The expectation of the clinician regarding the treatment’s efficacy",
+                "answer": "B",
+                "concept_wiki_name": "Placebo",
+                "concept_wiki_id": "142821"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is not true about t-distributions?",
+        "choices": [
+            "There are different t-distributions for different values of df (degrees of freedom).",
+            "t-distributions are bell-shaped and symmetric.",
+            "t-distributions always have mean 0 and standard deviation 1.",
+            "t-distributions are more spread out than the normal distribution."
+        ],
+        "answer": 2,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In the context of ANOVA, what role do degrees of freedom play?",
+                "A": "They provide a measure of the total sample size used in the analysis.",
+                "B": "They reflect the variance within the groups being analyzed.",
+                "C": "They indicate the number of groups being compared.",
+                "D": "They help determine the critical value for the F-distribution.",
+                "answer": "D",
+                "concept_wiki_name": "Analysis of variance",
+                "concept_wiki_id": "634"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following statements about any two events A and B is true?",
+        "choices": [
+            "P(A ∪ B) implies events A and B are independent.",
+            "P(A ∪ B) = 1 implies events A and B are mutually exclusive.",
+            "P(A ∩ B) = 0 implies events A and B are independent.",
+            "P(A ∩ B) = 0 implies events A and B are mutually exclusive."
+        ],
+        "answer": 3,
+        "subject": "high_school_statistics",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "If the probability of event B is one, what can be inferred about event A?",
+                "A": "Event A has a probability of 0.",
+                "B": "Event A must also have a probability of 1.",
+                "C": "Event A's probability remains unchanged.",
+                "D": "The relationship between A and B is irrelevant.",
+                "answer": "C",
+                "concept_wiki_name": "Conditional probability",
+                "concept_wiki_id": "24104134"
+            },
+            {
+                "question": "Which of the following scenarios best illustrates mutually exclusive events?",
+                "A": "Choosing a fruit that is either an apple or a banana from a basket containing apples, bananas, and oranges",
+                "B": "Drawing a red card from a deck and a green card from another deck",
+                "C": "Rolling a die and getting a 3 or a 4",
+                "D": "Tossing a coin and getting heads or tails",
+                "answer": "D",
+                "concept_wiki_name": "Mutual exclusivity",
+                "concept_wiki_id": "312648"
+            },
+            {
+                "question": "In a standard deck of cards, if you draw one card, what is the probability of drawing either a red card or a club?",
+                "A": "13/52",
+                "B": "26/52",
+                "C": "39/52",
+                "D": "0",
+                "answer": "C",
+                "concept_wiki_name": "Mutual exclusivity",
+                "concept_wiki_id": "312648"
+            },
+            {
+                "question": "What does it mean if P(A ∩ B) = 0 for events A and B?",
+                "A": "Events A and B are mutually exclusive.",
+                "B": "Events A and B are independent.",
+                "C": "Events A and B have no common outcomes.",
+                "D": "Events A and B have a conditional dependency.",
+                "answer": "A",
+                "concept_wiki_name": "Independence (probability theory)",
+                "concept_wiki_id": "27593"
+            },
+            {
+                "question": "If two events A and B are independent, which of the following statements is true?",
+                "A": "P(A | B) = P(A)",
+                "B": "P(A | B) = P(B)",
+                "C": "P(A ∪ B) = P(A) + P(B)",
+                "D": "P(A ∩ B) = P(A) + P(B)",
+                "answer": "A",
+                "concept_wiki_name": "Independence (probability theory)",
+                "concept_wiki_id": "27593"
+            }
+        ]
+    }
+]

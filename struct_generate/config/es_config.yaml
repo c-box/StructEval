@@ -1,0 +1,32 @@
+es_config:
+    # host
+    hosts:
+      - 'datacluster1.cipsup.cn:9203'
+      - 'datacluster1.cipsup.cn:9204'
+      - 'datacluster2.cipsup.cn:9203'
+      - 'datacluster2.cipsup.cn:9204'
+      - 'datacluster3.cipsup.cn:9203'
+      - 'datacluster3.cipsup.cn:9204'
+      - 'datacluster4.cipsup.cn:9203'
+      - 'datacluster4.cipsup.cn:9204'
+      - 'datacluster5.cipsup.cn:9203'
+      - 'datacluster5.cipsup.cn:9204'
+      - 'datacluster1.cipsup.cn:9208'
+      - 'datacluster2.cipsup.cn:9208'
+      - 'datacluster3.cipsup.cn:9208'
+    # 用户名
+    username: '*****'
+    # 密码
+    password: '*****'
+    # timeout
+    timeout: 900
+    # 启动前嗅探es集群服务器
+    sniff_on_start: True
+    # es集群服务器结点连接异常时是否刷新es节点信息
+    sniff_on_connection_fail: True
+    # 每60秒刷新节点信息
+    sniffer_timeout: 60
+    # timeout of the sniff requests
+    sniff_timeout: 10
+
+  

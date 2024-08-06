@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.",
+        "subject": "business_ethics",
+        "choices": [
+            "Externalities, Power, Independence",
+            "Publicity, Insubstantial resources, Mutual dependence",
+            "Publicity, Power, Independence",
+            "Externalities, Power, Mutual dependence"
+        ],
+        "answer": 3,
+        "idx": 0
+    },
+    {
+        "question": "_______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.",
+        "subject": "business_ethics",
+        "choices": [
+            "Corporate social responsibility",
+            "Business ethics management",
+            "Sustainability",
+            "Environmental management"
+        ],
+        "answer": 1,
+        "idx": 1
+    },
+    {
+        "question": "To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.",
+        "subject": "business_ethics",
+        "choices": [
+            "Outside, Limited, Independently",
+            "Inside, Limited, Intermittently",
+            "Outside, Unlimited, Intermittently",
+            "Inside, Unlimited, Independently"
+        ],
+        "answer": 0,
+        "idx": 2
+    },
+    {
+        "question": "Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.",
+        "subject": "business_ethics",
+        "choices": [
+            "Non-violent direct action, Violent direct action, Indirect action, Boycott",
+            "Indirect action, Instrumental action, Non-violent direct action, Information campaign",
+            "Indirect action, Violent direct action, Non-violent direct-action Boycott",
+            "Non-violent direct action, Instrumental action, Indirect action, Information campaign"
+        ],
+        "answer": 2,
+        "idx": 3
+    },
+    {
+        "question": "In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .",
+        "subject": "business_ethics",
+        "choices": [
+            "Buycotts, Boycotts, Blockchain technology, Charitable donations",
+            "Buycotts, Boycotts, Digital technology, Increased Sales",
+            "Boycotts, Buyalls, Blockchain technology, Charitable donations",
+            "Boycotts, Buycotts, Digital technology, Increased Sales"
+        ],
+        "answer": 3,
+        "idx": 4
+    }
+]

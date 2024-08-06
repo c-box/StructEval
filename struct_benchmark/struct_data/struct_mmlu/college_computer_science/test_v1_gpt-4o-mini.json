@@ -1,0 +1,2926 @@
+[
+    {
+        "question": "Hash tables can contribute to an efficient average-case solution for all of the problems described below EXCEPT:",
+        "choices": [
+            "Counting distinct values: Given a set of n keys, determine the number of distinct key values.",
+            "Dynamic dictionary: Support the operations of insert, delete, and search in a dictionary.",
+            "Range search: Given values a and b, find all the records whose key value is in the range a, b.",
+            "Symbol table lookup: Given a program identifier, find its type and address."
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "Which application is least suitable for hash tables compared to other data structures?",
+                "A": "Database indexing",
+                "B": "Implementing associative arrays",
+                "C": "Sorting large datasets",
+                "D": "Disk-based data structures",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is the implication of using a perfect hash function?",
+                "A": "It guarantees faster access times than any other hash function.",
+                "B": "It eliminates the need for collision resolution techniques.",
+                "C": "It ensures that all keys map to different values.",
+                "D": "It is only applicable for dynamic data sets.",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "evaluating",
+                "question": "In the context of hash tables, what is a common misconception about collisions?",
+                "A": "They indicate a failure of the hash table design.",
+                "B": "They can be resolved by overwriting existing entries.",
+                "C": "They are always a sign of an imperfect hash function.",
+                "D": "They can only be managed through chaining methods.",
+                "answer": "A",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which characteristic of a perfect hash function distinguishes it from a typical hash function?",
+                "A": "It can handle collisions without any resolution",
+                "B": "It requires a larger storage space for keys",
+                "C": "It maps each element to a different value in the index",
+                "D": "It can be applied to any random set of keys",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "analyzing",
+                "question": "In what way can hash tables be applied to implement caches effectively?",
+                "A": "By allowing duplicate entries for faster access",
+                "B": "By using B-trees for collision resolution",
+                "C": "By discarding old items during hash collisions",
+                "D": "By storing all values in sorted order",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "remembering",
+                "question": "Which hashing scheme is commonly used?",
+                "A": "Hashing by division",
+                "B": "Dynamic perfect hashing",
+                "C": "Universal hashing",
+                "D": "Static perfect hashing",
+                "answer": "A",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the primary purpose of a hash function in a hash table?",
+                "A": "To create unique keys for each value stored.",
+                "B": "To maintain the order of elements in the table.",
+                "C": "To generate random values for data security.",
+                "D": "To compute an index for storing values in an array.",
+                "answer": "D",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens when a hash collision occurs in a hash table?",
+                "A": "The hash table must be resized immediately.",
+                "B": "Both entries are stored in the same bucket without any changes.",
+                "C": "The older entry is usually discarded to accommodate the new one.",
+                "D": "A new hash function is generated for the colliding keys.",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "applying",
+                "question": "In implementing a cache using a hash table, what should be done when a hash collision occurs?",
+                "A": "Retain both entries and allow duplicates",
+                "B": "Rehash both entries to find new slots",
+                "C": "Ignore the new entry and keep the old one",
+                "D": "Overwrite the older entry with the new one",
+                "answer": "D",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "creating",
+                "question": "How might you design a hash function that remains effective despite a known set of keys?",
+                "A": "Develop a perfect hash function that assigns unique indices to all known keys.",
+                "B": "Create a hash function that uses multiplication by a prime number.",
+                "C": "Utilize a simple modulo operation based on the maximum key value.",
+                "D": "Incorporate randomization in the hash function to avoid predictability.",
+                "answer": "A",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            },
+            {
+                "level": "creating",
+                "question": "What strategy would you recommend for maintaining a hash table's efficiency as it approaches its maximum load factor?",
+                "A": "Reduce the load factor threshold to trigger resizing more frequently.",
+                "B": "Implement a garbage collection routine to clean unused entries.",
+                "C": "Increase the size of the hash table while keeping the same hash function.",
+                "D": "Engage in periodic analysis of hash collisions to optimize the hash function.",
+                "answer": "C",
+                "topic_wiki_name": "Hash table",
+                "topic_wiki_id": "13833"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What distinguishes dynamic range searching from static range searching?",
+                "A": "Static can process queries faster than dynamic in all cases.",
+                "B": "Static allows dynamic updates while dynamic does not.",
+                "C": "Dynamic only allows queries for points within a single dimension.",
+                "D": "Dynamic allows insertions and deletions while static does not.",
+                "answer": "D",
+                "concept_wiki_name": "Range searching",
+                "concept_wiki_id": "9334818"
+            },
+            {
+                "question": "In the context of range searching, what does a two-sided query imply?",
+                "A": "Both bounds of the query are finite.",
+                "B": "At least one bound is infinite.",
+                "C": "The query is restricted to a single dimension.",
+                "D": "The query only counts distinct values within a range.",
+                "answer": "B",
+                "concept_wiki_name": "Range searching",
+                "concept_wiki_id": "9334818"
+            },
+            {
+                "question": "What is the primary focus of colored range searching?",
+                "A": "Finding points within a certain geometric range.",
+                "B": "Determining the number of distinct values in a dataset.",
+                "C": "Searching for points based solely on their coordinates.",
+                "D": "Counting how many different categories appear in a specified range.",
+                "answer": "D",
+                "concept_wiki_name": "Range searching",
+                "concept_wiki_id": "9334818"
+            }
+        ]
+    },
+    {
+        "question": "Consider an object-oriented language in which all entities are objects. Two relationships arise: (1) the instance relationship, between an object and the class of which that object is a member, and (2) the subclass relationship, between a class and the superclass from which that class inherits properties. In such a language, when a message is sent to an object requesting execution of one of its methods (procedures), the method is located by following",
+        "choices": [
+            "one instance link and then zero or more subclass links",
+            "one or more instance links and then one or more subclass links",
+            "one or more instance links",
+            "one subclass link and then one or more instance links"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "In which decade did the terminology invoking 'objects' in the modern sense of object-oriented programming first appear?",
+                "A": "1940s",
+                "B": "1970s",
+                "C": "1950s and 1960s",
+                "D": "1980s",
+                "answer": "C",
+                "topic_wiki_name": "Object-oriented programming",
+                "topic_wiki_id": "27471338"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which programming languages are considered strongly object-oriented and also multi-paradigm?",
+                "A": "Java and Fortran 2003",
+                "B": "C++ and Visual Basic.NET",
+                "C": "Python and Ruby",
+                "D": "Swift and MATLAB",
+                "answer": "C",
+                "topic_wiki_name": "Object-oriented programming",
+                "topic_wiki_id": "27471338"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following languages is noted for being primarily object-oriented yet compatible with procedural methodology?",
+                "A": "C++",
+                "B": "JavaScript",
+                "C": "Fortran",
+                "D": "Python",
+                "answer": "D",
+                "topic_wiki_name": "Object-oriented programming",
+                "topic_wiki_id": "27471338"
+            },
+            {
+                "level": "analyzing",
+                "question": "What aspect of object-oriented programming allows for code reusability across different programming languages?",
+                "A": "Encapsulation techniques",
+                "B": "Cross-language inheritance",
+                "C": "Polymorphism features",
+                "D": "Modular programming support",
+                "answer": "B",
+                "topic_wiki_name": "Object-oriented programming",
+                "topic_wiki_id": "27471338"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In object-oriented programming, what are the two primary relationships that define the interaction between objects and classes?",
+                "A": "instance relationship and subclass relationship",
+                "B": "association relationship and aggregation relationship",
+                "C": "composition relationship and inheritance relationship",
+                "D": "interface relationship and implementation relationship",
+                "answer": "A",
+                "concept_wiki_name": "Object-oriented programming",
+                "concept_wiki_id": "27471338"
+            },
+            {
+                "question": "Which of the following languages is mentioned as primarily object-oriented and also compatible with procedural methodology?",
+                "A": "Ruby",
+                "B": "JavaScript",
+                "C": "C++",
+                "D": "Fortran",
+                "answer": "A",
+                "concept_wiki_name": "Object-oriented programming",
+                "concept_wiki_id": "27471338"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following language features requires that stack-based storage allocation be used rather than static allocation?",
+        "choices": [
+            "Recursive procedures",
+            "Arbitrary goto's",
+            "Two-dimensional arrays",
+            "Integer-valued functions"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "understanding",
+                "question": "Why is stack-based memory allocation considered faster than heap-based allocation?",
+                "A": "It uses a last-in-first-out method for data management.",
+                "B": "It requires less memory overall.",
+                "C": "It does not require any memory management.",
+                "D": "It allows for larger memory allocations.",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "understanding",
+                "question": "What is a primary disadvantage of using stack-based memory allocation?",
+                "A": "It can result in stack overflow if too much memory is allocated.",
+                "B": "It leads to memory fragmentation over time.",
+                "C": "It is less efficient than heap memory allocation.",
+                "D": "It requires manual management of memory resources.",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "analyzing",
+                "question": "How do stack frames affect variable-length local data management?",
+                "A": "They lead to a conflict with alloca's memory handling",
+                "B": "They simplify memory allocation for all data types",
+                "C": "They allow for unlimited data storage",
+                "D": "They require constant memory checks during function execution",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a potential downside of using alloca in a function with variable-length local data?",
+                "A": "It can result in conflicts with local variable storage",
+                "B": "It may cause memory leaks in the stack",
+                "C": "It can lead to increased function inlining",
+                "D": "It forces the use of fixed-size stack frames",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "evaluating",
+                "question": "When might stack-based memory allocation be as inefficient as heap-based allocation?",
+                "A": "When alloca is used in a function with variable-length local data.",
+                "B": "When the allocated data exceeds the stack size.",
+                "C": "When data needs to persist beyond the function call.",
+                "D": "When there is a high demand for temporary data storage.",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "applying",
+                "question": "In a scenario where a function frequently allocates memory for temporary data, which memory allocation method would be most efficient?",
+                "A": "Heap-based memory allocation",
+                "B": "Stack-based memory allocation",
+                "C": "Static memory allocation",
+                "D": "Dynamic memory allocation",
+                "answer": "B",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "applying",
+                "question": "If a programmer needs to ensure that memory is automatically reclaimed after a function execution, which allocation method should they use?",
+                "A": "Heap-based memory allocation",
+                "B": "Global memory allocation",
+                "C": "Stack-based memory allocation",
+                "D": "Static memory allocation",
+                "answer": "C",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "creating",
+                "question": "What strategy would you employ to manage stack-based memory allocation when dealing with variable-length local data in a function?",
+                "A": "Implement a mechanism to create a separate chain of heap storage for local variables.",
+                "B": "Allocate all local variables on the heap instead.",
+                "C": "Use static global variables for all local data.",
+                "D": "Increase the stack size limit before executing the function.",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            },
+            {
+                "level": "creating",
+                "question": "If you needed to ensure that memory allocated with alloca does not lead to unintentional memory leaks, what practice should you adopt?",
+                "A": "Call alloca with an argument of zero to free memory as needed.",
+                "B": "Always allocate memory using malloc instead.",
+                "C": "Avoid using alloca in favor of stack-based allocation only.",
+                "D": "Increase the stack size dynamically during the function's execution.",
+                "answer": "A",
+                "topic_wiki_name": "Stack-based memory allocation",
+                "topic_wiki_id": "1836265"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements about the lifetime of static variables is correct?",
+                "A": "They are only alive during the execution of the function they are declared in.",
+                "B": "Their lifetime lasts as long as the program execution time.",
+                "C": "They are deallocated immediately after function exit.",
+                "D": "Their lifetime is determined by the scope in which they're declared.",
+                "answer": "B",
+                "concept_wiki_name": "Static variable",
+                "concept_wiki_id": "1525365"
+            },
+            {
+                "question": "Which statement describes a key difference between goto statements and function calls in programming languages?",
+                "A": "Function calls perform a one-way transfer of control, while goto statements can return control.",
+                "B": "Goto statements perform a one-way transfer of control, while function calls return control.",
+                "C": "Both goto statements and function calls perform one-way transfers of control.",
+                "D": "Goto statements are limited to local scopes, while function calls can access global variables.",
+                "answer": "B",
+                "concept_wiki_name": "Goto",
+                "concept_wiki_id": "23307350"
+            },
+            {
+                "question": "How do goto statements affect control structures in programming languages?",
+                "A": "They simplify the implementation of coroutines and cooperative multitasking.",
+                "B": "They restrict the flow of control to linear sequences only.",
+                "C": "They eliminate the need for any form of error handling.",
+                "D": "They make parallel programming impossible.",
+                "answer": "A",
+                "concept_wiki_name": "Goto",
+                "concept_wiki_id": "23307350"
+            }
+        ]
+    },
+    {
+        "question": "An integer c is a common divisor of two integers x and y if and only if c is a divisor of x and c is a divisor of y. Which of the following sets of integers could possibly be the set of all common divisors of two integers?",
+        "choices": [
+            "{-6,-2, -1, 1, 2, 6}",
+            "{-6, -2, -1, 0, 1, 2, 6}",
+            "{-6, -3, -2, -1, 1, 2, 3, 6}",
+            "{-6, -3, -2, -1, 0, 1, 2, 3, 6}"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What is the definition of the greatest common divisor (GCD)?",
+                "A": "The smallest positive integer that divides a set of integers",
+                "B": "The largest positive integer that divides each of the integers",
+                "C": "The average of a set of integers",
+                "D": "The highest integer that can be added to a set of integers",
+                "answer": "B",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the GCD of 8 and 12?",
+                "A": "6",
+                "B": "8",
+                "C": "4",
+                "D": "2",
+                "answer": "C",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "remembering",
+                "question": "Which method is introduced by Euclid for computing the greatest common divisor?",
+                "A": "Subtraction method",
+                "B": "Prime factorization method",
+                "C": "Division method",
+                "D": "Multiplication method",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the GCD of 54 and 24?",
+                "A": "6",
+                "B": "12",
+                "C": "4",
+                "D": "18",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "understanding",
+                "question": "What is the greatest common divisor (GCD) of two integers?",
+                "A": "The smallest positive integer that divides both integers.",
+                "B": "The average of the two integers.",
+                "C": "The sum of the two integers divided by two.",
+                "D": "The largest positive integer that divides each of the integers.",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "understanding",
+                "question": "In the example provided, what is the GCD of 24 and 60?",
+                "A": "6",
+                "B": "8",
+                "C": "12",
+                "D": "4",
+                "answer": "C",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which method is described as inefficient for computing the GCD of large numbers?",
+                "A": "Using Euclid's algorithm.",
+                "B": "Calculating prime factorizations.",
+                "C": "Finding common divisors directly.",
+                "D": "Using the difference of the numbers.",
+                "answer": "B",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following statements best describes the relationship between the GCD and LCM of two integers?",
+                "A": "LCM is derived using GCD",
+                "B": "LCM can be calculated without GCD",
+                "C": "GCD can be computed from LCM",
+                "D": "GCD is always greater than LCM",
+                "answer": "A",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following pairs of numbers is coprime based on the definitions provided?",
+                "A": "12 and 36",
+                "B": "9 and 28",
+                "C": "15 and 30",
+                "D": "24 and 60",
+                "answer": "B",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            },
+            {
+                "level": "applying",
+                "question": "If you have two integers, 48 and 18, and you want to find their GCD using Euclid's method, what is your first step?",
+                "A": "Divide the larger number by the smaller number",
+                "B": "Multiply the two numbers together",
+                "C": "Add the two numbers together",
+                "D": "Subtract the smaller number from the larger number",
+                "answer": "D",
+                "topic_wiki_name": "Greatest common divisor",
+                "topic_wiki_id": "12354"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "How can the greatest common divisor be computed using prime factorizations?",
+                "A": "By summing all prime factors of both numbers.",
+                "B": "By multiplying the highest powers of all prime factors from both numbers.",
+                "C": "By taking the product of all prime factors from both numbers.",
+                "D": "By multiplying the lowest powers of common prime factors from both numbers.",
+                "answer": "D",
+                "concept_wiki_name": "Greatest common divisor",
+                "concept_wiki_id": "12354"
+            },
+            {
+                "question": "In the context of integer sets, which of the following is true about common divisors?",
+                "A": "Common divisors must always include zero.",
+                "B": "Common divisors cannot be negative integers.",
+                "C": "Common divisors are only positive integers.",
+                "D": "Common divisors can be both positive and negative integers.",
+                "answer": "D",
+                "concept_wiki_name": "Integer",
+                "concept_wiki_id": "14563"
+            },
+            {
+                "question": "What is the relationship between the set of integers and the set of natural numbers?",
+                "A": "The set of integers is a subset of the set of natural numbers.",
+                "B": "The set of integers and the set of natural numbers are disjoint.",
+                "C": "The set of natural numbers is a subset of the set of integers.",
+                "D": "The set of integers includes only even natural numbers.",
+                "answer": "C",
+                "concept_wiki_name": "Integer",
+                "concept_wiki_id": "14563"
+            },
+            {
+                "question": "Which of the following statements about the divisors of an integer is true?",
+                "A": "Only positive integers can be divisors.",
+                "B": "Every integer is a divisor of itself.",
+                "C": "An integer can have an infinite number of divisors.",
+                "D": "Divisors are always positive and even.",
+                "answer": "B",
+                "concept_wiki_name": "Divisor",
+                "concept_wiki_id": "49492"
+            },
+            {
+                "question": "Which of the following types of numbers does not have non-trivial divisors?",
+                "A": "Composite numbers",
+                "B": "Even numbers",
+                "C": "Prime numbers",
+                "D": "Odd numbers",
+                "answer": "C",
+                "concept_wiki_name": "Divisor",
+                "concept_wiki_id": "49492"
+            }
+        ]
+    },
+    {
+        "question": "Two processors, M-5 and M-7, implement the same instruction set. Processor M-5 uses a 5-stage pipeline and a clock cycle of 10 nanoseconds. Processor M-7 uses a 7-stage pipeline and a clock cycle of 7.5 nanoseconds. Which of the following is (are) true?\nI. M-7’s pipeline has better maximum throughput than M-5’s pipeline.\nII. The latency of a single instruction is shorter on M-7’s pipeline than on M-5’s pipeline.\nIII. Programs executing on M-7 will always run faster than programs executing on M-5.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and III",
+            "II and III"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "creating",
+                "question": "What innovative approach could be implemented to enhance the efficiency of instruction pipelining in a processor?",
+                "A": "Increase the number of pipeline stages to allow for more parallel processing.",
+                "B": "Introduce more complex control units to manage the pipeline stages.",
+                "C": "Incorporate self-modifying code to allow dynamic instruction adjustments.",
+                "D": "Employ a delay slot strategy to reduce the impact of hazards.",
+                "answer": "A",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "creating",
+                "question": "How might you redesign a pipelined processor to handle self-modifying code more effectively?",
+                "A": "Add more registers to store old instruction copies.",
+                "B": "Use an out-of-order execution model to process instructions non-sequentially.",
+                "C": "Implement a data-only fetch configuration for the instruction cache.",
+                "D": "Increase the cycle time to allow more time for instruction modifications.",
+                "answer": "C",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "creating",
+                "question": "What adjustment could you make in a pipelined processor to improve energy efficiency without sacrificing throughput?",
+                "A": "Reduce the total number of logic gates in the design.",
+                "B": "Implement a multicycle approach for certain complex instructions.",
+                "C": "Increase the clock rate to speed up instruction processing.",
+                "D": "Optimize the pipeline stages to balance workload across fewer gates.",
+                "answer": "D",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "analyzing",
+                "question": "What impact does instruction pipelining have on the execution of uninterruptible instructions?",
+                "A": "It allows uninterruptible instructions to run faster without delays.",
+                "B": "It prevents any instruction from being interrupted, including ordinary instructions.",
+                "C": "It may cause portions of ordinary instructions to become uninterruptible.",
+                "D": "It eliminates hazards related to uninterruptible instructions entirely.",
+                "answer": "C",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "analyzing",
+                "question": "How does the complexity of pipelined processors compare to that of multicycle computers?",
+                "A": "Pipelined processors are usually more complex and more costly.",
+                "B": "Pipelined processors require fewer logic gates than multicycle computers.",
+                "C": "Pipelined processors are generally simpler and cheaper to manufacture.",
+                "D": "Pipelined processors operate with lower energy consumption overall.",
+                "answer": "A",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a key advantage of increasing the number of stages in a pipelined processor?",
+                "A": "It allows for a more complex instruction set to be implemented.",
+                "B": "It reduces the likelihood of instruction hazards occurring.",
+                "C": "It enables each stage to run at a higher clock rate.",
+                "D": "It allows uninterruptible instructions to complete without delays.",
+                "answer": "C",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "evaluating",
+                "question": "How does pipelining typically affect energy consumption per instruction?",
+                "A": "It has no significant impact on energy consumption.",
+                "B": "It generally increases total energy usage while reducing per instruction energy.",
+                "C": "It always decreases total energy usage regardless of design.",
+                "D": "It reduces both total and per instruction energy usage.",
+                "answer": "B",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a common technique used by pipelined processors to handle instruction hazards?",
+                "A": "Using out of order execution.",
+                "B": "Decreasing the number of pipeline stages.",
+                "C": "Increasing the clock speed of the processor.",
+                "D": "Inserting NOPs into the code.",
+                "answer": "D",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            },
+            {
+                "level": "remembering",
+                "question": "What technique is used to implement instruction-level parallelism in a single processor?",
+                "A": "Cache memory management",
+                "B": "Out of order execution",
+                "C": "Superscalar architecture",
+                "D": "Instruction pipelining",
+                "answer": "D",
+                "topic_wiki_name": "Instruction pipelining",
+                "topic_wiki_id": "220314"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which type of clock is most commonly used in modern microprocessors?",
+                "A": "Single-phase clock",
+                "B": "Four-phase clock",
+                "C": "Two-phase clock",
+                "D": "Multi-phase clock",
+                "answer": "A",
+                "concept_wiki_name": "Clock signal",
+                "concept_wiki_id": "182693"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is true of interrupts?",
+        "choices": [
+            "They are generated when memory cycles are \"stolen\".",
+            "They are used in place of data channels.",
+            "They can indicate completion of an I/O operation.",
+            "They cannot be generated by arithmetic operations."
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "In a situation where an interrupt indicates a fatal error, what is the appropriate reaction of the system?",
+                "A": "Continue executing the current program",
+                "B": "Execute the interrupt handler and reset the system",
+                "C": "Ignore the interrupt and proceed normally",
+                "D": "Save the current state and execute the interrupt handler",
+                "answer": "D",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which technique allows for the distribution of interrupts among multiple cores?",
+                "A": "Polling techniques",
+                "B": "Dynamic memory allocation",
+                "C": "Interrupt prioritization",
+                "D": "IRQ affinity configuration",
+                "answer": "D",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "creating",
+                "question": "What approach would you recommend to prevent an interrupt storm in a system with high interrupt rates?",
+                "A": "Increase the processing power of a single core to handle more interrupts.",
+                "B": "Allow all interrupts to queue without prioritization.",
+                "C": "Schedule network interrupt handling carefully, similar to process execution.",
+                "D": "Reduce the number of hardware interrupts by disabling unnecessary devices.",
+                "answer": "C",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "creating",
+                "question": "To improve the efficiency of interrupt handling, what strategy would you propose for a system experiencing livelocks?",
+                "A": "Increase the number of interrupts generated to spread the load.",
+                "B": "Implement a system that prioritizes lower-priority interrupts over higher ones.",
+                "C": "Ensure that the system balances processing time between interrupts and other tasks.",
+                "D": "Disable all user-generated interrupts to reduce system load.",
+                "answer": "C",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "remembering",
+                "question": "What term is used to describe excessive processing time spent handling interrupts?",
+                "A": "Interrupt overload",
+                "B": "Interrupt latency",
+                "C": "Interrupt storm",
+                "D": "Interrupt queue",
+                "answer": "C",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "remembering",
+                "question": "Which system was the first to implement hardware interrupts?",
+                "A": "IBM 7094",
+                "B": "UNIVAC I",
+                "C": "DYSEAC",
+                "D": "PDP-11",
+                "answer": "C",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "remembering",
+                "question": "What does IRQ affinity refer to?",
+                "A": "The manual configuration of interrupt routing",
+                "B": "The priority of interrupt requests",
+                "C": "The automatic distribution of interrupts among cores",
+                "D": "The speed of processing interrupts",
+                "answer": "A",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            },
+            {
+                "level": "evaluating",
+                "question": "What differentiates an interrupt from a signal in computing?",
+                "A": "Interrupts are handled by users, while signals are handled by the kernel",
+                "B": "Interrupts are used for inter-process communication, while signals are not",
+                "C": "Signals are mediated by the kernel, while interrupts are mediated by the processor",
+                "D": "Interrupts can only be issued by hardware devices, while signals can be software-generated",
+                "answer": "C",
+                "topic_wiki_name": "Interrupt",
+                "topic_wiki_id": "15289"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is a characteristic of port-mapped I/O?",
+                "A": "It uses standard memory addressing",
+                "B": "It does not involve direct memory access",
+                "C": "It requires special I/O instructions",
+                "D": "It is faster than channel I/O",
+                "answer": "C",
+                "concept_wiki_name": "Input/output",
+                "concept_wiki_id": "22393474"
+            },
+            {
+                "question": "Which of the following describes a theoretical aspect of communication channels?",
+                "A": "They can be modeled with certain error characteristics.",
+                "B": "They have physical limitations based on the transmission medium.",
+                "C": "They can only be used for digital data transmission.",
+                "D": "They do not require any physical pathways for information transfer.",
+                "answer": "A",
+                "concept_wiki_name": "Communication channel",
+                "concept_wiki_id": "156700"
+            },
+            {
+                "question": "Which of the following statements is true regarding operations performed on variables?",
+                "A": "They are known as algebraic operations.",
+                "B": "They are always referred to as arithmetic operations.",
+                "C": "They can only be addition or subtraction.",
+                "D": "They exclude multiplication and division.",
+                "answer": "A",
+                "concept_wiki_name": "Arithmetic",
+                "concept_wiki_id": "3118"
+            }
+        ]
+    },
+    {
+        "question": "An Euler circuit of an undirected graph is a circuit in which each edge of the graph appears exactly once. Which of the following undirected graphs must have an Euler circuit?\nI. A complete graph with 12 vertices\nII. A complete graph with 13 vertices\nIII. A tree with 13 vertices",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "How would you classify a graph that has an Eulerian trail but not an Eulerian circuit?",
+                "A": "Eulerian graph",
+                "B": "Unicursal graph",
+                "C": "Connected graph",
+                "D": "Semi-Eulerian graph",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "applying",
+                "question": "In a connected graph where every vertex has an even degree, what type of path can be constructed?",
+                "A": "Both Eulerian trail and cycle",
+                "B": "Only an Eulerian cycle",
+                "C": "Only an Eulerian trail",
+                "D": "Neither Eulerian trail nor cycle",
+                "answer": "A",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "applying",
+                "question": "What is a necessary condition for a graph to have an Eulerian circuit?",
+                "A": "At least one vertex with odd degree",
+                "B": "All vertices must have an even degree",
+                "C": "The graph must be disconnected",
+                "D": "At least two vertices must have an even degree",
+                "answer": "B",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "applying",
+                "question": "If you want to find an Eulerian orientation for a graph, what condition must be satisfied regarding its vertices?",
+                "A": "All vertices must have odd degree",
+                "B": "Only some vertices can have even degree",
+                "C": "All vertices must have even degree",
+                "D": "Only one vertex must have an even degree",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "remembering",
+                "question": "What is an Eulerian trail in graph theory?",
+                "A": "A trail that visits every vertex exactly once",
+                "B": "A path that connects all vertices in a graph",
+                "C": "A cycle that starts and ends on the same vertex",
+                "D": "A trail that visits every edge exactly once",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "remembering",
+                "question": "What is a necessary condition for the existence of Eulerian circuits?",
+                "A": "All vertices must have an odd degree",
+                "B": "At least one vertex must have an even degree",
+                "C": "Exactly two vertices must have an odd degree",
+                "D": "All vertices must have an even degree",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "remembering",
+                "question": "What can be said about a graph that has no vertices of odd degree?",
+                "A": "It can have an Eulerian trail but not an Eulerian circuit",
+                "B": "It cannot be traversed",
+                "C": "All Eulerian trails are circuits",
+                "D": "It must have exactly two vertices of odd degree",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which statement correctly describes a necessary condition for the existence of an Eulerian circuit?",
+                "A": "The graph must be disconnected.",
+                "B": "There must be at least two vertices with odd degree.",
+                "C": "All vertices must have an even degree.",
+                "D": "All edges must be in the same component.",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which of the following is true about Eulerian trails in a graph?",
+                "A": "They can only exist if all vertices have even degrees.",
+                "B": "They can exist in graphs with at least three odd-degree vertices.",
+                "C": "They can start at one odd-degree vertex and end at another.",
+                "D": "They are the same as Eulerian circuits.",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "evaluating",
+                "question": "What distinguishes an Eulerian graph from one that is only semi-Eulerian?",
+                "A": "It must have at least one vertex of odd degree.",
+                "B": "It must contain a cycle.",
+                "C": "All vertices must have even degrees.",
+                "D": "It can have multiple disconnected components.",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "understanding",
+                "question": "What is a necessary condition for the existence of Eulerian circuits in a graph?",
+                "A": "All vertices must have an odd degree.",
+                "B": "At least two vertices must have an even degree.",
+                "C": "All vertices must have an even degree.",
+                "D": "There can be no vertices of odd degree.",
+                "answer": "C",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "understanding",
+                "question": "What happens to all Eulerian trails if a graph has no vertices of odd degree?",
+                "A": "They are all cycles.",
+                "B": "They are all walkable paths.",
+                "C": "They cannot exist.",
+                "D": "They start and end at different vertices.",
+                "answer": "A",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "creating",
+                "question": "How could you design an experiment to validate Fleury's algorithm on a semi-Eulerian graph?",
+                "A": "By applying the algorithm and ensuring all vertices have odd degrees.",
+                "B": "By verifying that the algorithm traverses each edge exactly once.",
+                "C": "By ensuring the graph is completely disconnected.",
+                "D": "By checking that all edges are directed.",
+                "answer": "B",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "creating",
+                "question": "If tasked with creating a new graph that guarantees an Eulerian trail, which condition would you prioritize?",
+                "A": "Creating exactly two vertices with an odd degree.",
+                "B": "Ensuring all vertices have an even degree.",
+                "C": "Making sure that all edges are directed.",
+                "D": "Having no vertices at all in the graph.",
+                "answer": "A",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "creating",
+                "question": "To effectively communicate the conditions for an Eulerian orientation, what should you include in your presentation?",
+                "A": "A graph with more than two vertices of odd degree.",
+                "B": "An explanation that every vertex must have an odd degree.",
+                "C": "A graph with no cycles at all.",
+                "D": "A demonstration that the indegree equals the outdegree for every vertex.",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "analyzing",
+                "question": "What condition must be met for a graph to contain an Eulerian trail?",
+                "A": "All vertices must have even degrees",
+                "B": "All vertices must have odd degrees",
+                "C": "At least one vertex must have an even degree",
+                "D": "Exactly two vertices must have odd degrees",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "analyzing",
+                "question": "What does Euler's Theorem state about connected graphs?",
+                "A": "A connected graph has an Eulerian trail if at least one vertex has an even degree.",
+                "B": "A connected graph has an Eulerian path if all vertices are of odd degree.",
+                "C": "A connected graph can have an Eulerian circuit if it contains at least one odd-degree vertex.",
+                "D": "A connected graph has an Eulerian cycle if all vertices have even degrees.",
+                "answer": "D",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            },
+            {
+                "level": "analyzing",
+                "question": "What implication does the degree of vertices have on the traversal properties of a graph?",
+                "A": "Graphs with all vertices of odd degree are always Eulerian.",
+                "B": "Graphs with all vertices of even degree can form Eulerian circuits.",
+                "C": "Graphs with no odd-degree vertices can only have Eulerian trails.",
+                "D": "Graphs with more than two odd-degree vertices can still have Eulerian circuits.",
+                "answer": "B",
+                "topic_wiki_name": "Eulerian path",
+                "topic_wiki_id": "333219"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following conditions must be satisfied for a connected graph to have an Euler circuit?",
+                "A": "All vertices must have odd degree",
+                "B": "At least one vertex must have an even degree",
+                "C": "The graph must be acyclic",
+                "D": "All vertices must have even degree",
+                "answer": "D",
+                "concept_wiki_name": "Eulerian path",
+                "concept_wiki_id": "333219"
+            },
+            {
+                "question": "Which of the following statements is true regarding Eulerian trails and circuits?",
+                "A": "An Eulerian trail can only exist in acyclic graphs",
+                "B": "An Eulerian circuit requires that some vertices have odd degrees",
+                "C": "An Eulerian circuit is an Eulerian trail that starts and ends on the same vertex",
+                "D": "All Eulerian circuits can be formed without revisiting any vertices",
+                "answer": "C",
+                "concept_wiki_name": "Eulerian path",
+                "concept_wiki_id": "333219"
+            },
+            {
+                "question": "In a multigraph, how does a loop affect the degree of a vertex?",
+                "A": "It contributes 1 to the vertex's degree",
+                "B": "It contributes 2 to the vertex's degree",
+                "C": "It does not affect the vertex's degree",
+                "D": "It contributes to the total number of vertices only",
+                "answer": "B",
+                "concept_wiki_name": "Degree (graph theory)",
+                "concept_wiki_id": "1374448"
+            }
+        ]
+    },
+    {
+        "question": "Bob writes down a number between 1 and 1,000. Mary must identify that number by asking \"yes/no\" questions of Bob. Mary knows that Bob always tells the truth. If Mary uses an optimal strategy, then she will determine the answer at the end of exactly how many questions in the worst case?",
+        "choices": [
+            "1,000",
+            "999",
+            "500",
+            "10"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "In the best case scenario for binary search, how many iterations are needed to find the target value?",
+                "A": "One iteration",
+                "B": "Two iterations",
+                "C": "Three iterations",
+                "D": "Zero iterations",
+                "answer": "A",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "remembering",
+                "question": "What is the worst-case performance of binary search in terms of iterations?",
+                "A": "It is unbounded",
+                "B": "It is logarithmic with respect to the size of the array",
+                "C": "It requires a fixed number of iterations",
+                "D": "It is exactly proportional to the size of the array",
+                "answer": "B",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "remembering",
+                "question": "How many pointers does binary search require?",
+                "A": "One pointer",
+                "B": "Two pointers",
+                "C": "Three pointers",
+                "D": "Four pointers",
+                "answer": "C",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "analyzing",
+                "question": "In the context of binary search, what effect does the size of the elements being compared have?",
+                "A": "Comparing larger integers is more expensive",
+                "B": "Smaller elements increase the number of iterations",
+                "C": "Larger elements are faster to compare",
+                "D": "All elements have the same comparison cost",
+                "answer": "A",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "analyzing",
+                "question": "What condition leads to the worst-case scenario in binary search?",
+                "A": "The target value is at the beginning of the array",
+                "B": "The target value is the last element in the array",
+                "C": "The target value is equal to multiple elements",
+                "D": "The target value is not in the array",
+                "answer": "D",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "evaluating",
+                "question": "What is a significant drawback of linear search compared to binary search?",
+                "A": "It can only be used on sorted arrays",
+                "B": "It takes longer on average for sorted arrays",
+                "C": "It requires more memory space",
+                "D": "It cannot handle large datasets",
+                "answer": "B",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "evaluating",
+                "question": "What effect does the locality of reference have on binary search performance?",
+                "A": "It makes comparisons between distant elements more efficient",
+                "B": "It slows down the search process significantly",
+                "C": "It improves the speed of accessing elements in a sorted array",
+                "D": "It eliminates the need for comparisons altogether",
+                "answer": "C",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "applying",
+                "question": "If you are searching for a target value in a sorted array using binary search and the middle element is less than the target, what should you do next?",
+                "A": "Search the right half of the array",
+                "B": "Search the left half of the array",
+                "C": "Conclude the target is not in the array",
+                "D": "Search the entire array linearly",
+                "answer": "A",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "applying",
+                "question": "When implementing binary search, how does the space complexity relate to the size of the array being searched?",
+                "A": "It increases linearly with the array size",
+                "B": "It varies depending on the type of elements in the array",
+                "C": "It decreases as the array size increases",
+                "D": "It remains constant regardless of the array size",
+                "answer": "D",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "applying",
+                "question": "If you were to analyze the performance of binary search compared to linear search, what conclusion could you draw about their average case performance?",
+                "A": "Linear search is always faster than binary search",
+                "B": "Binary search performs better than linear search on average for all cases",
+                "C": "Binary search has worse average performance than linear search",
+                "D": "Both algorithms have the same average performance",
+                "answer": "B",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "understanding",
+                "question": "In the best-case scenario for binary search, how many iterations are required to find the target?",
+                "A": "One iteration if the target is the last element.",
+                "B": "One iteration if the target is the middle element.",
+                "C": "Multiple iterations based on the size of the array.",
+                "D": "One iteration if the target is the first element.",
+                "answer": "B",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            },
+            {
+                "level": "understanding",
+                "question": "Which of the following statements about binary search trees is accurate?",
+                "A": "They require elements to be sorted before searching.",
+                "B": "They determine the edges to the left or right subtrees based on inequality.",
+                "C": "They compare the queried vertex to the middle element of the array.",
+                "D": "They eliminate elements sequentially like linear search.",
+                "answer": "B",
+                "topic_wiki_name": "Binary search algorithm",
+                "topic_wiki_id": "4266"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is the worst-case number of iterations a classical computer must perform when executing binary search?",
+                "A": "Approximately log2(n), where n is the number of elements",
+                "B": "Exactly n iterations regardless of the array size",
+                "C": "At least n/2 iterations in the worst case",
+                "D": "Exactly log10(n) iterations for optimal efficiency",
+                "answer": "A",
+                "concept_wiki_name": "Binary search algorithm",
+                "concept_wiki_id": "4266"
+            },
+            {
+                "question": "Which of the following is a common feature of yes/no questions in Mandarin?",
+                "A": "They typically include a 'yes' or 'no' response.",
+                "B": "They often take an A-not-A form.",
+                "C": "They require multiple-choice answers.",
+                "D": "They cannot form echo responses.",
+                "answer": "B",
+                "concept_wiki_name": "Yes–no question",
+                "concept_wiki_id": "20783125"
+            },
+            {
+                "question": "What type of scale is characterized by equal spacing for values that are powers of a base number?",
+                "A": "Logarithmic scale",
+                "B": "Linear scale",
+                "C": "Exponential scale",
+                "D": "Quadratic scale",
+                "answer": "A",
+                "concept_wiki_name": "Logarithmic scale",
+                "concept_wiki_id": "164055"
+            }
+        ]
+    },
+    {
+        "question": "Let G = (V, E) be a finite directed acyclic graph with |E| > 0. Which of the following must be true?\nI. G has a vertex with no incoming edge.\nII. G has a vertex with no outgoing edge.\nIII. G has an isolated vertex, that is, one with neither an incoming edge nor an outgoing edge.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "applying",
+                "question": "If you needed to represent a complex set of relationships where certain items share common attributes, which graph type would provide an efficient compact representation?",
+                "A": "Complete graph",
+                "B": "Cyclic graph",
+                "C": "Bipartite graph",
+                "D": "Directed acyclic graph",
+                "answer": "D",
+                "topic_wiki_name": "Directed acyclic graph",
+                "topic_wiki_id": "204002"
+            },
+            {
+                "level": "analyzing",
+                "question": "How do directed acyclic graphs optimize space in representing sequences?",
+                "A": "By avoiding any shared subsequences.",
+                "B": "By eliminating all vertices with multiple edges.",
+                "C": "By using only single-direction paths.",
+                "D": "By allowing paths to diverge and rejoin.",
+                "answer": "D",
+                "topic_wiki_name": "Directed acyclic graph",
+                "topic_wiki_id": "204002"
+            },
+            {
+                "level": "evaluating",
+                "question": "In which scenario would a directed acyclic graph be most beneficial?",
+                "A": "When all vertices are connected in a loop.",
+                "B": "When representing a collection of sequences with shared subsequences.",
+                "C": "When each vertex must have exactly one incoming edge.",
+                "D": "When requiring a full representation of all connections without overlap.",
+                "answer": "B",
+                "topic_wiki_name": "Directed acyclic graph",
+                "topic_wiki_id": "204002"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "In a directed acyclic graph (DAG), which statement about vertices is necessarily true?",
+                "A": "Every vertex must have at least one incoming edge.",
+                "B": "At least one vertex must have no incoming edges.",
+                "C": "All vertices must have outgoing edges.",
+                "D": "At least one vertex must be isolated.",
+                "answer": "B",
+                "concept_wiki_name": "Vertex",
+                "concept_wiki_id": "54482"
+            }
+        ]
+    },
+    {
+        "question": "Let P be a procedure that for some inputs calls itself (i.e., is recursive). If P is guaranteed to terminate, which of the following statements must be true?\nI. P has a local variable.\nII. P has an execution path where it does not call itself.\nIII. P either refers to a global variable or has at least one parameter.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "In what way does generative recursion differ from structural recursion?",
+                "A": "Generative recursion typically involves problems solvable by iteration.",
+                "B": "Generative recursion relies on immediate structural components.",
+                "C": "Generative recursion processes structured data.",
+                "D": "Generative recursion is more efficient than all other types.",
+                "answer": "A",
+                "topic_wiki_name": "Recursion (computer science)",
+                "topic_wiki_id": "4044867"
+            },
+            {
+                "level": "remembering",
+                "question": "What is a defining characteristic of structurally recursive functions?",
+                "A": "They can only process numeric data types.",
+                "B": "They require multiple base cases to function correctly.",
+                "C": "The argument to each recursive call is the content of a field of the original input.",
+                "D": "They generate new data structures without reference to existing ones.",
+                "answer": "C",
+                "topic_wiki_name": "Recursion (computer science)",
+                "topic_wiki_id": "4044867"
+            },
+            {
+                "level": "remembering",
+                "question": "Which of the following types of recursion is based on the current context?",
+                "A": "Anonymous recursion",
+                "B": "Generative recursion",
+                "C": "Structural recursion",
+                "D": "Tail recursion",
+                "answer": "A",
+                "topic_wiki_name": "Recursion (computer science)",
+                "topic_wiki_id": "4044867"
+            },
+            {
+                "level": "understanding",
+                "question": "How does generative recursion differ from structural recursion?",
+                "A": "Generative recursion is less efficient for problems solvable by iteration.",
+                "B": "Generative recursion processes data without using any base cases.",
+                "C": "Generative recursion always involves tree structures.",
+                "D": "Generative recursion requires multiple base cases for each function.",
+                "answer": "A",
+                "topic_wiki_name": "Recursion (computer science)",
+                "topic_wiki_id": "4044867"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "Which of the following conditions is necessary for a recursive procedure P to ensure termination?",
+                "A": "P must not call itself more than once in any execution path.",
+                "B": "P must have a condition that guarantees eventual non-recursive execution.",
+                "C": "P must always modify at least one of its parameters during recursion.",
+                "D": "P must have a base case that does not involve recursion.",
+                "answer": "B",
+                "concept_wiki_name": "Termination",
+                "concept_wiki_id": "1716956"
+            },
+            {
+                "question": "In programming languages with nested visibility levels, how do local variables behave?",
+                "A": "They override global variables only if declared as static.",
+                "B": "They must always be declared at the global level to be usable.",
+                "C": "They cannot be accessed by any function outside their defining block.",
+                "D": "They can be hidden by private variables defined in nested blocks or functions.",
+                "answer": "D",
+                "concept_wiki_name": "Local variable",
+                "concept_wiki_id": "1718152"
+            }
+        ]
+    },
+    {
+        "question": "Consider the following equations concerning a stack module that has the operations Push, Pop, Top, and IsEmpty. Which of the equations does NOT represent the conventional semantics of a stack?",
+        "choices": [
+            "IsEmpty(Push(Stack,Elem)) = true",
+            "Pop(Push(Stack,Elem)) = Stack",
+            "Top(Push(Stack,Elem)) = Elem",
+            "IsEmpty(Push(Push(Stack,Elem1),Elem2)) = false"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [
+            {
+                "level": "remembering",
+                "question": "What operation does a stack ADT primarily support?",
+                "A": "First-In-First-Out retrieval",
+                "B": "Last-In-First-Out retrieval",
+                "C": "Random access to elements",
+                "D": "Ordered insertion of elements",
+                "answer": "B",
+                "topic_wiki_name": "Abstract data type",
+                "topic_wiki_id": "2349"
+            },
+            {
+                "level": "remembering",
+                "question": "Which of the following is an example of an abstract data type?",
+                "A": "Array",
+                "B": "Binary tree",
+                "C": "Linked list",
+                "D": "Abstract variable",
+                "answer": "D",
+                "topic_wiki_name": "Abstract data type",
+                "topic_wiki_id": "2349"
+            },
+            {
+                "level": "creating",
+                "question": "If you were to prototype an abstract variable, which aspect would you prioritize in your design?",
+                "A": "The ability to store multiple types of values at once.",
+                "B": "Ensuring it can overwrite values without returning previous ones.",
+                "C": "Implementing a method to retrieve all previous values stored.",
+                "D": "Creating a mechanism to restrict it to only integer types.",
+                "answer": "B",
+                "topic_wiki_name": "Abstract data type",
+                "topic_wiki_id": "2349"
+            },
+            {
+                "level": "understanding",
+                "question": "What must be part of the interface when replacing one module with another of the same functional behavior?",
+                "A": "The specific programming language used.",
+                "B": "The efficiency of the algorithms implemented.",
+                "C": "Complexity assertions.",
+                "D": "Implementation details of the module.",
+                "answer": "C",
+                "topic_wiki_name": "Abstract data type",
+                "topic_wiki_id": "2349"
+            },
+            {
+                "level": "analyzing",
+                "question": "How is the concept of an abstract variable characterized in the context of ADTs?",
+                "A": "It is the simplest non-trivial ADT with two operations.",
+                "B": "It allows for accessing values without any restrictions.",
+                "C": "It can admit multiple operations with varying semantics.",
+                "D": "It is defined by its concrete structure rather than its behavior.",
+                "answer": "A",
+                "topic_wiki_name": "Abstract data type",
+                "topic_wiki_id": "2349"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What does the IsEmpty function return after a sequence of Push and Pop operations that leave the stack with one element?",
+                "A": "false",
+                "B": "true",
+                "C": "an error",
+                "D": "the last element pushed",
+                "answer": "A",
+                "concept_wiki_name": "Pop",
+                "concept_wiki_id": "6026539"
+            }
+        ]
+    },
+    {
+        "question": "Of the following, which gives the best upper bound for the value of f(N) where f is a solution to the recurrence f(2N + 1) = f(2N) = f(N) + log N for N >= 1, with f(1) = 0?",
+        "choices": [
+            "O(log N)",
+            "O(N log N)",
+            "O(log N) + 0(1)",
+            "O((log N)^2)"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does the letter 'O' in Big O notation stand for?",
+                "A": "Order of approximation",
+                "B": "Optimal bound",
+                "C": "Ordinary function",
+                "D": "Overall complexity",
+                "answer": "A",
+                "concept_wiki_name": "Big O notation",
+                "concept_wiki_id": "44578"
+            }
+        ]
+    },
+    {
+        "question": "Let G = (V, E) be a connected, undirected graph, and let a and b be two distinct vertices in V. Let P_1 be the problem of finding a shortest simple path between a and b, and let P_2 be the problem of finding a longest simple path between a and b. Which of the following statements about P_1 and P_2 is true?",
+        "choices": [
+            "Both P_1 and P_2 can be solved in polynomial time.",
+            "P_1 can be solved in polynomial time but P_2 is not known to be solvable in polynomial time.",
+            "P_1 is not known to be solvable in polynomial time but P_2 can be solved in polynomial time.",
+            "It is not known whether either P_1 or P_2 can be solved in polynomial time."
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What transformation can be used to find the longest path in a weighted graph?",
+                "A": "Transform the graph by negating every weight to create a new graph.",
+                "B": "Transform the graph by changing every weight to its square.",
+                "C": "Transform the graph by adding a weight to each edge.",
+                "D": "Transform the graph by removing all edges with negative weights.",
+                "answer": "A",
+                "concept_wiki_name": "Longest path problem",
+                "concept_wiki_id": "18757567"
+            },
+            {
+                "question": "Which of the following statements correctly describes the relationship between NP-hard problems and NP problems?",
+                "A": "NP-hard problems do not need to belong to the NP complexity class.",
+                "B": "All NP problems are NP-hard.",
+                "C": "NP-hard problems are always solvable in polynomial time.",
+                "D": "NP-hard problems can be solved using non-deterministic polynomial time algorithms.",
+                "answer": "A",
+                "concept_wiki_name": "NP-hardness",
+                "concept_wiki_id": "54681"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following characteristics of a programming language is best specified using a context-free grammar?",
+        "choices": [
+            "Identifier length",
+            "Maximum level of nesting",
+            "Operator precedence",
+            "Type compatibility"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key undecidable question regarding context-free grammars?",
+                "A": "Can a grammar generate infinite strings?",
+                "B": "Can a grammar be expressed in a different format?",
+                "C": "Is a grammar ambiguous?",
+                "D": "Do two given context-free grammars generate the same language?",
+                "answer": "D",
+                "concept_wiki_name": "Context-free grammar",
+                "concept_wiki_id": "6759"
+            },
+            {
+                "question": "Which type of grammar is primarily used to specify the syntax of most programming languages?",
+                "A": "Type-1 grammar",
+                "B": "Regular grammar",
+                "C": "Type-3 grammar",
+                "D": "Type-2 grammar",
+                "answer": "D",
+                "concept_wiki_name": "Programming language",
+                "concept_wiki_id": "23015"
+            }
+        ]
+    },
+    {
+        "question": "Company X shipped 5 computer chips, 1 of which was defective, and Company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from Company Y?",
+        "choices": [
+            "2 / 9",
+            "4 / 9",
+            "1 / 2",
+            "2 / 3"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "If event A's probability is 0.3 and event B's probability is 0.5, what is P(A|B) if A and B are independent events?",
+                "A": "0.15",
+                "B": "0.5",
+                "C": "0.8",
+                "D": "0.3",
+                "answer": "D",
+                "concept_wiki_name": "Conditional probability",
+                "concept_wiki_id": "24104134"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following algorithms has running time Θ(n^2) in the worst case but Θ(n log n) on average?",
+        "choices": [
+            "Bubblesort",
+            "Mergesort",
+            "Heapsort",
+            "Quicksort"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the average case time complexity of the quicksort algorithm?",
+                "A": "Θ(n)",
+                "B": "Θ(log n)",
+                "C": "Θ(n^2)",
+                "D": "Θ(n log n)",
+                "answer": "D",
+                "concept_wiki_name": "Quicksort",
+                "concept_wiki_id": "3268249"
+            },
+            {
+                "question": "In which year was the quicksort algorithm first developed?",
+                "A": "1959",
+                "B": "1961",
+                "C": "1962",
+                "D": "1971",
+                "answer": "A",
+                "concept_wiki_name": "Quicksort",
+                "concept_wiki_id": "3268249"
+            },
+            {
+                "question": "How does worst-case complexity differ from average-case complexity?",
+                "A": "Worst-case complexity considers typical inputs, while average-case does not",
+                "B": "Average-case complexity offers an upper bound, while worst-case provides an average measure",
+                "C": "Worst-case complexity guarantees completion in a certain time, while average-case does not",
+                "D": "Average-case complexity is always worse than worst-case complexity",
+                "answer": "C",
+                "concept_wiki_name": "Worst-case complexity",
+                "concept_wiki_id": "20491989"
+            }
+        ]
+    },
+    {
+        "question": "In a pipelined RISC computer where all arithmetic instructions have the same CPI (cycles per instruction), which of the following actions would improve the execution time of a typical program?\nI. Increasing the clock cycle rate\nII. Disallowing any forwarding in the pipeline\nIII. Doubling the sizes of the instruction cache and the data cache without changing the clock cycle time",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary goal of using a pipelined architecture in RISC processors?",
+                "A": "To increase the speed of processing each individual instruction",
+                "B": "To allow more complex instructions to be executed simultaneously",
+                "C": "To reduce the total number of instructions required for a task",
+                "D": "To simplify the addressing modes of the instructions",
+                "answer": "A",
+                "concept_wiki_name": "Reduced instruction set computer",
+                "concept_wiki_id": "26201"
+            },
+            {
+                "question": "What is the relationship between CPI and instructions per cycle?",
+                "A": "CPI is the multiplicative inverse of instructions per cycle.",
+                "B": "CPI is the sum of instructions per cycle.",
+                "C": "CPI is equal to the number of instructions per cycle.",
+                "D": "CPI is the difference between instructions per cycle.",
+                "answer": "A",
+                "concept_wiki_name": "Cycles per instruction",
+                "concept_wiki_id": "2592865"
+            },
+            {
+                "question": "What is required to achieve a CPI value better than 1 in a pipelined processor?",
+                "A": "At least one execution unit is needed.",
+                "B": "All instructions must be of the same type.",
+                "C": "Only a single execution unit is sufficient.",
+                "D": "The number of execution units must be greater than the number of pipeline stages.",
+                "answer": "D",
+                "concept_wiki_name": "Cycles per instruction",
+                "concept_wiki_id": "2592865"
+            },
+            {
+                "question": "When comparing processors, which of the following factors is mentioned as not being solely dependent on clock rate?",
+                "A": "The width of the CPU's data bus.",
+                "B": "The total clock speed of a dual-core processor.",
+                "C": "The frequency of the clock generator.",
+                "D": "The amount of work done by the processor per cycle.",
+                "answer": "A",
+                "concept_wiki_name": "Clock rate",
+                "concept_wiki_id": "228385"
+            }
+        ]
+    },
+    {
+        "question": "Array A contains 256 elements of 4 bytes each. Its first element is stored at physical address 4,096.\nArray B contains 512 elements of 4 bytes each. Its first element is stored at physical address 8,192.\nAssume that only arrays A and B can be cached in an initially empty, physically addressed, physically tagged, direct-mapped, 2K-byte cache with an 8-byte block size. The following loop is then executed.\nfor (i = 0; i < 256; i++)\n        A[i] = A[i] + B[2*i];\nDuring the execution of the loop, how many bytes will be written to memory if the cache has a write-back policy?",
+        "choices": [
+            "0",
+            "256",
+            "1024",
+            "2000"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which scenario would most likely lead to an increased number of cache misses in a write-back cache?",
+                "A": "Storing data that is accessed in a predictable pattern.",
+                "B": "Frequent updates to data that has high temporal locality.",
+                "C": "Reading data that has been recently computed.",
+                "D": "Accessing data that exhibits poor spatial locality.",
+                "answer": "D",
+                "concept_wiki_name": "Cache (computing)",
+                "concept_wiki_id": "6829"
+            },
+            {
+                "question": "What occurs when a 16-bit data value is loaded from an odd physical address?",
+                "A": "The processor performs two memory read cycles",
+                "B": "The data is read in one cycle without issues",
+                "C": "An exception is raised requiring a software reboot",
+                "D": "Only the low address is retrieved and used",
+                "answer": "A",
+                "concept_wiki_name": "Physical address",
+                "concept_wiki_id": "5286118"
+            }
+        ]
+    },
+    {
+        "question": "Two expressions E and F are said to be unifiable if there are substitutions for the variables of E and F that make the expressions lexically identical. In the following three expressions, only w, x, y, and z are variables.\nI. f(w,w)\nII. f(x,1)\nIII. f(y,g(z))\nWhich pairs of these expressions is (are) pairs of unifiable expressions?",
+        "choices": [
+            "(I, II) only",
+            "(I, III) only",
+            "(II, III) only",
+            "(I, II) and (I, III) only"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following best describes the outcome of the unification problem { f(1,y) = f(x,2) }?",
+                "A": "The substitution { x ↦ 1, y ↦ 2 } is a possible solution.",
+                "B": "The expressions cannot be unified due to conflicting constants.",
+                "C": "The only solution is { x ↦ 2, y ↦ 1 }.",
+                "D": "The two expressions are inherently non-unifiable regardless of substitutions.",
+                "answer": "A",
+                "concept_wiki_name": "Unification (computer science)",
+                "concept_wiki_id": "54432"
+            },
+            {
+                "question": "What does the paramodulation algorithm accomplish in the context of unification?",
+                "A": "It enumerates solutions to equations based on equational theories.",
+                "B": "It generates new variables for each unification problem.",
+                "C": "It guarantees the existence of a unique unification for every problem.",
+                "D": "It simplifies expressions to their most basic forms before unifying.",
+                "answer": "A",
+                "concept_wiki_name": "Unification (computer science)",
+                "concept_wiki_id": "54432"
+            },
+            {
+                "question": "If two expressions f(a, b) and f(c, d) are unifiable, which of the following is a valid substitution?",
+                "A": "a = b and c = d",
+                "B": "a = d and b = c",
+                "C": "a = c and b = d",
+                "D": "a = c and b = c",
+                "answer": "C",
+                "concept_wiki_name": "Expression",
+                "concept_wiki_id": "62439"
+            },
+            {
+                "question": "In the context of expressions, what does it mean for two expressions to be lexically identical?",
+                "A": "They contain the same variables but in different orders.",
+                "B": "They are identical in terms of structure and variable values after substitution.",
+                "C": "They have the same function symbols but different arguments.",
+                "D": "They can be transformed into one another through a series of simplifications.",
+                "answer": "B",
+                "concept_wiki_name": "Substitution",
+                "concept_wiki_id": "239668"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following statements about Ethernets is typically FALSE?",
+        "choices": [
+            "Ethernets use circuit switching to send messages.",
+            "Ethernets use buses with multiple masters.",
+            "Ethernet protocols use a collision-detection method to ensure that messages are transmitted properly.",
+            "Networks connected by Ethernets are limited in length to a few hundred meters."
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What was the original medium used in the first standardized Ethernet technology?",
+                "A": "Twisted pair cables.",
+                "B": "Fiber optic cables.",
+                "C": "Wireless signals.",
+                "D": "Thick coaxial cables.",
+                "answer": "D",
+                "concept_wiki_name": "Ethernet",
+                "concept_wiki_id": "9499"
+            },
+            {
+                "question": "In a bus network topology, how do nodes typically manage access to the shared communication medium?",
+                "A": "By using circuit switching protocols",
+                "B": "By employing a bus master system",
+                "C": "Using a token passing method",
+                "D": "Through carrier-sense multiple access (CSMA)",
+                "answer": "D",
+                "concept_wiki_name": "Bus network",
+                "concept_wiki_id": "645315"
+            },
+            {
+                "question": "What is a characteristic of the traffic flow in a bus network?",
+                "A": "Each station has unequal transmission priority",
+                "B": "Stations communicate only with designated peers",
+                "C": "Traffic is routed through a central hub",
+                "D": "All stations receive all network traffic",
+                "answer": "D",
+                "concept_wiki_name": "Bus network",
+                "concept_wiki_id": "645315"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following instruction-set features is NOT generally considered an obstacle to aggressive pipelining of an integer unit?",
+        "choices": [
+            "Condition codes set by every instruction",
+            "Variable-length encoding of instructions",
+            "Instructions requiring widely varying numbers of cycles to execute",
+            "Several different classes (sets) of registers"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In which architecture are arithmetic operations typically performed using postfix notation?",
+                "A": "RISC architecture",
+                "B": "Very long instruction word (VLIW) architecture",
+                "C": "CISC architecture",
+                "D": "Stack machine architecture",
+                "answer": "D",
+                "concept_wiki_name": "Instruction set architecture",
+                "concept_wiki_id": "47772"
+            }
+        ]
+    },
+    {
+        "question": "Of the following, which best characterizes computers that use memory-mapped I/O?",
+        "choices": [
+            "The computer provides special instructions for manipulating I/O ports.",
+            "I/O ports are placed at addresses on the bus and are accessed just like other memory locations.",
+            "To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation.",
+            "Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations."
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key distinction between explicit and implicit operands in machine instructions?",
+                "A": "Implicit operands often lack explicit representation, affecting how instructions are optimized.",
+                "B": "Implicit operands are always defined within the instruction, while explicit operands must be specified separately.",
+                "C": "Explicit operands are used in all architectures, while implicit operands are unique to stack machines.",
+                "D": "Explicit operands refer to registers while implicit operands refer to memory locations.",
+                "answer": "A",
+                "concept_wiki_name": "Machine code",
+                "concept_wiki_id": "20683"
+            }
+        ]
+    },
+    {
+        "question": "One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as “true,” “false,” and “unknown.” If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the equivalent bit representation of one trit in terms of information?",
+                "A": "1 bit",
+                "B": "1.58496 bits",
+                "C": "1.5 bits",
+                "D": "2 bits",
+                "answer": "B",
+                "concept_wiki_name": "Ternary numeral system",
+                "concept_wiki_id": "62950"
+            },
+            {
+                "question": "Which of the following statements correctly describes the efficiency of ternary representation compared to binary representation?",
+                "A": "Ternary representation is less compact than binary for all integers.",
+                "B": "Ternary representation can represent more values in fewer digits than binary.",
+                "C": "Ternary representation has longer representations than binary for most integers.",
+                "D": "Ternary representation is more compact than binary for large integers.",
+                "answer": "C",
+                "concept_wiki_name": "Ternary numeral system",
+                "concept_wiki_id": "62950"
+            }
+        ]
+    },
+    {
+        "question": "In a height-balanced binary search tree, the heights of the left and right descendents of any node differ by at most 1. Which of the following are true of such a tree?\nI. Worst-case search time is logarithmic in the number of nodes.\nII. Average-case search time is logarithmic in the number of nodes.\nIII. Best-case search time is proportional to the height of the tree.\nIV. The height of the tree is logarithmic in the number of nodes.",
+        "choices": [
+            "I and III only",
+            "II and III only",
+            "II and IV only",
+            "I, II, and IV"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements accurately describes the search time complexity for a height-balanced binary search tree?",
+                "A": "The worst-case search time is linear in the number of nodes.",
+                "B": "The best-case search time is constant time regardless of height.",
+                "C": "The average-case search time is logarithmic in the number of nodes.",
+                "D": "The worst-case search time is logarithmic in the number of nodes.",
+                "answer": "C",
+                "concept_wiki_name": "Self-balancing binary search tree",
+                "concept_wiki_id": "378310"
+            },
+            {
+                "question": "Which of the following types of trees is not classified as height-balanced?",
+                "A": "AVL trees",
+                "B": "Red–black trees",
+                "C": "Treaps",
+                "D": "Splay trees",
+                "answer": "D",
+                "concept_wiki_name": "Self-balancing binary search tree",
+                "concept_wiki_id": "378310"
+            }
+        ]
+    },
+    {
+        "question": "To compute the matrix product M_1M_2, where M_1 has p rows and q columns and where M_2 has q rows and r columns, takes time proportional to pqr, and the result is a matrix of p rows and r columns. Consider the product of three matrices N_1N_2N_3 that have, respectively, w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as (N_1N_2)N_3 (i.e., multiply the first two matrices first) than to compute it as N_1(N_2 N_3)?",
+        "choices": [
+            "There is no such condition; i.e., they will always take the same time.",
+            "1/x + 1/z < 1/w + 1/y",
+            "x > y",
+            "1/w + 1/x < 1/y + 1/z"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the necessary condition for matrix multiplication to be defined between two matrices A and B?",
+                "A": "The number of rows in A must equal the number of columns in B.",
+                "B": "A must have more columns than B has rows.",
+                "C": "The dimensions of A and B must be identical.",
+                "D": "The number of columns in A must equal the number of rows in B.",
+                "answer": "D",
+                "concept_wiki_name": "Matrix multiplication",
+                "concept_wiki_id": "125280"
+            },
+            {
+                "question": "Which mathematician first described matrix multiplication as a means to represent the composition of linear maps?",
+                "A": "Carl Friedrich Gauss",
+                "B": "Jacques Philippe Marie Binet",
+                "C": "David Hilbert",
+                "D": "Henri Poincaré",
+                "answer": "B",
+                "concept_wiki_name": "Matrix multiplication",
+                "concept_wiki_id": "125280"
+            },
+            {
+                "question": "In the context of parallel computing, what is a key difference compared to distributed computing?",
+                "A": "Data transmission between processors is slower in parallel computing",
+                "B": "Every processor can operate independently in both computing types",
+                "C": "Data transmission is very fast between processors in parallel computing",
+                "D": "Parallel computing does not consider time complexity",
+                "answer": "C",
+                "concept_wiki_name": "Computational complexity",
+                "concept_wiki_id": "6511"
+            },
+            {
+                "question": "Which of the following operations is NOT associative?",
+                "A": "Matrix multiplication",
+                "B": "Subtraction",
+                "C": "Function composition",
+                "D": "Addition of real numbers",
+                "answer": "B",
+                "concept_wiki_name": "Associative property",
+                "concept_wiki_id": "1335"
+            },
+            {
+                "question": "In what context is the associative property stated to be significant in computer science?",
+                "A": "It guarantees the exact result in floating point addition.",
+                "B": "It prevents rounding errors in matrix multiplication.",
+                "C": "It is irrelevant to computational efficiency.",
+                "D": "It can affect rounding error due to how expressions are grouped.",
+                "answer": "D",
+                "concept_wiki_name": "Associative property",
+                "concept_wiki_id": "1335"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a reasonable justification for choosing to busy-wait on an asynchronous event?",
+        "choices": [
+            "The wait is expected to be short.",
+            "A busy-wait loop is easier to code than an interrupt handler.",
+            "There is no other work for the processor to do.",
+            "The program executes on a time-sharing system."
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following scenarios is least suitable for using a busy-wait technique?",
+                "A": "When the wait is expected to be very short",
+                "B": "When there is no alternative method to wait for a condition",
+                "C": "When the program is designed for an SMP system",
+                "D": "When processor time can be utilized for other tasks",
+                "answer": "D",
+                "concept_wiki_name": "Busy waiting",
+                "concept_wiki_id": "671489"
+            },
+            {
+                "question": "In which context is busy-waiting considered a valid strategy?",
+                "A": "In a time-sharing system with multiple processes",
+                "B": "When a process requires guaranteed low latency",
+                "C": "In implementing spinlocks on SMP systems",
+                "D": "In applications where power consumption is critical",
+                "answer": "C",
+                "concept_wiki_name": "Busy waiting",
+                "concept_wiki_id": "671489"
+            },
+            {
+                "question": "What is an alternative method to handle asynchronous events?",
+                "A": "Using multi-threading to process events concurrently.",
+                "B": "Converting asynchronous events to file-based events using the 'self-pipe trick'.",
+                "C": "Implementing a polling mechanism to check for events.",
+                "D": "Creating a dedicated event handling thread for each event.",
+                "answer": "B",
+                "concept_wiki_name": "Event loop",
+                "concept_wiki_id": "4378023"
+            }
+        ]
+    },
+    {
+        "question": "A program that checks spelling works in the following way. A hash table has been defined in which each entry is a Boolean variable initialized to false. A hash function has been applied to each word in the dictionary, and the appropriate entry in the hash table has been set to true. To check the spelling in a document, the hash function is applied to every word in the document, and the appropriate entry in the hash table is examined. Which of the following is (are) correct?\nI. true means the word was in the dictionary.\nII. false means the word was not in the dictionary.\nIII. Hash table size should increase with document size.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What was a significant development in the history of spell checkers for personal computers?",
+                "A": "Spell checkers first appeared in web browsers.",
+                "B": "Hunspell replaced MySpell in 2005.",
+                "C": "The first spell checkers for PCs appeared in 1980.",
+                "D": "The first spell checkers were released in the early 1990s.",
+                "answer": "C",
+                "concept_wiki_name": "Spell checker",
+                "concept_wiki_id": "605869"
+            },
+            {
+                "question": "What is typically not included in the headword of most dictionaries?",
+                "A": "The undeclined or unconjugated form of a word",
+                "B": "Multiple meanings of a word",
+                "C": "All possible forms of a word",
+                "D": "Etymologies and pronunciations",
+                "answer": "C",
+                "concept_wiki_name": "Dictionary",
+                "concept_wiki_id": "7931"
+            }
+        ]
+    },
+    {
+        "question": "The access matrix approach to protection has the difficulty that",
+        "choices": [
+            "the matrix, if stored directly, is large and can be clumsy to manage",
+            "it is not capable of expressing complex protection requirements",
+            "deciding whether a process has access to a resource is undecidable",
+            "there is no way to express who has rights to change the access matrix itself"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In the context of an access matrix, what does a column represent?",
+                "A": "An access control list for the object",
+                "B": "The permissions of a specific subject",
+                "C": "The types of subjects in the system",
+                "D": "The number of objects being protected",
+                "answer": "A",
+                "concept_wiki_name": "Access control matrix",
+                "concept_wiki_id": "4796976"
+            },
+            {
+                "question": "What does the separation of protection and security refer to in the context of access matrix?",
+                "A": "Differentiating between user data and system data",
+                "B": "Creating distinct user roles within an organization",
+                "C": "Isolating network traffic from user access",
+                "D": "The distinction between mechanism and policy",
+                "answer": "D",
+                "concept_wiki_name": "Protection mechanism",
+                "concept_wiki_id": "12323838"
+            }
+        ]
+    },
+    {
+        "question": "Consider the collection of all undirected graphs with 10 nodes and 6 edges. Let M and m, respectively, be the maximum and minimum number of connected components in any graph in the collection. If a graph has no selfloops and there is at most one edge between any pair of nodes, which of the following is true?",
+        "choices": [
+            "M = 10, m = 10",
+            "M = 10, m = 1",
+            "M = 7, m = 4",
+            "M = 6, m = 4"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In an undirected graph with 10 nodes and 6 edges, what is the maximum number of connected components possible?",
+                "A": "7",
+                "B": "6",
+                "C": "10",
+                "D": "4",
+                "answer": "A",
+                "concept_wiki_name": "Graph (discrete mathematics)",
+                "concept_wiki_id": "325806"
+            },
+            {
+                "question": "What effect does a self-loop have on the degree of a vertex in an undirected graph?",
+                "A": "It adds one to the degree of the vertex",
+                "B": "It adds two to the degree of the vertex",
+                "C": "It does not affect the degree of the vertex",
+                "D": "It can either add one or two to the degree, depending on the graph type",
+                "answer": "B",
+                "concept_wiki_name": "Loop (graph theory)",
+                "concept_wiki_id": "1449083"
+            },
+            {
+                "question": "What is a characteristic of a simple graph in relation to self-loops?",
+                "A": "It contains no loops",
+                "B": "It can have self-loops",
+                "C": "It may contain multiple edges between the same vertices",
+                "D": "It must have at least one loop",
+                "answer": "A",
+                "concept_wiki_name": "Loop (graph theory)",
+                "concept_wiki_id": "1449083"
+            },
+            {
+                "question": "Which of the following statements accurately describes the relationship between graph properties and isomorphic graphs?",
+                "A": "All isomorphic graphs must have the same value for any graph property.",
+                "B": "Isomorphic graphs can have different graph properties.",
+                "C": "Graph properties are independent of the abstract structure of graphs.",
+                "D": "Graph properties can vary depending on the graph representation.",
+                "answer": "A",
+                "concept_wiki_name": "Graph property",
+                "concept_wiki_id": "1655142"
+            }
+        ]
+    },
+    {
+        "question": "Let A and B be two sets of words (strings) from Σ*, for some alphabet of symbols Σ. Suppose that B is a subset of A. Which of the following statements must always be true of A and B ?\nI. If A is finite, then B is finite.\nII. If A is regular, then B is regular.\nIII. If A is context-free, then B is context-free.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does the axiom of countable choice imply about Dedekind-finite sets?",
+                "A": "There are no finite sets that are Dedekind-finite.",
+                "B": "Every Dedekind-finite set has an infinite number of elements.",
+                "C": "Dedekind-finite sets can be bijective with their subsets.",
+                "D": "All Dedekind-finite sets are also finite.",
+                "answer": "D",
+                "concept_wiki_name": "Finite set",
+                "concept_wiki_id": "11742"
+            },
+            {
+                "question": "Which of the following statements about regular languages is true?",
+                "A": "Every context-free language is regular.",
+                "B": "Every regular language is context-free.",
+                "C": "Regular languages can only be defined using finite automata.",
+                "D": "Regular languages require at least logarithmic space to recognize.",
+                "answer": "B",
+                "concept_wiki_name": "Regular language",
+                "concept_wiki_id": "25723"
+            },
+            {
+                "question": "Which theorem is often used to prove that a language is not regular?",
+                "A": "Chomsky's hierarchy theorem",
+                "B": "Pumping lemma for context-free languages",
+                "C": "Myhill–Nerode theorem",
+                "D": "Closure properties of context-free languages",
+                "answer": "C",
+                "concept_wiki_name": "Regular language",
+                "concept_wiki_id": "25723"
+            },
+            {
+                "question": "Which property of context-free languages is definitively true regarding their closure under operations?",
+                "A": "They are closed under intersection.",
+                "B": "They are not closed under union.",
+                "C": "They are closed under complementation.",
+                "D": "They are not closed under intersection.",
+                "answer": "D",
+                "concept_wiki_name": "Context-free language",
+                "concept_wiki_id": "6867"
+            },
+            {
+                "question": "What is a characteristic of context-free languages when compared to regular languages?",
+                "A": "Some context-free languages are regular.",
+                "B": "All context-free languages are regular.",
+                "C": "All regular languages are context-free.",
+                "D": "Context-free languages are closed under complementation.",
+                "answer": "A",
+                "concept_wiki_name": "Context-free language",
+                "concept_wiki_id": "6867"
+            },
+            {
+                "question": "Which of the following statements about decidability in context-free languages is correct?",
+                "A": "It is undecidable whether a context-free language is finite.",
+                "B": "It is decidable whether a context-free language is finite.",
+                "C": "It is decidable whether context-free languages are closed under intersection.",
+                "D": "It is undecidable whether a context-free language is regular.",
+                "answer": "B",
+                "concept_wiki_name": "Context-free language",
+                "concept_wiki_id": "6867"
+            },
+            {
+                "question": "Which of the following statements correctly describes the relationship between a set and its subset?",
+                "A": "If a set A is infinite, then any subset B of A must also be infinite.",
+                "B": "If A is finite, then B can be either finite or infinite.",
+                "C": "If A and B are equal sets, then A is a proper subset of B.",
+                "D": "If A is a subset of B, then B must contain all elements of A.",
+                "answer": "D",
+                "concept_wiki_name": "Subset",
+                "concept_wiki_id": "27631"
+            },
+            {
+                "question": "In the context of set theory, which of the following is true regarding the subset relationship?",
+                "A": "If A is a k-subset of B, then B must have exactly k elements.",
+                "B": "The subsets of a given set form a Boolean algebra under the subset relation.",
+                "C": "If A is a subset of B, then A can also be considered a superset of B if they are equal.",
+                "D": "The subset relation defines a total order on sets.",
+                "answer": "B",
+                "concept_wiki_name": "Subset",
+                "concept_wiki_id": "27631"
+            }
+        ]
+    },
+    {
+        "question": "Mergesort works by splitting a list of n numbers in half, sorting each half recursively, and merging the two halves. Which of the following data structures will allow mergesort to work in O(n log n) time?\nI. A singly linked list\nII. A doubly linked list\nIII. An array",
+        "choices": [
+            "None",
+            "III only",
+            "I and II only",
+            "I, II, and III"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a unique feature of circularly linked lists compared to singly linked lists?",
+                "A": "They do not require pointers.",
+                "B": "They can be traversed in both directions.",
+                "C": "They have lower memory overhead.",
+                "D": "A pointer to the last node gives access to the first node.",
+                "answer": "D",
+                "concept_wiki_name": "Linked list",
+                "concept_wiki_id": "18167"
+            },
+            {
+                "question": "In terms of node structure, what does a single node in a doubly linked list contain?",
+                "A": "One link field and one data field.",
+                "B": "Two link fields and one data field.",
+                "C": "Three link fields and one data field.",
+                "D": "One link field and two data fields.",
+                "answer": "B",
+                "concept_wiki_name": "Doubly linked list",
+                "concept_wiki_id": "4731859"
+            }
+        ]
+    },
+    {
+        "question": "Many cryptographic protocols base their security on assumptions about the computational difficulty of integer factorization. Integer factorization serves this purpose because we believe that",
+        "choices": [
+            "integer multiplication is a function whose inverse, factorization, remains difficult for a large class of inputs",
+            "P = NP",
+            "even if P = NP, integer factorization is still likely not to be polynomial-time computable",
+            "testing primality is computationally intractable"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which component is NOT typically included in a cryptographic protocol?",
+                "A": "Non-repudiation support",
+                "B": "A key setup phase",
+                "C": "An entity authentication mechanism",
+                "D": "An application-level data transport function",
+                "answer": "A",
+                "concept_wiki_name": "Cryptographic protocol",
+                "concept_wiki_id": "591994"
+            },
+            {
+                "question": "What is the primary challenge associated with integer factorization that underpins its use in cryptography?",
+                "A": "The assumption that all composite numbers can be factored efficiently",
+                "B": "The ability to easily multiply any two integers",
+                "C": "The existence of a polynomial-time algorithm for prime testing",
+                "D": "The difficulty of finding factors for large semiprime numbers",
+                "answer": "D",
+                "concept_wiki_name": "Integer factorization",
+                "concept_wiki_id": "15491"
+            },
+            {
+                "question": "Which algorithm is known as the most efficient for integer factorization?",
+                "A": "Shor's algorithm",
+                "B": "Pollard's rho algorithm",
+                "C": "Elliptic curve factorization",
+                "D": "General number field sieve",
+                "answer": "D",
+                "concept_wiki_name": "P versus NP problem",
+                "concept_wiki_id": "6115"
+            },
+            {
+                "question": "What assumption is commonly made in complexity theory regarding the relationship between P and NP?",
+                "A": "P is equal to NP under all circumstances.",
+                "B": "P means 'easy' and not in P means 'difficult'.",
+                "C": "Not all problems in NP require polynomial time to solve.",
+                "D": "Problems in NP are always solvable in polynomial time.",
+                "answer": "B",
+                "concept_wiki_name": "P versus NP problem",
+                "concept_wiki_id": "6115"
+            }
+        ]
+    },
+    {
+        "question": "In systems with support for automatic memory management, a garbage collector typically has the responsibility for reclaiming allocated memory objects whose contents cannot affect any future legal computation. Such objects are identified by determining that they cannot be reached from a root set. Which of the following is NOT part of the root set in a typical garbage collector?",
+        "choices": [
+            "Actual parameters of the active procedures",
+            "Dynamically allocated objects on the heap",
+            "Global variables of the program",
+            "Local variables on the call stack"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following elements is specifically considered part of the root set in garbage collection?",
+                "A": "Memory that is no longer referenced",
+                "B": "Dynamically allocated objects on the heap",
+                "C": "Global variables of the program",
+                "D": "Database handles",
+                "answer": "C",
+                "concept_wiki_name": "Garbage collection (computer science)",
+                "concept_wiki_id": "6734"
+            },
+            {
+                "question": "Which of the following resources is typically NOT managed by garbage collection?",
+                "A": "Memory allocated for objects",
+                "B": "Local variables on the call stack",
+                "C": "File descriptors",
+                "D": "Global variables",
+                "answer": "C",
+                "concept_wiki_name": "Garbage collection (computer science)",
+                "concept_wiki_id": "6734"
+            },
+            {
+                "question": "Which of the following is NOT typically handled by garbage collection?",
+                "A": "Network sockets",
+                "B": "Memory allocated for local variables",
+                "C": "Global variables of the program",
+                "D": "Heap-allocated memory",
+                "answer": "A",
+                "concept_wiki_name": "Garbage collection (computer science)",
+                "concept_wiki_id": "6734"
+            }
+        ]
+    },
+    {
+        "question": "Suppose that a certain software product has a mean time between failures of 10,000 hours and has a mean time to repair of 20 hours. If the product is used by 100 customers, what is its availability?",
+        "choices": [
+            "80%",
+            "90%",
+            "98%",
+            "99.80%"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What qualitative definition of availability is provided by Blanchard?",
+                "A": "A measure of system downtime during maintenance",
+                "B": "A measure of the operability of a system at mission start",
+                "C": "The probability of system failure over time",
+                "D": "The frequency of system repairs needed",
+                "answer": "B",
+                "concept_wiki_name": "Availability",
+                "concept_wiki_id": "40760"
+            },
+            {
+                "question": "Which type of system is mean time between failures (MTBF) used to describe?",
+                "A": "Non-repairable systems only.",
+                "B": "Both repairable and non-repairable systems.",
+                "C": "Repairable systems only.",
+                "D": "Systems under routine scheduled maintenance.",
+                "answer": "C",
+                "concept_wiki_name": "Mean time between failures",
+                "concept_wiki_id": "63397"
+            },
+            {
+                "question": "In the context of MTBF, what is NOT considered a failure?",
+                "A": "A minor failure that does not require repair.",
+                "B": "A system that is operating under design conditions.",
+                "C": "A system that is down for routine scheduled maintenance.",
+                "D": "A failure that places the system out of service for repair.",
+                "answer": "C",
+                "concept_wiki_name": "Mean time between failures",
+                "concept_wiki_id": "63397"
+            },
+            {
+                "question": "Which factor is generally excluded from the calculation of MTTR?",
+                "A": "Lead time for unavailable parts",
+                "B": "Time spent on corrective maintenance actions",
+                "C": "Total downtime for repairs",
+                "D": "Administrative downtime during repairs",
+                "answer": "A",
+                "concept_wiki_name": "Mean time to repair",
+                "concept_wiki_id": "2503691"
+            },
+            {
+                "question": "Which metric is commonly used in the software reliability assessment process?",
+                "A": "Mean time to repair",
+                "B": "Code coverage",
+                "C": "Mean time between failures",
+                "D": "Probability of failure",
+                "answer": "B",
+                "concept_wiki_name": "Reliability engineering",
+                "concept_wiki_id": "1724836"
+            }
+        ]
+    },
+    {
+        "question": "A microcomputer used for data acquisition and control is required to digitize and process four analog input signals and to output their average continually; i.e., in real time. The time for an external analog-to-digital converter (which is triggered by a CPU instruction) to digitize one input is 12 microseconds, and only one digitization occurs at a time. Five CPU instructions, including the triggering instruction, must be executed for each signal digitized. Ten CPU instructions are executed in order to average each set of four samples and output this value. The time to convert the output from digital to analog form is to be ignored. If it is assumed that suitable data buffering is employed, then the maximum average instruction execution time that allows the microcomputer to keep up with the input-output data rates, is",
+        "choices": [
+            "0.8 microseconds",
+            "1.2 microseconds",
+            "1.6 microseconds",
+            "2.4 microseconds"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which scheduling method is associated with real-time operating systems?",
+                "A": "Weighted fair queuing",
+                "B": "Round-robin scheduling",
+                "C": "First-come, first-served scheduling",
+                "D": "Background-foreground scheduling",
+                "answer": "D",
+                "concept_wiki_name": "Real-time computing",
+                "concept_wiki_id": "25767"
+            }
+        ]
+    },
+    {
+        "question": "Assume that a debugger places a breakpoint at a load instruction at virtual address 0x77E81234 (hexadecimal notation) in a debugged process P. If the text segment of P begins at 0x77E80000 in P’s virtual address space and if the debugger has mapped this same text segment at 0x01000000 in its virtual address space, which of the following is the virtual address used by the debugger in its WRITE operation, along with a description of how the debugger has mapped the virtual memory page containing this address?",
+        "choices": [
+            "0x01001234; page mapped with READ/WRITE access",
+            "0x01001234; page mapped with COPY-ON-WRITE access",
+            "0x76E81234; page mapped with READ/WRITE access",
+            "0x76E81234; page mapped with COPY-ON-WRITE access"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary benefit of a virtual address space in operating systems?",
+                "A": "It allows processes to share the same address space.",
+                "B": "It provides security through process isolation.",
+                "C": "It enables faster memory access for all processes.",
+                "D": "It restricts the memory usage to a fixed limit.",
+                "answer": "B",
+                "concept_wiki_name": "Virtual address space",
+                "concept_wiki_id": "934423"
+            },
+            {
+                "question": "What is the maximum virtual address space available for 64-bit executables in Windows 8.1 and later?",
+                "A": "4 GiB",
+                "B": "128 TiB",
+                "C": "8 TiB",
+                "D": "16 TiB",
+                "answer": "B",
+                "concept_wiki_name": "Virtual address space",
+                "concept_wiki_id": "934423"
+            },
+            {
+                "question": "What happens when memory is allocated via C's malloc in relation to virtual address space?",
+                "A": "It maps the virtual address space directly to physical memory.",
+                "B": "It establishes the page file as the backing store for new virtual address space.",
+                "C": "It creates a shared memory segment for all processes.",
+                "D": "It limits the address space to 2 GiB for all processes.",
+                "answer": "B",
+                "concept_wiki_name": "Virtual address space",
+                "concept_wiki_id": "934423"
+            },
+            {
+                "question": "In the context of memory management, what does the term 'segment' refer to?",
+                "A": "A fixed-size block of executable instructions.",
+                "B": "A type of memory that is only used in embedded systems.",
+                "C": "A dynamic allocation of memory that changes size during execution.",
+                "D": "A historical approach to memory management succeeded by paging.",
+                "answer": "D",
+                "concept_wiki_name": "Code segment",
+                "concept_wiki_id": "1067537"
+            },
+            {
+                "question": "What advantage does copy-on-write provide in multithreaded environments?",
+                "A": "Allows for faster data retrieval from storage",
+                "B": "Increases the performance of direct memory access",
+                "C": "Ensures all threads see the same data without copies",
+                "D": "Reduces the need for mutexes due to cheap copies",
+                "answer": "D",
+                "concept_wiki_name": "Copy-on-write",
+                "concept_wiki_id": "407603"
+            }
+        ]
+    },
+    {
+        "question": "Let T be a depth-first search tree of a connected undirected graph G. For each vertex v of T, let pre(v) be the number of nodes visited up to and including v during a preorder traversal of T, and post(v) be the number of nodes visited up to and including v during a postorder traversal of T. The lowest common ancestor of vertices u and v in T is a vertex w of T such that w is an ancestor of both u and v, and no child of w is an ancestor of both u and v. Let (u, v) be an edge in G that is not in T, such that pre(u) < pre(v). Which of the following statements about u and v must be true?\nI. post(u) < post(v)\nII. u is an ancestor of v in T.\nIII. If w is the lowest common ancestor of u and v in T, then w = u.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III"
+        ],
+        "answer": 3,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In the context of depth-first search, what is the relationship between pre(u) and post(u) for a vertex u in a tree T?",
+                "A": "pre(u) = post(u)",
+                "B": "pre(u) < post(u)",
+                "C": "pre(u) > post(u)",
+                "D": "pre(u) + post(u) = total vertices",
+                "answer": "B",
+                "concept_wiki_name": "Depth-first search",
+                "concept_wiki_id": "97034"
+            },
+            {
+                "question": "In a preorder traversal of a tree, which of the following sequences is guaranteed to occur for any node v and its children?",
+                "A": "Visit v in between its children visits",
+                "B": "Visit all children of v before v itself",
+                "C": "Visit v, then visit all its children before visiting any sibling",
+                "D": "Visit v and its siblings simultaneously",
+                "answer": "C",
+                "concept_wiki_name": "Tree traversal",
+                "concept_wiki_id": "597584"
+            },
+            {
+                "question": "Which statement is true regarding the node visitation order in a preorder traversal compared to postorder traversal?",
+                "A": "In preorder, the parent node is visited before its children",
+                "B": "In preorder, all children are visited before the parent node",
+                "C": "In postorder, the parent node is visited before its children",
+                "D": "There is no specific order in either traversal",
+                "answer": "A",
+                "concept_wiki_name": "Tree traversal",
+                "concept_wiki_id": "597584"
+            },
+            {
+                "question": "In a depth-first search tree, which traversal method guarantees that a node's children are processed before the node itself?",
+                "A": "Preorder traversal",
+                "B": "Postorder traversal",
+                "C": "Inorder traversal",
+                "D": "Level-order traversal",
+                "answer": "B",
+                "concept_wiki_name": "Tree traversal",
+                "concept_wiki_id": "597584"
+            },
+            {
+                "question": "What is the relationship between the postorder values of two nodes if one is the ancestor of the other in a depth-first search tree?",
+                "A": "post(u) = post(v)",
+                "B": "post(u) < post(v)",
+                "C": "post(u) > post(v)",
+                "D": "post(u) is independent of post(v)",
+                "answer": "B",
+                "concept_wiki_name": "Tree traversal",
+                "concept_wiki_id": "597584"
+            },
+            {
+                "question": "In a tree, what characterizes the lowest common ancestor (LCA) of two nodes v and w?",
+                "A": "It is the only node that has both v and w as descendants.",
+                "B": "It is the shallowest node that has both v and w as descendants.",
+                "C": "It is the parent of both v and w.",
+                "D": "It is the deepest node that has both v and w as descendants.",
+                "answer": "D",
+                "concept_wiki_name": "Lowest common ancestor",
+                "concept_wiki_id": "7196522"
+            },
+            {
+                "question": "Which of the following statements about the lowest common ancestor (LCA) in a tree is true?",
+                "A": "The LCA is unique in a tree structure.",
+                "B": "The LCA of two nodes is always a child of both nodes.",
+                "C": "There can be multiple LCAs for a pair of nodes.",
+                "D": "The LCA is the node that directly connects v and w.",
+                "answer": "A",
+                "concept_wiki_name": "Lowest common ancestor",
+                "concept_wiki_id": "7196522"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is not a sentence that is generated by the grammar A -> BC, B -> x|Bx, C -> B|D, D -> y|Ey, E -> z?",
+        "choices": [
+            "xyz",
+            "xy",
+            "xxzy",
+            "xxxxy"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following strings is definitely not generated by the grammar E -> z?",
+                "A": "z",
+                "B": "y",
+                "C": "zyz",
+                "D": "zz",
+                "answer": "B",
+                "concept_wiki_name": "Production rule",
+                "concept_wiki_id": "2979134"
+            },
+            {
+                "question": "Which of the following best defines terminal symbols in a formal grammar?",
+                "A": "Symbols that can be replaced by other symbols according to production rules",
+                "B": "Elementary symbols of the language defined as part of a formal grammar",
+                "C": "Variables that represent sets of terminal symbols",
+                "D": "Symbols that cannot appear in the final output of generated strings",
+                "answer": "B",
+                "concept_wiki_name": "Terminal and nonterminal symbols",
+                "concept_wiki_id": "7689061"
+            },
+            {
+                "question": "What does the notation 'G' in the formalization of generative grammars represent?",
+                "A": "A set of terminal symbols that define the language.",
+                "B": "The output strings that can be generated by the grammar.",
+                "C": "A specific type of production rule mapping from one string to another.",
+                "D": "The components of a grammar including terminal and nonterminal symbols.",
+                "answer": "D",
+                "concept_wiki_name": "Terminal and nonterminal symbols",
+                "concept_wiki_id": "7689061"
+            }
+        ]
+    },
+    {
+        "question": "Array A contains 256 elements of 4 bytes each. Its first element is stored at physical address 4,096.\nArray B contains 512 elements of 4 bytes each. Its first element is stored at physical address 8,192.\nAssume that only arrays A and B can be cached in an initially empty, physically addressed, physically tagged, direct-mapped, 2K-byte cache with an 8-byte block size. The following loop is then executed.\nfor (i = 0; i < 256; i++)\n        A[i] = A[i] + B[2*i];\nDuring the execution of the loop, how many bytes will be written to memory if the cache has a write-through policy?",
+        "choices": [
+            "0",
+            "256",
+            "1024",
+            "2048"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which type of memory access pattern is described as highly amenable to prefetching?",
+                "A": "Random access",
+                "B": "Strided access",
+                "C": "Randomized access",
+                "D": "Sequential access",
+                "answer": "D",
+                "concept_wiki_name": "Memory access pattern",
+                "concept_wiki_id": "50783248"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a property of bitmap graphics?",
+        "choices": [
+            "Fast hardware exists to move blocks of pixels efficiently.",
+            "Realistic lighting and shading can be done.",
+            "All line segments can be displayed as straight.",
+            "Polygons can be filled with solid colors and textures."
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Who first published the term 'pixel' and in what context?",
+                "A": "Frederic C. Billingsley, in reference to pixelated video games",
+                "B": "Keith E. McFarland, to describe image resolution",
+                "C": "Frederic C. Billingsley, to describe the picture elements of scanned images from space probes",
+                "D": "An unnamed journalist, in a magazine about photography",
+                "answer": "C",
+                "concept_wiki_name": "Pixel",
+                "concept_wiki_id": "23665"
+            },
+            {
+                "question": "What is a significant drawback of flat shading in rendering?",
+                "A": "It requires less computational power than smooth shading.",
+                "B": "It produces excessive computational artifacts at polygon edges.",
+                "C": "It does not accurately represent specular highlights across the polygon.",
+                "D": "It changes colors smoothly at polygon borders.",
+                "answer": "C",
+                "concept_wiki_name": "Shading",
+                "concept_wiki_id": "250304"
+            },
+            {
+                "question": "Which of the following statements about vector graphics is true?",
+                "A": "Vector graphics can efficiently store attributes of real-world features.",
+                "B": "Vector graphics are only useful for simple shapes and not for detailed images.",
+                "C": "Vector graphics can lose detail when converted to a raster format.",
+                "D": "Vector graphics require more processing power than bitmap graphics for display.",
+                "answer": "A",
+                "concept_wiki_name": "Vector graphics",
+                "concept_wiki_id": "32499"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following statements about circuits is (are) true?\nI. Combinational circuits may have feedback; sequential circuits do not.\nII. Combinational circuits have a \"memoryless\" property; sequential circuits do not.\nIII. Both sequential and combinational circuits must be controlled by an external clock.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What was the first product released by Sequential Circuits?",
+                "A": "Prophet-5 synthesizer",
+                "B": "Model 700 Programmer",
+                "C": "Digital sequencer",
+                "D": "Analog sequencer",
+                "answer": "D",
+                "concept_wiki_name": "Sequential (company)",
+                "concept_wiki_id": "1213513"
+            },
+            {
+                "question": "In what year was the Prophet-5 synthesizer released by Sequential Circuits?",
+                "A": "1974",
+                "B": "1980",
+                "C": "1978",
+                "D": "1987",
+                "answer": "C",
+                "concept_wiki_name": "Sequential (company)",
+                "concept_wiki_id": "1213513"
+            },
+            {
+                "question": "Which company acquired Sequential Circuits in 1987?",
+                "A": "Moog",
+                "B": "Yamaha",
+                "C": "Korg",
+                "D": "Roland",
+                "answer": "B",
+                "concept_wiki_name": "Sequential (company)",
+                "concept_wiki_id": "1213513"
+            },
+            {
+                "question": "In which type of circuit is a clock signal not typically required?",
+                "A": "Synchronous circuits",
+                "B": "Asynchronous circuits",
+                "C": "Sequential circuits",
+                "D": "Combinational circuits",
+                "answer": "B",
+                "concept_wiki_name": "Clock signal",
+                "concept_wiki_id": "182693"
+            }
+        ]
+    },
+    {
+        "question": "Let A be a finite set with m elements, and let B be a finite set with n elements. The number of distinct functions mapping A into B is",
+        "choices": [
+            "n^m",
+            "n!/(n - m)!",
+            "n!",
+            "n!/(m!(n - m)!)"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the relationship between injective functions and cardinality for finite sets?",
+                "A": "An injective function from A to B implies A has cardinality less than or equal to B",
+                "B": "An injective function from A to B implies A has cardinality greater than B",
+                "C": "An injective function from A to B implies A and B have equal cardinality",
+                "D": "An injective function from A to B has no relevance to cardinality",
+                "answer": "A",
+                "concept_wiki_name": "Cardinality",
+                "concept_wiki_id": "6174"
+            }
+        ]
+    },
+    {
+        "question": "The IP protocol is primarily concerned with",
+        "choices": [
+            "Routing packets through the network",
+            "Reliable delivery of packets between directly connected machines",
+            "Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected",
+            "Dealing with differences among operating system architectures"
+        ],
+        "answer": 0,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which routing challenge is highlighted regarding message delivery?",
+                "A": "Minimizing the number of hops between nodes",
+                "B": "Ensuring packets arrive in the same order",
+                "C": "Addressing latency versus cost of transmission",
+                "D": "Maximizing bandwidth utilization",
+                "answer": "C",
+                "concept_wiki_name": "Routing",
+                "concept_wiki_id": "25750"
+            },
+            {
+                "question": "What percentage of paths between neighboring ISPs were found to have inflated latency due to hot-potato routing?",
+                "A": "30%",
+                "B": "10%",
+                "C": "50%",
+                "D": "15%",
+                "answer": "A",
+                "concept_wiki_name": "Routing",
+                "concept_wiki_id": "25750"
+            }
+        ]
+    },
+    {
+        "question": "Two computers communicate with each other by sending data packets across a local area network. The size of these packets is 1,000 bytes. The network has the capacity to carry 1,000 packets per second. The CPU time required to execute the network protocol to send one packet is 10 milliseconds. The maximum rate at which one computer can send data to another is approximately",
+        "choices": [
+            "10,000 bytes/second",
+            "25,000 bytes/ second",
+            "100,000 bytes/ second",
+            "500,000 bytes/ second"
+        ],
+        "answer": 2,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In what decade did the development of early commercial LAN technologies begin?",
+                "A": "1960s",
+                "B": "1990s",
+                "C": "1980s",
+                "D": "1970s",
+                "answer": "D",
+                "concept_wiki_name": "Local area network",
+                "concept_wiki_id": "17739"
+            },
+            {
+                "question": "What is the term used to describe the maximum rate at which binary information can be transferred in one direction over a telecommunications system?",
+                "A": "Network bandwidth",
+                "B": "Effective data throughput",
+                "C": "Data signaling rate",
+                "D": "Transmission capacity",
+                "answer": "C",
+                "concept_wiki_name": "Data signaling rate",
+                "concept_wiki_id": "40998"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is usually NOT represented in a subroutine's activation record frame for a stack-based programming language?",
+        "choices": [
+            "Values of local variables",
+            "A heap area",
+            "The return address",
+            "Stack pointer for the calling activation record"
+        ],
+        "answer": 1,
+        "subject": "college_computer_science",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In the context of the call stack, what is most likely NOT a role of activation records?",
+                "A": "Storing local variables",
+                "B": "Maintaining loop parameters",
+                "C": "Tracking the return address",
+                "D": "Managing system-level interrupts",
+                "answer": "D",
+                "concept_wiki_name": "Call stack",
+                "concept_wiki_id": "1718105"
+            },
+            {
+                "question": "Which of the following programming languages is NOT identified as a stack-oriented language?",
+                "A": "Python",
+                "B": "RPL",
+                "C": "Forth",
+                "D": "PostScript",
+                "answer": "A",
+                "concept_wiki_name": "Stack-oriented programming",
+                "concept_wiki_id": "910837"
+            },
+            {
+                "question": "Which of the following statements accurately describes local variables in the context of scope?",
+                "A": "Local variables can be accessed from global scope without any restrictions.",
+                "B": "Local variables are only accessible within the global scope.",
+                "C": "Local variables are always static and retain their values across function calls.",
+                "D": "Local variables override variables with the same name in larger scopes.",
+                "answer": "D",
+                "concept_wiki_name": "Local variable",
+                "concept_wiki_id": "1718152"
+            },
+            {
+                "question": "In a stack-based programming language, which component is primarily responsible for managing memory allocation for dynamic data structures?",
+                "A": "The activation record frame",
+                "B": "The return address",
+                "C": "The stack pointer",
+                "D": "The heap area",
+                "answer": "D",
+                "concept_wiki_name": "Heap",
+                "concept_wiki_id": "4095441"
+            }
+        ]
+    }
+]

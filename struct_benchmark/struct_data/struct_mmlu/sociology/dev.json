@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Which of the following did the post-war welfare state of 1948 not aim to provide:",
+        "subject": "sociology",
+        "choices": [
+            "free health care and education for all",
+            "a minimum wage",
+            "full employment",
+            "universal welfare"
+        ],
+        "answer": 1,
+        "idx": 0
+    },
+    {
+        "question": "What does Berger (1963) describe as a metaphor for social reality?",
+        "subject": "sociology",
+        "choices": [
+            "a fairground ride",
+            "a circus",
+            "a puppet theatre",
+            "a ballet"
+        ],
+        "answer": 2,
+        "idx": 1
+    },
+    {
+        "question": "The shift from 'civil religion' to 'common religion' means that:",
+        "subject": "sociology",
+        "choices": [
+            "the increasing bureaucracy of the state has made religion only a marginal part of our lives",
+            "despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values",
+            "religious participation in collective worship may have declined, but people still practise their faiths in private",
+            "people are much more likely to discuss their religious beliefs in public, informal settings"
+        ],
+        "answer": 1,
+        "idx": 2
+    },
+    {
+        "question": "The term 'hegemony' refers to:",
+        "subject": "sociology",
+        "choices": [
+            "the tendency for the working class not to realize their own interests",
+            "a dominant ideology that legitimates economic, political and cultural power",
+            "a form of dual consciousness based on ideology and everyday experiences",
+            "a mode of payment given for outstanding topiary"
+        ],
+        "answer": 1,
+        "idx": 3
+    },
+    {
+        "question": "Which of the following is not a problem associated with official statistics on strike action?",
+        "subject": "sociology",
+        "choices": [
+            "most strikes go unnoticed by employers and the mass media",
+            "not all industrial disputes will be reported by the employer",
+            "the definition of strikes excludes those that involve fewer than ten workers or last less than one day",
+            "it is hard to compare strikes that were measured in different ways"
+        ],
+        "answer": 0,
+        "idx": 4
+    }
+]

@@ -1,0 +1,2051 @@
+[
+    {
+        "question": "Computational complexity of Gradient descent is,",
+        "choices": [
+            "linear in D",
+            "linear in N",
+            "polynomial in D",
+            "dependent on the number of iterations"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [
+            {
+                "level": "evaluating",
+                "question": "In computational complexity, what is typically assumed when no model of computation is specified?",
+                "A": "Random-access machine.",
+                "B": "Multitape Turing machine.",
+                "C": "Single-tape Turing machine.",
+                "D": "Quantum computer model.",
+                "answer": "B",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "evaluating",
+                "question": "Which model of computation was historically the first deterministic model mentioned?",
+                "A": "Random-access machines.",
+                "B": "Multitape Turing machines.",
+                "C": "Probabilistic Turing machines.",
+                "D": "Lambda calculus.",
+                "answer": "D",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "analyzing",
+                "question": "Which model of computation is typically assumed if not explicitly specified?",
+                "A": "Random-access machine",
+                "B": "Multitape Turing machine",
+                "C": "Reversible computation model",
+                "D": "Probabilistic machine",
+                "answer": "B",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "analyzing",
+                "question": "What is a common challenge in determining lower bounds for problem complexity?",
+                "A": "It requires specific algorithms to be known",
+                "B": "There are very few methods for obtaining such lower bounds",
+                "C": "The models of computation are inconsistent",
+                "D": "Lower bounds are always equal to upper bounds",
+                "answer": "B",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "understanding",
+                "question": "What is typically assumed when the model of computation is not specified?",
+                "A": "A random-access machine model.",
+                "B": "A non-deterministic computation model.",
+                "C": "A multitape Turing machine model.",
+                "D": "A recursive function model.",
+                "answer": "C",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "understanding",
+                "question": "How is the complexity of a problem defined?",
+                "A": "The average time complexity of all algorithms that can solve the problem.",
+                "B": "The complexity of the most efficient algorithm that solves the problem.",
+                "C": "The infimum of the complexities of algorithms that may solve the problem.",
+                "D": "The maximum time taken by any algorithm that can solve the problem.",
+                "answer": "C",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "applying",
+                "question": "If an algorithm's time complexity is presented as O(n^2), how would the performance change if the input size is doubled?",
+                "A": "The performance will improve significantly.",
+                "B": "The performance will worsen by a factor of four.",
+                "C": "The performance will remain the same.",
+                "D": "The performance will worsen by a factor of two.",
+                "answer": "B",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "applying",
+                "question": "When evaluating the complexity of a problem, which of the following statements is accurate regarding upper bounds?",
+                "A": "Every algorithm's complexity provides an upper bound for problem complexity.",
+                "B": "Upper bounds are only applicable to deterministic algorithms.",
+                "C": "Upper bounds are less significant than average-case complexities.",
+                "D": "Upper bounds can be greater than the complexity of the best algorithm.",
+                "answer": "A",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "applying",
+                "question": "If the model of computation is not specified, what is typically assumed for analyzing time complexity?",
+                "A": "Random-access machines.",
+                "B": "Sequential processing models.",
+                "C": "Non-deterministic models.",
+                "D": "Multitape Turing machines.",
+                "answer": "D",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            },
+            {
+                "level": "remembering",
+                "question": "What is assumed when the model of computation is not specified?",
+                "A": "Random-access machine",
+                "B": "Non-deterministic machine",
+                "C": "Single-tape Turing machine",
+                "D": "Multitape Turing machine",
+                "answer": "D",
+                "topic_wiki_name": "Computational complexity",
+                "topic_wiki_id": "6511"
+            }
+        ],
+        "concept_questions": [
+            {
+                "question": "What is typically not used in complexity theory when discussing time complexity?",
+                "A": "Worst-case complexity scenarios",
+                "B": "Average-case complexity scenarios",
+                "C": "Units of time like seconds or minutes",
+                "D": "Constant factors for different computers",
+                "answer": "C",
+                "concept_wiki_name": "Computational complexity",
+                "concept_wiki_id": "6511"
+            },
+            {
+                "question": "What is a critical factor that affects the convergence rate of gradient descent?",
+                "A": "The type of optimization problem",
+                "B": "The initial guess for the local minimum",
+                "C": "The dimensionality of the input data",
+                "D": "The variant of gradient descent used",
+                "answer": "D",
+                "concept_wiki_name": "Gradient descent",
+                "concept_wiki_id": "201489"
+            },
+            {
+                "question": "In computing, what is the term used for a block of statements that is iterated?",
+                "A": "Function call",
+                "B": "Iteration block",
+                "C": "Loop structure",
+                "D": "An iteration",
+                "answer": "D",
+                "concept_wiki_name": "Iteration",
+                "concept_wiki_id": "68833"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The softmax function is commonly used in mutliclass logistic regression. Statement 2| The temperature of a nonuniform softmax distribution affects its entropy.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which field is NOT commonly associated with the concept of entropy?",
+                "A": "Quantum mechanics",
+                "B": "Information theory",
+                "C": "Sociology",
+                "D": "Thermodynamics",
+                "answer": "A",
+                "concept_wiki_name": "Entropy",
+                "concept_wiki_id": "9891"
+            }
+        ]
+    },
+    {
+        "question": "Existential risks posed by AI are most commonly associated with which of the following professors?",
+        "choices": [
+            "Nando de Frietas",
+            "Yann LeCun",
+            "Stuart Russell",
+            "Jitendra Malik"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following challenges is associated with researching existential risks?",
+                "A": "Experimental verification",
+                "B": "Data collection",
+                "C": "Long-term modeling",
+                "D": "Feasibility of study",
+                "answer": "A",
+                "concept_wiki_name": "Global catastrophic risk",
+                "concept_wiki_id": "21221594"
+            },
+            {
+                "question": "Where did Nando de Freitas complete his PhD?",
+                "A": "University of the Witwatersrand",
+                "B": "University of British Columbia",
+                "C": "Trinity College, Cambridge",
+                "D": "University of Oxford",
+                "answer": "C",
+                "concept_wiki_name": "Nando de Freitas",
+                "concept_wiki_id": "41919563"
+            },
+            {
+                "question": "In which institution did Nando de Freitas work from 2013 to 2017?",
+                "A": "University of British Columbia",
+                "B": "Massachusetts Institute of Technology",
+                "C": "University of Oxford",
+                "D": "Stanford University",
+                "answer": "C",
+                "concept_wiki_name": "Nando de Freitas",
+                "concept_wiki_id": "41919563"
+            },
+            {
+                "question": "What significant technology did Yann LeCun co-create related to image compression?",
+                "A": "JPEG",
+                "B": "DjVu",
+                "C": "PNG",
+                "D": "GIF",
+                "answer": "B",
+                "concept_wiki_name": "Yann LeCun",
+                "concept_wiki_id": "23534873"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The SVM learning algorithm is guaranteed to find the globally optimal hypothesis with respect to its object function. Statement 2| After being mapped into feature space Q through a radial basis kernel function, a Perceptron may be able to achieve better classification performance than in its original space (though we can’t guarantee this).",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary characteristic of the RBF kernel in relation to distance between feature vectors?",
+                "A": "The value of the RBF kernel increases with distance.",
+                "B": "The RBF kernel is undefined for feature vectors at the same point.",
+                "C": "The value of the RBF kernel is constant regardless of distance.",
+                "D": "The RBF kernel decreases with distance and ranges from zero to one.",
+                "answer": "D",
+                "concept_wiki_name": "Radial basis function kernel",
+                "concept_wiki_id": "38652210"
+            },
+            {
+                "question": "What is a significant advantage of using the RBF kernel in support vector machine classification?",
+                "A": "It maps data to a feature space with an infinite number of dimensions.",
+                "B": "It guarantees the best classification performance without approximation.",
+                "C": "It requires no free parameters to adjust for optimal performance.",
+                "D": "It simplifies the input space to two dimensions for easier analysis.",
+                "answer": "A",
+                "concept_wiki_name": "Radial basis function kernel",
+                "concept_wiki_id": "38652210"
+            }
+        ]
+    },
+    {
+        "question": "Given a Neural Net with N input nodes, no hidden layers, one output node, with Entropy Loss and Sigmoid Activation Functions, which of the following algorithms (with the proper hyper-parameters and initialization) can be used to find the global optimum?",
+        "choices": [
+            "Stochastic Gradient Descent",
+            "Mini-Batch Gradient Descent",
+            "Batch Gradient Descent",
+            "All of the above"
+        ],
+        "answer": 3,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What method is primarily used to modify the weights in a neural network during training?",
+                "A": "Gradient Descent Optimization",
+                "B": "Activation Function Adjustment",
+                "C": "Empirical Error Estimation",
+                "D": "Backpropagation",
+                "answer": "D",
+                "concept_wiki_name": "Neural network",
+                "concept_wiki_id": "76121942"
+            },
+            {
+                "question": "How does the gradient of the cross-entropy loss relate to the gradient of squared-error loss?",
+                "A": "They are entirely different and serve distinct purposes.",
+                "B": "They are the same for logistic regression and linear regression.",
+                "C": "The squared-error loss is derived from cross-entropy loss.",
+                "D": "They both depend on the same underlying data structure.",
+                "answer": "B",
+                "concept_wiki_name": "Cross-entropy",
+                "concept_wiki_id": "1735250"
+            },
+            {
+                "question": "What mathematical property does a sigmoid function exhibit for values less than a certain point?",
+                "A": "It is convex.",
+                "B": "It is linear.",
+                "C": "It is concave.",
+                "D": "It is oscillatory.",
+                "answer": "A",
+                "concept_wiki_name": "Sigmoid function",
+                "concept_wiki_id": "87210"
+            },
+            {
+                "question": "In the context of sigmoid functions, what happens when the slope parameter is too small?",
+                "A": "The function becomes linear.",
+                "B": "The function has multiple inflection points.",
+                "C": "The function becomes undefined.",
+                "D": "The function approaches a constant value.",
+                "answer": "B",
+                "concept_wiki_name": "Sigmoid function",
+                "concept_wiki_id": "87210"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following can only be used when training data are linearly separable?",
+        "choices": [
+            "Linear hard-margin SVM.",
+            "Linear Logistic Regression.",
+            "Linear Soft margin SVM.",
+            "The centroid method."
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What characterizes the maximum-margin hyperplane in a linear hard-margin SVM?",
+                "A": "It is the hyperplane that minimizes the distance to all points.",
+                "B": "It minimizes the margin between the two classes.",
+                "C": "It is the hyperplane with equal distance to all data points.",
+                "D": "It maximizes the distance between the two closest points of different classes.",
+                "answer": "D",
+                "concept_wiki_name": "Support vector machine",
+                "concept_wiki_id": "65309"
+            },
+            {
+                "question": "What does the margin in a linear hard-margin SVM represent?",
+                "A": "The region bounded by the two separating hyperplanes.",
+                "B": "The distance between the hyperplane and any point in the dataset.",
+                "C": "The average distance of all points to the hyperplane.",
+                "D": "The total number of points in the dataset.",
+                "answer": "A",
+                "concept_wiki_name": "Support vector machine",
+                "concept_wiki_id": "65309"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| As of 2020, some models attain greater than 98% accuracy on CIFAR-10. Statement 2| The original ResNets were not optimized with the Adam optimizer.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which term is used to describe the closeness of measurement results to the actual true value?",
+                "A": "Precision",
+                "B": "Trueness",
+                "C": "Bias",
+                "D": "Accuracy",
+                "answer": "B",
+                "concept_wiki_name": "Accuracy and precision",
+                "concept_wiki_id": "41932"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is/are true regarding an SVM?",
+        "choices": [
+            "For two dimensional data points, the separating hyperplane learnt by a linear SVM will be a straight line.",
+            "In theory, a Gaussian kernel SVM cannot model any complex separating hyperplane.",
+            "For every kernel function used in a SVM, one can obtain an equivalent closed form basis expansion.",
+            "Overfitting in an SVM is not a function of number of support vectors."
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does the hyperplane separation theorem assert about disjoint convex sets in n-dimensional space?",
+                "A": "There is always a unique hyperplane separating them.",
+                "B": "A hyperplane can separate them, sometimes with a gap.",
+                "C": "Only open sets can be separated by a hyperplane.",
+                "D": "Disjoint convex sets cannot be separated in any dimension.",
+                "answer": "B",
+                "concept_wiki_name": "Hyperplane separation theorem",
+                "concept_wiki_id": "4739827"
+            },
+            {
+                "question": "What is the relationship between separating hyperplanes and convex sets?",
+                "A": "Separating hyperplanes must intersect the interiors of both convex sets.",
+                "B": "A separating hyperplane cannot intersect the interiors of open convex sets.",
+                "C": "Any two convex sets can be separated by a hyperplane, regardless of their properties.",
+                "D": "Only non-convex sets can be separated by hyperplanes.",
+                "answer": "B",
+                "concept_wiki_name": "Hyperplane separation theorem",
+                "concept_wiki_id": "4739827"
+            },
+            {
+                "question": "What challenges are associated with using kernel functions in svms?",
+                "A": "They scale well to large datasets and feature spaces.",
+                "B": "They may not effectively model linear relationships.",
+                "C": "They are limited to specific types of data distributions.",
+                "D": "They do not scale well to large numbers of training samples or features.",
+                "answer": "D",
+                "concept_wiki_name": "Radial basis function kernel",
+                "concept_wiki_id": "38652210"
+            }
+        ]
+    },
+    {
+        "question": "Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and C, and no independence or conditional independence assumptions between any of them?",
+        "choices": [
+            "P(A | B) * P(B | C) * P(C | A)",
+            "P(C | A, B) * P(A) * P(B)",
+            "P(A, B | C) * P(C)",
+            "P(A | B, C) * P(B | A, C) * P(C | A, B)"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements correctly describes the behavior of joint probabilities as the number of independent random events increases?",
+                "A": "The joint probability remains constant.",
+                "B": "The joint probability increases rapidly.",
+                "C": "The joint probability becomes equal to the sum of individual probabilities.",
+                "D": "The joint probability decreases rapidly to zero.",
+                "answer": "D",
+                "concept_wiki_name": "Joint probability distribution",
+                "concept_wiki_id": "879637"
+            },
+            {
+                "question": "Which of the following statements is true about the relationship between conditional probabilities?",
+                "A": "If P(A | B) = P(A), then A and B are independent",
+                "B": "P(A | B) can never equal P(B | A)",
+                "C": "P(A | B) = P(B | A) when A and B are independent",
+                "D": "P(A | B) is always greater than P(A)",
+                "answer": "A",
+                "concept_wiki_name": "Conditional probability",
+                "concept_wiki_id": "24104134"
+            }
+        ]
+    },
+    {
+        "question": "MLE estimates are often undesirable because",
+        "choices": [
+            "they are biased",
+            "they have high variance",
+            "they are not consistent estimators",
+            "None of the above"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In which scenario can the first-order conditions of the likelihood function be solved analytically?",
+                "A": "When the likelihood function is non-differentiable",
+                "B": "When parameter space is limited to two dimensions",
+                "C": "When the sample size is very small",
+                "D": "When random errors are normally distributed with the same variance",
+                "answer": "D",
+                "concept_wiki_name": "Maximum likelihood estimation",
+                "concept_wiki_id": "140806"
+            },
+            {
+                "question": "What effect does heteroscedasticity have on the predictions based on misspecified MLE in binary choice models?",
+                "A": "Predictions will be completely incorrect regardless of the model.",
+                "B": "Predictions will remain correct despite the misspecification.",
+                "C": "Predictions will always have high bias.",
+                "D": "Predictions will be unreliable and inconsistent.",
+                "answer": "B",
+                "concept_wiki_name": "Homoscedasticity and heteroscedasticity",
+                "concept_wiki_id": "70780067"
+            },
+            {
+                "question": "Which of the following statements about consistent estimators is true?",
+                "A": "They concentrate the estimates around the true value as sample size increases.",
+                "B": "They converge in distribution to the true parameter value.",
+                "C": "They become less biased with an increasing sample size.",
+                "D": "They have a fixed variance that does not change with sample size.",
+                "answer": "A",
+                "concept_wiki_name": "Consistent estimator",
+                "concept_wiki_id": "1497569"
+            }
+        ]
+    },
+    {
+        "question": "What is the rank of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following methods is commonly used to determine the rank of a matrix?",
+                "A": "Calculating the determinant of the matrix",
+                "B": "Evaluating the trace of the matrix",
+                "C": "Finding the eigenvalues of the matrix",
+                "D": "Reducing the matrix to row echelon form",
+                "answer": "D",
+                "concept_wiki_name": "Rank (linear algebra)",
+                "concept_wiki_id": "26561"
+            },
+            {
+                "question": "How can one determine the basis of the vector space formed by linear dependencies?",
+                "A": "By solving a system of non-homogeneous linear equations.",
+                "B": "Using Gaussian elimination on the coordinates of the vectors.",
+                "C": "By examining the geometric representation of the vectors.",
+                "D": "Through matrix multiplication of the vectors involved.",
+                "answer": "B",
+                "concept_wiki_name": "Linear independence",
+                "concept_wiki_id": "101863"
+            },
+            {
+                "question": "What is the dual vector space denoted as?",
+                "A": "L(V, W)",
+                "B": "Hom(V, W)",
+                "C": "V**",
+                "D": "V*",
+                "answer": "D",
+                "concept_wiki_name": "Vector space",
+                "concept_wiki_id": "32370"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| We learn a classifier f by boosting weak learners h. The functional form of f’s decision boundary is the same as h’s, but with different parameters. (e.g., if h was a linear classifier, then f is also a linear classifier). Statement 2| Cross validation can be used to select the number of iterations in boosting; this procedure may help reduce overfitting.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 3,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary purpose of boosting in machine learning?",
+                "A": "To create a single strong learner from multiple strong learners",
+                "B": "To reduce bias and variance",
+                "C": "To eliminate the need for weak learners",
+                "D": "To ensure all classifiers are linear",
+                "answer": "B",
+                "concept_wiki_name": "Boosting (machine learning)",
+                "concept_wiki_id": "90500"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following points would Bayesians and frequentists disagree on?",
+        "choices": [
+            "The use of a non-Gaussian noise model in probabilistic regression.",
+            "The use of probabilistic modelling for regression.",
+            "The use of prior distributions on the parameters in a probabilistic model.",
+            "The use of class priors in Gaussian Discriminant Analysis."
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which principle is inherently violated by frequentist statistics?",
+                "A": "The principle of independence in sampling",
+                "B": "The principle of maximum likelihood estimation",
+                "C": "The likelihood principle",
+                "D": "The principle of statistical sufficiency",
+                "answer": "C",
+                "concept_wiki_name": "Frequentist inference",
+                "concept_wiki_id": "15537745"
+            },
+            {
+                "question": "Which aspect of probabilistic modeling is least likely to be accepted by frequentists?",
+                "A": "The incorporation of noise models in regression.",
+                "B": "The application of class priors in classification tasks.",
+                "C": "The use of prior distributions on the parameters.",
+                "D": "The modeling of latent structures in data.",
+                "answer": "C",
+                "concept_wiki_name": "Diffusion model",
+                "concept_wiki_id": "71912239"
+            }
+        ]
+    },
+    {
+        "question": "What would you do in PCA to get the same projection as SVD?",
+        "choices": [
+            "Transform data to zero mean",
+            "Transform data to zero median",
+            "Not possible",
+            "None of these"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Who is credited with the invention of Principal Component Analysis?",
+                "A": "Karl Pearson in 1901",
+                "B": "Harold Hotelling in the 1930s",
+                "C": "John Tukey in the 1960s",
+                "D": "David Cox in the 1980s",
+                "answer": "A",
+                "concept_wiki_name": "Principal component analysis",
+                "concept_wiki_id": "76340"
+            },
+            {
+                "question": "Which alternative name is used for PCA in signal processing?",
+                "A": "Hotelling transform",
+                "B": "Proper orthogonal decomposition (POD)",
+                "C": "Eigenvalue decomposition",
+                "D": "Discrete Karhunen–Loève transform (KLT)",
+                "answer": "D",
+                "concept_wiki_name": "Principal component analysis",
+                "concept_wiki_id": "76340"
+            },
+            {
+                "question": "What is a primary goal of dimensionality reduction techniques such as PCA?",
+                "A": "To eliminate all noise from the data",
+                "B": "To minimize the computational complexity of high-dimensional data",
+                "C": "To achieve a uniform distribution of data points",
+                "D": "To maximize the variance of the data in the low-dimensional representation",
+                "answer": "D",
+                "concept_wiki_name": "Dimensionality reduction",
+                "concept_wiki_id": "579867"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| A neural network's convergence depends on the learning rate. Statement 2| Dropout multiplies randomly chosen activation values by zero.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following is NOT a common type of learning rate schedule?",
+                "A": "Exponential decay schedule",
+                "B": "Adaptive filtering schedule",
+                "C": "Time-based schedule",
+                "D": "Step-based schedule",
+                "answer": "B",
+                "concept_wiki_name": "Learning rate",
+                "concept_wiki_id": "59969558"
+            },
+            {
+                "question": "In quantum neural networks, how is non-linearity of the activation function implemented?",
+                "A": "By measuring the output of each perceptron",
+                "B": "With no need of measuring the output",
+                "C": "Using classical activation functions directly",
+                "D": "By applying sigmoid functions exclusively",
+                "answer": "B",
+                "concept_wiki_name": "Activation function",
+                "concept_wiki_id": "14179835"
+            }
+        ]
+    },
+    {
+        "question": "Neural networks:",
+        "choices": [
+            "Optimize a convex objective function",
+            "Can only be trained with stochastic gradient descent",
+            "Can use a mix of different activation functions",
+            "None of the above"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which architecture was introduced by Kunihiko Fukushima in 1980?",
+                "A": "Multi-Layer Perceptron (MLP)",
+                "B": "Self-Organizing Map (SOM)",
+                "C": "Convolutional Neural Network (CNN)",
+                "D": "Recurrent Neural Network (RNN)",
+                "answer": "C",
+                "concept_wiki_name": "Neural network (machine learning)",
+                "concept_wiki_id": "21523"
+            },
+            {
+                "question": "Which activation function was introduced by Kunihiko Fukushima in 1969?",
+                "A": "Rectified Linear Unit (ReLU)",
+                "B": "Hyperbolic Tangent",
+                "C": "Sigmoid",
+                "D": "Softmax",
+                "answer": "A",
+                "concept_wiki_name": "Neural network (machine learning)",
+                "concept_wiki_id": "21523"
+            },
+            {
+                "question": "Which of the following activation functions is primarily used for predicting variances in variational autoencoders?",
+                "A": "Softplus",
+                "B": "GELU",
+                "C": "ReLU",
+                "D": "Sigmoid",
+                "answer": "A",
+                "concept_wiki_name": "Activation function",
+                "concept_wiki_id": "14179835"
+            },
+            {
+                "question": "What does stochastic gradient descent replace in its optimization process?",
+                "A": "The gradient calculated from a single data point",
+                "B": "The actual gradient calculated from the entire dataset",
+                "C": "The objective function being minimized",
+                "D": "The random subset of data used for training",
+                "answer": "B",
+                "concept_wiki_name": "Stochastic gradient descent",
+                "concept_wiki_id": "1180641"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural networks trained with gradient descent with high probability converge to the global optimum.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 3,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key advantage of using ReLU over sigmoid activation functions in neural networks?",
+                "A": "ReLU provides a smoother gradient throughout the entire input range.",
+                "B": "ReLU can produce negative output values, enhancing model performance.",
+                "C": "ReLU allows for faster and more effective training on large datasets.",
+                "D": "ReLU requires less computational power than sigmoid functions.",
+                "answer": "C",
+                "concept_wiki_name": "Rectifier (neural networks)",
+                "concept_wiki_id": "37862937"
+            },
+            {
+                "question": "What type of function does gradient descent primarily target for minimization?",
+                "A": "Multivariate functions",
+                "B": "Non-differentiable functions",
+                "C": "Univariate functions",
+                "D": "Discrete functions",
+                "answer": "A",
+                "concept_wiki_name": "Gradient descent",
+                "concept_wiki_id": "201489"
+            },
+            {
+                "question": "What is a key property that affects the convergence rate of gradient descent?",
+                "A": "The number of variables in the function",
+                "B": "The complexity of the function's derivatives",
+                "C": "The assumptions made about the objective function",
+                "D": "The dimensionality of the input space",
+                "answer": "C",
+                "concept_wiki_name": "Gradient descent",
+                "concept_wiki_id": "201489"
+            },
+            {
+                "question": "Which condition is mentioned as leading to linear convergence of gradient descent?",
+                "A": "If the objective function is Lipschitz smooth and convex",
+                "B": "If the step size is variable and adaptive",
+                "C": "If the objective function is neither convex nor smooth",
+                "D": "If the objective function is strongly convex and Lipschitz smooth",
+                "answer": "D",
+                "concept_wiki_name": "Gradient descent",
+                "concept_wiki_id": "201489"
+            },
+            {
+                "question": "When does a point qualify as a strict global maximum?",
+                "A": "If it is the largest value in a local neighborhood only",
+                "B": "If it is the highest point in a closed interval",
+                "C": "If it is the only maximum point in its domain",
+                "D": "If it has a unique minimum point associated with it",
+                "answer": "C",
+                "concept_wiki_name": "Maximum and minimum",
+                "concept_wiki_id": "298420"
+            }
+        ]
+    },
+    {
+        "question": "You've just finished training a decision tree for spam classification, and it is getting abnormally bad performance on both your training and test sets. You know that your implementation has no bugs, so what could be causing the problem?",
+        "choices": [
+            "Your decision trees are too shallow.",
+            "You need to increase the learning rate.",
+            "You are overfitting.",
+            "None of the above."
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a common issue that can arise from using overly shallow decision trees in spam classification?",
+                "A": "High bias leading to underfitting",
+                "B": "High variance leading to overfitting",
+                "C": "Increased false positives in classification",
+                "D": "Improved accuracy on test data",
+                "answer": "A",
+                "concept_wiki_name": "Anti-spam techniques",
+                "concept_wiki_id": "313737"
+            },
+            {
+                "question": "Which of the following methods is mentioned as a machine-learning-based approach to spam classification?",
+                "A": "Genetic algorithms",
+                "B": "Bayesian filters",
+                "C": "Support vector machines",
+                "D": "Random forest classifiers",
+                "answer": "B",
+                "concept_wiki_name": "Anti-spam techniques",
+                "concept_wiki_id": "313737"
+            },
+            {
+                "question": "What is one proposed solution to reduce the profitability of spamming?",
+                "A": "Optimizing decision tree depth",
+                "B": "Enhancing user email interfaces",
+                "C": "Increasing the volume of spam sent",
+                "D": "Implementing cost-based systems for sending emails",
+                "answer": "D",
+                "concept_wiki_name": "Anti-spam techniques",
+                "concept_wiki_id": "313737"
+            },
+            {
+                "question": "In which scenario is overfitting most likely to occur?",
+                "A": "When there are abundant training examples.",
+                "B": "When training examples are rare.",
+                "C": "When learning is performed too quickly.",
+                "D": "When using a linear regression model.",
+                "answer": "B",
+                "concept_wiki_name": "Overfitting",
+                "concept_wiki_id": "173332"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| Since the VC dimension for an SVM with a Radial Base Kernel is infinite, such an SVM must be worse than an SVM with polynomial kernel which has a finite VC dimension. Statement 2| A two layer neural network with linear activation functions is essentially a weighted combination of linear separators, trained on a given dataset; the boosting algorithm built on linear separators also finds a combination of linear separators, therefore these two algorithms will give the same result.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a characteristic of a finite projective plane regarding its VC dimension?",
+                "A": "It has a VC dimension equal to 2",
+                "B": "Its VC dimension is greater than 2",
+                "C": "It can shatter any set of size 3",
+                "D": "It can shatter sets of any size",
+                "answer": "A",
+                "concept_wiki_name": "Vapnik–Chervonenkis dimension",
+                "concept_wiki_id": "305846"
+            },
+            {
+                "question": "What condition must be met for a polynomial kernel to be referred to as homogeneous?",
+                "A": "The parameter 'c' must be greater than zero.",
+                "B": "The polynomial degree must be less than or equal to two.",
+                "C": "The input features must be continuous rather than binary-valued.",
+                "D": "The parameter 'c' must be equal to zero.",
+                "answer": "D",
+                "concept_wiki_name": "Polynomial kernel",
+                "concept_wiki_id": "37619227"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The ID3 algorithm is guaranteed to find the optimal decision tree. Statement 2| Consider a continuous probability distribution with density f() that is nonzero everywhere. The probability of a value x is equal to f(x).",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In decision analysis, what do the paths from root to leaf in a decision tree represent?",
+                "A": "Classification rules",
+                "B": "The different decision outcomes",
+                "C": "Resource costs involved",
+                "D": "The expected utility of alternatives",
+                "answer": "A",
+                "concept_wiki_name": "Decision tree",
+                "concept_wiki_id": "232602"
+            },
+            {
+                "question": "Which of the following best describes the absolute likelihood of a continuous random variable taking on any specific value?",
+                "A": "It is equal to the value of the probability density function at that point.",
+                "B": "It is equal to zero since there are infinitely many possible values.",
+                "C": "It is generally nonzero and can be interpreted as the density at that value.",
+                "D": "It can be calculated as the area under the curve of the PDF at that point.",
+                "answer": "B",
+                "concept_wiki_name": "Probability density function",
+                "concept_wiki_id": "43487"
+            }
+        ]
+    },
+    {
+        "question": "The K-means algorithm:",
+        "choices": [
+            "Requires the dimension of the feature space to be no bigger than the number of samples",
+            "Has the smallest value of the objective function when K = 1",
+            "Minimizes the within class variance for a given number of clusters",
+            "Converges to the global optimum if and only if the initial means are chosen as some of the samples themselves"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary goal of an optimization problem in relation to the objective function?",
+                "A": "To maximize the loss function",
+                "B": "To minimize the objective function",
+                "C": "To minimize the loss function",
+                "D": "To maximize the reward function",
+                "answer": "C",
+                "concept_wiki_name": "Loss function",
+                "concept_wiki_id": "442137"
+            },
+            {
+                "question": "What type of functions are commonly used to construct objective functions?",
+                "A": "Quadratic and exponential functions",
+                "B": "Linear and constant functions",
+                "C": "Quadratic and additive functions",
+                "D": "Logarithmic and polynomial functions",
+                "answer": "C",
+                "concept_wiki_name": "Loss function",
+                "concept_wiki_id": "442137"
+            },
+            {
+                "question": "Which of the following correctly describes the relationship between local and global extrema?",
+                "A": "A global extremum is always a local extremum but not vice versa.",
+                "B": "Every local extremum is also a global extremum.",
+                "C": "Local extrema can exist without any global extrema present.",
+                "D": "Local extrema are defined only in finite ranges, while global extrema apply to entire domains.",
+                "answer": "A",
+                "concept_wiki_name": "Maximum and minimum",
+                "concept_wiki_id": "298420"
+            }
+        ]
+    },
+    {
+        "question": "Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let Boolean random variable D mean a patient “has disease D” and let Boolean random variable TP stand for \"tests positive.\" Tests for disease D are known to be very accurate in the sense that the probability of testing positive when you have the disease is 0.99, and the probability of testing negative when you do not have the disease is 0.97. What is P(TP), the prior probability of testing positive.",
+        "choices": [
+            "0.0368",
+            "0.473",
+            "0.078",
+            "None of the above"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How does incidence differ from prevalence in epidemiological studies?",
+                "A": "Incidence measures how widespread a disease is, while prevalence measures new cases.",
+                "B": "Incidence indicates the risk of contracting a disease, while prevalence shows the burden of disease.",
+                "C": "Incidence is used for short-duration diseases, while prevalence applies to long-duration diseases.",
+                "D": "Incidence includes all cases regardless of time, while prevalence is time-specific.",
+                "answer": "B",
+                "concept_wiki_name": "Incidence (epidemiology)",
+                "concept_wiki_id": "167008"
+            },
+            {
+                "question": "What impact does an increase in the incidence rate of a disease generally indicate?",
+                "A": "A decrease in the total number of cases in the population.",
+                "B": "A decline in the overall burden of the disease.",
+                "C": "An increase in the duration of existing cases.",
+                "D": "The presence of a risk factor promoting the disease.",
+                "answer": "D",
+                "concept_wiki_name": "Incidence (epidemiology)",
+                "concept_wiki_id": "167008"
+            },
+            {
+                "question": "What does the term 'sensitivity' refer to in the context of medical testing?",
+                "A": "The rate at which false positives occur in testing",
+                "B": "The proportion of true negatives identified by the test",
+                "C": "The overall accuracy of the test regardless of disease prevalence",
+                "D": "The ability of a test to identify true positives accurately",
+                "answer": "D",
+                "concept_wiki_name": "Sensitivity and specificity",
+                "concept_wiki_id": "5599330"
+            },
+            {
+                "question": "Which of the following statements is true regarding specificity and sensitivity?",
+                "A": "Sensitivity is influenced by the prevalence of disease in the population",
+                "B": "Specificity measures how well a test can identify true negatives",
+                "C": "Both sensitivity and specificity depend on the disease prevalence",
+                "D": "Specificity is defined as the proportion of true positives among total positives",
+                "answer": "B",
+                "concept_wiki_name": "Sensitivity and specificity",
+                "concept_wiki_id": "5599330"
+            },
+            {
+                "question": "What is the significance of the mnemonics SPPIN and SNNOUT?",
+                "A": "They summarize when to trust a specific or sensitive test's results",
+                "B": "They indicate how to interpret the predictive values based on prevalence",
+                "C": "They describe the relationship between sensitivity and specificity in tests",
+                "D": "They provide guidelines for selecting tests based on disease prevalence",
+                "answer": "A",
+                "concept_wiki_name": "Sensitivity and specificity",
+                "concept_wiki_id": "5599330"
+            },
+            {
+                "question": "In the context of Bayes' theorem, what does a 'true positive rate' signify?",
+                "A": "The likelihood of a positive test result among those without the condition",
+                "B": "The probability that an individual who tests positive actually has the condition",
+                "C": "The chance of receiving a positive test result regardless of condition status",
+                "D": "The proportion of individuals correctly identified as having the condition",
+                "answer": "D",
+                "concept_wiki_name": "Bayes' theorem",
+                "concept_wiki_id": "49569"
+            }
+        ]
+    },
+    {
+        "question": "Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?",
+        "choices": [
+            "Decision Trees",
+            "Density-based clustering",
+            "Model-based clustering",
+            "K-means clustering"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which type of data is characterized as having an implicit or explicit association with a location relative to Earth?",
+                "A": "Geographic data",
+                "B": "Vector files",
+                "C": "Spatial data",
+                "D": "Multi-temporal data",
+                "answer": "A",
+                "concept_wiki_name": "Geographic data and information",
+                "concept_wiki_id": "51208627"
+            },
+            {
+                "question": "What is a significant advantage of using DBSCAN for clustering compared to other methods?",
+                "A": "It guarantees the discovery of all clusters regardless of density.",
+                "B": "It requires a high number of initial seed points.",
+                "C": "It produces results that vary greatly between runs.",
+                "D": "It has a low complexity requiring only a linear number of range queries.",
+                "answer": "D",
+                "concept_wiki_name": "Cluster analysis",
+                "concept_wiki_id": "669675"
+            }
+        ]
+    },
+    {
+        "question": "Given a large dataset of medical records from patients suffering from heart disease, try to learn whether there might be different clusters of such patients for which we might tailor separate treatments. What kind of learning problem is this?",
+        "choices": [
+            "Supervised learning",
+            "Unsupervised learning",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What percentage of cardiovascular disease deaths is associated with dietary risk factors?",
+                "A": "53%",
+                "B": "30%",
+                "C": "75%",
+                "D": "45%",
+                "answer": "A",
+                "concept_wiki_name": "Cardiovascular disease",
+                "concept_wiki_id": "512662"
+            },
+            {
+                "question": "What is the estimated contribution of high blood pressure to cardiovascular disease deaths?",
+                "A": "5%",
+                "B": "9%",
+                "C": "6%",
+                "D": "13%",
+                "answer": "D",
+                "concept_wiki_name": "Cardiovascular disease",
+                "concept_wiki_id": "512662"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which statistical model is known for encoding the relationship between a word and its 'n'-gram history?",
+                "A": "Maximum entropy language model",
+                "B": "Hidden Markov model",
+                "C": "Deep learning model",
+                "D": "Naive Bayes classifier",
+                "answer": "A",
+                "concept_wiki_name": "Language model",
+                "concept_wiki_id": "1911810"
+            }
+        ]
+    },
+    {
+        "question": "Suppose you are given an EM algorithm that finds maximum likelihood estimates for a model with latent variables. You are asked to modify the algorithm so that it finds MAP estimates instead. Which step or steps do you need to modify?",
+        "choices": [
+            "Expectation",
+            "Maximization",
+            "No modification necessary",
+            "Both"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a notable historical aspect of the em algorithm?",
+                "A": "It was first introduced in the 1990s",
+                "B": "It has no prior applications before Dempster and colleagues' 1977 paper",
+                "C": "It was exclusively developed for Gaussian mixtures",
+                "D": "It was independently proposed by several authors prior to its naming",
+                "answer": "D",
+                "concept_wiki_name": "Expectation–maximization algorithm",
+                "concept_wiki_id": "470752"
+            },
+            {
+                "question": "In situations where the posterior distribution is multimodal, what is the usual recommendation for MAP estimation?",
+                "A": "Choose the mean of the distribution",
+                "B": "Average all modes present",
+                "C": "Use the median value",
+                "D": "Select the highest mode",
+                "answer": "D",
+                "concept_wiki_name": "Maximum a posteriori estimation",
+                "concept_wiki_id": "1792433"
+            },
+            {
+                "question": "What is the primary purpose of the E step in the EM algorithm?",
+                "A": "To maximize the expected log-likelihood",
+                "B": "To estimate parameters using current estimates",
+                "C": "To update the distribution of the latent variables",
+                "D": "To create a function for the expectation of the log-likelihood",
+                "answer": "D",
+                "concept_wiki_name": "Expectation–maximization algorithm",
+                "concept_wiki_id": "470752"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The maximum margin decision boundaries that support vector machines construct have the lowest generalization error among all linear classifiers. Statement 2| Any decision boundary that we get from a generative model with classconditional Gaussian distributions could in principle be reproduced with an SVM and a polynomial kernel of degree less than or equal to three.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 3,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary objective of a multiclass SVM?",
+                "A": "To create a single decision boundary for all classes",
+                "B": "To maximize the margin between all classes simultaneously",
+                "C": "To reduce the multiclass problem into multiple binary classification problems",
+                "D": "To use a generative model for classification",
+                "answer": "C",
+                "concept_wiki_name": "Support vector machine",
+                "concept_wiki_id": "65309"
+            },
+            {
+                "question": "Which optimization method is mentioned as an alternative to grid search for selecting SVM parameters?",
+                "A": "Random search",
+                "B": "Gradient descent",
+                "C": "Bayesian optimization",
+                "D": "Simulated annealing",
+                "answer": "C",
+                "concept_wiki_name": "Support vector machine",
+                "concept_wiki_id": "65309"
+            },
+            {
+                "question": "In the context of generative models, what does the term 'observable X' refer to?",
+                "A": "A discrete variable consisting of a finite set of labels",
+                "B": "The output variable that is generated",
+                "C": "A non-deterministic target function",
+                "D": "A continuous variable representing inputs",
+                "answer": "D",
+                "concept_wiki_name": "Generative model",
+                "concept_wiki_id": "1222578"
+            },
+            {
+                "question": "What is a key characteristic of the maximum likelihood estimator for class-conditional Gaussian distributions?",
+                "A": "It is uniformly minimum variance biased.",
+                "B": "It has a variance equal to the sample variance.",
+                "C": "It is the arithmetic mean of all observations.",
+                "D": "It is distributed uniformly in finite samples.",
+                "answer": "C",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "What must happen to decrease the standard error of the sample mean by a factor of 10?",
+                "A": "Increase the number of points in the sample by a factor of 10.",
+                "B": "Increase the number of points in the sample by a factor of 100.",
+                "C": "Increase the number of points in the sample by a factor of 50.",
+                "D": "Increase the number of points in the sample by a factor of 20.",
+                "answer": "B",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            },
+            {
+                "question": "What does the Lehmann–Scheffé theorem imply about the sample mean estimator?",
+                "A": "It can achieve uniform minimum variance unbiased estimation.",
+                "B": "It is the best biased estimator for finite samples.",
+                "C": "It is consistent but not efficient.",
+                "D": "It is only valid for large sample sizes.",
+                "answer": "A",
+                "concept_wiki_name": "Normal distribution",
+                "concept_wiki_id": "21462"
+            }
+        ]
+    },
+    {
+        "question": "Let us say that we have computed the gradient of our cost function and stored it in a vector g. What is the cost of one gradient descent update given the gradient?",
+        "choices": [
+            "O(D)",
+            "O(N)",
+            "O(ND)",
+            "O(ND^2)"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In optimization theory, what role does the gradient play?",
+                "A": "It is used to maximize a function",
+                "B": "It helps to find stationary points without further calculations",
+                "C": "It is used to minimize a function",
+                "D": "It determines the curvature of the function",
+                "answer": "C",
+                "concept_wiki_name": "Gradient",
+                "concept_wiki_id": "12461"
+            },
+            {
+                "question": "In which coordinate systems can the gradient be represented as a column vector?",
+                "A": "Only in rectangular coordinate systems",
+                "B": "In polar coordinates exclusively",
+                "C": "Only in spherical coordinates",
+                "D": "In cylindrical and spherical coordinates as well",
+                "answer": "D",
+                "concept_wiki_name": "Gradient",
+                "concept_wiki_id": "12461"
+            },
+            {
+                "question": "Which of the following concepts is often misunderstood in relation to computational complexity?",
+                "A": "The impact of input data size on algorithm performance",
+                "B": "The relationship between algorithms and their execution time",
+                "C": "The importance of complexity evaluation decreasing due to Moore's law",
+                "D": "The significance of sorting algorithms in data processing",
+                "answer": "C",
+                "concept_wiki_name": "Computational complexity",
+                "concept_wiki_id": "6511"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following tasks can be best solved using Clustering.",
+        "choices": [
+            "Predicting the amount of rainfall based on various cues",
+            "Detecting fraudulent credit card transactions",
+            "Training a robot to solve a maze",
+            "All of the above"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In which situation would clustering not be the most effective approach?",
+                "A": "Grouping similar documents for topic identification",
+                "B": "Organizing images based on visual features",
+                "C": "Identifying patterns in customer behavior",
+                "D": "Classifying emails as spam or not spam",
+                "answer": "D",
+                "concept_wiki_name": "Clustering",
+                "concept_wiki_id": "39172"
+            },
+            {
+                "question": "In what context is predictive modeling most often applied?",
+                "A": "To detect crimes and identify suspects",
+                "B": "To analyze past trends without forecasting",
+                "C": "To understand the underlying causes of phenomena",
+                "D": "To generate random data samples for testing",
+                "answer": "A",
+                "concept_wiki_name": "Predictive modelling",
+                "concept_wiki_id": "2538775"
+            },
+            {
+                "question": "What is a primary focus of robotics within computer science?",
+                "A": "Design and construction of physical robots",
+                "B": "Material engineering",
+                "C": "Telecommunication systems",
+                "D": "Robotic automation algorithms",
+                "answer": "D",
+                "concept_wiki_name": "Robotics",
+                "concept_wiki_id": "20903754"
+            },
+            {
+                "question": "Which of the following is a common application of robots?",
+                "A": "Providing medical treatment to patients",
+                "B": "Finding survivors in unstable ruins",
+                "C": "Cooking gourmet meals",
+                "D": "Writing software code",
+                "answer": "B",
+                "concept_wiki_name": "Robotics",
+                "concept_wiki_id": "20903754"
+            }
+        ]
+    },
+    {
+        "question": "As of 2020, which architecture is best for classifying high-resolution images?",
+        "choices": [
+            "convolutional networks",
+            "graph networks",
+            "fully connected networks",
+            "RBF networks"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a limitation of graph convolutional networks (GCNs)?",
+                "A": "They do not allow multidimensional edge features",
+                "B": "They cannot process data from images",
+                "C": "They require extensive data preprocessing",
+                "D": "They are limited to two-dimensional graph structures",
+                "answer": "A",
+                "concept_wiki_name": "Graph neural network",
+                "concept_wiki_id": "68162942"
+            }
+        ]
+    },
+    {
+        "question": "Adding more basis functions in a linear model, pick the most probably option:",
+        "choices": [
+            "Decreases model bias",
+            "Decreases estimation bias",
+            "Decreases variance",
+            "Doesn’t affect bias and variance"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does the linearity in a linear model allow for in terms of statistical theory?",
+                "A": "Complete independence from error variables.",
+                "B": "Increased variability in predictions.",
+                "C": "Substantial reduction in complexity.",
+                "D": "Higher likelihood of overfitting.",
+                "answer": "C",
+                "concept_wiki_name": "Linear model",
+                "concept_wiki_id": "17904"
+            },
+            {
+                "question": "What is the effect of increasing the number of tunable parameters in a model on its bias?",
+                "A": "It increases model bias",
+                "B": "It increases estimation bias",
+                "C": "It has no effect on model bias",
+                "D": "It decreases model bias",
+                "answer": "D",
+                "concept_wiki_name": "Bias–variance tradeoff",
+                "concept_wiki_id": "40678189"
+            },
+            {
+                "question": "What happens to the bias of a model as the number of tunable parameters increases?",
+                "A": "Bias increases due to overfitting",
+                "B": "Bias remains constant regardless of complexity",
+                "C": "Bias is unaffected and only variance changes",
+                "D": "Bias decreases, allowing better fit to training data",
+                "answer": "D",
+                "concept_wiki_name": "Bias–variance tradeoff",
+                "concept_wiki_id": "40678189"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| ImageNet has images of various resolutions. Statement 2| Caltech-101 has more images than ImageNet.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How many images are hand-annotated in the ImageNet project?",
+                "A": "Over 10 million images",
+                "B": "Approximately 12 million images",
+                "C": "More than 14 million images",
+                "D": "More than 15 million images",
+                "answer": "C",
+                "concept_wiki_name": "ImageNet",
+                "concept_wiki_id": "50896194"
+            },
+            {
+                "question": "Which neural network achieved a significant performance improvement in the ImageNet 2012 Challenge?",
+                "A": "AlexNet",
+                "B": "GoogleNet",
+                "C": "ResNet",
+                "D": "VGGNet",
+                "answer": "A",
+                "concept_wiki_name": "ImageNet",
+                "concept_wiki_id": "50896194"
+            },
+            {
+                "question": "What level of accuracy was achieved on the benchmark datasets for motorbikes, faces, airplanes, and cars using a recent object recognition project?",
+                "A": "95.5 percent accuracy",
+                "B": "98.7 percent accuracy",
+                "C": "99 percent accuracy",
+                "D": "100 percent accuracy",
+                "answer": "D",
+                "concept_wiki_name": "Outline of object recognition",
+                "concept_wiki_id": "14661466"
+            }
+        ]
+    },
+    {
+        "question": "Which among the following prevents overfitting when we perform bagging?",
+        "choices": [
+            "The use of sampling with replacement as the sampling technique",
+            "The use of weak classifiers",
+            "The use of classification algorithms which are not prone to overfitting",
+            "The practice of validation performed on every classifier trained"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does a validation dataset refer to in the context of model training?",
+                "A": "Data against which the model is tested",
+                "B": "Data with known outcomes for training",
+                "C": "Data used for initial model estimation",
+                "D": "Data used for model tuning",
+                "answer": "A",
+                "concept_wiki_name": "Cross-validation (statistics)",
+                "concept_wiki_id": "416612"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| Density estimation (using say, the kernel density estimator) can be used to perform classification. Statement 2| The correspondence between logistic regression and Gaussian Naive Bayes (with identity class covariances) means that there is a one-to-one correspondence between the parameters of the two classifiers.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which method is closely associated with kernel density estimation for improving prediction accuracy?",
+                "A": "Naive Bayes classifier",
+                "B": "Linear regression",
+                "C": "Support vector machines",
+                "D": "Decision trees",
+                "answer": "A",
+                "concept_wiki_name": "Kernel density estimation",
+                "concept_wiki_id": "2090057"
+            },
+            {
+                "question": "Which of the following statements about naive Bayes classifiers is incorrect?",
+                "A": "Discretization is always required for naive Bayes",
+                "B": "They can be used with continuous values without discretization",
+                "C": "They assume linear relationships among features",
+                "D": "They are among the simplest Bayesian network models",
+                "answer": "A",
+                "concept_wiki_name": "Naive Bayes classifier",
+                "concept_wiki_id": "87339"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The log-likelihood of the data will always increase through successive iterations of the expectation maximation algorithm. Statement 2| One disadvantage of Q-learning is that it can only be used when the learner has prior knowledge of how its actions affect its environment.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What happens to the log-likelihood when no data is available?",
+                "A": "It equals 0, indicating no support for any models.",
+                "B": "It equals 1, reflecting the likelihood of no events.",
+                "C": "It becomes infinite, indicating total support for any model.",
+                "D": "It remains negative, showing uncertainty in estimation.",
+                "answer": "A",
+                "concept_wiki_name": "Likelihood function",
+                "concept_wiki_id": "44968"
+            },
+            {
+                "question": "What is the primary purpose of the expectation-maximization (EM) algorithm in statistical models?",
+                "A": "To minimize the log-likelihood of the data",
+                "B": "To eliminate unobserved latent variables",
+                "C": "To find maximum likelihood estimates of parameters",
+                "D": "To generate random samples from a distribution",
+                "answer": "C",
+                "concept_wiki_name": "Expectation–maximization algorithm",
+                "concept_wiki_id": "470752"
+            },
+            {
+                "question": "In the EM algorithm, what does the E step primarily involve?",
+                "A": "Maximizing the expected log-likelihood",
+                "B": "Determining the prior probabilities of latent variables",
+                "C": "Estimating the parameters based on observed data",
+                "D": "Creating a function for the expectation of the log-likelihood",
+                "answer": "D",
+                "concept_wiki_name": "Expectation–maximization algorithm",
+                "concept_wiki_id": "470752"
+            }
+        ]
+    },
+    {
+        "question": "Averaging the output of multiple decision trees helps _.",
+        "choices": [
+            "Increase bias",
+            "Decrease bias",
+            "Increase variance",
+            "Decrease variance"
+        ],
+        "answer": 3,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary function of a leaf node in a decision tree?",
+                "A": "To represent a possible consequence",
+                "B": "To indicate a test result",
+                "C": "To serve as a decision support tool",
+                "D": "To represent a class label",
+                "answer": "D",
+                "concept_wiki_name": "Decision tree",
+                "concept_wiki_id": "232602"
+            },
+            {
+                "question": "What generally happens to the bias when a model becomes more flexible by increasing the number of tunable parameters?",
+                "A": "Bias decreases",
+                "B": "Bias increases",
+                "C": "Bias remains unchanged",
+                "D": "Bias fluctuates without a consistent pattern",
+                "answer": "A",
+                "concept_wiki_name": "Bias–variance tradeoff",
+                "concept_wiki_id": "40678189"
+            },
+            {
+                "question": "How does increasing the size of the training set affect variance?",
+                "A": "It increases variance",
+                "B": "It introduces variability in bias",
+                "C": "It has no effect on variance",
+                "D": "It decreases variance",
+                "answer": "D",
+                "concept_wiki_name": "Bias–variance tradeoff",
+                "concept_wiki_id": "40678189"
+            },
+            {
+                "question": "What is a common method for resolving the bias-variance tradeoff?",
+                "A": "Employing mixture models and ensemble learning",
+                "B": "Increasing the number of predictors",
+                "C": "Using simpler models",
+                "D": "Reducing the training set size",
+                "answer": "A",
+                "concept_wiki_name": "Bias–variance tradeoff",
+                "concept_wiki_id": "40678189"
+            }
+        ]
+    },
+    {
+        "question": "Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let Boolean random variable D mean a patient “has disease D” and let Boolean random variable TP stand for \"tests positive.\" Tests for disease D are known to be very accurate in the sense that the probability of testing positive when you have the disease is 0.99, and the probability of testing negative when you do not have the disease is 0.97. What is P(D | TP), the posterior probability that you have disease D when the test is positive?",
+        "choices": [
+            "0.0495",
+            "0.078",
+            "0.635",
+            "0.97"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How is the posterior probability related to prior probability and likelihood?",
+                "A": "It is the sum of prior probability and likelihood",
+                "B": "It is the product of likelihood and prior probability",
+                "C": "It is the difference between likelihood and prior probability",
+                "D": "It is the ratio of likelihood to prior probability",
+                "answer": "B",
+                "concept_wiki_name": "Posterior probability",
+                "concept_wiki_id": "357672"
+            },
+            {
+                "question": "What does sensitivity specifically measure in a medical test?",
+                "A": "The overall accuracy of the test results",
+                "B": "The percentage of true negatives identified by the test",
+                "C": "The percentage of true positives identified by the test",
+                "D": "The proportion of patients who test positive",
+                "answer": "C",
+                "concept_wiki_name": "Sensitivity and specificity",
+                "concept_wiki_id": "5599330"
+            },
+            {
+                "question": "What are positive and negative predictive values influenced by?",
+                "A": "The sensitivity and specificity of the test",
+                "B": "The accuracy of the test results",
+                "C": "The prevalence of the disease in the population being tested",
+                "D": "The number of patients tested",
+                "answer": "C",
+                "concept_wiki_name": "Sensitivity and specificity",
+                "concept_wiki_id": "5599330"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| Support vector machines, like logistic regression models, give a probability distribution over the possible labels given an input example. Statement 2| We would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key feature of support vector machines in relation to the margin?",
+                "A": "They focus solely on training points located within the margin.",
+                "B": "They ignore training data that are close to the margin.",
+                "C": "They consider all training points equally regardless of their distance from the margin.",
+                "D": "They optimize the model based on all points closest to the decision boundary.",
+                "answer": "B",
+                "concept_wiki_name": "Support vector machine",
+                "concept_wiki_id": "65309"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| Industrial-scale neural networks are normally trained on CPUs, not GPUs. Statement 2| The ResNet-50 model has over 1 billion parameters.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "How does the design of the Pre-activation Residual Block contribute to model training?",
+                "A": "It increases the complexity of the model by adding more identity mappings",
+                "B": "It reduces the number of non-identity mappings between Residual Blocks",
+                "C": "It allows activation functions to be applied after the residual function",
+                "D": "It changes the architecture to eliminate the need for Residual Connections",
+                "answer": "B",
+                "concept_wiki_name": "Residual neural network",
+                "concept_wiki_id": "55867424"
+            },
+            {
+                "question": "What differentiates ResNet-50 from other ResNet models like ResNet-101 and ResNet-152?",
+                "A": "ResNet-50 uses a different type of activation function",
+                "B": "ResNet-50 is designed specifically for video recognition tasks",
+                "C": "ResNet-50 incorporates more Bottleneck Blocks than ResNet-101",
+                "D": "ResNet-50 has fewer layers than ResNet-101 and ResNet-152",
+                "answer": "D",
+                "concept_wiki_name": "Residual neural network",
+                "concept_wiki_id": "55867424"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| Maximizing the likelihood of logistic regression model yields multiple local optimums. Statement 2| No classifier can do better than a naive Bayes classifier if the distribution of the data is known.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What does the term 'logit' refer to in logistic regression?",
+                "A": "The unit of measurement for the log-odds scale",
+                "B": "The function that converts probabilities to log-odds",
+                "C": "The binary dependent variable coded in the model",
+                "D": "The optimization technique used for parameter estimation",
+                "answer": "A",
+                "concept_wiki_name": "Logistic regression",
+                "concept_wiki_id": "226631"
+            },
+            {
+                "question": "Which of the following statements about global maxima is correct?",
+                "A": "A point can be a global maximum without being unique.",
+                "B": "A global maximum point is always a local maximum point.",
+                "C": "Global maxima can only be determined using numerical methods.",
+                "D": "All continuous functions have multiple global maximum points.",
+                "answer": "B",
+                "concept_wiki_name": "Maximum and minimum",
+                "concept_wiki_id": "298420"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The set of all rectangles in the 2D plane (which includes non axisaligned rectangles) can shatter a set of 5 points. Statement 2| The VC-dimension of k-Nearest Neighbour classifier when k = 1 is infinite.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "Which of the following statements about VC-dimension and finite projective planes is true?",
+                "A": "The VC-dimension of a finite projective plane of order 'n' is 'n'.",
+                "B": "The VC-dimension of a finite projective plane of order 'n' is 'n^2 + n + 1'.",
+                "C": "The VC-dimension of a finite projective plane of order 'n' is 2.",
+                "D": "The VC-dimension of a finite projective plane of order 'n' is infinite.",
+                "answer": "C",
+                "concept_wiki_name": "Vapnik–Chervonenkis dimension",
+                "concept_wiki_id": "305846"
+            },
+            {
+                "question": "What is guaranteed when the amount of data approaches infinity in the two-class k-NN algorithm?",
+                "A": "The error rate will be no worse than twice the Bayes error rate",
+                "B": "The error rate will be exactly the Bayes error rate",
+                "C": "The error rate will approach zero",
+                "D": "The error rate will be independent of the data distribution",
+                "answer": "A",
+                "concept_wiki_name": "K-nearest neighbors algorithm",
+                "concept_wiki_id": "1775388"
+            },
+            {
+                "question": "What type of improvements can be made to the k-nn algorithm?",
+                "A": "Improving the classification accuracy by changing the number of classes",
+                "B": "Reducing the dimensionality of the input space",
+                "C": "Enhancing the model's parametric assumptions",
+                "D": "Speed improvements using proximity graphs",
+                "answer": "D",
+                "concept_wiki_name": "K-nearest neighbors algorithm",
+                "concept_wiki_id": "1775388"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT supervised learning?",
+        "choices": [
+            "PCA",
+            "Decision Tree",
+            "Linear Regression",
+            "Naive Bayesian"
+        ],
+        "answer": 0,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is a key challenge in supervised learning related to model performance?",
+                "A": "The no free lunch theorem",
+                "B": "Lack of training data availability",
+                "C": "Overfitting to unseen data",
+                "D": "The tradeoff between bias and variance",
+                "answer": "D",
+                "concept_wiki_name": "Supervised learning",
+                "concept_wiki_id": "20926"
+            },
+            {
+                "question": "Which type of linear regression specifically deals with multiple correlated dependent variables?",
+                "A": "Multivariate linear regression",
+                "B": "Simple linear regression",
+                "C": "Multiple linear regression",
+                "D": "Polynomial regression",
+                "answer": "A",
+                "concept_wiki_name": "Linear regression",
+                "concept_wiki_id": "48758386"
+            }
+        ]
+    },
+    {
+        "question": "For Kernel Regression, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:",
+        "choices": [
+            "Whether kernel function is Gaussian versus triangular versus box-shaped",
+            "Whether we use Euclidian versus L1 versus L∞ metrics",
+            "The kernel width",
+            "The maximum height of the kernel function"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In kernel regression, which aspect of the kernel function primarily influences the bias-variance trade-off?",
+                "A": "The kernel width",
+                "B": "The shape of the kernel function used",
+                "C": "The maximum degree of the polynomial used",
+                "D": "The type of regression model applied",
+                "answer": "A",
+                "concept_wiki_name": "Kernel regression",
+                "concept_wiki_id": "8771825"
+            },
+            {
+                "question": "What is the main purpose of using a kernel in kernel regression?",
+                "A": "To perform linear regression analysis",
+                "B": "To increase the dimensionality of the dataset",
+                "C": "To estimate conditional expectations of random variables",
+                "D": "To minimize the computational complexity of the model",
+                "answer": "C",
+                "concept_wiki_name": "Kernel regression",
+                "concept_wiki_id": "8771825"
+            },
+            {
+                "question": "What role does kernel width play in kernel regression?",
+                "A": "It affects the trade-off between underfitting and overfitting.",
+                "B": "It determines the shape of the kernel function used.",
+                "C": "It defines the maximum height of the kernel function.",
+                "D": "It specifies the type of distance metric used.",
+                "answer": "A",
+                "concept_wiki_name": "Kernel (statistics)",
+                "concept_wiki_id": "8771473"
+            },
+            {
+                "question": "Which factor is most relevant to the performance drop when a model is overfitted?",
+                "A": "Accuracy on training data remains high",
+                "B": "Increased number of parameters in the model",
+                "C": "Reduction in model training time",
+                "D": "Use of noise-free data",
+                "answer": "A",
+                "concept_wiki_name": "Overfitting",
+                "concept_wiki_id": "173332"
+            }
+        ]
+    },
+    {
+        "question": "If N is the number of instances in the training dataset, nearest neighbors has a classification run time of",
+        "choices": [
+            "O(1)",
+            "O( N )",
+            "O(log N )",
+            "O( N^2 )"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "In what scenario would an algorithm running in O(n) change to O(log x)?",
+                "A": "When the input size is measured in terms of the number of digits of an input number",
+                "B": "When the algorithm is optimized for average case scenario",
+                "C": "When the algorithm's complexity is divided by a constant",
+                "D": "When the input size is halved repeatedly",
+                "answer": "A",
+                "concept_wiki_name": "Big O notation",
+                "concept_wiki_id": "44578"
+            },
+            {
+                "question": "How are datasets for unsupervised learning typically regarded in terms of production difficulty?",
+                "A": "They are difficult and costly to produce.",
+                "B": "They are easy to produce and widely available.",
+                "C": "They require extensive labeling for accuracy.",
+                "D": "They are only available through government sources.",
+                "answer": "A",
+                "concept_wiki_name": "List of datasets for machine-learning research",
+                "concept_wiki_id": "49082762"
+            }
+        ]
+    },
+    {
+        "question": "Statement 1| The back-propagation algorithm learns a globally optimal neural network with hidden layers. Statement 2| The VC dimension of a line should be at most 2, since I can find at least one case of 3 points that cannot be shattered by any line.",
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the VC dimension of a finite projective plane of order n?",
+                "A": "n",
+                "B": "2",
+                "C": "2n + 1",
+                "D": "3n + 1",
+                "answer": "B",
+                "concept_wiki_name": "Vapnik–Chervonenkis dimension",
+                "concept_wiki_id": "305846"
+            },
+            {
+                "question": "What condition must be satisfied for a set of points to be considered shattered in VC dimension theory?",
+                "A": "A perfect classifier must exist for any arbitrary labeling of the points",
+                "B": "The points must be linearly separable by a single line",
+                "C": "At least one classifier must fail to classify the points correctly",
+                "D": "The number of points must exceed the VC dimension of the model",
+                "answer": "A",
+                "concept_wiki_name": "Vapnik–Chervonenkis dimension",
+                "concept_wiki_id": "305846"
+            },
+            {
+                "question": "What distinguishes feedforward networks from recurrent neural networks?",
+                "A": "Feedforward networks use backpropagation for training.",
+                "B": "Feedforward networks have cycles and loops.",
+                "C": "Recurrent networks have a uni-directional flow of information.",
+                "D": "Feedforward networks can process temporal data.",
+                "answer": "A",
+                "concept_wiki_name": "Feedforward neural network",
+                "concept_wiki_id": "1706332"
+            }
+        ]
+    },
+    {
+        "question": "What is the dimensionality of the null space of the following matrix? A = [[3, 2, −9], [−6, −4, 18], [12, 8, −36]]",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": 2,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What dimensionality corresponds to a surface, such as the boundary of a cylinder or sphere?",
+                "A": "1D",
+                "B": "4D",
+                "C": "3D",
+                "D": "2D",
+                "answer": "D",
+                "concept_wiki_name": "Dimension",
+                "concept_wiki_id": "8398"
+            },
+            {
+                "question": "What does the rank-nullity theorem relate to in linear algebra?",
+                "A": "The relationship between the dimensions of image and kernel of a linear transformation",
+                "B": "The relationship between eigenvalues and eigenvectors of a matrix",
+                "C": "The relationship between the determinants of a matrix and its inverse",
+                "D": "The relationship between the trace and rank of a matrix",
+                "answer": "A",
+                "concept_wiki_name": "Rank–nullity theorem",
+                "concept_wiki_id": "330310"
+            },
+            {
+                "question": "What is the consequence of a linear transformation being injective according to the rank-nullity theorem?",
+                "A": "It implies the null space has no dimensions",
+                "B": "It implies the kernel has dimension equal to the rank",
+                "C": "It implies surjectivity and thus bijectivity",
+                "D": "It implies the matrix is square and non-singular",
+                "answer": "C",
+                "concept_wiki_name": "Rank–nullity theorem",
+                "concept_wiki_id": "330310"
+            },
+            {
+                "question": "Which of the following best describes the kernel of a linear transformation?",
+                "A": "The image of the transformation",
+                "B": "The set of vectors that are mapped to the zero vector",
+                "C": "The dimension of the transformation's output space",
+                "D": "The quotient space formed by the image and kernel",
+                "answer": "B",
+                "concept_wiki_name": "Rank–nullity theorem",
+                "concept_wiki_id": "330310"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is more appropriate to do feature selection?",
+        "choices": [
+            "Ridge",
+            "Lasso",
+            "both (a) and (b)",
+            "neither (a) nor (b)"
+        ],
+        "answer": 1,
+        "subject": "machine_learning",
+        "bloom_questions": [],
+        "concept_questions": [
+            {
+                "question": "What is the primary purpose of ridge regression in multiple-regression models?",
+                "A": "To perform feature selection by eliminating variables",
+                "B": "To reduce bias in the regression estimates",
+                "C": "To maximize the number of parameters in the model",
+                "D": "To estimate coefficients when independent variables are highly correlated",
+                "answer": "D",
+                "concept_wiki_name": "Ridge regression",
+                "concept_wiki_id": "954328"
+            },
+            {
+                "question": "What effect does Lasso regularization have on the coefficients of less important features?",
+                "A": "It shrinks them towards zero.",
+                "B": "It retains all coefficients without change.",
+                "C": "It forces them to be exactly zero.",
+                "D": "It doubles their values.",
+                "answer": "C",
+                "concept_wiki_name": "Regularization",
+                "concept_wiki_id": "323394"
+            }
+        ]
+    }
+]

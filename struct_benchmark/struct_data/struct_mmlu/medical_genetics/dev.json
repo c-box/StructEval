@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Large triplet repeat expansions can be detected by:",
+        "subject": "medical_genetics",
+        "choices": [
+            "polymerase chain reaction.",
+            "single strand conformational polymorphism analysis.",
+            "Southern blotting.",
+            "Western blotting."
+        ],
+        "answer": 2,
+        "idx": 0
+    },
+    {
+        "question": "DNA ligase is",
+        "subject": "medical_genetics",
+        "choices": [
+            "an enzyme that joins fragments in normal DNA replication",
+            "an enzyme of bacterial origin which cuts DNA at defined base sequences",
+            "an enzyme that facilitates transcription of specific genes",
+            "an enzyme which limits the level to which a particular nutrient reaches"
+        ],
+        "answer": 0,
+        "idx": 1
+    },
+    {
+        "question": "A gene showing codominance",
+        "subject": "medical_genetics",
+        "choices": [
+            "has both alleles independently expressed in the heterozygote",
+            "has one allele dominant to the other",
+            "has alleles tightly linked on the same chromosome",
+            "has alleles expressed at the same time in development"
+        ],
+        "answer": 0,
+        "idx": 2
+    },
+    {
+        "question": "Which of the following conditions does not show multifactorial inheritance?",
+        "subject": "medical_genetics",
+        "choices": [
+            "Pyloric stenosis",
+            "Schizophrenia",
+            "Spina bifida (neural tube defects)",
+            "Marfan syndrome"
+        ],
+        "answer": 3,
+        "idx": 3
+    },
+    {
+        "question": "The stage of meiosis in which chromosomes pair and cross over is:",
+        "subject": "medical_genetics",
+        "choices": [
+            "prophase I",
+            "metaphase I",
+            "prophase II",
+            "metaphase II"
+        ],
+        "answer": 0,
+        "idx": 4
+    }
+]
