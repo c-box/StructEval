@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://huggingface.co/spaces/Bowieee/StructEval_leaderboard"><img src="https://img.shields.io/badge/%F0%9F%8F%86-leaderboard-8A2BE2"></a>
-    <!-- <a href="https://arxiv.org/abs/2407.11470"><img src="https://img.shields.io/badge/arXiv-2407.11470-b31b1b.svg"></a> -->
+    <a href="https://arxiv.org/abs/2408.03281"><img src="https://img.shields.io/badge/arXiv-2408.03281-b31b1b.svg"></a>
     <a href="https://github.com/c-box/StructEval/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/evalplus"></a>
 </p>
 
@@ -26,13 +26,13 @@ Our framework also sheds light on the design of future principled and trustworth
 
 This repo provides easy-to-use scripts for both [evaluating LLMs on existing StructEval benchmarks](#️-evaluate-models-on-structeval-benchmarks) and [generating new benchmarks based on StructEval framework](#-generate-new-benchmarks-based-on-structeval-framework).
 
-📰 Read our paper [**StructEval: Deepen and Broaden Large Language Model Assessment via Structured Evaluation**]() to get more information.
+📰 Read our paper [**StructEval: Deepen and Broaden Large Language Model Assessment via Structured Evaluation**](https://arxiv.org/abs/2408.03281) to get more information.
 
 ![logo](/asset/new_head.png)
 
 ## 🚀 News
 
-* [2024.8.6] We released the first version of [StructEval leaderboard](https://huggingface.co/spaces/Bowieee/StructEval_leaderboard), which includes 22 open-sourced language models, more datasets and models as comming soon🔥🔥🔥.
+* [2024.8.6] We released the first version of [StructEval leaderboard](https://huggingface.co/spaces/Bowieee/StructEval_leaderboard), which includes 22 open-sourced language models, more datasets and models are comming soon🔥🔥🔥.
 
 * [2024.7.31] We regenerated the StructEval Benchmark based on the latest [Wikipedia](https://www.wikipedia.org/) pages (20240601) using [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) model, which could minimize the impact of data contamination. Please refer to the [struct_benchmark](struct_benchmark) folder for our evaluation data and scripts 🔥🔥🔥.
 
@@ -83,4 +83,13 @@ Please refer to [struct_generate/README.md](struct_generate/README.md) for more 
 ## 📜 Citation
 
 ```bibtex
+@misc{cao2024structevaldeepenbroadenlarge,
+      title={StructEval: Deepen and Broaden Large Language Model Assessment via Structured Evaluation}, 
+      author={Boxi Cao and Mengjie Ren and Hongyu Lin and Xianpei Han and Feng Zhang and Junfeng Zhan and Le Sun},
+      year={2024},
+      eprint={2408.03281},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.03281}, 
+}
 ```
